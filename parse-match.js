@@ -595,6 +595,49 @@ if (review.issues.length === 0 && review.warnings.length === 0) {
   console.log('\n✓ Review passed — no issues found.\n');
 }
 
+// ========== Man of the Match selection ==========
+const readline = require('readline');
+
+async function selectMoM() {
+  // Build list of matched playing players
+  const momCandidates = [];
+  for (const [id, stats] of Object.entries(matchedPlayers)) {
+    if (!stats.playing) continue;
+    const p = allPlayers.find(pl => pl.id === parseInt(id));
+    if (p) momCandidates.push({ id, player: p, stats });
+  }
+
+  // Also include unmatched playing names as context
+  const allNames = momCandidates.map((c, idx) => {
+    const b = c.stats.batting, w = c.stats.bowling;
+    const summary = [];
+    if (b.runs) summary.push(`${b.runs}r`);
+    if (w.wickets) summary.push(`${w.wickets}w`);
+    return `  ${idx + 1}. ${c.player.name} (${c.player.iplTeam})${summary.length ? ' — ' + summary.join(', ') : ''}`;
+  });
+
+  console.log('\n========== Select Man of the Match ==========\n');
+  console.log(allNames.join('\n'));
+  console.log(`  0. None / Skip`);
+
+  const rl = readline.createInterface({ input: process.stdin, output: process.stdout });
+
+  return new Promise((resolve) => {
+    rl.question('\nEnter number: ', (answer) => {
+      rl.close();
+      const num = parseInt(answer);
+      if (num > 0 && num <= momCandidates.length) {
+        const selected = momCandidates[num - 1];
+        selected.stats.mom = true;
+        console.log(`\n✓ Man of the Match: ${selected.player.name}\n`);
+      } else {
+        console.log('\n✓ No Man of the Match selected.\n');
+      }
+      resolve();
+    });
+  });
+}
+
 // ========== Determine IPL teams from scorecard headers ==========
 const TEAM_NAME_MAP = {
   'chennai super kings': 'CSK',
@@ -629,6 +672,10 @@ for (const [id, stats] of Object.entries(matchedPlayers)) {
 
 // Get all fantasy players from those IPL teams
 const teamPlayers = allPlayers.filter(p => iplTeamsFromPlayers.has(p.iplTeam));
+
+// ========== MoM prompt then generate CSV ==========
+(async () => {
+await selectMoM();
 
 // ========== Generate CSV ==========
 const today = new Date().toISOString().split('T')[0];
@@ -695,4 +742,5 @@ for (const [id, stats] of Object.entries(matchedPlayers)) {
   console.log(`  ${p ? p.name : 'ID:'+id} (${p ? p.fantasyTeam : '?'}) — ${summary.join(', ') || 'playing only'}`);
 }
 
-console.log(`\nReview the CSV, set MoM manually, then refresh the site.`);
+console.log(`\nReview the CSV, then refresh the site.`);
+})();

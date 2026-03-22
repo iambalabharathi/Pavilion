@@ -1,0 +1,112 @@
+Punjab Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Hetmyer b Deshpande
+9	7	8	1	0	128.57
+Prabhsimran Singh †
+c †Samson b Deshpande
+21	10	18	3	1	210.00
+Mitchell Owen 
+c †Samson b Maphaka
+0	2	7	0	0	0.00
+Nehal Wadhera 
+c Hetmyer b Madhwal
+70	37	59	5	5	189.18
+Shreyas Iyer (c)
+c Jaiswal b Parag
+30	25	30	5	0	120.00
+Shashank Singh 
+not out	59	30	48	5	3	196.66
+Azmatullah Omarzai 
+not out	21	9	21	3	1	233.33
+Extras	(lb 4, w 5)	9	
+Total	
+20 Ov
+ (RR: 10.95)
+219/5	
+Did not bat
+Marco Jansen, 
+Xavier Bartlett, 
+Arshdeep Singh, 
+Yuzvendra Chahal 
+Fall of wickets
+DRS
+1-19 (Priyansh Arya, 1.5 ov), 2-34 (Mitchell Owen, 2.6 ov), 3-34 (Prabhsimran Singh, 3.1 ov), 4-101 (Shreyas Iyer, 10.3 ov), 5-159 (Nehal Wadhera, 15.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Fazalhaq Farooqi
+3	0	39	0	13.00	3	0	0
+Tushar Deshpande
+4	0	37	
+2
+9.25	9	1	0
+Kwena Maphaka
+3	0	32	
+1
+10.66	8	0	0
+Riyan Parag
+3	0	26	
+1
+8.66	5	2	0
+Wanindu Hasaranga
+3	0	33	0	11.00	4	0	0
+Akash Madhwal
+4	0	48	
+1
+12.00	6	2	0
+Rajasthan Royals  (T: 220 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c Owen b Harpreet Brar
+50	25	41	9	1	200.00
+Vaibhav Sooryavanshi 
+c Bartlett b Harpreet Brar
+40	15	25	4	4	266.66
+Sanju Samson (c)†
+c Jansen b Azmatullah Omarzai
+20	16	23	1	1	125.00
+Riyan Parag 
+b Harpreet Brar
+13	11	19	0	1	118.18
+Dhruv Jurel 
+c Owen b Jansen
+53	31	46	3	4	170.96
+Shimron Hetmyer 
+c Bartlett b Azmatullah Omarzai
+11	12	19	1	0	91.66
+Shubham Dubey 
+not out	7	7	16	0	0	100.00
+Wanindu Hasaranga 
+c †Prabhsimran Singh b Jansen
+0	1	1	0	0	0.00
+Kwena Maphaka 
+not out	8	2	2	2	0	400.00
+Extras	(w 7)	7	
+Total	
+20 Ov
+ (RR: 10.45)
+209/7	
+Did not bat
+Tushar Deshpande, 
+Akash Madhwal 
+Fall of wickets
+DRS
+1-76 (Vaibhav Sooryavanshi, 4.5 ov), 2-109 (Yashasvi Jaiswal, 8.4 ov), 3-114 (Sanju Samson, 10.2 ov), 4-144 (Riyan Parag, 13.2 ov), 5-181 (Shimron Hetmyer, 17.2 ov), 6-200 (Dhruv Jurel, 19.3 ov), 7-200 (Wanindu Hasaranga, 19.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	60	0	15.00	9	1	0
+Marco Jansen
+3	0	41	
+2
+13.66	7	2	0
+Xavier Bartlett
+1	0	12	0	12.00	3	0	0
+Harpreet Brar
+4	0	22	
+3
+5.50	9	0	0
+Yuzvendra Chahal
+4	0	30	0	7.50	8	0	0
+Azmatullah Omarzai
+4	0	44	
+2
+11.00	6	0	0
