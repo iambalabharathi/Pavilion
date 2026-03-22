@@ -1,0 +1,121 @@
+Chennai Super Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Ayush Mhatre 
+c Mohammed Siraj b Prasidh Krishna
+34	17	18	3	3	200.00
+Devon Conway 
+b Rashid Khan
+52	35	66	6	2	148.57
+Urvil Patel 
+c Shubman Gill b Sai Kishore
+37	19	28	4	2	194.73
+Shivam Dube 
+c Coetzee b Shahrukh Khan
+17	8	13	0	2	212.50
+Dewald Brevis 
+c †Buttler b Prasidh Krishna
+57	23	36	4	5	247.82
+Ravindra Jadeja 
+not out	21	18	31	1	1	116.66
+Extras	(lb 7, w 5)	12	
+Total	
+20 Ov
+ (RR: 11.50)
+230/5	
+Did not bat
+MS Dhoni (c)†, 
+Deepak Hooda, 
+Noor Ahmad, 
+Anshul Kamboj, 
+Khaleel Ahmed 
+Fall of wickets
+1-44 (Ayush Mhatre, 3.4 ov), 2-107 (Urvil Patel, 9.2 ov), 3-144 (Shivam Dube, 12.3 ov), 4-156 (Devon Conway, 13.3 ov), 5-230 (Dewald Brevis, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	47	0	11.75	9	2	0
+Arshad Khan
+2	0	42	0	21.00	1	1	0
+Prasidh Krishna
+4	0	22	
+2
+5.50	15	2	0
+Gerald Coetzee
+3	0	34	0	11.33	5	0	0
+Sai Kishore
+2	0	23	
+1
+11.50	3	0	0
+Rashid Khan
+4	0	42	
+1
+10.50	5	0	0
+M Shahrukh Khan
+1	0	13	
+1
+13.00	1	0	0
+Gujarat Titans  (T: 231 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c Dube b Jadeja
+41	28	50	6	0	146.42
+Shubman Gill (c)
+c Patel b Kamboj
+13	9	11	1	1	144.44
+Jos Buttler †
+c Kamboj b Ahmed
+5	7	6	0	0	71.42
+Sherfane Rutherford 
+c Mhatre b Kamboj
+0	4	4	0	0	0.00
+M Shahrukh Khan 
+c Pathirana b Jadeja
+19	15	25	0	2	126.66
+Rahul Tewatia 
+c Dube b Noor Ahmad
+14	10	26	1	0	140.00
+Rashid Khan 
+c Patel b Noor Ahmad
+12	8	9	1	1	150.00
+Gerald Coetzee 
+b Pathirana
+5	5	4	1	0	100.00
+Arshad Khan 
+b Noor Ahmad
+20	14	18	0	3	142.85
+Sai Kishore 
+c †Dhoni b Kamboj
+3	7	15	0	0	42.85
+Mohammed Siraj 
+not out	3	4	5	0	0	75.00
+Extras	(lb 2, w 10)	12	
+Total	
+18.3 Ov
+ (RR: 7.94)
+147	
+Fall of wickets
+1-24 (Shubman Gill, 2.3 ov), 2-29 (Jos Buttler, 3.4 ov), 3-30 (Sherfane Rutherford, 4.3 ov), 4-85 (M Shahrukh Khan, 10.1 ov), 5-86 (Sai Sudharsan, 10.4 ov), 6-105 (Rashid Khan, 12.5 ov), 7-110 (Gerald Coetzee, 13.4 ov), 8-126 (Rahul Tewatia, 15.3 ov), 9-142 (Arshad Khan, 17.3 ov), 10-147 (Sai Kishore, 18.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Ravindra Jadeja
+3	0	17	
+2
+5.66	5	0	0
+Khaleel Ahmed
+3	0	17	
+1
+5.66	12	1	0
+Anshul Kamboj
+2.3	0	13	
+3
+5.20	9	0	0
+Shivam Dube
+2	0	33	0	16.50	1	1	0
+Noor Ahmad
+4	0	21	
+3
+5.25	12	1	0
+Matheesha Pathirana
+3	0	29	
+1
+9.66	9	2	0
+Deepak Hooda
+1	0	15	0	15.00	1	1	0
