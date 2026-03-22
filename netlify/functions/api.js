@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const { getStore } = require('@netlify/blobs');
 
 // ========== File-based data (bundled in deploy) ==========
 function resolveDataDir() {
@@ -25,31 +24,32 @@ function json(statusCode, body) {
   return { statusCode, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) };
 }
 
-// ========== Blob Store helpers ==========
-function leagueStore() { return getStore('league'); }
-
-async function getConfig() {
-  const store = leagueStore();
+// ========== File-based config & players ==========
+function getConfig() {
+  if (!DATA_DIR) return { name: 'Pavilion' };
+  const configPath = path.join(DATA_DIR, 'config.json');
   try {
-    return await store.get('config', { type: 'json' });
-  } catch { return null; }
+    if (fs.existsSync(configPath)) {
+      const raw = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      return { name: raw.name || 'Pavilion' };
+    }
+  } catch {}
+  return { name: 'Pavilion' };
 }
 
-async function saveConfig(config) {
-  const store = leagueStore();
-  await store.setJSON('config', config);
-}
-
-async function getPlayers() {
-  const store = leagueStore();
+function getPlayers() {
+  if (!DATA_DIR) return [];
+  const playersPath = path.join(DATA_DIR, 'players-cache.json');
   try {
-    return await store.get('players', { type: 'json' }) || [];
-  } catch { return []; }
+    if (fs.existsSync(playersPath)) {
+      return JSON.parse(fs.readFileSync(playersPath, 'utf8')) || [];
+    }
+  } catch {}
+  return [];
 }
 
-async function savePlayers(players) {
-  const store = leagueStore();
-  await store.setJSON('players', players);
+function getTeams(players) {
+  return [...new Set(players.map(p => p.fantasyTeam))];
 }
 
 // ========== CSV Match Loading ==========
@@ -141,47 +141,21 @@ function calcPlayerMatchPoints(pm) {
 }
 
 // ========== Route Handlers ==========
-async function handleGetConfig() {
-  const config = await getConfig();
-  if (!config) return json(200, { configured: false });
-  return json(200, config);
+function handleGetConfig() {
+  const config = getConfig();
+  const players = getPlayers();
+  const teams = getTeams(players);
+  return json(200, { configured: players.length > 0, name: config.name, teams });
 }
 
-async function handleSetup(body) {
-  const existing = await getConfig();
-  if (existing && existing.configured) return json(409, { error: 'League already configured' });
-
-  const { name, teams, players } = body;
-  if (!name || !name.trim()) return json(400, { error: 'League name is required' });
-  if (!teams || !Array.isArray(teams) || teams.length < 2) return json(400, { error: 'At least 2 teams required' });
-  if (!players || !Array.isArray(players) || players.length === 0) return json(400, { error: 'At least 1 player required' });
-
-  const teamSet = new Set(teams);
-  for (const p of players) {
-    if (!p.name) return json(400, { error: 'Player missing name' });
-    if (!p.fantasyTeam || !teamSet.has(p.fantasyTeam)) return json(400, { error: `Player "${p.name}" has invalid team "${p.fantasyTeam}"` });
-  }
-
-  const playersWithIds = players.map((p, i) => ({
-    id: p.id || (i + 1), name: p.name, category: p.category || 'Batter', iplTeam: p.iplTeam || '',
-    foreign: p.foreign || 'Indian', fantasyTeam: p.fantasyTeam, soldPrice: p.soldPrice || 0
-  }));
-
-  const config = { name: name.trim(), teams, configured: true, createdAt: new Date().toISOString() };
-  await saveConfig(config);
-  await savePlayers(playersWithIds);
-
-  return json(200, { success: true, name: config.name });
+function handlePlayers() {
+  return json(200, getPlayers());
 }
 
-async function handlePlayers() {
-  return json(200, await getPlayers());
-}
-
-async function handleStandings() {
-  const config = await getConfig();
-  if (!config || !config.configured) return json(400, { error: 'League not configured' });
-  const players = await getPlayers();
+function handleStandings() {
+  const config = getConfig();
+  const players = getPlayers();
+  const teams = getTeams(players);
   const matches = loadAllMatches();
   const playerPoints = {};
   for (const p of players) playerPoints[p.id] = { total: 0, matchCount: 0, matches: [] };
@@ -197,7 +171,7 @@ async function handleStandings() {
     }
   }
   const teamStandings = {};
-  for (const team of config.teams) {
+  for (const team of teams) {
     const teamPlayers = players.filter(p => p.fantasyTeam === team);
     let teamTotal = 0;
     const playerDetails = teamPlayers.map(p => {
@@ -212,7 +186,7 @@ async function handleStandings() {
   return json(200, sorted);
 }
 
-async function handleMatches() {
+function handleMatches() {
   const matches = loadAllMatches();
   return json(200, [...matches].reverse());
 }
@@ -224,16 +198,15 @@ function handleMatchById(id) {
   return json(200, loadMatch(file));
 }
 
-async function handleMatchDetail(id) {
+function handleMatchDetail(id) {
   const files = getMatchFiles();
   const file = files.find(f => f === `match-${id}.csv`);
   if (!file) return json(404, { error: 'Match not found' });
   const match = loadMatch(file);
-  const config = await getConfig();
-  if (!config || !config.configured) return json(400, { error: 'League not configured' });
-  const players = await getPlayers();
+  const players = getPlayers();
+  const teams = getTeams(players);
   const teamBreakdown = {};
-  for (const team of config.teams) teamBreakdown[team] = { total: 0, players: [] };
+  for (const team of teams) teamBreakdown[team] = { total: 0, players: [] };
   for (const [playerId, stats] of Object.entries(match.players || {})) {
     const pid = parseInt(playerId);
     const p = players.find(pl => pl.id === pid);
@@ -244,14 +217,14 @@ async function handleMatchDetail(id) {
       teamBreakdown[p.fantasyTeam].players.push({ ...p, points: pts, stats });
     }
   }
-  for (const team of config.teams) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
+  for (const team of teams) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
   return json(200, { match, teamBreakdown });
 }
 
-async function handleDashboard() {
-  const config = await getConfig();
-  if (!config || !config.configured) return json(400, { error: 'League not configured' });
-  const players = await getPlayers();
+function handleDashboard() {
+  const config = getConfig();
+  const players = getPlayers();
+  const teams = getTeams(players);
   const matches = loadAllMatches();
   const playerPoints = {};
   for (const p of players) playerPoints[p.id] = { total: 0, matchCount: 0, bestMatch: 0, bestMatchTitle: '' };
@@ -281,7 +254,7 @@ async function handleDashboard() {
     }
   }
   const teamTotals = {};
-  for (const team of config.teams) {
+  for (const team of teams) {
     const tp = players.filter(p => p.fantasyTeam === team);
     teamTotals[team] = tp.reduce((sum, p) => sum + (playerPoints[p.id] ? playerPoints[p.id].total : 0), 0);
   }
@@ -289,10 +262,8 @@ async function handleDashboard() {
   return json(200, { totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams, leagueName: config.name });
 }
 
-async function handlePlayersDetails() {
-  const config = await getConfig();
-  if (!config || !config.configured) return json(400, { error: 'League not configured' });
-  const players = await getPlayers();
+function handlePlayersDetails() {
+  const players = getPlayers();
   const matches = loadAllMatches();
   const result = players.map(p => {
     const mb = []; let total = 0;
@@ -335,20 +306,16 @@ exports.handler = async (event) => {
     .replace(/\/$/, '');
 
   try {
-    if (method === 'GET' && rawPath === 'config') return await handleGetConfig();
-    if (method === 'POST' && rawPath === 'setup') {
-      const body = JSON.parse(event.body || '{}');
-      return await handleSetup(body);
-    }
-    if (method === 'GET' && rawPath === 'players') return await handlePlayers();
-    if (method === 'GET' && rawPath === 'standings') return await handleStandings();
-    if (method === 'GET' && rawPath === 'matches') return await handleMatches();
-    if (method === 'GET' && rawPath === 'dashboard') return await handleDashboard();
-    if (method === 'GET' && rawPath === 'players/details') return await handlePlayersDetails();
+    if (method === 'GET' && rawPath === 'config') return handleGetConfig();
+    if (method === 'GET' && rawPath === 'players') return handlePlayers();
+    if (method === 'GET' && rawPath === 'standings') return handleStandings();
+    if (method === 'GET' && rawPath === 'matches') return handleMatches();
+    if (method === 'GET' && rawPath === 'dashboard') return handleDashboard();
+    if (method === 'GET' && rawPath === 'players/details') return handlePlayersDetails();
     if (method === 'GET' && rawPath === 'rules') return handleRules();
 
     const detailMatch = rawPath.match(/^matches\/([^/]+)\/detail$/);
-    if (method === 'GET' && detailMatch) return await handleMatchDetail(detailMatch[1]);
+    if (method === 'GET' && detailMatch) return handleMatchDetail(detailMatch[1]);
 
     const matchById = rawPath.match(/^matches\/([^/]+)$/);
     if (method === 'GET' && matchById) return handleMatchById(matchById[1]);

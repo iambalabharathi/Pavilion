@@ -9,23 +9,31 @@ app.use(express.json({ limit: '5mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 const DATA_DIR = path.join(__dirname, 'data');
+const PLAYERS_CACHE = path.join(DATA_DIR, 'players-cache.json');
 const CONFIG_FILE = path.join(DATA_DIR, 'config.json');
-const PLAYERS_FILE = path.join(DATA_DIR, 'players.json');
 const MATCHES_DIR = path.join(DATA_DIR, 'matches');
 
 // ========== Data Loaders ==========
-function getConfig() {
+function getLeagueName() {
   if (fs.existsSync(CONFIG_FILE)) {
-    return JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8'));
+    try {
+      const config = JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8'));
+      if (config.name) return config.name;
+    } catch (e) { /* fall through to default */ }
   }
-  return null;
+  return 'Pavilion';
 }
 
 function getPlayers() {
-  if (fs.existsSync(PLAYERS_FILE)) {
-    return JSON.parse(fs.readFileSync(PLAYERS_FILE, 'utf8'));
+  if (fs.existsSync(PLAYERS_CACHE)) {
+    return JSON.parse(fs.readFileSync(PLAYERS_CACHE, 'utf8'));
   }
   return [];
+}
+
+function getTeams() {
+  const players = getPlayers();
+  return [...new Set(players.map(p => p.fantasyTeam))];
 }
 
 function getMatchFiles() {
@@ -130,51 +138,11 @@ function calcPlayerMatchPoints(playerMatch) {
 // ========== API Endpoints ==========
 
 app.get('/api/config', (req, res) => {
-  const config = getConfig();
-  if (!config) return res.json({ configured: false });
-  res.json(config);
-});
-
-app.post('/api/setup', (req, res) => {
-  if (fs.existsSync(CONFIG_FILE)) {
-    return res.status(409).json({ error: 'Already configured' });
-  }
-
-  const { name, teams, players } = req.body;
-  if (!name || !name.trim()) return res.status(400).json({ error: 'League name is required' });
-  if (!teams || !Array.isArray(teams) || teams.length < 2) return res.status(400).json({ error: 'At least 2 teams required' });
-  if (!players || !Array.isArray(players) || players.length === 0) return res.status(400).json({ error: 'At least 1 player required' });
-
-  const teamSet = new Set(teams);
-  for (const p of players) {
-    if (!p.name) return res.status(400).json({ error: 'Player missing name' });
-    if (!p.fantasyTeam || !teamSet.has(p.fantasyTeam)) return res.status(400).json({ error: `Player "${p.name}" has invalid team "${p.fantasyTeam}"` });
-  }
-
-  const playersWithIds = players.map((p, i) => ({
-    id: p.id || (i + 1),
-    name: p.name,
-    category: p.category || 'Batter',
-    iplTeam: p.iplTeam || '',
-    foreign: p.foreign || 'Indian',
-    fantasyTeam: p.fantasyTeam,
-    soldPrice: p.soldPrice || 0
-  }));
-
-  const config = {
-    name: name.trim(),
-    teams,
-    configured: true,
-    createdAt: new Date().toISOString()
-  };
-
-  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
-  if (!fs.existsSync(MATCHES_DIR)) fs.mkdirSync(MATCHES_DIR, { recursive: true });
-
-  fs.writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2));
-  fs.writeFileSync(PLAYERS_FILE, JSON.stringify(playersWithIds, null, 2));
-
-  res.json({ success: true, name: config.name });
+  const players = getPlayers();
+  const configured = players.length > 0;
+  const name = getLeagueName();
+  const teams = getTeams();
+  res.json({ configured, name, teams });
 });
 
 app.get('/api/players', (req, res) => {
@@ -182,10 +150,10 @@ app.get('/api/players', (req, res) => {
 });
 
 app.get('/api/standings', (req, res) => {
-  const config = getConfig();
-  if (!config) return res.status(404).json({ error: 'Not configured' });
-
   const players = getPlayers();
+  if (players.length === 0) return res.status(404).json({ error: 'Not configured' });
+
+  const teams = getTeams();
   const matches = loadAllMatches();
 
   const playerPoints = {};
@@ -204,7 +172,7 @@ app.get('/api/standings', (req, res) => {
   }
 
   const teamStandings = {};
-  for (const team of config.teams) {
+  for (const team of teams) {
     const teamPlayers = players.filter(p => p.fantasyTeam === team);
     let teamTotal = 0;
     const playerDetails = teamPlayers.map(p => {
@@ -238,9 +206,10 @@ app.get('/api/matches/:id', (req, res) => {
 });
 
 app.get('/api/matches/:id/detail', (req, res) => {
-  const config = getConfig();
-  if (!config) return res.status(404).json({ error: 'Not configured' });
+  const players = getPlayers();
+  if (players.length === 0) return res.status(404).json({ error: 'Not configured' });
 
+  const teams = getTeams();
   const csvFile = `match-${req.params.id}.csv`;
   const jsonFile = `match-${req.params.id}.json`;
   const csvPath = path.join(MATCHES_DIR, csvFile);
@@ -251,9 +220,8 @@ app.get('/api/matches/:id/detail', (req, res) => {
   else return res.status(404).json({ error: 'Match not found' });
 
   const match = loadMatch(filename);
-  const players = getPlayers();
   const teamBreakdown = {};
-  for (const team of config.teams) teamBreakdown[team] = { total: 0, players: [] };
+  for (const team of teams) teamBreakdown[team] = { total: 0, players: [] };
 
   for (const [playerId, stats] of Object.entries(match.players || {})) {
     const pid = parseInt(playerId);
@@ -266,16 +234,17 @@ app.get('/api/matches/:id/detail', (req, res) => {
       teamBreakdown[team].players.push({ ...p, points: pts, stats });
     }
   }
-  for (const team of config.teams) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
+  for (const team of teams) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
 
   res.json({ match, teamBreakdown });
 });
 
 app.get('/api/dashboard', (req, res) => {
-  const config = getConfig();
-  if (!config) return res.status(404).json({ error: 'Not configured' });
-
   const players = getPlayers();
+  if (players.length === 0) return res.status(404).json({ error: 'Not configured' });
+
+  const teams = getTeams();
+  const leagueName = getLeagueName();
   const matches = loadAllMatches();
 
   const playerPoints = {};
@@ -313,13 +282,13 @@ app.get('/api/dashboard', (req, res) => {
   }
 
   const teamTotals = {};
-  for (const team of config.teams) {
+  for (const team of teams) {
     const teamPlayers = players.filter(p => p.fantasyTeam === team);
     teamTotals[team] = teamPlayers.reduce((sum, p) => sum + (playerPoints[p.id] ? playerPoints[p.id].total : 0), 0);
   }
   const sortedTeams = Object.entries(teamTotals).sort((a, b) => b[1] - a[1]).map(([team, total], i) => ({ rank: i + 1, team, total }));
 
-  res.json({ totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams, leagueName: config.name });
+  res.json({ totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams, leagueName });
 });
 
 app.get('/api/players/details', (req, res) => {
