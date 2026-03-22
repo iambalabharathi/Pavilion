@@ -1,0 +1,46 @@
+# SRH vs KKR - Match 5
+# 2026-03-22
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- SRH ---
+54, Travis Head, SRH, Ragu, 1, 0, 76, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0
+233, Kamindu Mendis, SRH, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+60, Harshal Patel, SRH, Darshan, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+123, Liam Livingstone, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+59, Pat Cummins, SRH, Dots, 1, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0
+232, Aniket Verma, SRH, Dots, 1, 0, 12, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+57, Ishan Kishan, SRH, JD, 1, 0, 29, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0
+58, Heinrich Klaasen, SRH, JD, 1, 0, 105, 7, 9, 0, 0, 0, 0, 0, 0, 0, 0
+239, Zeeshan Ansari, SRH, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+55, Abhishek Sharma, SRH, Prakash, 1, 0, 32, 4, 2, 0, 4, 0, 0, 1, 0, 0, 0
+
+# --- KKR ---
+20, Rinku Singh, KKR, Ragu, 1, 0, 9, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0
+21, Cameron Green, KKR, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+22, Sunil Narine, KKR, RK, 1, 0, 31, 3, 3, 2, 8, 0, 0, 0, 0, 0, 0
+83, Finn Allen, KKR, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+23, Varun Chakaravarthy, KKR, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+85, Tim Seifert, KKR, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+162, Ramandeep Singh, KKR, Prabhu, 1, 0, 13, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+82, Angkrish Raghuvanshi, KKR, Dots, 1, 0, 14, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+81, Rovman Powell, KKR, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+19, Ajinkya Rahane, KKR, Rijo, 1, 0, 15, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0
+86, Vaibhav Arora, KKR, Rijo, 1, 0, 0, 0, 0, 1, 10, 0, 0, 0, 0, 0, 0
+169, Blessing Muzarabani, KKR, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 1, 0, 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+37, Deepak Chahar, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+30, Rohit Sharma, MI, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+

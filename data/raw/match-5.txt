@@ -1,0 +1,110 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c Singh b Narine
+32	16	33	4	2	200.00
+Travis Head 
+c Russell b Narine
+76	40	61	6	6	190.00
+Heinrich Klaasen 
+not out	105	39	64	7	9	269.23
+Ishan Kishan †
+c Nortje b Arora
+29	20	30	4	1	145.00
+Aniket Verma 
+not out	12	6	6	1	1	200.00
+Extras	(b 2, lb 7, nb 1, w 14)	24	
+Total	
+20 Ov
+ (RR: 13.90)
+278/3	
+Did not bat
+Nitish Kumar Reddy, 
+Abhinav Manohar, 
+Pat Cummins (c), 
+Harshal Patel, 
+Jaydev Unadkat, 
+Eshan Malinga 
+Fall of wickets
+DRS
+1-92 (Abhishek Sharma, 6.5 ov), 2-175 (Travis Head, 12.4 ov), 3-258 (Ishan Kishan, 18.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Vaibhav Arora
+4	0	39	
+1
+9.75	10	4	0
+Anrich Nortje
+4	0	60	0	15.00	7	3	0
+Harshit Rana
+3	0	40	0	13.33	5	0	0
+Sunil Narine
+4	0	42	
+2
+10.50	8	0	0
+Varun Chakravarthy
+3	0	54	0	18.00	2	3	0
+Andre Russell
+2	0	34	0	17.00	2	0	1
+Kolkata Knight Riders  (T: 279 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Quinton de Kock †
+c Manohar b Malinga
+9	13	42	0	0	69.23
+Sunil Narine 
+b Unadkat
+31	16	17	3	3	193.75
+Ajinkya Rahane (c)
+c Abhishek Sharma b Unadkat
+15	8	12	3	0	187.50
+Angkrish Raghuvanshi 
+c Nitish Kumar Reddy b Malinga
+14	18	33	1	0	77.77
+Rinku Singh 
+c Nitish Kumar Reddy b Dubey
+9	6	4	0	1	150.00
+Andre Russell 
+lbw b Dubey
+0	1	1	0	0	0.00
+Manish Pandey 
+c Manohar b Unadkat
+37	23	39	2	3	160.86
+Ramandeep Singh 
+b Dubey
+13	5	6	0	2	260.00
+Harshit Rana 
+c & b Malinga
+34	21	25	2	3	161.90
+Vaibhav Arora 
+run out (Unadkat)
+0	1	1	0	0	0.00
+Anrich Nortje 
+not out	0	0	6	0	0	-
+Extras	(b 1, lb 1, w 4)	6	
+Total	
+18.4 Ov
+ (RR: 9.00)
+168	
+Fall of wickets
+DRS
+1-37 (Sunil Narine, 3.3 ov), 2-55 (Ajinkya Rahane, 5.3 ov), 3-61 (Quinton de Kock, 6.5 ov), 4-70 (Rinku Singh, 7.5 ov), 5-70 (Andre Russell, 7.6 ov), 6-95 (Angkrish Raghuvanshi, 12.2 ov), 7-110 (Ramandeep Singh, 13.5 ov), 8-162 (Manish Pandey, 17.3 ov), 9-162 (Vaibhav Arora, 17.4 ov), 10-168 (Harshit Rana, 18.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Pat Cummins
+2	0	25	0	12.50	6	1	0
+Jaydev Unadkat
+4	0	24	
+3
+6.00	12	0	0
+Harshal Patel
+2	0	21	0	10.50	5	1	0
+Eshan Malinga
+3.4	0	31	
+3
+8.45	10	1	0
+Harsh Dubey
+4	0	34	
+3
+8.50	10	0	0
+Nitish Kumar Reddy
+1	0	6	0	6.00	1	1	0
+Abhishek Sharma
+2	0	25	0	12.50	4	0	0
