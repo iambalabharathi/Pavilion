@@ -1,23 +1,25 @@
 const fs = require('fs');
 const path = require('path');
 
-// On Netlify, included_files are placed relative to the function directory
-// Try multiple possible locations for the data files
+// Netlify esbuild bundles included_files relative to the function's directory
 function resolveDataDir() {
   const candidates = [
-    path.resolve(__dirname, 'data'),           // bundled alongside function
-    path.resolve(__dirname, '..', '..', 'data'), // relative to source location
-    path.resolve(process.cwd(), 'data'),        // relative to cwd
+    path.join(__dirname, 'data'),
+    path.join(__dirname, '..', 'data'),
+    path.join(__dirname, '..', '..', 'data'),
+    path.join(process.cwd(), 'data'),
+    '/var/task/data',
+    '/var/task/src/data',
   ];
   for (const dir of candidates) {
     if (fs.existsSync(dir)) return dir;
   }
-  return candidates[0]; // fallback
+  return null;
 }
 
 const DATA_DIR = resolveDataDir();
-const MATCHES_DIR = path.join(DATA_DIR, 'matches');
-const PLAYERS_CACHE = path.join(DATA_DIR, 'players-cache.json');
+const MATCHES_DIR = DATA_DIR ? path.join(DATA_DIR, 'matches') : null;
+const PLAYERS_CACHE = DATA_DIR ? path.join(DATA_DIR, 'players-cache.json') : null;
 
 const TEAMS = ['Ragu', 'RK', 'Darshan', 'Prabhu', 'Dots', 'JD', 'Rijo', 'Prakash'];
 
@@ -31,6 +33,7 @@ function json(statusCode, body) {
 }
 
 function getPlayers() {
+  if (!PLAYERS_CACHE) return [];
   try {
     return JSON.parse(fs.readFileSync(PLAYERS_CACHE, 'utf8'));
   } catch {
@@ -39,6 +42,7 @@ function getPlayers() {
 }
 
 function getMatchFiles() {
+  if (!MATCHES_DIR) return [];
   try {
     return fs.readdirSync(MATCHES_DIR)
       .filter(f => f.endsWith('.json') || f.endsWith('.csv'))
@@ -46,6 +50,33 @@ function getMatchFiles() {
   } catch {
     return [];
   }
+}
+
+function handleDebug() {
+  const candidates = [
+    path.join(__dirname, 'data'),
+    path.join(__dirname, '..', 'data'),
+    path.join(__dirname, '..', '..', 'data'),
+    path.join(process.cwd(), 'data'),
+    '/var/task/data',
+    '/var/task/src/data',
+  ];
+  const info = {
+    __dirname,
+    cwd: process.cwd(),
+    DATA_DIR,
+    PLAYERS_CACHE,
+    MATCHES_DIR,
+    candidateResults: candidates.map(c => ({ path: c, exists: fs.existsSync(c) })),
+  };
+  // List files in __dirname to see what's there
+  try { info.dirnameFiles = fs.readdirSync(__dirname); } catch (e) { info.dirnameFiles = e.message; }
+  try { info.cwdFiles = fs.readdirSync(process.cwd()); } catch (e) { info.cwdFiles = e.message; }
+  try { info.varTask = fs.readdirSync('/var/task'); } catch (e) { info.varTask = e.message; }
+  if (DATA_DIR) {
+    try { info.dataFiles = fs.readdirSync(DATA_DIR); } catch (e) { info.dataFiles = e.message; }
+  }
+  return json(200, info);
 }
 
 function parseCSVMatch(filepath) {
@@ -321,6 +352,7 @@ exports.handler = async (event) => {
 
   try {
     if (method === 'GET') {
+      if (rawPath === 'debug') return handleDebug();
       if (rawPath === 'players') return handlePlayers();
       if (rawPath === 'standings') return handleStandings();
       if (rawPath === 'matches') return handleMatches();
