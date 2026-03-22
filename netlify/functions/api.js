@@ -1,7 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const { getStore } = require('@netlify/blobs');
 
-// Netlify esbuild bundles included_files relative to the function's directory
+// ========== File-based data (bundled in deploy) ==========
 function resolveDataDir() {
   const candidates = [
     path.join(__dirname, 'data'),
@@ -18,73 +19,45 @@ function resolveDataDir() {
 }
 
 const DATA_DIR = resolveDataDir();
-const MATCHES_DIR = DATA_DIR ? path.join(DATA_DIR, 'matches') : null;
-const PLAYERS_CACHE = DATA_DIR ? path.join(DATA_DIR, 'players-cache.json') : null;
-
-const TEAMS = ['Ragu', 'RK', 'Darshan', 'Prabhu', 'Dots', 'JD', 'Rijo', 'Prakash'];
 
 // ========== Helpers ==========
 function json(statusCode, body) {
-  return {
-    statusCode,
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
-  };
+  return { statusCode, headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) };
 }
 
-function getPlayers() {
-  if (!PLAYERS_CACHE) return [];
+// ========== Blob Store helpers ==========
+function leagueStore() { return getStore('league'); }
+
+async function getConfig() {
+  const store = leagueStore();
   try {
-    return JSON.parse(fs.readFileSync(PLAYERS_CACHE, 'utf8'));
-  } catch {
-    return [];
-  }
+    return await store.get('config', { type: 'json' });
+  } catch { return null; }
 }
 
-function getMatchFiles() {
-  if (!MATCHES_DIR) return [];
+async function saveConfig(config) {
+  const store = leagueStore();
+  await store.setJSON('config', config);
+}
+
+async function getPlayers() {
+  const store = leagueStore();
   try {
-    return fs.readdirSync(MATCHES_DIR)
-      .filter(f => f.endsWith('.json') || f.endsWith('.csv'))
-      .sort();
-  } catch {
-    return [];
-  }
+    return await store.get('players', { type: 'json' }) || [];
+  } catch { return []; }
 }
 
-function handleDebug() {
-  const candidates = [
-    path.join(__dirname, 'data'),
-    path.join(__dirname, '..', 'data'),
-    path.join(__dirname, '..', '..', 'data'),
-    path.join(process.cwd(), 'data'),
-    '/var/task/data',
-    '/var/task/src/data',
-  ];
-  const info = {
-    __dirname,
-    cwd: process.cwd(),
-    DATA_DIR,
-    PLAYERS_CACHE,
-    MATCHES_DIR,
-    candidateResults: candidates.map(c => ({ path: c, exists: fs.existsSync(c) })),
-  };
-  // List files in __dirname to see what's there
-  try { info.dirnameFiles = fs.readdirSync(__dirname); } catch (e) { info.dirnameFiles = e.message; }
-  try { info.cwdFiles = fs.readdirSync(process.cwd()); } catch (e) { info.cwdFiles = e.message; }
-  try { info.varTask = fs.readdirSync('/var/task'); } catch (e) { info.varTask = e.message; }
-  if (DATA_DIR) {
-    try { info.dataFiles = fs.readdirSync(DATA_DIR); } catch (e) { info.dataFiles = e.message; }
-  }
-  return json(200, info);
+async function savePlayers(players) {
+  const store = leagueStore();
+  await store.setJSON('players', players);
 }
 
+// ========== CSV Match Loading ==========
 function parseCSVMatch(filepath) {
   const content = fs.readFileSync(filepath, 'utf8');
   const lines = content.split('\n');
   let title = '', date = '', abandoned = false;
   const players = {};
-
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) continue;
@@ -125,10 +98,15 @@ function parseCSVMatch(filepath) {
   return { id: matchId, title: title || basename, date, abandoned, players };
 }
 
+function getMatchFiles() {
+  if (!DATA_DIR) return [];
+  const dir = path.join(DATA_DIR, 'matches');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter(f => f.endsWith('.csv')).sort();
+}
+
 function loadMatch(filename) {
-  const filepath = path.join(MATCHES_DIR, filename);
-  if (filename.endsWith('.csv')) return parseCSVMatch(filepath);
-  return JSON.parse(fs.readFileSync(filepath, 'utf8'));
+  return parseCSVMatch(path.join(DATA_DIR, 'matches', filename));
 }
 
 function loadAllMatches() {
@@ -137,56 +115,73 @@ function loadAllMatches() {
 
 // ========== Points Calculation ==========
 function calcBattingPoints(stats) {
-  let pts = 0;
-  const runs = stats.runs || 0;
-  pts += runs;
-  pts += (stats.fours || 0) * 1;
-  pts += (stats.sixes || 0) * 2;
-  if (runs >= 30) pts += 5;
-  if (runs >= 50) pts += 10;
-  if (runs >= 100) pts += 10;
+  let pts = 0; const runs = stats.runs || 0;
+  pts += runs + (stats.fours || 0) + (stats.sixes || 0) * 2;
+  if (runs >= 30) pts += 5; if (runs >= 50) pts += 10; if (runs >= 100) pts += 10;
   return pts;
 }
-
 function calcBowlingPoints(stats) {
-  let pts = 0;
-  const wickets = stats.wickets || 0;
-  pts += (stats.dots || 0) * 1;
-  pts += wickets * 20;
-  if (wickets >= 2) pts += 5;
-  if (wickets >= 3) pts += 10;
-  if (wickets >= 5) pts += 10;
-  pts += (stats.maidens || 0) * 20;
-  pts += (stats.lbwBowledHw || 0) * 5;
+  let pts = 0; const wickets = stats.wickets || 0;
+  pts += (stats.dots || 0) + wickets * 20;
+  if (wickets >= 2) pts += 5; if (wickets >= 3) pts += 10; if (wickets >= 5) pts += 10;
+  pts += (stats.maidens || 0) * 20 + (stats.lbwBowledHw || 0) * 5;
   return pts;
 }
-
 function calcFieldingPoints(stats) {
-  let pts = 0;
-  pts += (stats.catches || 0) * 5;
-  pts += (stats.runoutDirect || 0) * 10;
-  pts += (stats.runoutIndirect || 0) * 5;
-  pts += (stats.stumpings || 0) * 10;
-  return pts;
+  return (stats.catches || 0) * 5 + (stats.runoutDirect || 0) * 10 + (stats.runoutIndirect || 0) * 5 + (stats.stumpings || 0) * 10;
 }
-
-function calcPlayerMatchPoints(playerMatch) {
-  let total = 0;
-  if (playerMatch.playing) total += 5;
-  if (playerMatch.batting) total += calcBattingPoints(playerMatch.batting);
-  if (playerMatch.bowling) total += calcBowlingPoints(playerMatch.bowling);
-  if (playerMatch.fielding) total += calcFieldingPoints(playerMatch.fielding);
-  if (playerMatch.mom) total += 30;
-  return total;
+function calcPlayerMatchPoints(pm) {
+  let t = 0;
+  if (pm.playing) t += 5;
+  if (pm.batting) t += calcBattingPoints(pm.batting);
+  if (pm.bowling) t += calcBowlingPoints(pm.bowling);
+  if (pm.fielding) t += calcFieldingPoints(pm.fielding);
+  if (pm.mom) t += 30;
+  return t;
 }
 
 // ========== Route Handlers ==========
-function handlePlayers() {
-  return json(200, getPlayers());
+async function handleGetConfig() {
+  const config = await getConfig();
+  if (!config) return json(200, { configured: false });
+  return json(200, config);
 }
 
-function handleStandings() {
-  const players = getPlayers();
+async function handleSetup(body) {
+  const existing = await getConfig();
+  if (existing && existing.configured) return json(409, { error: 'League already configured' });
+
+  const { name, teams, players } = body;
+  if (!name || !name.trim()) return json(400, { error: 'League name is required' });
+  if (!teams || !Array.isArray(teams) || teams.length < 2) return json(400, { error: 'At least 2 teams required' });
+  if (!players || !Array.isArray(players) || players.length === 0) return json(400, { error: 'At least 1 player required' });
+
+  const teamSet = new Set(teams);
+  for (const p of players) {
+    if (!p.name) return json(400, { error: 'Player missing name' });
+    if (!p.fantasyTeam || !teamSet.has(p.fantasyTeam)) return json(400, { error: `Player "${p.name}" has invalid team "${p.fantasyTeam}"` });
+  }
+
+  const playersWithIds = players.map((p, i) => ({
+    id: p.id || (i + 1), name: p.name, category: p.category || 'Batter', iplTeam: p.iplTeam || '',
+    foreign: p.foreign || 'Indian', fantasyTeam: p.fantasyTeam, soldPrice: p.soldPrice || 0
+  }));
+
+  const config = { name: name.trim(), teams, configured: true, createdAt: new Date().toISOString() };
+  await saveConfig(config);
+  await savePlayers(playersWithIds);
+
+  return json(200, { success: true, name: config.name });
+}
+
+async function handlePlayers() {
+  return json(200, await getPlayers());
+}
+
+async function handleStandings() {
+  const config = await getConfig();
+  if (!config || !config.configured) return json(400, { error: 'League not configured' });
+  const players = await getPlayers();
   const matches = loadAllMatches();
   const playerPoints = {};
   for (const p of players) playerPoints[p.id] = { total: 0, matchCount: 0, matches: [] };
@@ -202,7 +197,7 @@ function handleStandings() {
     }
   }
   const teamStandings = {};
-  for (const team of TEAMS) {
+  for (const team of config.teams) {
     const teamPlayers = players.filter(p => p.fantasyTeam === team);
     let teamTotal = 0;
     const playerDetails = teamPlayers.map(p => {
@@ -213,57 +208,50 @@ function handleStandings() {
     playerDetails.sort((a, b) => b.points - a.points);
     teamStandings[team] = { total: teamTotal, players: playerDetails };
   }
-  const sorted = Object.entries(teamStandings)
-    .sort((a, b) => b[1].total - a[1].total)
-    .map(([team, data], i) => ({ rank: i + 1, team, ...data }));
+  const sorted = Object.entries(teamStandings).sort((a, b) => b[1].total - a[1].total).map(([team, data], i) => ({ rank: i + 1, team, ...data }));
   return json(200, sorted);
 }
 
-function handleMatches() {
-  return json(200, loadAllMatches().reverse());
+async function handleMatches() {
+  const matches = loadAllMatches();
+  return json(200, [...matches].reverse());
 }
 
 function handleMatchById(id) {
-  const csvFile = `match-${id}.csv`;
-  const jsonFile = `match-${id}.json`;
-  const csvPath = path.join(MATCHES_DIR, csvFile);
-  const jsonPath = path.join(MATCHES_DIR, jsonFile);
-  if (fs.existsSync(csvPath)) return json(200, loadMatch(csvFile));
-  if (fs.existsSync(jsonPath)) return json(200, loadMatch(jsonFile));
-  return json(404, { error: 'Match not found' });
+  const files = getMatchFiles();
+  const file = files.find(f => f === `match-${id}.csv`);
+  if (!file) return json(404, { error: 'Match not found' });
+  return json(200, loadMatch(file));
 }
 
-function handleMatchDetail(id) {
-  const csvFile = `match-${id}.csv`;
-  const jsonFile = `match-${id}.json`;
-  const csvPath = path.join(MATCHES_DIR, csvFile);
-  const jsonPath = path.join(MATCHES_DIR, jsonFile);
-  let filename;
-  if (fs.existsSync(csvPath)) filename = csvFile;
-  else if (fs.existsSync(jsonPath)) filename = jsonFile;
-  else return json(404, { error: 'Match not found' });
-
-  const match = loadMatch(filename);
-  const players = getPlayers();
+async function handleMatchDetail(id) {
+  const files = getMatchFiles();
+  const file = files.find(f => f === `match-${id}.csv`);
+  if (!file) return json(404, { error: 'Match not found' });
+  const match = loadMatch(file);
+  const config = await getConfig();
+  if (!config || !config.configured) return json(400, { error: 'League not configured' });
+  const players = await getPlayers();
   const teamBreakdown = {};
-  for (const team of TEAMS) teamBreakdown[team] = { total: 0, players: [] };
+  for (const team of config.teams) teamBreakdown[team] = { total: 0, players: [] };
   for (const [playerId, stats] of Object.entries(match.players || {})) {
     const pid = parseInt(playerId);
     const p = players.find(pl => pl.id === pid);
     if (!p) continue;
     const pts = match.abandoned ? 0 : calcPlayerMatchPoints(stats);
-    const team = p.fantasyTeam;
-    if (teamBreakdown[team]) {
-      teamBreakdown[team].total += pts;
-      teamBreakdown[team].players.push({ ...p, points: pts, stats });
+    if (teamBreakdown[p.fantasyTeam]) {
+      teamBreakdown[p.fantasyTeam].total += pts;
+      teamBreakdown[p.fantasyTeam].players.push({ ...p, points: pts, stats });
     }
   }
-  for (const team of TEAMS) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
+  for (const team of config.teams) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
   return json(200, { match, teamBreakdown });
 }
 
-function handleDashboard() {
-  const players = getPlayers();
+async function handleDashboard() {
+  const config = await getConfig();
+  if (!config || !config.configured) return json(400, { error: 'League not configured' });
+  const players = await getPlayers();
   const matches = loadAllMatches();
   const playerPoints = {};
   for (const p of players) playerPoints[p.id] = { total: 0, matchCount: 0, bestMatch: 0, bestMatchTitle: '' };
@@ -277,10 +265,7 @@ function handleDashboard() {
       if (!playerPoints[pid]) playerPoints[pid] = { total: 0, matchCount: 0, bestMatch: 0, bestMatchTitle: '' };
       playerPoints[pid].total += pts;
       playerPoints[pid].matchCount++;
-      if (pts > playerPoints[pid].bestMatch) {
-        playerPoints[pid].bestMatch = pts;
-        playerPoints[pid].bestMatchTitle = match.title;
-      }
+      if (pts > playerPoints[pid].bestMatch) { playerPoints[pid].bestMatch = pts; playerPoints[pid].bestMatchTitle = match.title; }
     }
   }
   const topPlayers = players.map(p => ({ ...p, ...playerPoints[p.id] })).sort((a, b) => b.total - a.total).slice(0, 10);
@@ -296,20 +281,21 @@ function handleDashboard() {
     }
   }
   const teamTotals = {};
-  for (const team of TEAMS) {
-    const teamPlayers = players.filter(p => p.fantasyTeam === team);
-    teamTotals[team] = teamPlayers.reduce((sum, p) => sum + (playerPoints[p.id] ? playerPoints[p.id].total : 0), 0);
+  for (const team of config.teams) {
+    const tp = players.filter(p => p.fantasyTeam === team);
+    teamTotals[team] = tp.reduce((sum, p) => sum + (playerPoints[p.id] ? playerPoints[p.id].total : 0), 0);
   }
   const sortedTeams = Object.entries(teamTotals).sort((a, b) => b[1] - a[1]).map(([team, total], i) => ({ rank: i + 1, team, total }));
-  return json(200, { totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams });
+  return json(200, { totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams, leagueName: config.name });
 }
 
-function handlePlayersDetails() {
-  const players = getPlayers();
+async function handlePlayersDetails() {
+  const config = await getConfig();
+  if (!config || !config.configured) return json(400, { error: 'League not configured' });
+  const players = await getPlayers();
   const matches = loadAllMatches();
   const result = players.map(p => {
-    const matchBreakdowns = [];
-    let total = 0;
+    const mb = []; let total = 0;
     for (const match of matches) {
       if (match.abandoned) continue;
       const stats = (match.players || {})[p.id];
@@ -319,14 +305,11 @@ function handlePlayersDetails() {
       const bowlingPts = stats.bowling ? calcBowlingPoints(stats.bowling) : 0;
       const fieldingPts = stats.fielding ? calcFieldingPoints(stats.fielding) : 0;
       const momPts = stats.mom ? 30 : 0;
-      const matchTotal = playingPts + battingPts + bowlingPts + fieldingPts + momPts;
-      total += matchTotal;
-      matchBreakdowns.push({
-        matchId: match.id, matchTitle: match.title, matchDate: match.date,
-        total: matchTotal, playing: playingPts, batting: battingPts, bowling: bowlingPts, fielding: fieldingPts, mom: momPts, stats
-      });
+      const mt = playingPts + battingPts + bowlingPts + fieldingPts + momPts;
+      total += mt;
+      mb.push({ matchId: match.id, matchTitle: match.title, matchDate: match.date, total: mt, playing: playingPts, batting: battingPts, bowling: bowlingPts, fielding: fieldingPts, mom: momPts, stats });
     }
-    return { ...p, total, matchCount: matchBreakdowns.length, matches: matchBreakdowns };
+    return { ...p, total, matchCount: mb.length, matches: mb };
   });
   result.sort((a, b) => b.total - a.total);
   return json(200, result);
@@ -345,7 +328,6 @@ function handleRules() {
 // ========== Main Handler ==========
 exports.handler = async (event) => {
   const method = event.httpMethod;
-  // event.path may be the original /api/... or the rewritten /.netlify/functions/api/...
   const rawPath = event.path
     .replace(/^\/?\.netlify\/functions\/api\/?/, '')
     .replace(/^\/?(api)\/?/, '')
@@ -353,23 +335,23 @@ exports.handler = async (event) => {
     .replace(/\/$/, '');
 
   try {
-    if (method === 'GET') {
-      if (rawPath === 'debug') return handleDebug();
-      if (rawPath === 'players') return handlePlayers();
-      if (rawPath === 'standings') return handleStandings();
-      if (rawPath === 'matches') return handleMatches();
-      if (rawPath === 'dashboard') return handleDashboard();
-      if (rawPath === 'rules') return handleRules();
-      if (rawPath === 'players/details') return handlePlayersDetails();
-
-      // /matches/:id/detail
-      const detailMatch = rawPath.match(/^matches\/([^/]+)\/detail$/);
-      if (detailMatch) return handleMatchDetail(detailMatch[1]);
-
-      // /matches/:id
-      const matchById = rawPath.match(/^matches\/([^/]+)$/);
-      if (matchById) return handleMatchById(matchById[1]);
+    if (method === 'GET' && rawPath === 'config') return await handleGetConfig();
+    if (method === 'POST' && rawPath === 'setup') {
+      const body = JSON.parse(event.body || '{}');
+      return await handleSetup(body);
     }
+    if (method === 'GET' && rawPath === 'players') return await handlePlayers();
+    if (method === 'GET' && rawPath === 'standings') return await handleStandings();
+    if (method === 'GET' && rawPath === 'matches') return await handleMatches();
+    if (method === 'GET' && rawPath === 'dashboard') return await handleDashboard();
+    if (method === 'GET' && rawPath === 'players/details') return await handlePlayersDetails();
+    if (method === 'GET' && rawPath === 'rules') return handleRules();
+
+    const detailMatch = rawPath.match(/^matches\/([^/]+)\/detail$/);
+    if (method === 'GET' && detailMatch) return await handleMatchDetail(detailMatch[1]);
+
+    const matchById = rawPath.match(/^matches\/([^/]+)$/);
+    if (method === 'GET' && matchById) return handleMatchById(matchById[1]);
 
     return json(404, { error: 'Not found' });
   } catch (err) {

@@ -5,37 +5,29 @@ const path = require('path');
 const app = express();
 const PORT = 3001;
 
-app.use(express.json());
+app.use(express.json({ limit: '5mb' }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-const AUCTION_FILE = path.join(__dirname, '..', 'ipl-auction-manager', 'data', 'auction-state.json');
-const MATCHES_DIR = path.join(__dirname, 'data', 'matches');
+const DATA_DIR = path.join(__dirname, 'data');
+const CONFIG_FILE = path.join(DATA_DIR, 'config.json');
+const PLAYERS_FILE = path.join(DATA_DIR, 'players.json');
+const MATCHES_DIR = path.join(DATA_DIR, 'matches');
 
-const TEAMS = ['Ragu', 'RK', 'Darshan', 'Prabhu', 'Dots', 'JD', 'Rijo', 'Prakash'];
-
-// ========== Load auction rosters ==========
-function loadRosters() {
-  const state = JSON.parse(fs.readFileSync(AUCTION_FILE, 'utf8'));
-  // Build player map from soldLog
-  const playerMap = {}; // playerId -> { team, price }
-  for (const entry of state.soldLog) {
-    playerMap[entry.playerId] = { team: entry.team, price: entry.price };
+// ========== Data Loaders ==========
+function getConfig() {
+  if (fs.existsSync(CONFIG_FILE)) {
+    return JSON.parse(fs.readFileSync(CONFIG_FILE, 'utf8'));
   }
-  return { soldLog: state.soldLog, playerMap };
+  return null;
 }
 
-// We also need player details from the auction xlsx - but let's read from the auction API
-// Instead, store a players.json on first load
-const PLAYERS_CACHE = path.join(__dirname, 'data', 'players-cache.json');
-
 function getPlayers() {
-  if (fs.existsSync(PLAYERS_CACHE)) {
-    return JSON.parse(fs.readFileSync(PLAYERS_CACHE, 'utf8'));
+  if (fs.existsSync(PLAYERS_FILE)) {
+    return JSON.parse(fs.readFileSync(PLAYERS_FILE, 'utf8'));
   }
   return [];
 }
 
-// ========== Match data ==========
 function getMatchFiles() {
   if (!fs.existsSync(MATCHES_DIR)) return [];
   return fs.readdirSync(MATCHES_DIR)
@@ -46,38 +38,22 @@ function getMatchFiles() {
 function parseCSVMatch(filepath) {
   const content = fs.readFileSync(filepath, 'utf8');
   const lines = content.split('\n');
-
-  // Parse header comments for title and date
   let title = '', date = '', abandoned = false;
   const players = {};
 
   for (const line of lines) {
     const trimmed = line.trim();
     if (!trimmed) continue;
-
     if (trimmed.startsWith('#')) {
-      // First comment line: "# CSK vs MI - Match 1"
-      if (!title && /^#\s+\w+\s+vs\s+\w+/.test(trimmed)) {
-        title = trimmed.replace(/^#\s*/, '');
-      }
-      // Second comment line: "# 2026-03-22"
-      if (!date && /^#\s+\d{4}-\d{2}-\d{2}/.test(trimmed)) {
-        date = trimmed.replace(/^#\s*/, '').trim();
-      }
-      // Check for abandoned
-      if (/abandoned/i.test(trimmed)) {
-        abandoned = true;
-      }
+      if (!title && /^#\s+\w+\s+vs\s+\w+/.test(trimmed)) title = trimmed.replace(/^#\s*/, '');
+      if (!date && /^#\s+\d{4}-\d{2}-\d{2}/.test(trimmed)) date = trimmed.replace(/^#\s*/, '').trim();
+      if (/abandoned/i.test(trimmed)) abandoned = true;
       continue;
     }
-
-    // Data row: id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
     const cols = trimmed.split(',').map(c => c.trim());
     if (cols.length < 17) continue;
-
     const id = parseInt(cols[0]);
     if (isNaN(id)) continue;
-
     const playing = parseInt(cols[4]) === 1;
     const mom = parseInt(cols[5]) === 1;
     const runs = parseInt(cols[6]) || 0;
@@ -91,11 +67,8 @@ function parseCSVMatch(filepath) {
     const runoutDirect = parseInt(cols[14]) || 0;
     const runoutIndirect = parseInt(cols[15]) || 0;
     const stumpings = parseInt(cols[16]) || 0;
-
-    // Only include players who played or have any stats
     const hasStats = playing || mom || runs || fours || sixes || wickets || dots || maidens || lbwBowledHw || catches || runoutDirect || runoutIndirect || stumpings;
     if (!hasStats) continue;
-
     players[id] = {
       playing, mom,
       batting: { runs, fours, sixes },
@@ -103,19 +76,14 @@ function parseCSVMatch(filepath) {
       fielding: { catches, runoutDirect, runoutIndirect, stumpings }
     };
   }
-
-  // Extract match id from filename
   const basename = path.basename(filepath, '.csv');
   const matchId = basename.replace('match-', '');
-
   return { id: matchId, title: title || basename, date, abandoned, players };
 }
 
 function loadMatch(filename) {
   const filepath = path.join(MATCHES_DIR, filename);
-  if (filename.endsWith('.csv')) {
-    return parseCSVMatch(filepath);
-  }
+  if (filename.endsWith('.csv')) return parseCSVMatch(filepath);
   return JSON.parse(fs.readFileSync(filepath, 'utf8'));
 }
 
@@ -127,104 +95,101 @@ function loadAllMatches() {
 function calcBattingPoints(stats) {
   let pts = 0;
   const runs = stats.runs || 0;
-  const fours = stats.fours || 0;
-  const sixes = stats.sixes || 0;
-
-  pts += runs;                          // 1 point per run
-  pts += fours * 1;                     // 1 additional per four
-  pts += sixes * 2;                     // 2 additional per six
-  if (runs >= 30) pts += 5;             // milestone bonuses (cumulative)
+  pts += runs + (stats.fours || 0) + (stats.sixes || 0) * 2;
+  if (runs >= 30) pts += 5;
   if (runs >= 50) pts += 10;
   if (runs >= 100) pts += 10;
-
   return pts;
 }
 
 function calcBowlingPoints(stats) {
   let pts = 0;
   const wickets = stats.wickets || 0;
-  const dots = stats.dots || 0;
-  const maidens = stats.maidens || 0;
-  const lbwBowledHw = stats.lbwBowledHw || 0;
-
-  pts += dots * 1;                      // 1 point per dot
-  pts += wickets * 20;                  // 20 per wicket
-  if (wickets >= 2) pts += 5;           // milestone bonuses (cumulative)
+  pts += (stats.dots || 0) + wickets * 20;
+  if (wickets >= 2) pts += 5;
   if (wickets >= 3) pts += 10;
   if (wickets >= 5) pts += 10;
-  pts += maidens * 20;                  // 20 per maiden
-  pts += lbwBowledHw * 5;              // 5 per LBW/Bowled/Hit-wicket
-
+  pts += (stats.maidens || 0) * 20 + (stats.lbwBowledHw || 0) * 5;
   return pts;
 }
 
 function calcFieldingPoints(stats) {
-  let pts = 0;
-  pts += (stats.catches || 0) * 5;      // 5 per catch
-  pts += (stats.runoutDirect || 0) * 10; // 10 per direct hit run-out
-  pts += (stats.runoutIndirect || 0) * 5;// 5 per indirect run-out
-  pts += (stats.stumpings || 0) * 10;    // 10 per stumping
-  return pts;
+  return (stats.catches || 0) * 5 + (stats.runoutDirect || 0) * 10 + (stats.runoutIndirect || 0) * 5 + (stats.stumpings || 0) * 10;
 }
 
 function calcPlayerMatchPoints(playerMatch) {
   let total = 0;
-
-  if (playerMatch.playing) total += 5;   // Playing 12 bonus
-
+  if (playerMatch.playing) total += 5;
   if (playerMatch.batting) total += calcBattingPoints(playerMatch.batting);
   if (playerMatch.bowling) total += calcBowlingPoints(playerMatch.bowling);
   if (playerMatch.fielding) total += calcFieldingPoints(playerMatch.fielding);
-  if (playerMatch.mom) total += 30;      // Man of the Match
-
+  if (playerMatch.mom) total += 30;
   return total;
 }
 
-// ========== API Routes ==========
+// ========== API Endpoints ==========
 
-// Sync players from auction manager
-app.post('/api/sync-players', async (req, res) => {
-  try {
-    const response = await fetch('http://localhost:3000/api/teams');
-    const teams = await response.json();
-
-    const players = [];
-    for (const [team, data] of Object.entries(teams)) {
-      for (const p of data.players) {
-        players.push({
-          id: p.id,
-          name: p.name,
-          category: p.category,
-          iplTeam: p.iplTeam,
-          foreign: p.foreign,
-          fantasyTeam: team,
-          soldPrice: p.soldPrice
-        });
-      }
-    }
-
-    fs.writeFileSync(PLAYERS_CACHE, JSON.stringify(players, null, 2));
-    res.json({ success: true, count: players.length });
-  } catch (e) {
-    res.status(500).json({ error: 'Could not sync from auction manager. Is it running on port 3000?' });
-  }
+app.get('/api/config', (req, res) => {
+  const config = getConfig();
+  if (!config) return res.json({ configured: false });
+  res.json(config);
 });
 
-// Get all players with rosters
+app.post('/api/setup', (req, res) => {
+  if (fs.existsSync(CONFIG_FILE)) {
+    return res.status(409).json({ error: 'Already configured' });
+  }
+
+  const { name, teams, players } = req.body;
+  if (!name || !name.trim()) return res.status(400).json({ error: 'League name is required' });
+  if (!teams || !Array.isArray(teams) || teams.length < 2) return res.status(400).json({ error: 'At least 2 teams required' });
+  if (!players || !Array.isArray(players) || players.length === 0) return res.status(400).json({ error: 'At least 1 player required' });
+
+  const teamSet = new Set(teams);
+  for (const p of players) {
+    if (!p.name) return res.status(400).json({ error: 'Player missing name' });
+    if (!p.fantasyTeam || !teamSet.has(p.fantasyTeam)) return res.status(400).json({ error: `Player "${p.name}" has invalid team "${p.fantasyTeam}"` });
+  }
+
+  const playersWithIds = players.map((p, i) => ({
+    id: p.id || (i + 1),
+    name: p.name,
+    category: p.category || 'Batter',
+    iplTeam: p.iplTeam || '',
+    foreign: p.foreign || 'Indian',
+    fantasyTeam: p.fantasyTeam,
+    soldPrice: p.soldPrice || 0
+  }));
+
+  const config = {
+    name: name.trim(),
+    teams,
+    configured: true,
+    createdAt: new Date().toISOString()
+  };
+
+  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+  if (!fs.existsSync(MATCHES_DIR)) fs.mkdirSync(MATCHES_DIR, { recursive: true });
+
+  fs.writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2));
+  fs.writeFileSync(PLAYERS_FILE, JSON.stringify(playersWithIds, null, 2));
+
+  res.json({ success: true, name: config.name });
+});
+
 app.get('/api/players', (req, res) => {
   res.json(getPlayers());
 });
 
-// Get team standings
 app.get('/api/standings', (req, res) => {
+  const config = getConfig();
+  if (!config) return res.status(404).json({ error: 'Not configured' });
+
   const players = getPlayers();
   const matches = loadAllMatches();
 
-  // Build points per player
-  const playerPoints = {}; // playerId -> { total, matches: [{matchId, points}] }
-  for (const p of players) {
-    playerPoints[p.id] = { total: 0, matchCount: 0, matches: [] };
-  }
+  const playerPoints = {};
+  for (const p of players) playerPoints[p.id] = { total: 0, matchCount: 0, matches: [] };
 
   for (const match of matches) {
     if (match.abandoned) continue;
@@ -238,9 +203,8 @@ app.get('/api/standings', (req, res) => {
     }
   }
 
-  // Build team standings
   const teamStandings = {};
-  for (const team of TEAMS) {
+  for (const team of config.teams) {
     const teamPlayers = players.filter(p => p.fantasyTeam === team);
     let teamTotal = 0;
     const playerDetails = teamPlayers.map(p => {
@@ -252,7 +216,6 @@ app.get('/api/standings', (req, res) => {
     teamStandings[team] = { total: teamTotal, players: playerDetails };
   }
 
-  // Sort teams by total
   const sorted = Object.entries(teamStandings)
     .sort((a, b) => b[1].total - a[1].total)
     .map(([team, data], i) => ({ rank: i + 1, team, ...data }));
@@ -260,50 +223,63 @@ app.get('/api/standings', (req, res) => {
   res.json(sorted);
 });
 
-// Get all matches
 app.get('/api/matches', (req, res) => {
   res.json(loadAllMatches().reverse());
 });
 
-// Get single match
 app.get('/api/matches/:id', (req, res) => {
-  const jsonFile = `match-${req.params.id}.json`;
   const csvFile = `match-${req.params.id}.csv`;
-  const jsonPath = path.join(MATCHES_DIR, jsonFile);
+  const jsonFile = `match-${req.params.id}.json`;
   const csvPath = path.join(MATCHES_DIR, csvFile);
+  const jsonPath = path.join(MATCHES_DIR, jsonFile);
   if (fs.existsSync(csvPath)) return res.json(loadMatch(csvFile));
   if (fs.existsSync(jsonPath)) return res.json(loadMatch(jsonFile));
   return res.status(404).json({ error: 'Match not found' });
 });
 
-// Create/update match
-app.post('/api/matches', (req, res) => {
-  const match = req.body;
-  if (!match.id || !match.title) return res.status(400).json({ error: 'Match id and title required' });
+app.get('/api/matches/:id/detail', (req, res) => {
+  const config = getConfig();
+  if (!config) return res.status(404).json({ error: 'Not configured' });
 
-  const filename = `match-${match.id}.json`;
-  fs.writeFileSync(path.join(MATCHES_DIR, filename), JSON.stringify(match, null, 2));
-  res.json({ success: true, match });
+  const csvFile = `match-${req.params.id}.csv`;
+  const jsonFile = `match-${req.params.id}.json`;
+  const csvPath = path.join(MATCHES_DIR, csvFile);
+  const jsonPath = path.join(MATCHES_DIR, jsonFile);
+  let filename;
+  if (fs.existsSync(csvPath)) filename = csvFile;
+  else if (fs.existsSync(jsonPath)) filename = jsonFile;
+  else return res.status(404).json({ error: 'Match not found' });
+
+  const match = loadMatch(filename);
+  const players = getPlayers();
+  const teamBreakdown = {};
+  for (const team of config.teams) teamBreakdown[team] = { total: 0, players: [] };
+
+  for (const [playerId, stats] of Object.entries(match.players || {})) {
+    const pid = parseInt(playerId);
+    const p = players.find(pl => pl.id === pid);
+    if (!p) continue;
+    const pts = match.abandoned ? 0 : calcPlayerMatchPoints(stats);
+    const team = p.fantasyTeam;
+    if (teamBreakdown[team]) {
+      teamBreakdown[team].total += pts;
+      teamBreakdown[team].players.push({ ...p, points: pts, stats });
+    }
+  }
+  for (const team of config.teams) teamBreakdown[team].players.sort((a, b) => b.points - a.points);
+
+  res.json({ match, teamBreakdown });
 });
 
-// Delete match
-app.delete('/api/matches/:id', (req, res) => {
-  const filename = `match-${req.params.id}.json`;
-  const filepath = path.join(MATCHES_DIR, filename);
-  if (fs.existsSync(filepath)) fs.unlinkSync(filepath);
-  res.json({ success: true });
-});
-
-// Dashboard summary
 app.get('/api/dashboard', (req, res) => {
+  const config = getConfig();
+  if (!config) return res.status(404).json({ error: 'Not configured' });
+
   const players = getPlayers();
   const matches = loadAllMatches();
 
-  // Build per-player points
   const playerPoints = {};
-  for (const p of players) {
-    playerPoints[p.id] = { total: 0, matchCount: 0, bestMatch: 0, bestMatchTitle: '' };
-  }
+  for (const p of players) playerPoints[p.id] = { total: 0, matchCount: 0, bestMatch: 0, bestMatchTitle: '' };
 
   let totalMatches = 0;
   for (const match of matches) {
@@ -322,13 +298,8 @@ app.get('/api/dashboard', (req, res) => {
     }
   }
 
-  // Top 10 players
-  const topPlayers = players
-    .map(p => ({ ...p, ...playerPoints[p.id] }))
-    .sort((a, b) => b.total - a.total)
-    .slice(0, 10);
+  const topPlayers = players.map(p => ({ ...p, ...playerPoints[p.id] })).sort((a, b) => b.total - a.total).slice(0, 10);
 
-  // Best single-match performance
   let bestPerf = { points: 0 };
   for (const match of matches) {
     if (match.abandoned) continue;
@@ -341,56 +312,16 @@ app.get('/api/dashboard', (req, res) => {
     }
   }
 
-  // Team totals
   const teamTotals = {};
-  for (const team of TEAMS) {
+  for (const team of config.teams) {
     const teamPlayers = players.filter(p => p.fantasyTeam === team);
     teamTotals[team] = teamPlayers.reduce((sum, p) => sum + (playerPoints[p.id] ? playerPoints[p.id].total : 0), 0);
   }
   const sortedTeams = Object.entries(teamTotals).sort((a, b) => b[1] - a[1]).map(([team, total], i) => ({ rank: i + 1, team, total }));
 
-  res.json({ totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams });
+  res.json({ totalMatches, totalPlayers: players.length, topPlayers, bestPerformance: bestPerf, teamRankings: sortedTeams, leagueName: config.name });
 });
 
-// Match detail with points breakdown per fantasy team
-app.get('/api/matches/:id/detail', (req, res) => {
-  const jsonFile = `match-${req.params.id}.json`;
-  const csvFile = `match-${req.params.id}.csv`;
-  const jsonPath = path.join(MATCHES_DIR, jsonFile);
-  const csvPath = path.join(MATCHES_DIR, csvFile);
-  let filename;
-  if (fs.existsSync(csvPath)) filename = csvFile;
-  else if (fs.existsSync(jsonPath)) filename = jsonFile;
-  else return res.status(404).json({ error: 'Match not found' });
-
-  const match = loadMatch(filename);
-  const players = getPlayers();
-
-  const teamBreakdown = {};
-  for (const team of TEAMS) {
-    teamBreakdown[team] = { total: 0, players: [] };
-  }
-
-  for (const [playerId, stats] of Object.entries(match.players || {})) {
-    const pid = parseInt(playerId);
-    const p = players.find(pl => pl.id === pid);
-    if (!p) continue;
-    const pts = match.abandoned ? 0 : calcPlayerMatchPoints(stats);
-    const team = p.fantasyTeam;
-    if (teamBreakdown[team]) {
-      teamBreakdown[team].total += pts;
-      teamBreakdown[team].players.push({ ...p, points: pts, stats });
-    }
-  }
-
-  for (const team of TEAMS) {
-    teamBreakdown[team].players.sort((a, b) => b.points - a.points);
-  }
-
-  res.json({ match, teamBreakdown });
-});
-
-// All players with per-match category-wise breakdown
 app.get('/api/players/details', (req, res) => {
   const players = getPlayers();
   const matches = loadAllMatches();
@@ -398,12 +329,10 @@ app.get('/api/players/details', (req, res) => {
   const result = players.map(p => {
     const matchBreakdowns = [];
     let total = 0;
-
     for (const match of matches) {
       if (match.abandoned) continue;
       const stats = (match.players || {})[p.id];
       if (!stats) continue;
-
       const playingPts = stats.playing ? 5 : 0;
       const battingPts = stats.batting ? calcBattingPoints(stats.batting) : 0;
       const bowlingPts = stats.bowling ? calcBowlingPoints(stats.bowling) : 0;
@@ -411,50 +340,24 @@ app.get('/api/players/details', (req, res) => {
       const momPts = stats.mom ? 30 : 0;
       const matchTotal = playingPts + battingPts + bowlingPts + fieldingPts + momPts;
       total += matchTotal;
-
       matchBreakdowns.push({
-        matchId: match.id,
-        matchTitle: match.title,
-        matchDate: match.date,
-        total: matchTotal,
-        playing: playingPts,
-        batting: battingPts,
-        bowling: bowlingPts,
-        fielding: fieldingPts,
-        mom: momPts,
-        stats
+        matchId: match.id, matchTitle: match.title, matchDate: match.date,
+        total: matchTotal, playing: playingPts, batting: battingPts, bowling: bowlingPts, fielding: fieldingPts, mom: momPts, stats
       });
     }
-
-    return {
-      ...p,
-      total,
-      matchCount: matchBreakdowns.length,
-      matches: matchBreakdowns
-    };
+    return { ...p, total, matchCount: matchBreakdowns.length, matches: matchBreakdowns };
   });
 
   result.sort((a, b) => b.total - a.total);
   res.json(result);
 });
 
-// Points rules reference
 app.get('/api/rules', (req, res) => {
   res.json({
     playing12: 5,
-    batting: {
-      perRun: 1, perFour: 1, perSix: 2,
-      bonus30: 5, bonus50: 10, bonus100: 10
-    },
-    bowling: {
-      perDot: 1, perWicket: 20,
-      bonus2w: 5, bonus3w: 10, bonus5w: 10,
-      perMaiden: 20, perLbwBowledHw: 5
-    },
-    fielding: {
-      perCatch: 5, perRunoutDirect: 10,
-      perRunoutIndirect: 5, perStumping: 10
-    },
+    batting: { perRun: 1, perFour: 1, perSix: 2, bonus30: 5, bonus50: 10, bonus100: 10 },
+    bowling: { perDot: 1, perWicket: 20, bonus2w: 5, bonus3w: 10, bonus5w: 10, perMaiden: 20, perLbwBowledHw: 5 },
+    fielding: { perCatch: 5, perRunoutDirect: 10, perRunoutIndirect: 5, perStumping: 10 },
     mom: 30
   });
 });
