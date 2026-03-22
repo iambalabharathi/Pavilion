@@ -345,10 +345,12 @@ function handleRules() {
 // ========== Main Handler ==========
 exports.handler = async (event) => {
   const method = event.httpMethod;
-  // The path after /api/ comes through as the function path
-  // With the redirect /api/* -> /.netlify/functions/api/:splat
-  // event.path will be /.netlify/functions/api/...
-  const rawPath = event.path.replace('/.netlify/functions/api', '').replace(/^\//, '');
+  // event.path may be the original /api/... or the rewritten /.netlify/functions/api/...
+  const rawPath = event.path
+    .replace(/^\/?\.netlify\/functions\/api\/?/, '')
+    .replace(/^\/?(api)\/?/, '')
+    .replace(/^\//, '')
+    .replace(/\/$/, '');
 
   try {
     if (method === 'GET') {
