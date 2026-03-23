@@ -151,26 +151,25 @@
     @keyframes viewIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
     /* Points Trend Chart */
-    .trend-card { background: var(--surface); border: 1px solid var(--surface-border); border-radius: 20px; padding: 20px 20px 16px; margin-bottom: 36px; }
-    .trend-svg { width: 100%; overflow: visible; }
-    .trend-line { fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; opacity: 0.7; transition: opacity 0.3s, stroke-width 0.3s; }
-    .trend-svg.has-hover .trend-line { opacity: 0.12; stroke-width: 1.5; }
-    .trend-svg.has-hover .trend-line.highlight { opacity: 1; stroke-width: 3; }
-    .trend-dot { stroke-width: 2; transition: r 0.2s ease, opacity 0.3s; cursor: pointer; opacity: 0.8; }
-    .trend-dot:hover { r: 6; }
-    .trend-svg.has-hover .trend-dot { opacity: 0.1; }
+    .trend-card { background: var(--surface); border: 1px solid var(--surface-border); border-radius: 20px; padding: 16px 12px 12px; margin-bottom: 36px; }
+    .trend-scroll { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch; }
+    .trend-svg { overflow: visible; display: block; }
+    .trend-line { fill: none; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; opacity: 0.75; transition: opacity 0.3s, stroke-width 0.3s; }
+    .trend-svg.has-hover .trend-line { opacity: 0.1; stroke-width: 2; }
+    .trend-svg.has-hover .trend-line.highlight { opacity: 1; stroke-width: 3.5; }
+    .trend-dot { stroke-width: 2; cursor: pointer; opacity: 0.85; transition: opacity 0.3s; }
+    .trend-svg.has-hover .trend-dot { opacity: 0.08; }
     .trend-svg.has-hover .trend-dot.highlight { opacity: 1; }
     .trend-grid-line { stroke: var(--surface-border); stroke-width: 1; }
-    .trend-axis-label { font-size: 10px; fill: var(--muted); font-family: 'Outfit', sans-serif; }
-    .trend-legend { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 12px; justify-content: center; }
-    .trend-legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); font-weight: 600; cursor: pointer; transition: opacity 0.3s, transform 0.2s; user-select: none; }
-    .trend-legend-item:hover { transform: scale(1.05); }
-    .trend-legend-item.dimmed { opacity: 0.25; }
-    .trend-legend-dot { width: 10px; height: 10px; border-radius: 50%; }
-    .trend-tooltip { position: absolute; background: var(--surface); border: 1px solid var(--surface-border); border-radius: 10px; padding: 8px 12px; font-size: 12px; pointer-events: none; z-index: 50; box-shadow: 0 4px 16px rgba(0,0,0,0.2); opacity: 0; transition: opacity 0.2s; }
+    .trend-axis-label { fill: var(--muted); font-family: 'Outfit', sans-serif; }
+    .trend-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 10px; justify-content: center; }
+    .trend-legend-item { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--muted); font-weight: 600; cursor: pointer; transition: opacity 0.3s; user-select: none; padding: 4px 0; }
+    .trend-legend-item.dimmed { opacity: 0.2; }
+    .trend-legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .trend-tooltip { position: fixed; background: var(--surface); border: 1px solid var(--surface-border); border-radius: 10px; padding: 8px 12px; font-size: 12px; pointer-events: none; z-index: 200; box-shadow: 0 4px 20px rgba(0,0,0,0.25); opacity: 0; transition: opacity 0.15s; white-space: nowrap; }
     .trend-tooltip.visible { opacity: 1; }
-    .trend-end-label { font-size: 10px; font-family: 'Outfit', sans-serif; font-weight: 700; transition: opacity 0.3s; }
-    .trend-svg.has-hover .trend-end-label { opacity: 0.12; }
+    .trend-end-label { font-family: 'Outfit', sans-serif; font-weight: 700; transition: opacity 0.3s; }
+    .trend-svg.has-hover .trend-end-label { opacity: 0.1; }
     .trend-svg.has-hover .trend-end-label.highlight { opacity: 1; }
 
     /* Section Titles */
@@ -435,6 +434,11 @@
       .rule-card { padding: 16px; border-radius: 14px; }
       .rule-table td { font-size: 13px; padding: 8px 0; }
 
+      .trend-card { padding: 12px 8px 10px; border-radius: 14px; }
+      .trend-end-label { display: none; }
+      .trend-legend { gap: 6px 10px; }
+      .trend-legend-item { font-size: 11px; gap: 4px; }
+      .trend-legend-dot { width: 8px; height: 8px; }
     }
 
     @media (max-width: 400px) {
@@ -685,24 +689,29 @@
           }
           const maxPts = Math.max(...teams.map(t => cumulative[t][cumulative[t].length - 1]));
           const nMatches = trendMatches.length;
-          const W = 800, H = 320, padL = 50, padR = 60, padT = 20, padB = 40;
+          const isMobile = window.innerWidth < 768;
+          const matchSpacing = isMobile ? 60 : 80;
+          const padL = isMobile ? 40 : 50, padR = isMobile ? 16 : 60, padT = 20, padB = isMobile ? 32 : 40;
+          const W = padL + padR + matchSpacing * (nMatches - 1);
+          const H = isMobile ? 220 : 320;
           const chartW = W - padL - padR, chartH = H - padT - padB;
 
           // Grid lines
-          const gridSteps = 4;
+          const gridSteps = isMobile ? 3 : 4;
+          const axisFont = isMobile ? 11 : 10;
           let gridLines = '';
           for (let i = 0; i <= gridSteps; i++) {
             const y = padT + (chartH / gridSteps) * i;
             const val = Math.round(maxPts * (1 - i / gridSteps));
             gridLines += '<line x1="' + padL + '" y1="' + y + '" x2="' + (W - padR) + '" y2="' + y + '" class="trend-grid-line" stroke-dasharray="4 4"/>';
-            gridLines += '<text x="' + (padL - 8) + '" y="' + (y + 4) + '" class="trend-axis-label" text-anchor="end">' + val + '</text>';
+            gridLines += '<text x="' + (padL - 6) + '" y="' + (y + 4) + '" class="trend-axis-label" text-anchor="end" font-size="' + axisFont + '">' + val + '</text>';
           }
 
           // X-axis labels
           let xLabels = '';
           for (let i = 0; i < nMatches; i++) {
             const x = padL + (chartW / (nMatches - 1)) * i;
-            xLabels += '<text x="' + x + '" y="' + (H - 8) + '" class="trend-axis-label" text-anchor="middle">M' + trendMatches[i].matchId + '</text>';
+            xLabels += '<text x="' + x + '" y="' + (H - 6) + '" class="trend-axis-label" text-anchor="middle" font-size="' + axisFont + '">M' + trendMatches[i].matchId + '</text>';
           }
 
           // Smooth cubic bezier path helper
@@ -727,11 +736,13 @@
               return { x, y, v, matchTitle: trendMatches[i].title };
             });
             const pathD = smoothPath(points);
-            lines += '<path d="' + pathD + '" class="trend-line" stroke="' + color + '" data-team="' + t + '" style="stroke-dasharray: 2000; stroke-dashoffset: 2000; animation: trendDraw 1.5s ease forwards 0.3s"/>';
+            const dashLen = Math.ceil(points.reduce((sum, p, i) => i === 0 ? 0 : sum + Math.hypot(p.x - points[i-1].x, p.y - points[i-1].y), 0) * 1.2);
+            lines += '<path d="' + pathD + '" class="trend-line" stroke="' + color + '" data-team="' + t + '" style="stroke-dasharray: ' + dashLen + '; stroke-dashoffset: ' + dashLen + '; animation: trendDraw 1.5s ease forwards 0.3s"/>';
             const last = points[points.length - 1];
-            endLabels += '<text x="' + (last.x + 8).toFixed(1) + '" y="' + (last.y + 4).toFixed(1) + '" class="trend-end-label" fill="' + color + '" data-team="' + t + '">' + t + '</text>';
+            endLabels += '<text x="' + (last.x + 8).toFixed(1) + '" y="' + (last.y + 4).toFixed(1) + '" class="trend-end-label" fill="' + color + '" data-team="' + t + '" font-size="11">' + t + '</text>';
+            const dotR = isMobile ? 5 : 3.5;
             for (const p of points) {
-              dots += '<circle cx="' + p.x.toFixed(1) + '" cy="' + p.y.toFixed(1) + '" r="3.5" class="trend-dot" fill="' + color + '" stroke="var(--surface)" data-team="' + t + '" data-val="' + p.v + '" data-match="' + p.matchTitle.replace(/"/g, '&quot;') + '"/>';
+              dots += '<circle cx="' + p.x.toFixed(1) + '" cy="' + p.y.toFixed(1) + '" r="' + dotR + '" class="trend-dot" fill="' + color + '" stroke="var(--surface)" data-team="' + t + '" data-val="' + p.v + '" data-match="' + p.matchTitle.replace(/"/g, '&quot;') + '"/>';
             }
           }
 
@@ -741,12 +752,19 @@
             return '<span class="trend-legend-item" data-team="' + t + '" onclick="toggleTrendTeam(this)"><span class="trend-legend-dot" style="background:' + color + '"></span>' + t + '</span>';
           }).join('');
 
+          const svgWidth = isMobile ? W : '100%';
+          const svgAttrs = isMobile
+            ? 'width="' + W + '" height="' + H + '"'
+            : 'viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet" style="width:100%"';
+
           return '<div class="section-title fade-up fade-up-1">📈 Points Trend <span class="section-deco"><span class="d1"></span><span class="d2"></span><span class="d3"></span></span></div>' +
             '<div class="trend-card fade-up fade-up-2" style="position:relative">' +
-            '<svg class="trend-svg" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid meet">' +
+            '<div class="trend-scroll">' +
+            '<svg class="trend-svg" ' + svgAttrs + '>' +
             '<style>@keyframes trendDraw { to { stroke-dashoffset: 0; } }</style>' +
             gridLines + xLabels + lines + endLabels + dots +
             '</svg>' +
+            '</div>' +
             '<div class="trend-legend">' + legend + '</div>' +
             '<div class="trend-tooltip" id="trend-tooltip"></div>' +
             '</div>';
@@ -798,24 +816,29 @@
           if (tooltip) tooltip.classList.remove('visible');
         }
 
+        function showTooltip(dotEl) {
+          highlightTeam(dotEl.dataset.team);
+          const tooltip = document.getElementById('trend-tooltip');
+          if (!tooltip) return;
+          tooltip.innerHTML = '<strong style="color:' + dotEl.getAttribute('fill') + '">' + dotEl.dataset.team + '</strong><br>' + dotEl.dataset.match + '<br><strong>' + dotEl.dataset.val + '</strong> pts';
+          const dotRect = dotEl.getBoundingClientRect();
+          tooltip.style.left = (dotRect.left + dotRect.width / 2 - 40) + 'px';
+          tooltip.style.top = (dotRect.top - 56) + 'px';
+          tooltip.classList.add('visible');
+        }
+
         document.querySelectorAll('.trend-dot').forEach(dot => {
-          dot.addEventListener('mouseenter', function() {
-            highlightTeam(this.dataset.team);
-            const tooltip = document.getElementById('trend-tooltip');
-            if (!tooltip) return;
-            tooltip.innerHTML = '<strong style="color:' + this.getAttribute('fill') + '">' + this.dataset.team + '</strong><br>' + this.dataset.match + '<br><strong>' + this.dataset.val + '</strong> pts';
-            const rect = this.closest('.trend-card').getBoundingClientRect();
-            const svg = this.closest('svg');
-            const svgRect = svg.getBoundingClientRect();
-            const scaleX = svgRect.width / svg.viewBox.baseVal.width;
-            const scaleY = svgRect.height / svg.viewBox.baseVal.height;
-            const cx = parseFloat(this.getAttribute('cx'));
-            const cy = parseFloat(this.getAttribute('cy'));
-            tooltip.style.left = (cx * scaleX + svgRect.left - rect.left - 40) + 'px';
-            tooltip.style.top = (cy * scaleY + svgRect.top - rect.top - 60) + 'px';
-            tooltip.classList.add('visible');
-          });
+          dot.addEventListener('mouseenter', function() { showTooltip(this); });
           dot.addEventListener('mouseleave', clearHighlight);
+          // Touch support for mobile
+          dot.addEventListener('touchstart', function(e) {
+            e.preventDefault();
+            showTooltip(this);
+          }, { passive: false });
+        });
+        // Clear on touch outside
+        document.addEventListener('touchstart', function(e) {
+          if (!e.target.closest('.trend-dot')) clearHighlight();
         });
 
         // Hovering a line also highlights
