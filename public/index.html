@@ -127,8 +127,8 @@
     .mf-teams::-webkit-scrollbar { display: none; }
     .mf-team-chip { flex-shrink: 0; display: flex; align-items: center; gap: 6px; padding: 6px 12px; background: var(--chip-bg); border-radius: 10px; border: 1px solid var(--surface-border); transition: all 0.2s; }
     .mf-team-chip.top { background: rgba(245,158,11,0.08); border-color: rgba(245,158,11,0.2); }
-    .mf-team-name { font-size: 11px; font-weight: 700; color: var(--fg); }
-    .mf-team-pts { font-size: 13px; font-weight: 700; color: var(--accent-light); }
+    .mf-team-name { font-size: 14px; font-weight: 700; color: var(--fg); }
+    .mf-team-pts { font-size: 16px; font-weight: 700; color: var(--accent-light); }
     .mf-team-chip.top .mf-team-pts { color: #f59e0b; }
 
     /* Player cards grid within match */
@@ -318,7 +318,8 @@
     .dash-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 30%, rgba(99,102,241,0.08), transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(236,72,153,0.06), transparent 50%); pointer-events: none; }
     .dash-hero-text { position: relative; z-index: 1; }
     .dash-hero-title { font-size: 24px; font-weight: 700; color: var(--fg); margin-bottom: 4px; }
-    .dash-hero-sub { font-size: 13px; color: var(--muted); }
+    .dash-hero-sub { font-size: 13px; color: var(--muted); display: flex; flex-wrap: wrap; gap: 4px 12px; }
+    .dash-stat { white-space: nowrap; }
     .dash-hero-illu { font-size: 64px; line-height: 1; position: relative; z-index: 1; opacity: 0.9; }
 
     /* Section decorative dots */
@@ -347,6 +348,16 @@
     .st-search { width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid var(--surface-border); background: var(--surface); color: var(--fg); font-size: 14px; margin-bottom: 16px; outline: none; }
     .st-search:focus { border-color: var(--accent); }
 
+
+    /* Top Score badge in leaderboard */
+    .lb-wins { font-size: 11px; color: var(--muted); font-weight: 600; white-space: nowrap; display: flex; align-items: center; gap: 3px; }
+    .lb-wins .win-count { color: var(--orange); }
+
+    /* Match winner pill */
+    .mf-winner-pill { display: flex; align-items: center; gap: 6px; padding: 4px 12px 4px 8px; border-radius: 10px; white-space: nowrap; margin-left: auto; }
+    .mf-winner-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .mf-winner-name { font-size: 12px; font-weight: 700; }
+    .mf-winner-pts { font-size: 11px; font-weight: 600; opacity: 0.7; }
 
     /* ========== MOBILE ========== */
     @media (max-width: 768px) {
@@ -500,15 +511,30 @@
     })();
 
     const CAT_CLASSES = { 'Batter':'cat-batter','Bowler':'cat-bowler','All-rounder':'cat-allrounder','All\u2011rounder':'cat-allrounder','Wicketkeeper':'cat-wicketkeeper','WK':'cat-wicketkeeper' };
+    const TEAM_COLORS = [
+      '#f59e0b', '#6366f1', '#10b981', '#ec4899',
+      '#06b6d4', '#f97316', '#8b5cf6', '#ef4444',
+      '#14b8a6', '#a855f7', '#eab308', '#3b82f6'
+    ];
+    const teamColorMap = {};
+    function getTeamColor(team) {
+      if (!teamColorMap[team]) {
+        const idx = Object.keys(teamColorMap).length % TEAM_COLORS.length;
+        teamColorMap[team] = TEAM_COLORS[idx];
+      }
+      return teamColorMap[team];
+    }
     let allPlayers = [];
     let leagueConfig = null;
 
 
+    const viewLoaded = {};
     function switchView(view, btn) {
       document.querySelectorAll('#app-container .view').forEach(v => v.classList.remove('active'));
       document.querySelectorAll('nav button').forEach(t => t.classList.remove('active'));
       document.getElementById(view + '-view').classList.add('active');
       if (btn) btn.classList.add('active');
+      if (viewLoaded[view]) return;
       if (view === 'dashboard') loadDashboard();
       if (view === 'explore') loadExploreView();
       if (view === 'standings') loadStandings();
@@ -520,12 +546,18 @@
 
     // ========== DASHBOARD ==========
     async function loadDashboard() {
-      const [dashRes, playersRes, standRes] = await Promise.all([
-        fetch('/api/dashboard'), fetch('/api/players'), fetch('/api/standings')
+      const [dashRes, playersRes, standRes, topScoresRes] = await Promise.all([
+        fetch('/api/dashboard'), fetch('/api/players'), fetch('/api/standings'), fetch('/api/stats/top-scores')
       ]);
       const dash = await dashRes.json();
       allPlayers = await playersRes.json();
       const dashStandings = await standRes.json();
+      const topScoresData = await topScoresRes.json();
+      const winCountMap = {};
+      for (const t of topScoresData.leaderboard) winCountMap[t.team] = t.wins;
+
+      // Initialize team colors in ranking order
+      for (const t of dash.teamRankings) getTeamColor(t.team);
 
       const teamInfo = {};
       for (const s of dashStandings) {
@@ -549,7 +581,7 @@
         <div class="dash-hero fade-up">
           <div class="dash-hero-text">
             <div class="dash-hero-title">${heroTitle}</div>
-            <div class="dash-hero-sub">🎯 ${dash.totalMatches} matches played · ${dash.totalPlayers} players · ${dash.teamRankings.length} teams battling it out</div>
+            <div class="dash-hero-sub"><span class="dash-stat">🎯 ${dash.totalMatches} matches</span><span class="dash-stat">👥 ${dash.totalPlayers} players</span><span class="dash-stat">⚔️ ${dash.teamRankings.length} teams</span></div>
           </div>
           <div class="dash-hero-illu">🏆🏏</div>
         </div>
@@ -559,11 +591,13 @@
             const rankCls = t.rank<=3?'lr-'+t.rank:'lr-other';
             const rankEmoji = t.rank===1?'🏆':t.rank===2?'🥈':t.rank===3?'🥉':t.rank;
             const maxPtsVal = dash.teamRankings[0].total || 1;
+            const tc = getTeamColor(t.team);
             return `
-            <div class="lb-row">
+            <div class="lb-row" style="border-left: 3px solid ${tc}">
               <div class="lb-rank ${rankCls}">${rankEmoji}</div>
               <div class="lb-name">${t.team}</div>
-              <div class="lb-bar-wrap"><div class="lb-bar-fill" style="width:${(t.total/maxPtsVal)*100}%"></div></div>
+              <div class="lb-bar-wrap"><div class="lb-bar-fill" style="width:${(t.total/maxPtsVal)*100}%;background:linear-gradient(90deg, ${tc}, ${tc}99)"></div></div>
+              <div class="lb-wins">${winCountMap[t.team] ? `🔥 <span class="win-count" style="color:${tc}">${winCountMap[t.team]}</span>` : ''}</div>
               <div class="lb-pts">${t.total}</div>
             </div>`;
           }).join('')}
@@ -597,6 +631,7 @@
           </div>
         </div>`}
         `;
+      viewLoaded['dashboard'] = true;
     }
 
 
@@ -672,6 +707,7 @@
       }
 
       view.innerHTML = html;
+      viewLoaded['standings'] = true;
     }
 
     function filterStandings() {
@@ -770,12 +806,13 @@
         const status = m.abandoned ? 'abandoned' : 'ok';
         const statusLabel = m.abandoned ? '🚫 Abandoned' : '';
 
-        const teamChips = sortedTeams.map(([team, pts], i) =>
-          `<div class="mf-team-chip ${i === 0 ? 'top' : ''}">
-            <span class="mf-team-name">${team}</span>
-            <span class="mf-team-pts">${pts}</span>
-          </div>`
-        ).join('');
+        const teamChips = sortedTeams.map(([team, pts], i) => {
+          const c = getTeamColor(team);
+          return `<div class="mf-team-chip ${i === 0 ? 'top' : ''}" style="${i === 0 ? `background:${c}15;border-color:${c}40` : ''}">
+            <span class="mf-team-name" style="${i === 0 ? `color:${c}` : ''}">${team}</span>
+            <span class="mf-team-pts" style="${i === 0 ? `color:${c}` : ''}">${pts}</span>
+          </div>`;
+        }).join('');
 
         const playerCards = playerList.map(p => {
           return `<div class="mf-player">
@@ -792,8 +829,12 @@
 
         const searchData = (m.title + ' ' + (m.date || '') + ' ' + playerList.map(p => p.name).join(' ')).toLowerCase();
 
+        const winnerTeam = !m.abandoned && sortedTeams.length > 0 ? sortedTeams[0][0] : null;
+        const winnerPts = sortedTeams.length > 0 ? sortedTeams[0][1] : 0;
+        const winColor = winnerTeam ? getTeamColor(winnerTeam) : 'transparent';
+
         html += `
-          <div class="mf-match fade-up" data-search="${searchData}">
+          <div class="mf-match fade-up" data-search="${searchData}" style="border-left: 3px solid ${winColor}">
             <div class="mf-match-header" onclick="toggleMatch(this)">
               <div class="mf-header-left">
                 <div>
@@ -802,6 +843,11 @@
                 </div>
                 ${statusLabel ? `<span class="mf-match-badge ${status}">${statusLabel}</span>` : ''}
               </div>
+              ${winnerTeam ? `<div class="mf-winner-pill" style="background:${winColor}12">
+                <span class="mf-winner-dot" style="background:${winColor}"></span>
+                <span class="mf-winner-name" style="color:${winColor}">${winnerTeam}</span>
+                <span class="mf-winner-pts" style="color:${winColor}">${winnerPts}</span>
+              </div>` : ''}
               <span class="mf-chevron">›</span>
             </div>
             <div class="mf-body">
@@ -812,6 +858,7 @@
       }
 
       view.innerHTML = html;
+      viewLoaded['explore'] = true;
     }
 
     function toggleMatch(header) {
@@ -970,6 +1017,7 @@
             </table>
           </div>
         </div>`;
+      viewLoaded['rules'] = true;
     }
 
     // ========== INIT ==========

@@ -321,6 +321,40 @@ app.get('/api/players/details', (req, res) => {
   res.json(result);
 });
 
+app.get('/api/stats/top-scores', (req, res) => {
+  const players = getPlayers();
+  if (players.length === 0) return res.status(404).json({ error: 'Not configured' });
+
+  const teams = getTeams();
+  const matches = loadAllMatches();
+  const winCounts = {};
+  for (const team of teams) winCounts[team] = 0;
+  const matchResults = [];
+
+  for (const match of matches) {
+    if (match.abandoned) continue;
+    const teamTotals = {};
+    for (const team of teams) teamTotals[team] = 0;
+    for (const [playerId, stats] of Object.entries(match.players || {})) {
+      const pid = parseInt(playerId);
+      const p = players.find(pl => pl.id === pid);
+      if (!p) continue;
+      teamTotals[p.fantasyTeam] = (teamTotals[p.fantasyTeam] || 0) + calcPlayerMatchPoints(stats);
+    }
+    const sorted = Object.entries(teamTotals).filter(([, t]) => t > 0).sort((a, b) => b[1] - a[1]);
+    const winner = sorted.length > 0 ? sorted[0][0] : null;
+    const topScore = sorted.length > 0 ? sorted[0][1] : 0;
+    if (winner) winCounts[winner] = (winCounts[winner] || 0) + 1;
+    matchResults.push({ matchId: match.id, title: match.title, date: match.date, winner, topScore, teamTotals });
+  }
+
+  const leaderboard = Object.entries(winCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([team, wins], i) => ({ rank: i + 1, team, wins }));
+
+  res.json({ leaderboard, matches: matchResults.reverse() });
+});
+
 app.get('/api/rules', (req, res) => {
   res.json({
     playing12: 5,
