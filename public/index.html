@@ -692,12 +692,13 @@
             <div style="font-size:12px;color:var(--muted);line-height:1.8">${zeroPlayers.map(p => p.name).join(', ')}</div>
           </div>` : '';
 
+        const tc = getTeamColor(t.team);
         html += `
-          <div class="st-team-card fade-up" data-team="${t.team.toLowerCase()}" data-players="${t.players.map(p=>p.name.toLowerCase()).join(' ')}">
+          <div class="st-team-card fade-up" data-team="${t.team.toLowerCase()}" data-players="${t.players.map(p=>p.name.toLowerCase()).join(' ')}" style="border-left: 3px solid ${tc}">
             <div class="st-team-header" onclick="this.closest('.st-team-card').classList.toggle('open')">
-              <div class="st-team-name">${t.team}</div>
+              <div class="st-team-name" style="color:${tc}">${t.team}</div>
               <div style="text-align:right;margin-right:12px">
-                <div class="st-team-pts">${t.total}</div>
+                <div class="st-team-pts" style="color:${tc}">${t.total}</div>
                 <div class="st-team-pts-label">${t.players.length} players</div>
               </div>
               <span class="st-chevron">›</span>
