@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -c '\"\"id\"\"' /Users/Jay/Public/repo/Pavilion/data/players-cache.json)"
+    ]
+  }
+}

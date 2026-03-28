@@ -1,1082 +1,129 @@
 [
-  {
-    "id": 13,
-    "name": "Shubman Gill",
-    "category": "Batter",
-    "iplTeam": "GT",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 18
-  },
-  {
-    "id": 20,
-    "name": "Rinku Singh",
-    "category": "Batter",
-    "iplTeam": "KKR",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 11
-  },
-  {
-    "id": 21,
-    "name": "Cameron Green",
-    "category": "All‑rounder",
-    "iplTeam": "KKR",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 20
-  },
-  {
-    "id": 34,
-    "name": "Quinton de Kock",
-    "category": "Wicketkeeper",
-    "iplTeam": "MI",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 18
-  },
-  {
-    "id": 37,
-    "name": "Deepak Chahar",
-    "category": "Bowler",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 7
-  },
-  {
-    "id": 39,
-    "name": "Marcus Stoinis",
-    "category": "All‑rounder",
-    "iplTeam": "PBKS",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 5
-  },
-  {
-    "id": 45,
-    "name": "Philip Salt",
-    "category": "Wicketkeeper",
-    "iplTeam": "RCB",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 5
-  },
-  {
-    "id": 54,
-    "name": "Travis Head",
-    "category": "Batter",
-    "iplTeam": "SRH",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 15
-  },
-  {
-    "id": 71,
-    "name": "Lungi Ngidi",
-    "category": "Bowler",
-    "iplTeam": "DC",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 5
-  },
-  {
-    "id": 93,
-    "name": "Mohsin Khan",
-    "category": "Bowler",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 3
-  },
-  {
-    "id": 98,
-    "name": "Will Jacks",
-    "category": "All‑rounder",
-    "iplTeam": "MI",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 13
-  },
-  {
-    "id": 112,
-    "name": "Krunal Pandya",
-    "category": "All‑rounder",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 12
-  },
-  {
-    "id": 116,
-    "name": "Suyash Sharma",
-    "category": "Bowler",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 8
-  },
-  {
-    "id": 118,
-    "name": "Shimron Hetmyer",
-    "category": "Batter",
-    "iplTeam": "RR",
-    "foreign": "Overseas",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 7
-  },
-  {
-    "id": 121,
-    "name": "Sandeep Sharma",
-    "category": "Bowler",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "Ragu",
-    "soldPrice": 3
-  },
-  {
-    "id": 5,
-    "name": "Sanju Samson",
-    "category": "Wicketkeeper",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 30
-  },
-  {
-    "id": 17,
-    "name": "Mohammed Siraj",
-    "category": "Bowler",
-    "iplTeam": "GT",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 17
-  },
-  {
-    "id": 22,
-    "name": "Sunil Narine",
-    "category": "All‑rounder",
-    "iplTeam": "KKR",
-    "foreign": "Overseas",
-    "fantasyTeam": "RK",
-    "soldPrice": 17
-  },
-  {
-    "id": 30,
-    "name": "Rohit Sharma",
-    "category": "Batter",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 13
-  },
-  {
-    "id": 42,
-    "name": "Rajat Patidar",
-    "category": "Batter",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 13
-  },
-  {
-    "id": 49,
-    "name": "Vaibhav Sooryavanshi",
-    "category": "Batter",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 16
-  },
-  {
-    "id": 53,
-    "name": "Ravi Bishnoi",
-    "category": "Bowler",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 9
-  },
-  {
-    "id": 66,
-    "name": "Ashutosh Sharma",
-    "category": "All‑rounder",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 5
-  },
-  {
-    "id": 69,
-    "name": "Mukesh Kumar",
-    "category": "Bowler",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 5
-  },
-  {
-    "id": 104,
-    "name": "Nehal Wadhera",
-    "category": "Batter",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 3
-  },
-  {
-    "id": 113,
-    "name": "Venkatesh Iyer",
-    "category": "All‑rounder",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 8
-  },
-  {
-    "id": 119,
-    "name": "Dhruv Jurel",
-    "category": "Wicketkeeper",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 8
-  },
-  {
-    "id": 120,
-    "name": "Tushar Deshpande",
-    "category": "Bowler",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "RK",
-    "soldPrice": 3
-  },
-  {
-    "id": 190,
-    "name": "AM Ghazanfar",
-    "category": "Bowler",
-    "iplTeam": "MI",
-    "foreign": "Overseas",
-    "fantasyTeam": "RK",
-    "soldPrice": 1
-  },
-  {
-    "id": 233,
-    "name": "Kamindu Mendis",
-    "category": "All‑rounder",
-    "iplTeam": "SRH",
-    "foreign": "Overseas",
-    "fantasyTeam": "RK",
-    "soldPrice": 1
-  },
-  {
-    "id": 12,
-    "name": "Mitchell Starc",
-    "category": "Bowler",
-    "iplTeam": "DC",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 6
-  },
-  {
-    "id": 15,
-    "name": "Rashid Khan",
-    "category": "All‑rounder",
-    "iplTeam": "GT",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 8
-  },
-  {
-    "id": 27,
-    "name": "Rishabh Pant",
-    "category": "Wicketkeeper",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 10
-  },
-  {
-    "id": 40,
-    "name": "Arshdeep Singh",
-    "category": "Bowler",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 23
-  },
-  {
-    "id": 46,
-    "name": "Josh Hazlewood",
-    "category": "Bowler",
-    "iplTeam": "RCB",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 10
-  },
-  {
-    "id": 48,
-    "name": "Yashasvi Jaiswal",
-    "category": "Batter",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 25
-  },
-  {
-    "id": 50,
-    "name": "Riyan Parag",
-    "category": "All‑rounder",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 13
-  },
-  {
-    "id": 60,
-    "name": "Harshal Patel",
-    "category": "Bowler",
-    "iplTeam": "SRH",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 18
-  },
-  {
-    "id": 68,
-    "name": "Tristan Stubbs",
-    "category": "Wicketkeeper",
-    "iplTeam": "DC",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 3
-  },
-  {
-    "id": 70,
-    "name": "T Natarajan",
-    "category": "Bowler",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 3
-  },
-  {
-    "id": 83,
-    "name": "Finn Allen",
-    "category": "Batter",
-    "iplTeam": "KKR",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 9
-  },
-  {
-    "id": 103,
-    "name": "Priyansh Arya",
-    "category": "Batter",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 8
-  },
-  {
-    "id": 111,
-    "name": "Jacob Bethell",
-    "category": "All‑rounder",
-    "iplTeam": "RCB",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 8
-  },
-  {
-    "id": 123,
-    "name": "Liam Livingstone",
-    "category": "All‑rounder",
-    "iplTeam": "SRH",
-    "foreign": "Overseas",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 3
-  },
-  {
-    "id": 182,
-    "name": "Naman Dhir",
-    "category": "Batter",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "Darshan",
-    "soldPrice": 2
-  },
-  {
-    "id": 3,
-    "name": "Shivam Dube",
-    "category": "All‑rounder",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 13
-  },
-  {
-    "id": 8,
-    "name": "David Miller",
-    "category": "Batter",
-    "iplTeam": "DC",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 10
-  },
-  {
-    "id": 10,
-    "name": "KL Rahul",
-    "category": "Wicketkeeper",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 29
-  },
-  {
-    "id": 11,
-    "name": "Kuldeep Yadav",
-    "category": "Bowler",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 16
-  },
-  {
-    "id": 23,
-    "name": "Varun Chakaravarthy",
-    "category": "Bowler",
-    "iplTeam": "KKR",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 16
-  },
-  {
-    "id": 35,
-    "name": "Trent Boult",
-    "category": "Bowler",
-    "iplTeam": "MI",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 20
-  },
-  {
-    "id": 38,
-    "name": "Shreyas Iyer",
-    "category": "Batter",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 17
-  },
-  {
-    "id": 41,
-    "name": "Yuzvendra Chahal",
-    "category": "Bowler",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 20
-  },
-  {
-    "id": 85,
-    "name": "Tim Seifert",
-    "category": "Wicketkeeper",
-    "iplTeam": "KKR",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 3
-  },
-  {
-    "id": 137,
-    "name": "Karun Nair",
-    "category": "Batter",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 1
-  },
-  {
-    "id": 139,
-    "name": "Ben Duckett",
-    "category": "Batter",
-    "iplTeam": "DC",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 1
-  },
-  {
-    "id": 162,
-    "name": "Ramandeep Singh",
-    "category": "All‑rounder",
-    "iplTeam": "KKR",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 1
-  },
-  {
-    "id": 172,
-    "name": "Abdul Samad",
-    "category": "All‑rounder",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 1
-  },
-  {
-    "id": 174,
-    "name": "Shahbaz Ahmed",
-    "category": "All‑rounder",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 1
-  },
-  {
-    "id": 202,
-    "name": "Xavier Bartlett",
-    "category": "Bowler",
-    "iplTeam": "PBKS",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prabhu",
-    "soldPrice": 1
-  },
-  {
-    "id": 2,
-    "name": "Dewald Brevis",
-    "category": "Batter",
-    "iplTeam": "CSK",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 21
-  },
-  {
-    "id": 6,
-    "name": "Noor Ahmad",
-    "category": "Bowler",
-    "iplTeam": "CSK",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 17
-  },
-  {
-    "id": 9,
-    "name": "Axar Patel",
-    "category": "All‑rounder",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 20
-  },
-  {
-    "id": 25,
-    "name": "Aiden Markram",
-    "category": "Batter",
-    "iplTeam": "LSG",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 13
-  },
-  {
-    "id": 33,
-    "name": "Hardik Pandya",
-    "category": "All‑rounder",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 27
-  },
-  {
-    "id": 52,
-    "name": "Jofra Archer",
-    "category": "Bowler",
-    "iplTeam": "RR",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 14
-  },
-  {
-    "id": 59,
-    "name": "Pat Cummins",
-    "category": "Bowler",
-    "iplTeam": "SRH",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 6
-  },
-  {
-    "id": 64,
-    "name": "Matt Henry",
-    "category": "Bowler",
-    "iplTeam": "CSK",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 3
-  },
-  {
-    "id": 67,
-    "name": "Abishek Porel",
-    "category": "Wicketkeeper",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 3
-  },
-  {
-    "id": 82,
-    "name": "Angkrish Raghuvanshi",
-    "category": "Batter",
-    "iplTeam": "KKR",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 8
-  },
-  {
-    "id": 92,
-    "name": "Avesh Khan",
-    "category": "Bowler",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 7
-  },
-  {
-    "id": 101,
-    "name": "Shardul Thakur",
-    "category": "All‑rounder",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 3
-  },
-  {
-    "id": 130,
-    "name": "Urvil Patel",
-    "category": "Wicketkeeper",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 1
-  },
-  {
-    "id": 145,
-    "name": "Auqib Nabi Dar",
-    "category": "All‑rounder",
-    "iplTeam": "DC",
-    "foreign": "Overseas",
-    "fantasyTeam": "Dots",
-    "soldPrice": 2
-  },
-  {
-    "id": 232,
-    "name": "Aniket Verma",
-    "category": "Batter",
-    "iplTeam": "SRH",
-    "foreign": "Indian",
-    "fantasyTeam": "Dots",
-    "soldPrice": 1
-  },
-  {
-    "id": 26,
-    "name": "Mitchell Marsh",
-    "category": "All‑rounder",
-    "iplTeam": "LSG",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 23
-  },
-  {
-    "id": 29,
-    "name": "Mohammed Shami",
-    "category": "Bowler",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 8
-  },
-  {
-    "id": 36,
-    "name": "Jasprit Bumrah",
-    "category": "Bowler",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 27
-  },
-  {
-    "id": 43,
-    "name": "Tim David",
-    "category": "Batter",
-    "iplTeam": "RCB",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 6
-  },
-  {
-    "id": 47,
-    "name": "Bhuvneshwar Kumar",
-    "category": "Bowler",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 16
-  },
-  {
-    "id": 51,
-    "name": "Ravindra Jadeja",
-    "category": "All‑rounder",
-    "iplTeam": "RR",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 10
-  },
-  {
-    "id": 57,
-    "name": "Ishan Kishan",
-    "category": "Wicketkeeper",
-    "iplTeam": "SRH",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 26
-  },
-  {
-    "id": 58,
-    "name": "Heinrich Klaasen",
-    "category": "Wicketkeeper",
-    "iplTeam": "SRH",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 5
-  },
-  {
-    "id": 62,
-    "name": "Jamie Overton",
-    "category": "All‑rounder",
-    "iplTeam": "CSK",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 8
-  },
-  {
-    "id": 79,
-    "name": "Kagiso Rabada",
-    "category": "Bowler",
-    "iplTeam": "GT",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 3
-  },
-  {
-    "id": 81,
-    "name": "Rovman Powell",
-    "category": "Batter",
-    "iplTeam": "KKR",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 3
-  },
-  {
-    "id": 90,
-    "name": "Wanindu Hasaranga",
-    "category": "All‑rounder",
-    "iplTeam": "LSG",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 4
-  },
-  {
-    "id": 110,
-    "name": "Devdutt Padikkal",
-    "category": "Batter",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 6
-  },
-  {
-    "id": 136,
-    "name": "Akeal Hosein",
-    "category": "Bowler",
-    "iplTeam": "CSK",
-    "foreign": "Overseas",
-    "fantasyTeam": "JD",
-    "soldPrice": 3
-  },
-  {
-    "id": 140,
-    "name": "Pathum Nissanka",
-    "category": "Batter",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "JD",
-    "soldPrice": 2
-  },
-  {
-    "id": 14,
-    "name": "Sai Sudharsan",
-    "category": "Batter",
-    "iplTeam": "GT",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 26
-  },
-  {
-    "id": 18,
-    "name": "Prasidh Krishna",
-    "category": "Bowler",
-    "iplTeam": "GT",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 11
-  },
-  {
-    "id": 19,
-    "name": "Ajinkya Rahane",
-    "category": "Batter",
-    "iplTeam": "KKR",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 9
-  },
-  {
-    "id": 28,
-    "name": "Nicholas Pooran",
-    "category": "Wicketkeeper",
-    "iplTeam": "LSG",
-    "foreign": "Overseas",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 24
-  },
-  {
-    "id": 32,
-    "name": "Tilak Varma",
-    "category": "Batter",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 13
-  },
-  {
-    "id": 61,
-    "name": "Ayush Mhatre",
-    "category": "Batter",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 17
-  },
-  {
-    "id": 77,
-    "name": "Ravisrinivasan Sai Kishore",
-    "category": "All‑rounder",
-    "iplTeam": "GT",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 8
-  },
-  {
-    "id": 86,
-    "name": "Vaibhav Arora",
-    "category": "Bowler",
-    "iplTeam": "KKR",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 5
-  },
-  {
-    "id": 89,
-    "name": "Ayush Badoni",
-    "category": "All‑rounder",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 3
-  },
-  {
-    "id": 94,
-    "name": "Digvesh Singh Rathi",
-    "category": "Bowler",
-    "iplTeam": "LSG",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 10
-  },
-  {
-    "id": 105,
-    "name": "Shashank Singh",
-    "category": "All‑rounder",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 3
-  },
-  {
-    "id": 107,
-    "name": "Marco Jansen",
-    "category": "All‑rounder",
-    "iplTeam": "PBKS",
-    "foreign": "Overseas",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 7
-  },
-  {
-    "id": 108,
-    "name": "Prabhsimran Singh",
-    "category": "Wicketkeeper",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 6
-  },
-  {
-    "id": 147,
-    "name": "Vipraj Nigam",
-    "category": "Bowler",
-    "iplTeam": "DC",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 3
-  },
-  {
-    "id": 239,
-    "name": "Zeeshan Ansari",
-    "category": "Bowler",
-    "iplTeam": "SRH",
-    "foreign": "Indian",
-    "fantasyTeam": "Rijo",
-    "soldPrice": 2
-  },
-  {
-    "id": 1,
-    "name": "Ruturaj Gaikwad",
-    "category": "Batter",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 12
-  },
-  {
-    "id": 16,
-    "name": "Jos Buttler",
-    "category": "Wicketkeeper",
-    "iplTeam": "GT",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 15
-  },
-  {
-    "id": 31,
-    "name": "Suryakumar Yadav",
-    "category": "Batter",
-    "iplTeam": "MI",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 25
-  },
-  {
-    "id": 44,
-    "name": "Virat Kohli",
-    "category": "Batter",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 29
-  },
-  {
-    "id": 55,
-    "name": "Abhishek Sharma",
-    "category": "All‑rounder",
-    "iplTeam": "SRH",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 23
-  },
-  {
-    "id": 63,
-    "name": "Khaleel Ahmed",
-    "category": "Bowler",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 13
-  },
-  {
-    "id": 74,
-    "name": "Glenn Phillips",
-    "category": "All‑rounder",
-    "iplTeam": "GT",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 5
-  },
-  {
-    "id": 76,
-    "name": "Washington Sundar",
-    "category": "All‑rounder",
-    "iplTeam": "GT",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 4
-  },
-  {
-    "id": 100,
-    "name": "Mitchell Santner",
-    "category": "All‑rounder",
-    "iplTeam": "MI",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 3
-  },
-  {
-    "id": 115,
-    "name": "Jitesh Sharma",
-    "category": "Wicketkeeper",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 12
-  },
-  {
-    "id": 126,
-    "name": "Sarfaraz Khan",
-    "category": "Batter",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 1
-  },
-  {
-    "id": 135,
-    "name": "Prashant Veer",
-    "category": "Bowler",
-    "iplTeam": "CSK",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 2
-  },
-  {
-    "id": 169,
-    "name": "Blessing Muzarabani",
-    "category": "Bowler",
-    "iplTeam": "KKR",
-    "foreign": "Overseas",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 2
-  },
-  {
-    "id": 203,
-    "name": "Harpreet Brar",
-    "category": "Bowler",
-    "iplTeam": "PBKS",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 1
-  },
-  {
-    "id": 214,
-    "name": "Rasikh Salam Dar",
-    "category": "Bowler",
-    "iplTeam": "RCB",
-    "foreign": "Indian",
-    "fantasyTeam": "Prakash",
-    "soldPrice": 1
-  }
+  {"id": 13, "name": "Shubman Gill", "category": "Batter", "iplTeam": "GT", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 18},
+  {"id": 20, "name": "Rinku Singh", "category": "Batter", "iplTeam": "KKR", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 11},
+  {"id": 54, "name": "Travis Head", "category": "Batter", "iplTeam": "SRH", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 15},
+  {"id": 118, "name": "Shimron Hetmyer", "category": "Batter", "iplTeam": "RR", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 7},
+  {"id": 39, "name": "Marcus Stoinis", "category": "All-rounder", "iplTeam": "PBKS", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 5},
+  {"id": 21, "name": "Cameron Green", "category": "All-rounder", "iplTeam": "KKR", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 20},
+  {"id": 98, "name": "Will Jacks", "category": "All-rounder", "iplTeam": "MI", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 13},
+  {"id": 112, "name": "Krunal Pandya", "category": "All-rounder", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 12},
+  {"id": 34, "name": "Quinton de Kock", "category": "Wicketkeeper", "iplTeam": "MI", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 18},
+  {"id": 45, "name": "Philip Salt", "category": "Wicketkeeper", "iplTeam": "RCB", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 5},
+  {"id": 71, "name": "Lungi Ngidi", "category": "Bowler", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "Ragu", "soldPrice": 5},
+  {"id": 93, "name": "Mohsin Khan", "category": "Bowler", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 3},
+  {"id": 37, "name": "Deepak Chahar", "category": "Bowler", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 7},
+  {"id": 116, "name": "Suyash Sharma", "category": "Bowler", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 8},
+  {"id": 121, "name": "Sandeep Sharma", "category": "Bowler", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "Ragu", "soldPrice": 3},
+
+  {"id": 5, "name": "Sanju Samson", "category": "Wicketkeeper", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 30},
+  {"id": 119, "name": "Dhruv Jurel", "category": "Wicketkeeper", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 8},
+  {"id": 17, "name": "Mohammed Siraj", "category": "Bowler", "iplTeam": "GT", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 17},
+  {"id": 53, "name": "Ravi Bishnoi", "category": "Bowler", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 9},
+  {"id": 69, "name": "Mukesh Kumar", "category": "Bowler", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 5},
+  {"id": 190, "name": "AM Ghazanfar", "category": "Bowler", "iplTeam": "MI", "foreign": "Overseas", "fantasyTeam": "RK", "soldPrice": 1},
+  {"id": 120, "name": "Tushar Deshpande", "category": "Bowler", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 3},
+  {"id": 22, "name": "Sunil Narine", "category": "All-rounder", "iplTeam": "KKR", "foreign": "Overseas", "fantasyTeam": "RK", "soldPrice": 17},
+  {"id": 66, "name": "Ashutosh Sharma", "category": "All-rounder", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 5},
+  {"id": 113, "name": "Venkatesh Iyer", "category": "All-rounder", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 8},
+  {"id": 233, "name": "Kamindu Mendis", "category": "All-rounder", "iplTeam": "SRH", "foreign": "Overseas", "fantasyTeam": "RK", "soldPrice": 1},
+  {"id": 30, "name": "Rohit Sharma", "category": "Batter", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 13},
+  {"id": 42, "name": "Rajat Patidar", "category": "Batter", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 13},
+  {"id": 49, "name": "Vaibhav Sooryavanshi", "category": "Batter", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 16},
+  {"id": 104, "name": "Nehal Wadhera", "category": "Batter", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "RK", "soldPrice": 3},
+
+  {"id": 12, "name": "Mitchell Starc", "category": "Bowler", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 6},
+  {"id": 40, "name": "Arshdeep Singh", "category": "Bowler", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 23},
+  {"id": 46, "name": "Josh Hazlewood", "category": "Bowler", "iplTeam": "RCB", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 10},
+  {"id": 70, "name": "T Natarajan", "category": "Bowler", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 3},
+  {"id": 60, "name": "Harshal Patel", "category": "Bowler", "iplTeam": "SRH", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 18},
+  {"id": 15, "name": "Rashid Khan", "category": "All-rounder", "iplTeam": "GT", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 8},
+  {"id": 111, "name": "Jacob Bethell", "category": "All-rounder", "iplTeam": "RCB", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 8},
+  {"id": 50, "name": "Riyan Parag", "category": "All-rounder", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 13},
+  {"id": 123, "name": "Liam Livingstone", "category": "All-rounder", "iplTeam": "SRH", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 3},
+  {"id": 27, "name": "Rishabh Pant", "category": "Wicketkeeper", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 10},
+  {"id": 68, "name": "Tristan Stubbs", "category": "Wicketkeeper", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 3},
+  {"id": 48, "name": "Yashasvi Jaiswal", "category": "Batter", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 25},
+  {"id": 83, "name": "Finn Allen", "category": "Batter", "iplTeam": "KKR", "foreign": "Overseas", "fantasyTeam": "Darshan", "soldPrice": 9},
+  {"id": 103, "name": "Priyansh Arya", "category": "Batter", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 8},
+  {"id": 182, "name": "Naman Dhir", "category": "Batter", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "Darshan", "soldPrice": 2},
+
+  {"id": 3, "name": "Shivam Dube", "category": "All-rounder", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 13},
+  {"id": 162, "name": "Ramandeep Singh", "category": "All-rounder", "iplTeam": "KKR", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 1},
+  {"id": 172, "name": "Abdul Samad", "category": "All-rounder", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 1},
+  {"id": 174, "name": "Shahbaz Ahmed", "category": "All-rounder", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 1},
+  {"id": 11, "name": "Kuldeep Yadav", "category": "Bowler", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 16},
+  {"id": 23, "name": "Varun Chakaravarthy", "category": "Bowler", "iplTeam": "KKR", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 16},
+  {"id": 35, "name": "Trent Boult", "category": "Bowler", "iplTeam": "MI", "foreign": "Overseas", "fantasyTeam": "Prabhu", "soldPrice": 20},
+  {"id": 41, "name": "Yuzvendra Chahal", "category": "Bowler", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 20},
+  {"id": 202, "name": "Xavier Bartlett", "category": "Bowler", "iplTeam": "PBKS", "foreign": "Overseas", "fantasyTeam": "Prabhu", "soldPrice": 1},
+  {"id": 10, "name": "KL Rahul", "category": "Wicketkeeper", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 29},
+  {"id": 85, "name": "Tim Seifert", "category": "Wicketkeeper", "iplTeam": "KKR", "foreign": "Overseas", "fantasyTeam": "Prabhu", "soldPrice": 3},
+  {"id": 8, "name": "David Miller", "category": "Batter", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "Prabhu", "soldPrice": 10},
+  {"id": 38, "name": "Shreyas Iyer", "category": "Batter", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 17},
+  {"id": 137, "name": "Karun Nair", "category": "Batter", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Prabhu", "soldPrice": 1},
+  {"id": 139, "name": "Ben Duckett", "category": "Batter", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "Prabhu", "soldPrice": 1},
+
+  {"id": 2, "name": "Dewald Brevis", "category": "Batter", "iplTeam": "CSK", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 21},
+  {"id": 25, "name": "Aiden Markram", "category": "Batter", "iplTeam": "LSG", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 13},
+  {"id": 82, "name": "Angkrish Raghuvanshi", "category": "Batter", "iplTeam": "KKR", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 8},
+  {"id": 232, "name": "Aniket Verma", "category": "Batter", "iplTeam": "SRH", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 1},
+  {"id": 6, "name": "Noor Ahmad", "category": "Bowler", "iplTeam": "CSK", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 17},
+  {"id": 52, "name": "Jofra Archer", "category": "Bowler", "iplTeam": "RR", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 14},
+  {"id": 59, "name": "Pat Cummins", "category": "Bowler", "iplTeam": "SRH", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 6},
+  {"id": 64, "name": "Matt Henry", "category": "Bowler", "iplTeam": "CSK", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 3},
+  {"id": 92, "name": "Avesh Khan", "category": "Bowler", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 7},
+  {"id": 9, "name": "Axar Patel", "category": "All-rounder", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 20},
+  {"id": 33, "name": "Hardik Pandya", "category": "All-rounder", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 27},
+  {"id": 101, "name": "Shardul Thakur", "category": "All-rounder", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 3},
+  {"id": 145, "name": "Auqib Nabi Dar", "category": "All-rounder", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "Dots", "soldPrice": 2},
+  {"id": 67, "name": "Abishek Porel", "category": "Wicketkeeper", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 3},
+  {"id": 130, "name": "Urvil Patel", "category": "Wicketkeeper", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Dots", "soldPrice": 1},
+
+  {"id": 26, "name": "Mitchell Marsh", "category": "All-rounder", "iplTeam": "LSG", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 23},
+  {"id": 51, "name": "Ravindra Jadeja", "category": "All-rounder", "iplTeam": "RR", "foreign": "Indian", "fantasyTeam": "JD", "soldPrice": 10},
+  {"id": 62, "name": "Jamie Overton", "category": "All-rounder", "iplTeam": "CSK", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 8},
+  {"id": 90, "name": "Wanindu Hasaranga", "category": "All-rounder", "iplTeam": "LSG", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 4},
+  {"id": 29, "name": "Mohammed Shami", "category": "Bowler", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "JD", "soldPrice": 8},
+  {"id": 36, "name": "Jasprit Bumrah", "category": "Bowler", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "JD", "soldPrice": 27},
+  {"id": 47, "name": "Bhuvneshwar Kumar", "category": "Bowler", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "JD", "soldPrice": 16},
+  {"id": 79, "name": "Kagiso Rabada", "category": "Bowler", "iplTeam": "GT", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 3},
+  {"id": 136, "name": "Akeal Hosein", "category": "Bowler", "iplTeam": "CSK", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 3},
+  {"id": 43, "name": "Tim David", "category": "Batter", "iplTeam": "RCB", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 6},
+  {"id": 110, "name": "Devdutt Padikkal", "category": "Batter", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "JD", "soldPrice": 6},
+  {"id": 81, "name": "Rovman Powell", "category": "Batter", "iplTeam": "KKR", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 3},
+  {"id": 140, "name": "Pathum Nissanka", "category": "Batter", "iplTeam": "DC", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 2},
+  {"id": 57, "name": "Ishan Kishan", "category": "Wicketkeeper", "iplTeam": "SRH", "foreign": "Indian", "fantasyTeam": "JD", "soldPrice": 26},
+  {"id": 58, "name": "Heinrich Klaasen", "category": "Wicketkeeper", "iplTeam": "SRH", "foreign": "Overseas", "fantasyTeam": "JD", "soldPrice": 5},
+
+  {"id": 14, "name": "Sai Sudharsan", "category": "Batter", "iplTeam": "GT", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 26},
+  {"id": 61, "name": "Ayush Mhatre", "category": "Batter", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 17},
+  {"id": 32, "name": "Tilak Varma", "category": "Batter", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 13},
+  {"id": 19, "name": "Ajinkya Rahane", "category": "Batter", "iplTeam": "KKR", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 9},
+  {"id": 18, "name": "Prasidh Krishna", "category": "Bowler", "iplTeam": "GT", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 11},
+  {"id": 86, "name": "Vaibhav Arora", "category": "Bowler", "iplTeam": "KKR", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 5},
+  {"id": 94, "name": "Digvesh Singh Rathi", "category": "Bowler", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 10},
+  {"id": 147, "name": "Vipraj Nigam", "category": "Bowler", "iplTeam": "DC", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 3},
+  {"id": 239, "name": "Zeeshan Ansari", "category": "Bowler", "iplTeam": "SRH", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 2},
+  {"id": 77, "name": "Ravisrinivasan Sai Kishore", "category": "All-rounder", "iplTeam": "GT", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 8},
+  {"id": 105, "name": "Shashank Singh", "category": "All-rounder", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 3},
+  {"id": 107, "name": "Marco Jansen", "category": "All-rounder", "iplTeam": "PBKS", "foreign": "Overseas", "fantasyTeam": "Rijo", "soldPrice": 7},
+  {"id": 89, "name": "Ayush Badoni", "category": "All-rounder", "iplTeam": "LSG", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 3},
+  {"id": 28, "name": "Nicholas Pooran", "category": "Wicketkeeper", "iplTeam": "LSG", "foreign": "Overseas", "fantasyTeam": "Rijo", "soldPrice": 24},
+  {"id": 108, "name": "Prabhsimran Singh", "category": "Wicketkeeper", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Rijo", "soldPrice": 6},
+
+  {"id": 1, "name": "Ruturaj Gaikwad", "category": "Batter", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 12},
+  {"id": 31, "name": "Suryakumar Yadav", "category": "Batter", "iplTeam": "MI", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 25},
+  {"id": 44, "name": "Virat Kohli", "category": "Batter", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 29},
+  {"id": 126, "name": "Sarfaraz Khan", "category": "Batter", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 1},
+  {"id": 16, "name": "Jos Buttler", "category": "Wicketkeeper", "iplTeam": "GT", "foreign": "Overseas", "fantasyTeam": "Prakash", "soldPrice": 15},
+  {"id": 115, "name": "Jitesh Sharma", "category": "Wicketkeeper", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 12},
+  {"id": 63, "name": "Khaleel Ahmed", "category": "Bowler", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 13},
+  {"id": 169, "name": "Blessing Muzarabani", "category": "Bowler", "iplTeam": "KKR", "foreign": "Overseas", "fantasyTeam": "Prakash", "soldPrice": 2},
+  {"id": 203, "name": "Harpreet Brar", "category": "Bowler", "iplTeam": "PBKS", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 1},
+  {"id": 214, "name": "Rasikh Salam Dar", "category": "Bowler", "iplTeam": "RCB", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 1},
+  {"id": 135, "name": "Prashant Veer", "category": "Bowler", "iplTeam": "CSK", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 2},
+  {"id": 55, "name": "Abhishek Sharma", "category": "All-rounder", "iplTeam": "SRH", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 23},
+  {"id": 74, "name": "Glenn Phillips", "category": "All-rounder", "iplTeam": "GT", "foreign": "Overseas", "fantasyTeam": "Prakash", "soldPrice": 5},
+  {"id": 76, "name": "Washington Sundar", "category": "All-rounder", "iplTeam": "GT", "foreign": "Indian", "fantasyTeam": "Prakash", "soldPrice": 4},
+  {"id": 100, "name": "Mitchell Santner", "category": "All-rounder", "iplTeam": "MI", "foreign": "Overseas", "fantasyTeam": "Prakash", "soldPrice": 3}
 ]
