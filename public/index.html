@@ -86,6 +86,10 @@
     /* Animations */
     @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes gradientShift { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+    @keyframes rotateBorder { 0% { --border-angle: 0deg; } 100% { --border-angle: 360deg; } }
+    @property --border-angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+    .dash-hero.rainbow-banner { border: none; padding: 16px 22px; overflow: visible; animation: rotateBorder 3s linear infinite; background: conic-gradient(from var(--border-angle), #6366f1, #ec4899, #f97316, #eab308, #10b981, #06b6d4, #6366f1); }
+    .dash-hero.rainbow-banner::before { inset: 2px; border-radius: 14px; background: var(--surface); z-index: 0; }
     .fade-up { animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
     .fade-up-1 { animation-delay: 0.1s; }
     .fade-up-2 { animation-delay: 0.2s; }
@@ -99,11 +103,12 @@
     .logo h1 { font-size: 18px; color: var(--fg); font-weight: 700; }
     .logo h1 span { background: linear-gradient(135deg, var(--accent), var(--pink), var(--orange)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% auto; animation: gradientShift 5s ease infinite; }
     nav { display: flex; gap: 2px; background: var(--surface); border: 1px solid var(--surface-border); border-radius: 12px; padding: 4px; order: 3; width: 100%; margin-top: 10px; }
-    nav button { padding: 8px 16px; border: none; border-radius: 9px; cursor: pointer; font-size: 13px; font-weight: 600; background: transparent; color: var(--muted); transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1); font-family: inherit; flex: none; width: 25%; text-align: center; min-width: 0; transform: scale(1); }
+    nav button { padding: 8px 16px; border: none; border-radius: 9px; cursor: pointer; font-size: 13px; font-weight: 600; background: transparent; color: var(--muted); transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1); font-family: inherit; flex: 1; text-align: center; min-width: 0; transform: scale(1); }
     nav button.active { transform: scale(1.03); }
     nav button[data-tab="dashboard"].active { background: rgba(99,102,241,0.15); color: #6366f1; }
     nav button[data-tab="explore"].active { background: rgba(16,185,129,0.15); color: #10b981; }
     nav button[data-tab="standings"].active { background: rgba(251,146,60,0.15); color: #fb923c; }
+    nav button[data-tab="players"].active { background: rgba(236,72,153,0.15); color: #ec4899; }
     nav button[data-tab="rules"].active { background: rgba(6,182,212,0.15); color: #06b6d4; }
     nav button:hover { color: var(--fg); }
 
@@ -232,6 +237,7 @@
     .players-list { display: flex; flex-direction: column; gap: 8px; }
     .player-row { background: var(--surface); border: 1px solid var(--surface-border); border-radius: 14px; overflow: hidden; transition: border-color 0.3s; }
     .player-row:hover { border-color: var(--card-hover-border); }
+    .player-row.open .st-chevron { transform: rotate(90deg); }
     .player-row-header { display: flex; align-items: center; gap: 12px; padding: 12px 16px; cursor: pointer; user-select: none; transition: background 0.2s; }
     .player-row-header:hover { background: var(--card-hover-bg); }
     .pr-avatar { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; color: #fff; flex-shrink: 0; }
@@ -240,7 +246,8 @@
     .pr-meta { font-size: 11px; color: var(--muted); margin-top: 1px; }
     .pr-pts { font-size: 18px; font-weight: 700; color: var(--accent-light); flex-shrink: 0; min-width: 50px; text-align: right; }
     .pr-matches-label { font-size: 10px; color: var(--muted); text-align: right; }
-    .pr-match-list { padding: 0 16px 16px; }
+    .pr-match-list { padding: 0; display: none; }
+    .player-row.open .pr-match-list { display: block; }
     .pr-match { background: var(--tp-card-bg); border: 1px solid var(--surface-border); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; }
     .pr-match:last-child { margin-bottom: 0; }
     .pr-match-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
@@ -372,7 +379,8 @@
       .logo h1 { font-size: 15px; }
       .logo-icon { width: 30px; height: 30px; font-size: 14px; border-radius: 8px; }
       nav { order: 3; width: 100%; gap: 2px; padding: 3px; }
-      nav button { padding: 7px 0; font-size: 12px; flex: none; width: 25%; text-align: center; min-width: 0; }
+      nav button { padding: 7px 0; font-size: 11px; flex: 1; text-align: center; min-width: 0; }
+      .nav-icon { display: none; }
       .container { padding: 16px; }
 
       .dash-grid { grid-template-columns: 1fr; gap: 16px; margin-bottom: 16px; }
@@ -418,7 +426,7 @@
       .lb-name { min-width: 56px; font-size: 13px; }
       .lb-bar-wrap { height: 16px; }
       .logo h1 { font-size: 14px; }
-      nav button { padding: 6px 0; font-size: 11px; flex: none; width: 25%; min-width: 0; }
+      nav button { padding: 6px 0; font-size: 10px; flex: 1; min-width: 0; }
     }
 
     @media (max-width: 600px) {
@@ -465,12 +473,16 @@
         <h1 id="header-title"><span>Pavilion</span></h1>
       </div>
       <nav>
-        <button class="active" data-tab="dashboard" onclick="switchView('dashboard', this)">📊 Standings</button>
-        <button data-tab="explore" onclick="switchView('explore', this)">🏏 Matches</button>
-        <button data-tab="standings" onclick="switchView('standings', this)">🏅 Teams</button>
-        <button data-tab="rules" onclick="switchView('rules', this)">📋 Rules</button>
+        <button class="active" data-tab="dashboard" onclick="switchView('dashboard', this)"><span class="nav-icon">📊 </span>Standings</button>
+        <button data-tab="explore" onclick="switchView('explore', this)"><span class="nav-icon">🏏 </span>Matches</button>
+        <button data-tab="standings" onclick="switchView('standings', this)"><span class="nav-icon">🏅 </span>Teams</button>
+        <button data-tab="players" onclick="switchView('players', this)"><span class="nav-icon">👤 </span>Players</button>
+        <button data-tab="rules" onclick="switchView('rules', this)"><span class="nav-icon">📋 </span>Rules</button>
       </nav>
       <div style="display:flex;align-items:center;gap:8px">
+        <div id="match-counter-wrap" style="display:flex;align-items:center;gap:4px;padding:4px 10px;border-radius:8px;background:var(--chip-bg);border:1px solid var(--surface-border);font-size:12px;font-weight:700;color:var(--muted)" title="Matches completed">
+          🏏 <span id="match-counter" style="color:var(--accent-light)">–</span>
+        </div>
         <button class="theme-toggle" onclick="toggleTheme()" title="Toggle theme">
           <span class="icon-sun">&#9728;</span>
           <span class="icon-moon">&#9790;</span>
@@ -483,6 +495,7 @@
     <div id="dashboard-view" class="view active"></div>
     <div id="explore-view" class="view"></div>
     <div id="standings-view" class="view"></div>
+    <div id="players-view" class="view"></div>
     <div id="rules-view" class="view"></div>
   </div>
 
@@ -553,6 +566,7 @@
       if (view === 'dashboard') loadDashboard();
       if (view === 'explore') loadExploreView();
       if (view === 'standings') loadStandings();
+      if (view === 'players') loadPlayersView();
       if (view === 'rules') renderRules();
     }
 
@@ -616,13 +630,442 @@
       const topRestPts = restPlayers.length > 0 ? restPlayers[0].total : 1;
       const heroTitle = leagueConfig ? leagueConfig.name : 'Pavilion';
 
+      // Build fun banner about the last match
+      let bannerHtml = '';
+      if (topScoresData.matches && topScoresData.matches.length > 0) {
+        const last = topScoresData.matches[0];
+        const winner = last.winner;
+        const matchLabel = last.title || '';
+        const sorted = Object.entries(last.teamTotals).filter(([,v])=>v>0).sort((a,b) => b[1] - a[1]);
+        const margin = sorted.length >= 2 ? sorted[0][1] - sorted[1][1] : 999;
+        const second = sorted.length >= 2 ? sorted[1][0] : '';
+        const third = sorted.length >= 3 ? sorted[2][0] : '';
+        const gap23 = sorted.length >= 3 ? sorted[1][1] - sorted[2][1] : 999;
+        const top3close = sorted.length >= 3 && sorted[0][1] - sorted[2][1] < 30;
+
+        const phrase = getMatchPhrase(winner, second, third, margin, gap23, top3close, last.topScore, matchLabel);
+        const parts = phrase.match(/^(.+?)\s(.+)$/);
+        const bannerEmoji = parts ? parts[1] : '🔥';
+        const phraseText = parts ? parts[2] : phrase;
+        bannerHtml = `
+          <div class="dash-hero rainbow-banner fade-up">
+            <div class="dash-hero-text">
+              <div style="font-size:15px;font-weight:700;color:var(--fg)">${phraseText}</div>
+              <div class="dash-hero-sub"><span class="dash-stat">${matchLabel}</span><span class="dash-stat">⚡ ${last.topScore} pts</span></div>
+            </div>
+            <div class="dash-hero-illu">${bannerEmoji}</div>
+          </div>`;
+      }
+
+      function getMatchPhrase(w, r, t, margin, gap23, top3close, topScore, matchTitle) {
+        // Categorize the match
+        const isBlowout = margin > 80;
+        const isDomination = margin > 50 && margin <= 80;
+        const isComfortable = margin > 25 && margin <= 50;
+        const isClose = margin > 10 && margin <= 25;
+        const isNailBiter = margin <= 10;
+        const isHighScoring = topScore > 300;
+        const hasThreeWay = top3close;
+
+        // Use match id as seed for consistent phrase per match
+        const seed = matchTitle.split('').reduce((a, c) => a + c.charCodeAt(0), 0);
+        function pick(arr) { return arr[seed % arr.length]; }
+
+        // ===== BLOWOUT (margin > 80) =====
+        const blowout = [
+          `🔥 ${w} absolutely annihilated the competition`,
+          `💀 ${w} left everyone in the dust`,
+          `🚀 ${w} launched into orbit — no one came close`,
+          `⚡ ${w} went supernova on that one`,
+          `🏔️ ${w} stood on top of the mountain alone`,
+          `🎯 ${w} didn't just win, they made a statement`,
+          `💥 ${w} dropped a bomb on the leaderboard`,
+          `🦁 ${w} roared and everyone scattered`,
+          `👑 ${w} showed everyone who's boss`,
+          `🔨 ${w} hammered the field into submission`,
+          `🌊 ${w} swept through like a tsunami`,
+          `⚔️ ${w} went full beast mode`,
+          `🎪 ${w} put on an absolute circus`,
+          `🏹 ${w} hit the bullseye while others missed the board`,
+          `💣 ${w} detonated a fantasy nuke`,
+          `🔥 ${w} scorched the earth — no survivors`,
+          `🛸 ${w} was playing a different game entirely`,
+          `🏆 ${w} made it look embarrassingly easy`,
+          `🌪️ ${w} tore through the competition like a tornado`,
+          `⭐ ${w} was simply built different today`,
+          `🎭 ${w} turned the match into a one-man show`,
+          `🚂 ${w} ran over everyone like a freight train`,
+          `🎰 ${w} hit the fantasy jackpot`,
+          `🧨 ${w} went nuclear — total destruction`,
+          `🦅 ${w} soared while everyone else crawled`,
+          `💪 ${w} flexed so hard the scoreboard cracked`,
+          `🎯 ${w} was surgical — pure precision demolition`,
+          `🔥 Not even close. ${w} was untouchable`,
+          `🌋 ${w} erupted and buried the competition`,
+          `🏴‍☠️ ${w} plundered every last point`,
+          `🚀 ${w} broke escape velocity — unreachable`,
+          `👊 ${w} delivered a knockout punch`,
+          `🦈 ${w} smelled blood and went on a feeding frenzy`,
+          `🎪 ${w} made everyone else look like amateurs`,
+          `🔥 ${w} turned the match into a masterclass`,
+          `💎 ${w} was pure diamond — unbreakable`,
+          `⚡ ${w} struck like lightning and vanished before anyone could react`,
+          `🏗️ ${w} built an empire while others built sandcastles`,
+          `🎵 ${w} composed a symphony of destruction`,
+          `🌠 ${w} was from another galaxy today`,
+          `🎯 ${w} had aimbot enabled — every pick counted`,
+          `🔥 ${w} set the fantasy world on fire`,
+          `🦁 ${w} was the king of the jungle today`,
+          `💥 ${w} exploded onto the scene`,
+          `🏎️ ${w} left everyone eating dust`,
+          `🎯 ${w} was in god mode — simply unstoppable`,
+          `🔥 ${w} burned brighter than a supernova`,
+          `⚔️ ${w} brought a cannon to a knife fight`,
+          `🏆 ${w} wrote their name in the history books`,
+          `🌊 ${w} unleashed a tidal wave of points`,
+        ];
+
+        // ===== DOMINATION (margin 50-80) =====
+        const domination = [
+          `🔥 ${w} dominated from start to finish`,
+          `⚡ ${w} was relentless — ${r} had no answer`,
+          `💪 ${w} flexed hard and it wasn't even close`,
+          `🎯 ${w} had all the right picks today`,
+          `🏆 ${w} cruised to a comfortable victory`,
+          `👑 ${w} wore the crown with authority`,
+          `🚀 ${w} took off and never looked back`,
+          `🔥 ${w} ran riot against the field`,
+          `⚡ ${w} put on a clinic for ${r}`,
+          `💥 ${w} brought the heat and ${r} melted`,
+          `🦁 ${w} prowled the pitch with confidence`,
+          `🎪 ${w} stole the show completely`,
+          `🏹 ${w} was sharp — every arrow hit home`,
+          `🌊 ${w} rode a massive wave to victory`,
+          `🔨 ${w} nailed it while others fumbled`,
+          `⭐ ${w} shone the brightest under pressure`,
+          `🎭 ${w} played the perfect hand`,
+          `🏔️ ${w} stood tall above the rest`,
+          `💎 ${w} delivered a polished performance`,
+          `🚂 ${w} was unstoppable, picking up steam all day`,
+          `🎰 ${w} cashed in big time`,
+          `🧨 ${w} blew the doors wide open`,
+          `🦅 ${w} flew high above ${r}`,
+          `🔥 ${w} made it look too easy`,
+          `⚔️ ${w} wielded their squad like a weapon`,
+          `🌟 ${w} was the star of the match`,
+          `🎯 ${w} locked in and delivered big time`,
+          `💪 ${w} showed serious muscle today`,
+          `🏆 ${w} claimed victory with style`,
+          `🔥 ${w} torched the competition`,
+          `⚡ ${w} was electric from ball one`,
+          `🎵 ${w} orchestrated a beautiful win`,
+          `🏎️ ${w} was in the fast lane all day`,
+          `🦈 ${w} circled and struck with precision`,
+          `💥 ${w} packed a serious punch`,
+          `🌪️ ${w} blew past the opposition`,
+          `🏗️ ${w} constructed a fortress of points`,
+          `🔥 ${w} was cooking with gas today`,
+          `👊 ${w} landed blow after blow on ${r}`,
+          `🎯 ${w} was dialed in — every pick mattered`,
+          `⭐ ${w} delivered a five-star performance`,
+          `🚀 ${w} accelerated past the pack`,
+          `🔥 ${w} was simply too hot to handle`,
+          `💪 ${w} powered through like a champion`,
+          `🏆 ${w} earned every single point of that win`,
+          `🌊 ${w} was a force of nature`,
+          `🎪 ${w} ran rings around the competition`,
+          `⚔️ ${w} fought hard and won harder`,
+          `🔥 ${w} brought the fire and ${r} got burned`,
+          `💎 ${w} was class apart today`,
+        ];
+
+        // ===== COMFORTABLE (margin 25-50) =====
+        const comfortable = [
+          `🔥 ${w} got the job done against ${r}`,
+          `⚡ ${w} pulled away when it mattered`,
+          `💪 ${w} outmuscled ${r} down the stretch`,
+          `🎯 ${w} made the smart picks today`,
+          `🏆 ${w} held firm despite pressure from ${r}`,
+          `👑 ${w} edged ahead and kept the lead`,
+          `🚀 ${w} found another gear in time`,
+          `🔥 ${w} had the edge over a fighting ${r}`,
+          `⚡ ${w} produced a solid all-round display`,
+          `💥 ${w} came through when the chips were down`,
+          `🏹 ${w} aimed true while ${r} fell short`,
+          `🌊 ${w} rode the momentum to victory`,
+          `🎭 ${w} played it smart and came out on top`,
+          `⭐ ${w} outshone ${r} by a clear margin`,
+          `🔨 ${w} hammered home the advantage`,
+          `🦁 ${w} kept ${r} at arm's length`,
+          `🎪 ${w} put on a solid show`,
+          `💎 ${w} was the better team on the day`,
+          `🏔️ ${w} climbed above ${r} steadily`,
+          `🚂 ${w} chugged along and ${r} couldn't keep up`,
+          `🎰 ${w} played the odds right`,
+          `🔥 ${w} built a lead and defended it well`,
+          `⚔️ ${w} won a tactical battle against ${r}`,
+          `🌟 ${w} had the key performers when it counted`,
+          `💪 ${w} wore down ${r} over the match`,
+          `🏆 ${w} deserved the win — better all round`,
+          `🎯 ${w} picked their spots perfectly`,
+          `⚡ ${w} had the firepower ${r} lacked`,
+          `🔥 ${w} took control and never let go`,
+          `🦅 ${w} rose above a determined ${r}`,
+          `💥 ${w} made the decisive moves`,
+          `🏎️ ${w} had more speed in the tank`,
+          `🌪️ ${w} weathered the storm and came through`,
+          `🎵 ${w} was in rhythm while ${r} was off-beat`,
+          `🧨 ${w} lit the fuse early and ${r} couldn't defuse`,
+          `🔥 ${w} stayed cool under pressure`,
+          `👊 ${w} landed the cleaner blows against ${r}`,
+          `🏗️ ${w} built a solid platform and won`,
+          `⭐ ${w} had that extra spark ${r} was missing`,
+          `🎯 ${w} was more clinical in the end`,
+          `💪 ${w} ground out a quality win`,
+          `🏆 ${w} proved too strong for ${r}`,
+          `🔥 ${w} turned up the heat at the right time`,
+          `⚡ ${w} surged past ${r} mid-match`,
+          `🌊 ${w} kept the pressure on ${r} all day`,
+          `🎪 ${w} entertained and won — what more could you want`,
+          `💎 ${w} produced a gem of a performance`,
+          `🦈 ${w} struck at just the right moment`,
+          `🔥 ${w} earned a well-fought victory`,
+          `⚔️ ${w} came prepared and ${r} paid the price`,
+        ];
+
+        // ===== CLOSE (margin 10-25) =====
+        const close = [
+          `⚔️ ${w} edged past ${r} in a tight battle`,
+          `😤 ${r} pushed ${w} all the way to the wire`,
+          `🎯 ${w} just about held off a surging ${r}`,
+          `🔥 What a contest! ${w} sneaked past ${r}`,
+          `💥 ${w} survived a late charge from ${r}`,
+          `⚡ ${w} held their nerve against a spirited ${r}`,
+          `🏆 ${w} won, but ${r} made them earn every point`,
+          `👑 Inches between ${w} and ${r} — what a fight`,
+          `🎭 Drama till the end — ${w} just about clinched it`,
+          `💪 ${w} dug deep to stay ahead of ${r}`,
+          `🏹 ${w} and ${r} traded blows — ${w} landed the last one`,
+          `🌊 ${w} and ${r} went wave for wave — ${w} caught the bigger one`,
+          `🔨 Neck and neck! ${w} hammered the final nail`,
+          `⭐ ${w} found the edge in a match that could've gone either way`,
+          `🎪 ${r} gave ${w} the scare of their life`,
+          `🦁 ${w} barely survived ${r}'s onslaught`,
+          `💎 Razor thin margins — ${w} was just a fraction better`,
+          `🏔️ ${w} and ${r} both climbed hard — ${w} reached the summit first`,
+          `🚂 ${w} crossed the line first, but ${r} was right behind`,
+          `🎰 ${w} gambled and it paid off — ${r} was so close`,
+          `🔥 A real dogfight between ${w} and ${r}`,
+          `⚔️ ${r} threw everything at ${w} — almost enough`,
+          `🌟 ${w} had the clutch performers in a match of fine margins`,
+          `💪 ${w} gutted it out against a relentless ${r}`,
+          `🏆 What a battle! ${w} takes it by a whisker`,
+          `🎯 ${w} won the tactical chess match against ${r}`,
+          `⚡ Sparks flew between ${w} and ${r}`,
+          `🔥 ${r} made ${w} sweat for every single point`,
+          `💥 A real slugfest — ${w} landed the knockout`,
+          `🏎️ Photo finish! ${w} noses ahead of ${r}`,
+          `🌪️ ${w} and ${r} were caught in a storm — ${w} came out dry`,
+          `🎵 ${w} and ${r} played a duet — ${w} hit the high note`,
+          `🧨 Explosive stuff! ${w} defused the ${r} threat just in time`,
+          `👊 ${w} and ${r} went toe-to-toe — ${w} won on points`,
+          `🏗️ Both teams built strong — ${w}'s foundation held`,
+          `⭐ ${w} pulled a rabbit out of the hat against ${r}`,
+          `🦈 ${r} nearly reeled ${w} in — so close`,
+          `🔥 Heart-stopping finish — ${w} clings on`,
+          `🎯 ${w} and ${r} pushed each other to the limit`,
+          `💪 A war of attrition between ${w} and ${r}`,
+          `🏆 ${r} deserved more, but ${w} found a way`,
+          `⚔️ ${w} won the arm wrestle against ${r}`,
+          `🌊 The tide kept turning — ${w} caught the last wave`,
+          `🎪 What a spectacle! ${w} and ${r} delivered a classic`,
+          `💎 ${w} found the diamond play that ${r} couldn't match`,
+          `🦁 ${r} roared but ${w} roared louder`,
+          `🔥 ${w} survived by the skin of their teeth`,
+          `⚡ Electric contest — ${w} had the final surge`,
+          `💥 ${w} and ${r} both brought their A-game`,
+          `🏹 ${w} hit the target when it mattered most against ${r}`,
+        ];
+
+        // ===== NAIL BITER (margin <= 10) =====
+        const nailBiter = [
+          `😱 INSANE! ${w} wins by just ${margin} pts over ${r}`,
+          `🤯 You can't script this — ${w} by a hair over ${r}`,
+          `💀 ${r} will be sick — ${w} stole it at the death`,
+          `🫣 Heartbreak for ${r} — ${w} wins by a fingertip`,
+          `😤 ONE PLAY decided it — ${w} pips ${r}`,
+          `🔥 ${w} and ${r} went to war — ${w} barely survived`,
+          `💥 The thinnest of margins! ${w} edges ${r}`,
+          `⚡ Unbelievable! ${margin} pts is all that separated ${w} and ${r}`,
+          `🏆 ${w} will take it but ${r} was RIGHT there`,
+          `👑 The closest finish of the season — ${w} squeaks by`,
+          `🎭 Drama, chaos, heartbreak — ${w} by ${margin}`,
+          `💪 ${r} gave absolutely everything but ${w} found one more`,
+          `🎯 A single moment of brilliance gave ${w} the win`,
+          `🌊 Both teams drowned in pressure — ${w} gasped for air first`,
+          `🔨 ${w} by a solitary blow over ${r}`,
+          `⭐ ${w} needed a miracle and got one — ${r} devastated`,
+          `🎪 Stop everything! ${w} wins by ${margin} points`,
+          `🦁 ${w} and ${r} mauled each other — ${w} just survived`,
+          `💎 Precious points! ${w} ekes out the tightest of wins`,
+          `🏔️ ${w} and ${r} both summited — ${w} planted the flag first`,
+          `🚂 ${w} and ${r} neck and neck to the finish line`,
+          `🎰 ${w} hit the last-ball six — ${r} can't believe it`,
+          `🔥 If ${r} is mad, they have every right to be`,
+          `⚔️ Gladiatorial combat — ${w} gets the emperor's nod over ${r}`,
+          `🌟 This is why we play — ${w} by the smallest margin`,
+          `💪 ${w} held on for dear life against ${r}`,
+          `🏆 A classic! ${w} and ${r} gave us everything`,
+          `🎯 The Fantasy Gods smiled on ${w} today — just barely`,
+          `⚡ ${r} will replay this one in their nightmares`,
+          `🔥 ${w} got away with it — ${r} was robbed`,
+          `💥 ${margin} pts. That's it. ${w} steals the crown from ${r}`,
+          `🏎️ The closest drag race — ${w} by a bonnet over ${r}`,
+          `🌪️ Chaos! ${w} emerges from the wreckage ahead of ${r}`,
+          `🎵 A symphony of suffering for ${r} — ${w} wins the finale`,
+          `🧨 ${r}'s heart just exploded — ${w} by ${margin}`,
+          `👊 ${w} and ${r} punched each other senseless — ${w} still standing`,
+          `🏗️ It all came down to one brick — ${w} placed it`,
+          `⭐ Clutch doesn't begin to describe ${w}'s win over ${r}`,
+          `🦈 Both circled — ${w} bit first by ${margin} pts`,
+          `🔥 This will be talked about all week — ${w} by nothing`,
+          `🎯 ${w} wins the coin toss that was this match`,
+          `💪 ${r} left it all out there but ${w} left a little more`,
+          `🏆 Legend says ${r} is still checking the scorecard`,
+          `⚔️ ${w} drew first blood and it was just enough`,
+          `🌊 ${w} surfed the tiniest wave to shore over ${r}`,
+          `🎪 You couldn't look away — ${w} wins a thriller`,
+          `💎 ${w} found the last gem in the mine — ${r} dug just as deep`,
+          `🦁 The jungle decided: ${w} by a whisker over ${r}`,
+          `🔥 Chaos. Carnage. ${w} by ${margin}. That is all.`,
+          `⚡ Somebody check on ${r} — ${w} won by ${margin} pts`,
+        ];
+
+        // ===== THREE-WAY BATTLE =====
+        const threeWay = [
+          `🔥 A three-way war! ${w}, ${r}, and ${t} went at it — ${w} survived`,
+          `⚔️ Three teams, one throne — ${w} claimed it over ${r} and ${t}`,
+          `💥 ${w}, ${r}, and ${t} turned this into a battle royale`,
+          `🎪 Three-way chaos! ${w} edged ${r} and ${t} in a thriller`,
+          `⚡ ${w} fought off both ${r} and ${t} — what a war`,
+          `🌪️ A tornado of a match — ${w}, ${r}, and ${t} all in the mix`,
+          `🏆 ${w} emerged from a three-way dogfight with ${r} and ${t}`,
+          `💪 ${w} held off charges from both ${r} and ${t}`,
+          `🎯 Three teams locked in — ${w} found the edge`,
+          `👑 ${w}, ${r}, ${t} — all came to play, only ${w} left with the crown`,
+          `🔥 A three-horse race and ${w} hit the line first`,
+          `⚔️ ${r} and ${t} both pushed ${w} to the brink`,
+          `💥 Triple threat! ${w} stood last against ${r} and ${t}`,
+          `🎭 Three contenders, one winner — ${w} played the smartest game`,
+          `🌊 ${w}, ${r}, and ${t} rode the same wave — ${w} stayed on longest`,
+          `🦁 A three-lion showdown — ${w} claimed the pride`,
+          `🏹 ${w} split the arrow between ${r} and ${t}`,
+          `💎 Three gems on display — ${w}'s shone brightest`,
+          `🚂 Three trains on one track — ${w} arrived first`,
+          `🎰 Three teams rolled the dice — ${w} hit the jackpot`,
+          `⭐ ${w} outshone both ${r} and ${t} in a triple-header`,
+          `🏎️ Three in the fast lane — ${w} crossed first`,
+          `🧨 ${w}, ${r}, and ${t} lit the fuse — ${w} exploded highest`,
+          `👊 A three-way brawl! ${w} landed the most punches`,
+          `🔥 What a three-way rumble — ${w} walks away victorious`,
+          `🌟 Three stars collided — ${w} burned brightest`,
+          `🏔️ Three climbers, one peak — ${w} planted the flag`,
+          `💪 ${w} survived attacks from ${r} and ${t} simultaneously`,
+          `🎵 A three-part harmony — ${w} hit the highest note`,
+          `🦈 Three sharks in the water — ${w} was the apex predator`,
+          `🔥 ${r} and ${t} ganged up but ${w} was too strong`,
+          `⚡ Three bolts of lightning — ${w}'s struck hardest`,
+          `💥 ${w} conquered a three-front war against ${r} and ${t}`,
+          `🏆 Three worthy champions — but the trophy goes to ${w}`,
+          `🎪 The wildest three-way finish we've seen — ${w} takes it`,
+          `⚔️ ${w}, ${r}, ${t} — blood was spilled, ${w} stood tall`,
+          `🌪️ Three storms converged — ${w} was the eye`,
+          `🔥 ${w} battled on two fronts against ${r} and ${t} and won both`,
+          `💎 Three diamonds in the rough — ${w} was the purest`,
+          `🎯 ${w} picked off ${r} and ${t} with surgical precision`,
+          `👑 A triple crown contender night — ${w} reigns supreme`,
+          `🏗️ Three teams built empires — ${w}'s stood tallest`,
+          `🦁 ${w} fought a two-front war and came out king`,
+          `💪 ${w} had ${r} on the left and ${t} on the right — beat both`,
+          `🔥 Three-way Mexican standoff — ${w} was the quickest draw`,
+          `⚡ ${w} defied both ${r} and ${t} in a triple classic`,
+          `💥 The ultimate three-way test — ${w} passed with flying colors`,
+          `🎭 Three acts of drama — ${w} delivered the final curtain call`,
+          `🌊 Three crews sailed — ${w} reached land while ${r} and ${t} drifted`,
+          `🏆 History will remember the night ${w}, ${r}, and ${t} went to war`,
+        ];
+
+        // ===== HIGH SCORING =====
+        const highScoring = [
+          `🔥 A points bonanza! ${w} led the charge with ${topScore} pts`,
+          `⚡ Fireworks everywhere — ${w} tops a massive scoring day`,
+          `💥 ${topScore} pts! ${w} feasted on a run-laden match`,
+          `🏆 What a high-scoring thriller — ${w} cleaned up`,
+          `👑 Points were raining and ${w} had the biggest umbrella`,
+          `🎯 Everyone scored big but ${w} scored biggest`,
+          `🌊 A flood of points — ${w} rode the crest`,
+          `🔨 The scoreboard caught fire — ${w} fanned the flames`,
+          `⭐ A blockbuster scoring night and ${w} was the headliner`,
+          `🎪 Fantasy bonanza! ${w} topped the charts at ${topScore}`,
+          `💎 When it rains points, ${w} brings the biggest bucket`,
+          `🦁 A scoring jungle — ${w} was the apex predator`,
+          `🏹 Points flying everywhere — ${w} caught the most`,
+          `🚀 ${topScore} pts — ${w} broke through the atmosphere`,
+          `🎭 An epic scoring saga — ${w} wrote the final chapter`,
+          `💪 A heavyweight scoring bout — ${w} won by accumulation`,
+          `🏎️ The points speedometer broke — ${w} was going fastest`,
+          `🌟 A festival of fantasy points and ${w} was the main act`,
+          `🧨 Explosive scoring — ${w} detonated the biggest blast`,
+          `🔥 The highest-scoring affair and ${w} came out on top`,
+          `⚡ ${w} surfed the biggest wave in a sea of points`,
+          `💥 Records were made to be broken — ${w} at ${topScore}`,
+          `🏆 ${w} topped a mountain of points`,
+          `👊 Punches landed from every direction — ${w} landed more`,
+          `🎰 The biggest payout of the season — ${w} cashes in`,
+          `🌪️ A tornado of runs and wickets — ${w} stood in the eye`,
+          `🔥 Every team scored but ${w}'s total was chef's kiss`,
+          `💎 ${topScore} pts — ${w} mined the mother lode`,
+          `⚔️ A high-scoring slugfest and ${w} slugged hardest`,
+          `🏗️ Everyone stacked points — ${w} had the tallest tower`,
+          `🦈 A feeding frenzy of points — ${w} ate the most`,
+          `⭐ ${w} sparkled brightest in a galaxy of scorers`,
+          `🎵 The scoreboard sang — ${w} conducted the orchestra`,
+          `🏔️ ${topScore} pts at the summit — ${w} got there first`,
+          `💪 A buffet of fantasy points — ${w} filled their plate`,
+          `🔥 What a feast! ${w} devoured ${topScore} points worth`,
+          `🚂 The scoring express — ${w} was the engine`,
+          `⚡ ${w} electrified a match overflowing with points`,
+          `💥 An avalanche of points — ${w} started the slide`,
+          `🎯 ${w} was the biggest fish in a very big pond`,
+          `🌊 ${topScore}! ${w} caught the biggest scoring wave`,
+          `🏆 One for the record books — ${w} at ${topScore} pts`,
+          `👑 ${w} sits on a throne of ${topScore} points`,
+          `🎪 The greatest show on turf — ${w} headlined at ${topScore}`,
+          `🔥 ${w} had the Midas touch — ${topScore} golden points`,
+          `💎 Absolute gems everywhere — ${w}'s collection was the finest`,
+          `⚔️ When everyone brings fire, ${w} brings an inferno`,
+          `🌟 ${topScore}! ${w} lit up the night sky`,
+          `💪 A points party and ${w} was the life of it`,
+          `🧨 Boom! ${w} drops ${topScore} pts on a monster night`,
+        ];
+
+        // Pick category and phrase
+        if (hasThreeWay && t) return pick(threeWay);
+        if (isHighScoring) return pick(highScoring);
+        if (isNailBiter) return pick(nailBiter);
+        if (isClose) return pick(close);
+        if (isComfortable) return pick(comfortable);
+        if (isDomination) return pick(domination);
+        if (isBlowout) return pick(blowout);
+        return pick(domination);
+      }
+
+      // Update match counter in header
+      const counterEl = document.getElementById('match-counter');
+      if (counterEl) counterEl.textContent = dash.totalMatches;
+
       view.innerHTML = `
-        <div class="dash-hero fade-up">
-          <div class="dash-hero-text">
-            <div class="dash-hero-sub"><span class="dash-stat">🎯 ${dash.totalMatches} matches</span><span class="dash-stat">👥 ${dash.totalPlayers} players</span><span class="dash-stat">⚔️ ${dash.teamRankings.length} teams</span></div>
-          </div>
-          <div class="dash-hero-illu">🏆</div>
-        </div>
+        ${bannerHtml}
         <div class="section-title fade-up">🏆 Team Rankings <span class="section-deco"><span class="d1"></span><span class="d2"></span><span class="d3"></span></span></div>
         <div class="leaderboard fade-up" style="margin-bottom:36px">
           ${dash.teamRankings.map(t => {
@@ -778,6 +1221,89 @@
           if (q === '') card.classList.remove('open');
           card.querySelectorAll('.mf-player').forEach(p => p.style.display = '');
         }
+      });
+    }
+
+    // ========== PLAYERS — Individual Player List ==========
+    async function loadPlayersView() {
+      const view = document.getElementById('players-view');
+      const res = await fetch('/api/players/details');
+      const players = await res.json();
+
+      if (players.length === 0) {
+        view.innerHTML = '<div class="empty-state"><h3>👤 No players yet</h3></div>';
+        return;
+      }
+
+      let html = `
+        <div class="section-title fade-up">👤 Players <span class="section-deco"><span class="d1"></span><span class="d2"></span><span class="d3"></span></span></div>
+        <input type="text" class="search-box fade-up" id="players-search" placeholder="🔍 Search players..." oninput="filterPlayers()" />
+        <div class="players-list fade-up">`;
+
+      for (let i = 0; i < players.length; i++) {
+        const p = players[i];
+        const tc = getTeamColor(p.fantasyTeam);
+        const initials = p.name.split(' ').map(w => w[0]).join('').slice(0, 2);
+
+        let totalBat = 0, totalBowl = 0, totalField = 0, totalMom = 0;
+        for (const m of p.matches) {
+          totalBat += m.batting; totalBowl += m.bowling; totalField += m.fielding; totalMom += m.mom;
+        }
+        const cats = [];
+        if (totalBat) cats.push(`<span class="pr-cat pr-cat-batting">🏏 ${totalBat}</span>`);
+        if (totalBowl) cats.push(`<span class="pr-cat pr-cat-bowling">☄️ ${totalBowl}</span>`);
+        if (totalField) cats.push(`<span class="pr-cat pr-cat-fielding">🧤 ${totalField}</span>`);
+        if (totalMom) cats.push(`<span class="pr-cat pr-cat-mom">🎖️ ${totalMom}</span>`);
+
+        html += `
+          <div class="player-row" data-pname="${p.name.toLowerCase()} ${p.fantasyTeam.toLowerCase()} ${p.iplTeam.toLowerCase()} ${(p.category||'').toLowerCase()}" style="border-left: 3px solid ${tc}">
+            <div class="player-row-header" onclick="this.closest('.player-row').classList.toggle('open')">
+              <div class="lb-rank ${i<3?'lr-'+(i+1):'lr-other'}">${i===0?'🏆':i===1?'🥈':i===2?'🥉':i+1}</div>
+              <div style="flex:1">
+                <div class="st-team-name" style="color:${tc}">${p.name} ${catPill(p.category)}${p.foreign==='Overseas'?' ✈️':''}</div>
+                <div class="pr-meta">${p.iplTeam} · ${p.matchCount} matches</div>
+              </div>
+              <div style="text-align:right;margin-right:12px;display:flex;align-items:center;gap:8px">
+                <div style="font-size:13px;font-weight:700;color:${tc}">${p.fantasyTeam}</div>
+                <span style="color:var(--surface-border);font-size:16px">|</span>
+                <div class="st-team-pts" style="color:${tc}">${p.total}</div>
+              </div>
+              <span class="st-chevron">›</span>
+            </div>
+            <div class="pr-match-list">
+              ${p.matches.length === 0 ? '<div class="pr-no-matches">No match data</div>' :
+              `<div style="padding:12px 16px 0;display:flex;gap:6px;flex-wrap:wrap">${cats.join('')}</div>
+              <div class="mf-players">` +
+              p.matches.map(m => `
+                <div class="mf-player">
+                  <div class="mf-p-top">
+                    <div class="mf-p-info">
+                      <div class="mf-p-name">${m.matchTitle}</div>
+                      <div class="mf-p-team">${m.matchDate || ''}</div>
+                    </div>
+                    <div class="mf-p-total">${m.total}</div>
+                  </div>
+                  <div class="mf-p-cats">
+                    ${m.playing ? `<span class="pr-cat pr-cat-playing">✅ ${m.playing}</span>` : ''}
+                    ${m.batting ? `<span class="pr-cat pr-cat-batting">🏏 ${m.batting}</span>` : ''}
+                    ${m.bowling ? `<span class="pr-cat pr-cat-bowling">☄️ ${m.bowling}</span>` : ''}
+                    ${m.fielding ? `<span class="pr-cat pr-cat-fielding">🧤 ${m.fielding}</span>` : ''}
+                    ${m.mom ? `<span class="pr-cat pr-cat-mom">🎖️ ${m.mom}</span>` : ''}
+                  </div>
+                </div>`).join('') + '</div>'}
+            </div>
+          </div>`;
+      }
+
+      html += '</div>';
+      view.innerHTML = html;
+      viewLoaded['players'] = true;
+    }
+
+    function filterPlayers() {
+      const q = document.getElementById('players-search').value.toLowerCase();
+      document.querySelectorAll('#players-view .player-row').forEach(row => {
+        row.style.display = row.dataset.pname.includes(q) ? '' : 'none';
       });
     }
 
