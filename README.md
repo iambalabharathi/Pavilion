@@ -42,6 +42,7 @@
 - [Quick Start](#-quick-start)
 - [Setting Up Your League](#-setting-up-your-league)
 - [Adding a Match Score](#-adding-a-match-score)
+- [Live Scraping via GitHub Actions](#-live-scraping-via-github-actions)
 - [CSV Format Reference](#-csv-format-reference)
 - [Scoring Rules](#-scoring-rules)
 - [Project Structure](#-project-structure)
@@ -303,6 +304,59 @@ git push
 
 <br/>
 
+## 📡 Live Scraping via GitHub Actions
+
+You can scrape live scores directly from Cricbuzz during a match using the **Scrape Match** GitHub Action.
+
+<br/>
+
+### How to run
+
+1. Go to the **Actions** tab in your GitHub repo
+2. Select **"Scrape Match"** from the sidebar
+3. Click **"Run workflow"**
+4. Enter:
+   - **Cricbuzz match ID** — the number from the Cricbuzz scorecard URL (e.g. `149618` from `cricbuzz.com/live-cricket-scorecard/149618/...`)
+   - **Match number** — the match number for your league (e.g. `10` creates `match-10.csv`)
+5. Click **"Run workflow"**
+
+The action scrapes the scorecard, generates the CSV, and commits it to the repo. The site auto-deploys on Netlify after the push.
+
+<br/>
+
+### During a live match
+
+You can trigger the action **multiple times** while a match is underway to get updated scores. Each run overwrites the previous CSV with the latest data.
+
+<br/>
+
+### Limitations
+
+- **Dot balls are not counted** — the `dots` column is always `0` in scraped data, since Cricbuzz scorecards don't expose dot ball counts
+- **Man of the Match is not set** — the `mom` column is `0` in scraped data
+
+After the match ends, the final standings can be updated manually (dot balls, MoM) or by running the action one last time for the completed scorecard.
+
+<br/>
+
+### Running locally
+
+```bash
+node scrape-match.js <cricbuzz-match-id> <match-number>
+```
+
+Example:
+
+```bash
+node scrape-match.js 149618 10
+```
+
+<br/>
+
+---
+
+<br/>
+
 ## 📄 CSV Format Reference
 
 Each match is a CSV file at `data/matches/match-<N>.csv`.
@@ -446,8 +500,11 @@ Pavilion/
 │       └── api.js              # Serverless API for Netlify
 │
 ├── server.js                   # Local Express dev server
+├── scrape-match.js             # CLI: Scrape Cricbuzz scorecard → CSV
 ├── generate-match.js           # CLI: Generate blank match CSV
 ├── parse-match.js              # CLI: Parse Cricbuzz scorecard → CSV
+├── .github/workflows/
+│   └── scrape.yml              # GitHub Action: Scrape match on demand
 ├── netlify.toml                # Netlify deploy config
 └── package.json
 ```
