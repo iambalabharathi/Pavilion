@@ -1,0 +1,32 @@
+# CSK vs RR - Match 3
+# 2026-03-30
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- CSK ---
+5, Sanju Samson, CSK, RK, 1, 0, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+3, Shivam Dube, CSK, Prabhu, 1, 0, 6, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2, Dewald Brevis, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+6, Noor Ahmad, CSK, Dots, 1, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0
+64, Matt Henry, CSK, Dots, 1, 0, 5, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0
+130, Urvil Patel, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+62, Jamie Overton, CSK, JD, 1, 0, 43, 2, 2, 0, 1, 0, 0, 0, 0, 0, 0
+136, Akeal Hosein, CSK, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+61, Ayush Mhatre, CSK, Rijo, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+1, Ruturaj Gaikwad, CSK, Prakash, 1, 0, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+63, Khaleel Ahmed, CSK, Prakash, 1, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0
+126, Sarfaraz Khan, CSK, Prakash, 1, 0, 17, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0
+135, Prashant Veer, CSK, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- RR ---
+118, Shimron Hetmyer, RR, Ragu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+121, Sandeep Sharma, RR, Ragu, 1, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0
+49, Vaibhav Sooryavanshi, RR, RK, 1, 0, 52, 4, 5, 0, 0, 0, 0, 0, 0, 0, 0
+53, Ravi Bishnoi, RR, RK, 1, 0, 0, 0, 0, 1, 8, 0, 0, 2, 0, 0, 0
+119, Dhruv Jurel, RR, RK, 1, 0, 18, 4, 0, 0, 0, 0, 0, 2, 0, 1, 0
+120, Tushar Deshpande, RR, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+48, Yashasvi Jaiswal, RR, Darshan, 1, 0, 38, 3, 1, 0, 0, 0, 0, 1, 0, 0, 0
+50, Riyan Parag, RR, Darshan, 1, 0, 14, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+52, Jofra Archer, RR, Dots, 1, 0, 0, 0, 0, 2, 17, 0, 1, 0, 0, 0, 0
+51, Ravindra Jadeja, RR, JD, 1, 0, 0, 0, 0, 2, 11, 0, 1, 0, 0, 0, 0
+
