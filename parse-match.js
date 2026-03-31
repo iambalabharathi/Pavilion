@@ -80,7 +80,7 @@ function normalize(name) {
     .toLowerCase();
 }
 
-function matchPlayer(name) {
+function matchPlayer(name, teamFilter) {
   const norm = normalize(name);
   const parts = norm.split(' ').filter(Boolean);
 
@@ -101,7 +101,7 @@ function matchPlayer(name) {
     if (found) return found;
   }
 
-  // Last name only (if unique)
+  // Last name only (if unique, or unique within playing teams)
   if (parts.length >= 1) {
     const lastName = parts[parts.length - 1];
     const matches = allPlayers.filter(p => {
@@ -109,6 +109,11 @@ function matchPlayer(name) {
       return pp[pp.length - 1] === lastName;
     });
     if (matches.length === 1) return matches[0];
+    // Disambiguate by teams playing in this match
+    if (matches.length > 1 && teamFilter) {
+      const inMatch = matches.filter(p => teamFilter.has(p.iplTeam));
+      if (inMatch.length === 1) return inMatch[0];
+    }
   }
 
   // Substring match
@@ -439,7 +444,7 @@ const unmatched = [];
 const iplTeamAbbrs = new Set(teams.map(t => teamAbbr(t)));
 
 for (const [scorecardName, stats] of Object.entries(playerStats)) {
-  const player = matchPlayer(scorecardName);
+  const player = matchPlayer(scorecardName, iplTeamAbbrs);
   if (player && iplTeamAbbrs.has(player.iplTeam)) {
     if (matchedPlayers[player.id]) {
       // Merge stats (shouldn't happen but just in case)

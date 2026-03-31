@@ -409,6 +409,9 @@
       .mf-p-name { font-size: 11px; }
       .mf-p-total { font-size: 14px; }
       .mf-p-cats .pr-cat { padding: 2px 6px; font-size: 9px; }
+      .mf-p-cats-detail { display: flex; gap: 3px; flex-wrap: wrap; }
+      .mf-p-cats-detail .pr-cat { padding: 2px 6px; font-size: 9px; }
+      .pr-cat-bonus { background: rgba(139,92,246,0.1); color: #a78bfa; }
 
       .modal-overlay { padding: 10px; }
       .modal { max-height: 95vh; border-radius: 14px; }
@@ -1350,19 +1353,37 @@
           if (!p) continue;
           const pts = m.abandoned ? 0 : calcPoints(stats);
           const b = stats.batting || {}, w = stats.bowling || {}, f = stats.fielding || {};
-          const batPts = calcBatPts(b);
-          const bowlPts = calcBowlPts(w);
-          const fieldPts = calcFieldPts(f);
-          const momPts = stats.mom ? 30 : 0;
 
           teamPts[p.fantasyTeam] = (teamPts[p.fantasyTeam] || 0) + pts;
 
           if (pts > 0) {
             const cats = [];
-            if (batPts) cats.push(`<span class="pr-cat pr-cat-batting">🏏 ${batPts}</span>`);
-            if (bowlPts) cats.push(`<span class="pr-cat pr-cat-bowling">☄️ ${bowlPts}</span>`);
-            if (fieldPts) cats.push(`<span class="pr-cat pr-cat-fielding">🧤 ${fieldPts}</span>`);
-            if (momPts) cats.push(`<span class="pr-cat pr-cat-mom">🎖️ ${momPts}</span>`);
+            // Playing
+            if (stats.playing) cats.push(`<span class="pr-cat pr-cat-playing">Playing +5</span>`);
+            // Batting breakdown
+            const runs = b.runs||0, fours = b.fours||0, sixes = b.sixes||0;
+            if (runs) cats.push(`<span class="pr-cat pr-cat-batting">Runs +${runs}</span>`);
+            if (fours) cats.push(`<span class="pr-cat pr-cat-batting">4s +${fours}</span>`);
+            if (sixes) cats.push(`<span class="pr-cat pr-cat-batting">6s +${sixes*2}</span>`);
+            if (runs >= 30) cats.push(`<span class="pr-cat pr-cat-bonus">30+ +5</span>`);
+            if (runs >= 50) cats.push(`<span class="pr-cat pr-cat-bonus">50+ +10</span>`);
+            if (runs >= 100) cats.push(`<span class="pr-cat pr-cat-bonus">100+ +10</span>`);
+            // Bowling breakdown
+            const dots = w.dots||0, wk = w.wickets||0, maidens = w.maidens||0, lbw = w.lbwBowledHw||0;
+            if (dots) cats.push(`<span class="pr-cat pr-cat-bowling">Dots +${dots}</span>`);
+            if (wk) cats.push(`<span class="pr-cat pr-cat-bowling">Wkt +${wk*20}</span>`);
+            if (wk >= 2) cats.push(`<span class="pr-cat pr-cat-bonus">2W +5</span>`);
+            if (wk >= 3) cats.push(`<span class="pr-cat pr-cat-bonus">3W +10</span>`);
+            if (wk >= 5) cats.push(`<span class="pr-cat pr-cat-bonus">5W +10</span>`);
+            if (maidens) cats.push(`<span class="pr-cat pr-cat-bowling">Maiden +${maidens*20}</span>`);
+            if (lbw) cats.push(`<span class="pr-cat pr-cat-bowling">LBW/B +${lbw*5}</span>`);
+            // Fielding breakdown
+            if (f.catches) cats.push(`<span class="pr-cat pr-cat-fielding">Catch +${(f.catches||0)*5}</span>`);
+            if (f.runoutDirect) cats.push(`<span class="pr-cat pr-cat-fielding">RO(D) +${(f.runoutDirect||0)*10}</span>`);
+            if (f.runoutIndirect) cats.push(`<span class="pr-cat pr-cat-fielding">RO(I) +${(f.runoutIndirect||0)*5}</span>`);
+            if (f.stumpings) cats.push(`<span class="pr-cat pr-cat-fielding">Stp +${(f.stumpings||0)*10}</span>`);
+            // MOM
+            if (stats.mom) cats.push(`<span class="pr-cat pr-cat-mom">MOM +30</span>`);
 
             playerList.push({
               id: p.id, name: p.name, fantasyTeam: p.fantasyTeam, iplTeam: p.iplTeam,
@@ -1402,7 +1423,7 @@
               </div>
               <div class="mf-p-total">${p.pts}</div>
             </div>
-            <div class="mf-p-cats">${p.cats}</div>
+            <div class="mf-p-cats mf-p-cats-detail">${p.cats}</div>
           </div>`;
         }).join('');
 
