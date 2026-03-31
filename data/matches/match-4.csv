@@ -1,0 +1,30 @@
+# GT vs PBKS - Match 4
+# 2026-03-31
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- GT ---
+13, Shubman Gill, GT, Ragu, 1, 0, 39, 6, 0, 0, 0, 0, 0, 2, 0, 0, 0
+17, Mohammed Siraj, GT, RK, 1, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0
+15, Rashid Khan, GT, Darshan, 1, 0, 0, 0, 0, 1, 10, 0, 0, 1, 0, 0, 0
+79, Kagiso Rabada, GT, JD, 1, 0, 0, 0, 0, 1, 7, 0, 0, 0, 0, 0, 0
+14, Sai Sudharsan, GT, Rijo, 1, 0, 13, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+18, Prasidh Krishna, GT, Rijo, 1, 0, 0, 0, 0, 3, 11, 0, 0, 1, 0, 0, 0
+77, Ravisrinivasan Sai Kishore, GT, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+16, Jos Buttler, GT, Prakash, 1, 0, 38, 3, 2, 0, 0, 0, 0, 1, 0, 0, 0
+74, Glenn Phillips, GT, Prakash, 1, 0, 25, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+76, Washington Sundar, GT, Prakash, 1, 0, 18, 2, 0, 1, 6, 0, 0, 1, 0, 0, 0
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 0, 9, 0, 0, 2, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 0, 7, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 0, 18, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 2, 9, 0, 0, 0, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 1, 0, 11, 0, 1, 0, 9, 0, 0, 1, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 1, 0, 9, 0, 1, 1, 8, 0, 0, 1, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 37, 1, 4, 0, 0, 0, 0, 0, 0, 0, 0
+203, Harpreet Brar, PBKS, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
