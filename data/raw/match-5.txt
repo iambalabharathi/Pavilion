@@ -1,0 +1,116 @@
+Lucknow Super Giants  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+c Stubbs b Kuldeep Yadav
+35	28	53	2	3	125.00
+Rishabh Pant (c)†
+run out
+7	9	16	1	0	77.77
+Aiden Markram 
+b Patel
+11	8	12	1	1	137.50
+Ayush Badoni 
+c †Rahul b Natarajan
+0	3	4	0	0	0.00
+Nicholas Pooran 
+b Ngidi
+8	8	11	1	0	100.00
+Abdul Samad 
+c Miller b Natarajan
+36	25	43	3	1	144.00
+Mukul Choudhary 
+c & b Kuldeep Yadav
+14	11	15	2	0	127.27
+Shahbaz Ahmed 
+not out	15	16	29	1	0	93.75
+Mohammed Shami 
+c Kuldeep Yadav b Natarajan
+1	2	2	0	0	50.00
+Anrich Nortje 
+c Stubbs b Ngidi
+0	1	2	0	0	0.00
+Mohsin Khan 
+c Mukesh Kumar b Ngidi
+0	1	1	0	0	0.00
+Extras	(b 4, lb 8, w 2)	14	
+Total	
+18.4 Ov (RR: 7.55)
+141	
+Did not bat
+Prince Yadav 
+Fall of wickets
+DRS
+1-19 (Rishabh Pant, 2.6 ov), 2-48 (Aiden Markram, 5.5 ov), 3-49 (Ayush Badoni, 6.3 ov), 4-65 (Nicholas Pooran, 8.5 ov), 5-71 (Mitchell Marsh, 9.3 ov), 6-105 (Mukul Choudhary, 13.1 ov), 7-138 (Abdul Samad, 17.3 ov), 8-140 (Mohammed Shami, 17.6 ov), 9-141 (Anrich Nortje, 18.3 ov), 10-141 (Mohsin Khan, 18.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mukesh Kumar
+3	0	17	0	5.66	11	2	0
+Lungi Ngidi
+3.4	0	27	
+3
+7.36	9	0	0
+Axar Patel
+3	0	17	
+1
+5.66	9	0	0
+T Natarajan
+4	0	29	
+3
+7.25	8	0	0
+Kuldeep Yadav
+4	0	31	
+2
+7.75	8	0	0
+Vipraj Nigam
+1	0	8	0	8.00	2	0	0
+Delhi Capitals  (T: 142 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+KL Rahul †
+c Mohsin Khan b Mohammed Shami
+0	1	1	0	0	0.00
+Pathum Nissanka 
+c †Pant b Prince Yadav
+1	5	26	0	0	20.00
+Nitish Rana 
+c Abdul Samad b Mohsin Khan
+15	17	18	2	1	88.23
+Sameer Rizvi 
+not out	70	47	77	5	4	148.93
+Axar Patel (c)
+b Prince Yadav
+0	1	2	0	0	0.00
+Tristan Stubbs 
+not out	39	32	67	3	1	121.87
+Extras	(lb 4, w 16)	20	
+Total	
+17.1 Ov (RR: 8.44)
+145/4	
+Did not bat
+Vipraj Nigam, 
+David Miller, 
+Lungi Ngidi, 
+Kuldeep Yadav, 
+Mukesh Kumar 
+Fall of wickets
+DRS
+1-0 (KL Rahul, 0.1 ov), 2-21 (Nitish Rana, 3.3 ov), 3-25 (Pathum Nissanka, 4.2 ov), 4-26 (Axar Patel, 4.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	28	
+1
+7.00	12	4	0
+Prince Yadav
+3	0	20	
+2
+6.66	10	4	0
+Mohsin Khan
+4	1	19	
+1
+4.75	15	1	0
+Anrich Nortje
+4	0	39	0	9.75	7	3	0
+Shahbaz Ahmed
+1	0	16	0	16.00	0	0	0
+Aiden Markram
+1	0	13	0	13.00	2	0	0
+Abdul Samad
+0.1	0	6	0	36.00	0	0	0
