@@ -1,0 +1,31 @@
+# SRH vs KKR - Match 6
+# 2026-04-02
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- SRH ---
+54, Travis Head, SRH, Ragu, 1, 0, 46, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0
+233, Kamindu Mendis, SRH, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+60, Harshal Patel, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+123, Liam Livingstone, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+59, Pat Cummins, SRH, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+232, Aniket Verma, SRH, Dots, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+57, Ishan Kishan, SRH, JD, 1, 0, 14, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0
+58, Heinrich Klaasen, SRH, JD, 1, 0, 52, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0
+239, Zeeshan Ansari, SRH, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+55, Abhishek Sharma, SRH, Prakash, 1, 0, 48, 4, 4, 0, 1, 0, 0, 0, 0, 0, 0
+
+# --- KKR ---
+20, Rinku Singh, KKR, Ragu, 1, 0, 35, 4, 1, 0, 0, 0, 0, 2, 0, 0, 0
+21, Cameron Green, KKR, Ragu, 1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+22, Sunil Narine, KKR, RK, 1, 0, 12, 0, 2, 0, 6, 0, 0, 0, 0, 0, 0
+83, Finn Allen, KKR, Darshan, 1, 0, 28, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0
+23, Varun Chakravarthy, KKR, Prabhu, 1, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 0
+85, Tim Seifert, KKR, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+162, Ramandeep Singh, KKR, Prabhu, 1, 0, 10, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+82, Angkrish Raghuvanshi, KKR, Dots, 1, 0, 52, 6, 2, 0, 0, 0, 0, 0, 0, 0, 0
+81, Rovman Powell, KKR, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+19, Ajinkya Rahane, KKR, Rijo, 1, 0, 8, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+86, Vaibhav Arora, KKR, Rijo, 1, 0, 1, 0, 0, 2, 9, 0, 1, 0, 0, 0, 0
+169, Blessing Muzarabani, KKR, Prakash, 1, 0, 0, 0, 0, 4, 7, 0, 0, 0, 0, 0, 0
+
