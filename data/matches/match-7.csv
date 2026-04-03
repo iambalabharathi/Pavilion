@@ -1,0 +1,33 @@
+# CSK vs PBKS - Match 7
+# 2026-04-03
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- CSK ---
+5, Sanju Samson, CSK, RK, 1, 0, 7, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+3, Shivam Dube, CSK, Prabhu, 1, 0, 45, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0
+2, Dewald Brevis, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+6, Noor Ahmad, CSK, Dots, 1, 0, 0, 0, 0, 0, 6, 0, 0, 1, 0, 0, 0
+64, Matt Henry, CSK, Dots, 1, 0, 0, 0, 0, 2, 6, 0, 1, 1, 0, 0, 0
+130, Urvil Patel, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+62, Jamie Overton, CSK, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+136, Akeal Hosein, CSK, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+61, Ayush Mhatre, CSK, Rijo, 1, 0, 73, 6, 5, 0, 0, 0, 0, 0, 0, 0, 0
+1, Ruturaj Gaikwad, CSK, Prakash, 1, 0, 28, 2, 0, 0, 0, 0, 0, 0, 0, 1, 0
+63, Khaleel Ahmed, CSK, Prakash, 1, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0
+126, Sarfaraz Khan, CSK, Prakash, 1, 0, 32, 6, 1, 0, 0, 0, 0, 0, 0, 1, 0
+135, Prashant Veer, CSK, Prakash, 1, 0, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 1, 0, 9, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 1, 0, 10, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 1, 39, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 0, 50, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 1, 4, 0, 0, 1, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 1, 0, 0, 0, 0, 1, 7, 0, 0, 0, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 14, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 1, 0, 0, 0, 0, 1, 11, 0, 1, 0, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 43, 6, 1, 0, 0, 0, 0, 1, 0, 0, 0
+203, Harpreet Brar, PBKS, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
