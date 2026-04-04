@@ -1,0 +1,29 @@
+# RR vs GT - Match 9
+# 2026-04-04
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- RR ---
+118, Shimron Hetmyer, RR, Ragu, 1, 0, 18, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0
+121, Sandeep Sharma, RR, Ragu, 1, 0, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0, 0
+49, Vaibhav Sooryavanshi, RR, RK, 1, 0, 31, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0
+53, Ravi Bishnoi, RR, RK, 1, 1, 0, 0, 0, 4, 9, 0, 0, 0, 0, 0, 0
+119, Dhruv Jurel, RR, RK, 1, 0, 75, 5, 5, 0, 0, 0, 0, 1, 0, 1, 0
+120, Tushar Deshpande, RR, RK, 1, 0, 0, 0, 0, 1, 7, 0, 0, 1, 0, 0, 0
+48, Yashasvi Jaiswal, RR, Darshan, 1, 0, 55, 6, 3, 0, 0, 0, 0, 0, 0, 0, 0
+50, Riyan Parag, RR, Darshan, 1, 0, 8, 0, 1, 1, 3, 0, 0, 0, 0, 0, 0
+52, Jofra Archer, RR, Dots, 1, 0, 1, 0, 0, 0, 10, 0, 0, 2, 0, 0, 0
+51, Ravindra Jadeja, RR, JD, 1, 0, 7, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0
+
+# --- GT ---
+13, Shubman Gill, GT, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17, Mohammed Siraj, GT, RK, 1, 0, 0, 0, 0, 1, 11, 0, 0, 1, 0, 0, 0
+15, Rashid Khan, GT, Darshan, 1, 0, 24, 3, 0, 1, 4, 0, 0, 0, 0, 0, 0
+79, Kagiso Rabada, GT, JD, 1, 0, 23, 1, 2, 2, 11, 0, 1, 0, 0, 0, 0
+14, Sai Sudharsan, GT, Rijo, 1, 0, 73, 9, 3, 0, 0, 0, 0, 0, 0, 0, 0
+18, Prasidh Krishna, GT, Rijo, 1, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0
+77, Ravisrinivasan Sai Kishore, GT, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+16, Jos Buttler, GT, Prakash, 1, 0, 26, 5, 0, 0, 0, 0, 0, 1, 0, 0, 0
+74, Glenn Phillips, GT, Prakash, 1, 0, 3, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0
+76, Washington Sundar, GT, Prakash, 1, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
