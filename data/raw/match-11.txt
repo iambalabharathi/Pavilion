@@ -1,0 +1,112 @@
+Royal Challengers Bengaluru  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Phil Salt 
+c Noor Ahmad b Dube
+46	30	54	3	2	153.33
+Virat Kohli 
+c Dube b Kamboj
+28	18	22	2	1	155.55
+Devdutt Padikkal 
+b Overton
+50	29	52	5	2	172.41
+Rajat Patidar (c)
+not out	48	19	55	1	6	252.63
+Tim David 
+not out	70	25	34	3	8	280.00
+Extras	(b 1, lb 3, nb 1, w 3)	8	
+Total	
+20 Ov (RR: 12.50)
+250/3	
+Did not bat
+Jitesh Sharma †, 
+Romario Shepherd, 
+Krunal Pandya, 
+Bhuvneshwar Kumar, 
+Abhinandan Singh, 
+Jacob Duffy 
+Fall of wickets
+DRS
+1-37 (Virat Kohli, 4.3 ov), 2-93 (Phil Salt, 10.4 ov), 3-151 (Devdutt Padikkal, 14.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Khaleel Ahmed
+4	0	37	0	9.25	9	1	0
+Matt Henry
+3	0	36	0	12.00	2	0	0
+Anshul Kamboj
+4	0	52	
+1
+13.00	6	1	1
+Noor Ahmad
+4	0	49	0	12.25	6	0	0
+Jamie Overton
+3	0	42	
+1
+14.00	5	0	0
+Shivam Dube
+2	0	30	
+1
+15.00	2	1	0
+Chennai Super Kings  (T: 251 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+c Padikkal b Duffy
+9	5	14	0	1	180.00
+Ruturaj Gaikwad (c)
+c Padikkal b Duffy
+7	3	3	0	1	233.33
+Ayush Mhatre 
+c Patidar b Kumar
+1	3	3	0	0	33.33
+Sarfaraz Khan 
+st †Sharma b Pandya
+50	25	25	8	2	200.00
+Kartik Sharma 
+c Abhinandan Singh b Pandya
+6	3	22	0	1	200.00
+Shivam Dube 
+c †Sharma b Abhinandan Singh
+18	13	18	2	1	138.46
+Prashant Veer 
+c Patidar b Kumar
+43	29	40	6	1	148.27
+Jamie Overton 
+c sub (JG Bethell) b Suyash Sharma
+37	16	33	4	2	231.25
+Anshul Kamboj 
+not out	19	12	20	1	1	158.33
+Noor Ahmad 
+c Kohli b Kumar
+8	8	7	0	1	100.00
+Matt Henry 
+c Salt b Abhinandan Singh
+2	3	7	0	0	66.66
+Extras	(lb 2, nb 2, w 3)	7	
+Total	
+19.4 Ov (RR: 10.52)
+207	
+Fall of wickets
+DRS
+1-9 (Ruturaj Gaikwad, 0.5 ov), 2-10 (Ayush Mhatre, 1.2 ov), 3-30 (Sanju Samson, 2.5 ov), 4-77 (Sarfaraz Khan, 6.1 ov), 5-84 (Kartik Sharma, 6.5 ov), 6-108 (Shivam Dube, 9.5 ov), 7-165 (Prashant Veer, 15.1 ov), 8-178 (Jamie Overton, 16.1 ov), 9-190 (Noor Ahmad, 17.6 ov), 10-207 (Matt Henry, 19.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jacob Duffy
+4	0	58	
+2
+14.50	7	2	1
+Bhuvneshwar Kumar
+4	0	41	
+3
+10.25	11	1	1
+Abhinandan Singh
+3.4	0	30	
+2
+8.18	6	0	0
+Krunal Pandya
+3	0	36	
+2
+12.00	7	0	0
+Suyash Sharma
+4	0	21	
+1
+5.25	9	0	0
+Romario Shepherd
+1	0	19	0	19.00	0	0	0

@@ -1,0 +1,31 @@
+# SRH vs LSG - Match 10
+# 2026-04-05
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- SRH ---
+54, Travis Head, SRH, Ragu, 1, 0, 7, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+233, Kamindu Mendis, SRH, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+60, Harshal Patel, SRH, Darshan, 1, 0, 4, 1, 0, 0, 6, 0, 0, 0, 0, 0, 0
+123, Liam Livingstone, SRH, Darshan, 1, 0, 14, 0, 1, 0, 0, 0, 0, 2, 0, 0, 0
+59, Pat Cummins, SRH, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+232, Aniket Verma, SRH, Dots, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+57, Ishan Kishan, SRH, JD, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1
+58, Heinrich Klaasen, SRH, JD, 1, 0, 62, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0
+239, Zeeshan Ansari, SRH, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+55, Abhishek Sharma, SRH, Prakash, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 68, 9, 0, 0, 0, 0, 0, 2, 1, 0, 0
+172, Abdul Samad, LSG, Prabhu, 1, 0, 16, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 45, 6, 2, 0, 0, 0, 0, 1, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 1, 0, 0, 0, 0, 2, 7, 0, 1, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 14, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 1, 0, 0, 0, 2, 18, 0, 0, 0, 0, 0, 0
+90, Wanindu Hasaranga, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 1, 0, 12, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0
+

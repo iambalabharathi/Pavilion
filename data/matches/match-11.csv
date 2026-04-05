@@ -1,0 +1,35 @@
+# RCB vs CSK - Match 11
+# 2026-04-05
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- RCB ---
+45, Philip Salt, RCB, Ragu, 1, 0, 46, 3, 2, 0, 0, 0, 0, 1, 0, 0, 0
+112, Krunal Pandya, RCB, Ragu, 1, 0, 0, 0, 0, 2, 7, 0, 0, 0, 0, 0, 0
+116, Suyash Sharma, RCB, Ragu, 1, 0, 0, 0, 0, 1, 9, 0, 0, 1, 0, 0, 1
+42, Rajat Patidar, RCB, RK, 1, 0, 48, 1, 6, 0, 0, 0, 0, 2, 0, 0, 0
+113, Venkatesh Iyer, RCB, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+46, Josh Hazlewood, RCB, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+111, Jacob Bethell, RCB, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+43, Tim David, RCB, JD, 1, 1, 70, 3, 8, 0, 0, 0, 0, 0, 0, 0, 0
+47, Bhuvneshwar Kumar, RCB, JD, 1, 0, 0, 0, 0, 3, 11, 0, 0, 0, 0, 0, 0
+110, Devdutt Padikkal, RCB, JD, 1, 0, 50, 5, 2, 0, 0, 0, 0, 2, 0, 0, 0
+44, Virat Kohli, RCB, Prakash, 1, 0, 28, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0
+115, Jitesh Sharma, RCB, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+214, Rasikh Salam Dar, RCB, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- CSK ---
+5, Sanju Samson, CSK, RK, 1, 0, 9, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+3, Shivam Dube, CSK, Prabhu, 1, 0, 18, 2, 1, 1, 2, 0, 0, 1, 0, 0, 0
+2, Dewald Brevis, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+6, Noor Ahmad, CSK, Dots, 1, 0, 8, 0, 1, 0, 6, 0, 0, 1, 0, 0, 0
+64, Matt Henry, CSK, Dots, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0
+130, Urvil Patel, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+62, Jamie Overton, CSK, JD, 1, 0, 37, 4, 2, 1, 5, 0, 1, 0, 0, 0, 0
+136, Akeal Hosein, CSK, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+61, Ayush Mhatre, CSK, Rijo, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+1, Ruturaj Gaikwad, CSK, Prakash, 1, 0, 7, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+63, Khaleel Ahmed, CSK, Prakash, 1, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0
+126, Sarfaraz Khan, CSK, Prakash, 1, 0, 50, 8, 2, 0, 0, 0, 0, 0, 0, 0, 0
+135, Prashant Veer, CSK, Prakash, 1, 0, 43, 6, 1, 0, 0, 0, 0, 0, 0, 0, 0
+
