@@ -379,13 +379,26 @@ function parseDismissal(dismissal, batsmanName) {
 
   // "c FielderName b BowlerName" — fielder gets catch
   // †FielderName means the keeper — resolve to full keeper name
+  // "c sub (Name) b BowlerName" — substitute fielder gets catch but not marked as playing
   m = d.match(/^c\s+(†?.+?)\s+b\s+(.+)$/);
   if (m) {
-    let fielderRaw = m[1].replace(/^sub\s*\([^)]*\)/, '').replace(/^sub\s+/, '').trim();
+    let fielderRaw = m[1].trim();
+    let isSub = false;
+    // Extract substitute fielder name from "sub (Name)" or "sub Name"
+    const subParen = fielderRaw.match(/^sub\s*\(([^)]+)\)/);
+    const subPlain = fielderRaw.match(/^sub\s+(.+)/);
+    if (subParen) {
+      fielderRaw = subParen[1].trim();
+      isSub = true;
+    } else if (subPlain) {
+      fielderRaw = subPlain[1].trim();
+      isSub = true;
+    }
     const fielderName = /†/.test(fielderRaw) ? resolveKeeperName(fielderRaw) : fielderRaw;
     if (fielderName) {
       const fs = getOrCreate(fielderName);
       fs.fielding.catches++;
+      if (isSub) fs.playing = false;
     }
     return;
   }
