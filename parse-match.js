@@ -135,6 +135,9 @@ function matchPlayer(name, teamFilter) {
 // Track stats per player name (from scorecard)
 const playerStats = {}; // scorecardName -> { playing, mom, batting, bowling, fielding }
 
+// Track keeper name per innings (identified by † symbol in scorecard)
+const keepers = []; // full scorecard name of each innings' keeper
+
 function getOrCreate(name) {
   if (!playerStats[name]) {
     playerStats[name] = {
@@ -187,7 +190,15 @@ function parseInnings() {
       const dnbLine = lines[i] ? lines[i].trim() : '';
       if (dnbLine && !dnbLine.startsWith('Fall') && !dnbLine.startsWith('Bowling') && !dnbLine.startsWith('Extras') && !dnbLine.startsWith('Total') && !dnbLine.startsWith('DRS')) {
         // Parse comma-separated DNB players
-        const dnbNames = dnbLine.split(',').map(n => n.replace(/[†]/, '').replace(/\(c\)/, '').trim()).filter(Boolean);
+        // Detect keeper (†) before stripping the symbol
+        const dnbParts = dnbLine.split(',').map(n => n.trim()).filter(Boolean);
+        for (const part of dnbParts) {
+          if (/†/.test(part)) {
+            const keeperName = part.replace(/[†]/, '').replace(/\(c\)/, '').trim();
+            if (keeperName && keeperName.length >= 2) keepers.push(keeperName);
+          }
+        }
+        const dnbNames = dnbParts.map(n => n.replace(/[†]/, '').replace(/\(c\)/, '').trim()).filter(Boolean);
         for (const name of dnbNames) {
           if (name && name.length > 2) {
             getOrCreate(name); // Mark as playing
@@ -210,6 +221,11 @@ function parseInnings() {
     if (isStatsLine || isDismissal) { i++; continue; }
 
     // This should be a player name
+    // Detect keeper (†) before stripping the symbol
+    if (/†/.test(line)) {
+      const keeperName = line.replace(/[†]/, '').replace(/\(c\)/, '').replace(/\(wk\)/gi, '').trim();
+      if (keeperName && keeperName.length >= 2) keepers.push(keeperName);
+    }
     const playerName = line.replace(/[†]/, '').replace(/\(c\)/, '').replace(/\(wk\)/gi, '').trim();
     if (!playerName || playerName.length < 2) { i++; continue; }
 
@@ -333,6 +349,21 @@ function parseInnings() {
   }
 }
 
+// Resolve a fielder name that may have † prefix to the keeper's full name.
+// e.g. "†Sharma" → "Jitesh Sharma" if that's the keeper on record.
+function resolveKeeperName(rawName) {
+  const name = rawName.replace(/†/, '').trim();
+  // Check if any keeper's full name ends with or matches this partial name
+  for (const keeper of keepers) {
+    const kNorm = normalize(keeper);
+    const nNorm = normalize(name);
+    if (kNorm === nNorm || kNorm.endsWith(nNorm) || kNorm.includes(nNorm)) {
+      return keeper;
+    }
+  }
+  return name;
+}
+
 function parseDismissal(dismissal, batsmanName) {
   if (!dismissal) return;
   const d = dismissal.trim();
@@ -347,9 +378,11 @@ function parseDismissal(dismissal, batsmanName) {
   }
 
   // "c FielderName b BowlerName" — fielder gets catch
-  m = d.match(/^c\s+(?:†)?(.+?)\s+b\s+(.+)$/);
+  // †FielderName means the keeper — resolve to full keeper name
+  m = d.match(/^c\s+(†?.+?)\s+b\s+(.+)$/);
   if (m) {
-    const fielderName = m[1].replace(/^sub\s*\([^)]*\)/, '').replace(/^sub\s+/, '').trim();
+    let fielderRaw = m[1].replace(/^sub\s*\([^)]*\)/, '').replace(/^sub\s+/, '').trim();
+    const fielderName = /†/.test(fielderRaw) ? resolveKeeperName(fielderRaw) : fielderRaw;
     if (fielderName) {
       const fs = getOrCreate(fielderName);
       fs.fielding.catches++;
@@ -358,9 +391,11 @@ function parseDismissal(dismissal, batsmanName) {
   }
 
   // "st FielderName b BowlerName" — fielder gets stumping
-  m = d.match(/^st\s+(?:†)?(.+?)\s+b\s+(.+)$/);
+  // †FielderName means the keeper — resolve to full keeper name
+  m = d.match(/^st\s+(†?.+?)\s+b\s+(.+)$/);
   if (m) {
-    const fielderName = m[1].trim();
+    let fielderRaw = m[1].trim();
+    const fielderName = /†/.test(fielderRaw) ? resolveKeeperName(fielderRaw) : fielderRaw;
     const fs = getOrCreate(fielderName);
     fs.fielding.stumpings++;
     return;
@@ -396,7 +431,7 @@ function parseDismissal(dismissal, batsmanName) {
   // "run out (FielderName)" or "run out (F1/F2)"
   m = d.match(/^run out\s*\(([^)]+)\)/);
   if (m) {
-    const fielders = m[1].split('/').map(f => f.replace(/†/, '').trim());
+    const fielders = m[1].split('/').map(f => /†/.test(f) ? resolveKeeperName(f) : f.trim());
     if (fielders.length === 1) {
       const fs = getOrCreate(fielders[0]);
       fs.fielding.runoutDirect++;
