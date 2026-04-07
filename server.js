@@ -40,7 +40,11 @@ function getMatchFiles() {
   if (!fs.existsSync(MATCHES_DIR)) return [];
   return fs.readdirSync(MATCHES_DIR)
     .filter(f => f.endsWith('.json') || f.endsWith('.csv'))
-    .sort();
+    .sort((a, b) => {
+      const numA = parseInt(a.match(/\d+/)?.[0] || '0');
+      const numB = parseInt(b.match(/\d+/)?.[0] || '0');
+      return numA - numB;
+    });
 }
 
 function parseCSVMatch(filepath) {

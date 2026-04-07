@@ -102,7 +102,11 @@ function getMatchFiles() {
   if (!DATA_DIR) return [];
   const dir = path.join(DATA_DIR, 'matches');
   if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir).filter(f => f.endsWith('.csv')).sort();
+  return fs.readdirSync(dir).filter(f => f.endsWith('.csv')).sort((a, b) => {
+    const numA = parseInt(a.match(/\d+/)?.[0] || '0');
+    const numB = parseInt(b.match(/\d+/)?.[0] || '0');
+    return numA - numB;
+  });
 }
 
 function loadMatch(filename) {
