@@ -1,0 +1,107 @@
+Rajasthan Royals  (11 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+not out	77	32	63	10	4	240.62
+Vaibhav Sooryavanshi 
+c Tilak Varma b Thakur
+39	14	25	1	5	278.57
+Dhruv Jurel †
+lbw b Ghazanfar
+2	3	3	0	0	66.66
+Riyan Parag (c)
+c Tilak Varma b Ghazanfar
+20	10	14	1	2	200.00
+Shimron Hetmyer 
+not out	6	7	17	0	0	85.71
+Extras	(w 6)	6	
+Total	
+11 Ov (RR: 13.63)
+150/3	
+Did not bat
+Ravindra Jadeja, 
+Donovan Ferreira, 
+Jofra Archer, 
+Nandre Burger, 
+Tushar Deshpande, 
+Sandeep Sharma 
+Fall of wickets
+DRS
+1-80 (Vaibhav Sooryavanshi, 4.6 ov), 2-84 (Dhruv Jurel, 5.4 ov), 3-121 (Riyan Parag, 8.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Deepak Chahar
+1	0	22	0	22.00	1	0	0
+Jasprit Bumrah
+3	0	32	0	10.66	5	1	0
+Trent Boult
+1	0	22	0	22.00	0	1	0
+Hardik Pandya
+2	0	17	0	8.50	3	0	0
+Shardul Thakur
+2	0	36	
+1
+18.00	2	3	0
+AM Ghazanfar
+2	0	21	
+2
+10.50	4	1	0
+Mumbai Indians  (T: 151 runs from 11 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Ryan Rickelton †
+c †Jurel b Archer
+8	4	5	0	1	200.00
+Rohit Sharma 
+lbw b Sandeep Sharma
+5	6	15	0	0	83.33
+Suryakumar Yadav 
+c Archer b Burger
+6	3	4	0	1	200.00
+Tilak Varma 
+c Hetmyer b Ravi Bishnoi
+14	10	19	2	0	140.00
+Hardik Pandya (c)
+c Jaiswal b Ravi Bishnoi
+9	6	11	2	0	150.00
+Naman Dhir 
+c Ravi Bishnoi b Burger
+25	13	23	3	1	192.30
+Sherfane Rutherford 
+c Sandeep Sharma b Deshpande
+25	8	14	2	2	312.50
+Shardul Thakur 
+c †Jurel b Sandeep Sharma
+8	7	10	1	0	114.28
+Deepak Chahar 
+not out	6	5	13	1	0	120.00
+Trent Boult 
+run out (Archer)
+1	2	3	0	0	50.00
+Jasprit Bumrah 
+not out	5	2	4	1	0	250.00
+Extras	(b 1, lb 4, w 6)	11	
+Total	
+11 Ov (RR: 11.18)
+123/9	
+Fall of wickets
+DRS
+1-10 (Ryan Rickelton, 0.6 ov), 2-20 (Suryakumar Yadav, 1.4 ov), 3-22 (Rohit Sharma, 2.3 ov), 4-41 (Hardik Pandya, 4.3 ov), 5-46 (Tilak Varma, 4.6 ov), 6-93 (Sherfane Rutherford, 7.5 ov), 7-103 (Naman Dhir, 8.5 ov), 8-111 (Shardul Thakur, 9.4 ov), 9-116 (Trent Boult, 10.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+2	0	17	
+1
+8.50	3	0	0
+Nandre Burger
+2	0	21	
+2
+10.50	6	1	0
+Sandeep Sharma
+3	0	26	
+2
+8.66	9	3	0
+Tushar Deshpande
+2	0	29	
+1
+14.50	3	1	0
+Ravi Bishnoi
+2	0	25	
+2
+12.50	2	1	0
