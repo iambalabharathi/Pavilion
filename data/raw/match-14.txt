@@ -1,0 +1,107 @@
+Gujarat Titans  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+b Mukesh Kumar
+12	7	12	2	0	171.42
+Shubman Gill (c)
+c Rana b Ngidi
+70	45	93	4	5	155.55
+Jos Buttler †
+b Kuldeep Yadav
+52	27	27	3	5	192.59
+Washington Sundar 
+c Rana b Mukesh Kumar
+55	32	63	6	2	171.87
+Glenn Phillips 
+not out	14	9	14	1	1	155.55
+Rahul Tewatia 
+not out	1	1	3	0	0	100.00
+Extras	(nb 1, w 5)	6	
+Total	
+20 Ov (RR: 10.50)
+210/4	
+Did not bat
+Rashid Khan, 
+Kagiso Rabada, 
+Mohammed Siraj, 
+Ashok Sharma, 
+Prasidh Krishna 
+Fall of wickets
+DRS
+1-19 (Sai Sudharsan, 2.1 ov), 2-79 (Jos Buttler, 7.3 ov), 3-183 (Shubman Gill, 17.3 ov), 4-205 (Washington Sundar, 19.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mukesh Kumar
+4	0	55	
+2
+13.75	8	2	0
+Lungi Ngidi
+4	0	24	
+1
+6.00	11	2	0
+Axar Patel
+3	0	32	0	10.66	2	1	0
+Kuldeep Yadav
+4	0	42	
+1
+10.50	5	0	0
+T Natarajan
+4	0	34	0	8.50	4	0	0
+Vipraj Nigam
+1	0	23	0	23.00	1	0	1
+Delhi Capitals  (T: 211 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+c Tewatia b Prasidh Krishna
+41	24	41	6	1	170.83
+KL Rahul †
+c †Buttler b Mohammed Siraj
+92	52	99	11	4	176.92
+Nitish Rana 
+c Sai Sudharsan b Rashid Khan
+5	6	9	1	0	83.33
+Sameer Rizvi 
+b Rashid Khan
+0	1	1	0	0	0.00
+David Miller 
+not out	41	20	44	3	3	205.00
+Axar Patel (c)
+c Phillips b Rashid Khan
+2	3	3	0	0	66.66
+Tristan Stubbs 
+run out (Sai Sudharsan)
+7	6	18	0	0	116.66
+Vipraj Nigam 
+c Shubman Gill b Prasidh Krishna
+12	7	17	2	0	171.42
+Kuldeep Yadav 
+run out (†Buttler)
+1	1	6	0	0	100.00
+Extras	(w 8)	8	
+Total	
+20 Ov (RR: 10.45)
+209/8	
+Did not bat
+Lungi Ngidi, 
+T Natarajan 
+Fall of wickets
+DRS
+1-76 (Pathum Nissanka, 8.1 ov), 2-101 (Nitish Rana, 9.5 ov), 3-101 (Sameer Rizvi, 9.6 ov), 3-130* (David Miller, retired not out), 4-134 (Axar Patel, 13.6 ov), 5-160 (Tristan Stubbs, 16.4 ov), 6-166 (KL Rahul, 16.6 ov), 7-202 (Vipraj Nigam, 19.2 ov), 8-209 (Kuldeep Yadav, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	52	
+1
+13.00	8	4	0
+Kagiso Rabada
+4	0	32	0	8.00	9	2	0
+Rashid Khan
+4	0	17	
+3
+4.25	10	0	0
+Ashok Sharma
+3	0	45	0	15.00	2	2	0
+Prasidh Krishna
+4	0	52	
+2
+13.00	7	0	0
+Washington Sundar
+1	0	11	0	11.00	1	0	0
