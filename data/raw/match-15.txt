@@ -1,0 +1,110 @@
+Kolkata Knight Riders  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+c Mohammed Shami b Rathi
+41	24	50	4	2	170.83
+Finn Allen 
+c Rathi b Prince Yadav
+9	8	8	2	0	112.50
+Angkrish Raghuvanshi †
+c Markram b Siddharth
+45	33	47	5	2	136.36
+Cameron Green 
+not out	32	24	53	3	1	133.33
+Rinku Singh 
+b Avesh Khan
+4	7	8	0	0	57.14
+Rovman Powell 
+not out	39	24	39	4	2	162.50
+Extras	(b 1, lb 3, w 7)	11	
+Total	
+20 Ov (RR: 9.05)
+181/4	
+Did not bat
+Ramandeep Singh, 
+Anukul Roy, 
+Sunil Narine, 
+Navdeep Saini, 
+Kartik Tyagi 
+Fall of wickets
+DRS
+1-15 (Finn Allen, 1.4 ov), 2-99 (Ajinkya Rahane, 10.2 ov), 3-105 (Angkrish Raghuvanshi, 11.4 ov), 4-111 (Rinku Singh, 13.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	27	0	6.75	9	1	0
+Prince Yadav
+4	0	47	
+1
+11.75	6	3	0
+Manimaran Siddharth
+4	0	34	
+1
+8.50	9	1	0
+Digvesh Rathi
+4	0	25	
+1
+6.25	9	0	0
+Avesh Khan
+4	0	44	
+1
+11.00	10	1	0
+Lucknow Super Giants  (T: 182 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+c †Raghuvanshi b Arora
+15	11	21	1	1	136.36
+Aiden Markram 
+c Powell b Arora
+22	15	18	2	1	146.66
+Rishabh Pant (c)†
+c Kartik Tyagi b Green
+10	9	23	1	0	111.11
+Ayush Badoni 
+c Singh b Roy
+54	34	56	7	2	158.82
+Nicholas Pooran 
+c Ramandeep Singh b Kartik Tyagi
+13	15	19	0	1	86.66
+Abdul Samad 
+b Roy
+2	4	5	0	0	50.00
+Mukul Choudhary 
+not out	54	27	40	2	7	200.00
+Mohammed Shami 
+c Roy b Narine
+1	3	5	0	0	33.33
+Avesh Khan 
+not out	1	3	23	0	0	33.33
+Extras	(b 1, lb 2, nb 1, w 6)	10	
+Total	
+20 Ov (RR: 9.10)
+182/7	
+Did not bat
+Digvesh Rathi, 
+Prince Yadav 
+Fall of wickets
+DRS
+1-41 (Aiden Markram, 4.1 ov), 2-42 (Mitchell Marsh, 4.3 ov), 3-73 (Rishabh Pant, 8.2 ov), 4-95 (Nicholas Pooran, 11.4 ov), 5-104 (Abdul Samad, 12.5 ov), 6-125 (Ayush Badoni, 14.4 ov), 7-128 (Mohammed Shami, 15.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Vaibhav Arora
+4	0	38	
+2
+9.50	12	0	0
+Anukul Roy
+4	0	32	
+2
+8.00	9	4	0
+Navdeep Saini
+3	0	37	0	12.33	6	1	0
+Sunil Narine
+4	0	13	
+1
+3.25	14	0	0
+Kartik Tyagi
+3	0	31	
+1
+10.33	6	0	0
+Cameron Green
+2	0	28	
+1
+14.00	4	1	1
