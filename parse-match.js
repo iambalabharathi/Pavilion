@@ -80,9 +80,20 @@ function normalize(name) {
     .toLowerCase();
 }
 
+// Returns true if two first names could refer to the same person:
+// equal, OR one side is just an initial that matches the other's first letter.
+// Two distinct full first names (e.g., "ashok" vs "ashutosh") are NOT compatible.
+function firstNamesCompatible(a, b) {
+  if (!a || !b) return true;
+  if (a === b) return true;
+  if (a.length === 1 || b.length === 1) return a[0] === b[0];
+  return false;
+}
+
 function matchPlayer(name, teamFilter) {
   const norm = normalize(name);
   const parts = norm.split(' ').filter(Boolean);
+  const searchFirst = parts.length >= 2 ? parts[0] : '';
 
   // Exact match
   let found = allPlayers.find(p => normalize(p.name) === norm);
@@ -91,23 +102,31 @@ function matchPlayer(name, teamFilter) {
   // Last name + first initial match
   if (parts.length >= 2) {
     const lastName = parts[parts.length - 1];
-    const firstInitial = parts[0][0];
     found = allPlayers.find(p => {
       const pp = normalize(p.name).split(' ').filter(Boolean);
       const pLast = pp[pp.length - 1];
-      const pFirst = pp[0][0];
-      return pLast === lastName && pFirst === firstInitial;
+      const pFirst = pp[0];
+      return pLast === lastName && firstNamesCompatible(searchFirst, pFirst);
     });
     if (found) return found;
   }
 
   // Last name only (if unique, or unique within playing teams)
+  // When the search has a full first name, the candidate's first name must
+  // also be compatible — otherwise "Ashok Sharma" would match "Ashutosh Sharma"
+  // simply because Ashutosh is the only Sharma on the playing teams.
   if (parts.length >= 1) {
     const lastName = parts[parts.length - 1];
+    const isCompatible = (p) => {
+      if (!searchFirst) return true;
+      const pp = normalize(p.name).split(' ').filter(Boolean);
+      const pFirst = pp.length >= 2 ? pp[0] : '';
+      return firstNamesCompatible(searchFirst, pFirst);
+    };
     const matches = allPlayers.filter(p => {
       const pp = normalize(p.name).split(' ').filter(Boolean);
       return pp[pp.length - 1] === lastName;
-    });
+    }).filter(isCompatible);
     if (matches.length === 1) return matches[0];
     // Disambiguate by teams playing in this match
     if (matches.length > 1 && teamFilter) {
@@ -184,30 +203,7 @@ function parseInnings() {
 
     // End of batting section
     if (/^Extras\s/.test(line) || /^Total\s*$/.test(line) || /^Fall of wickets/.test(line) || /^Bowling\s/.test(line)) break;
-    if (/^Did not bat/.test(line)) {
-      i++;
-      // "Did not bat" line may list players - mark them as playing but DNB
-      const dnbLine = lines[i] ? lines[i].trim() : '';
-      if (dnbLine && !dnbLine.startsWith('Fall') && !dnbLine.startsWith('Bowling') && !dnbLine.startsWith('Extras') && !dnbLine.startsWith('Total') && !dnbLine.startsWith('DRS')) {
-        // Parse comma-separated DNB players
-        // Detect keeper (†) before stripping the symbol
-        const dnbParts = dnbLine.split(',').map(n => n.trim()).filter(Boolean);
-        for (const part of dnbParts) {
-          if (/†/.test(part)) {
-            const keeperName = part.replace(/[†]/, '').replace(/\(c\)/, '').trim();
-            if (keeperName && keeperName.length >= 2) keepers.push(keeperName);
-          }
-        }
-        const dnbNames = dnbParts.map(n => n.replace(/[†]/, '').replace(/\(c\)/, '').trim()).filter(Boolean);
-        for (const name of dnbNames) {
-          if (name && name.length > 2) {
-            getOrCreate(name); // Mark as playing
-          }
-        }
-        i++;
-      }
-      continue;
-    }
+    if (/^Did not bat/.test(line)) { i++; continue; }
     if (/^DRS/.test(line)) { i++; continue; }
 
     // Try to parse a batsman entry
@@ -272,9 +268,38 @@ function parseInnings() {
     parseDismissal(dismissalLine, playerName);
   }
 
-  // Skip to bowling section
+  // Scan for "Did not bat" players between batting and bowling sections
   while (i < lines.length) {
-    if (/^Bowling\s/.test(lines[i].trim())) { i++; break; }
+    const line = lines[i].trim();
+    if (/^Bowling\s/.test(line)) { i++; break; }
+    if (/^Did not bat/.test(line)) {
+      i++;
+      // Collect player names across one or more lines until a section boundary
+      let dnbText = '';
+      while (i < lines.length) {
+        const dnbLine = lines[i].trim();
+        if (!dnbLine || /^(Fall of|Bowling|Extras|Total|DRS|Did not bat)/.test(dnbLine) ||
+            /\(\d+ ovs? maximum\)/.test(dnbLine) || /\(T:.*runs from/.test(dnbLine)) break;
+        dnbText += (dnbText ? ', ' : '') + dnbLine;
+        i++;
+      }
+      if (dnbText) {
+        const dnbParts = dnbText.split(',').map(n => n.trim()).filter(Boolean);
+        for (const part of dnbParts) {
+          if (/†/.test(part)) {
+            const keeperName = part.replace(/[†]/, '').replace(/\(c\)/, '').trim();
+            if (keeperName && keeperName.length >= 2) keepers.push(keeperName);
+          }
+        }
+        const dnbNames = dnbParts.map(n => n.replace(/[†]/, '').replace(/\(c\)/, '').trim()).filter(Boolean);
+        for (const name of dnbNames) {
+          if (name && name.length > 2) {
+            getOrCreate(name); // Mark as playing
+          }
+        }
+      }
+      continue;
+    }
     i++;
   }
 
