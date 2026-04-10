@@ -1,0 +1,111 @@
+Royal Challengers Bengaluru  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Phil Salt 
+c †Jurel b Archer
+0	1	1	0	0	0.00
+Virat Kohli 
+b Ravi Bishnoi
+32	16	26	7	0	200.00
+Devdutt Padikkal 
+c Hetmyer b Archer
+14	7	15	3	0	200.00
+Rajat Patidar (c)
+c Ferreira b Sandeep Sharma
+63	40	67	4	4	157.50
+Krunal Pandya 
+c Hetmyer b Ravi Bishnoi
+1	6	7	0	0	16.66
+Jitesh Sharma †
+lbw b Brijesh Sharma
+5	8	8	0	0	62.50
+Tim David 
+c Hetmyer b Brijesh Sharma
+13	9	11	2	0	144.44
+Romario Shepherd 
+c Brijesh Sharma b Jadeja
+22	11	11	2	1	200.00
+Venkatesh Iyer 
+not out	29	15	31	1	2	193.33
+Bhuvneshwar Kumar 
+not out	9	7	14	1	0	128.57
+Extras	(b 4, lb 2, w 7)	13	
+Total	
+20 Ov (RR: 10.05)
+201/8	
+Did not bat
+Abhinandan Singh, 
+Josh Hazlewood 
+Fall of wickets
+DRS
+1-0 (Phil Salt, 0.1 ov), 2-45 (Devdutt Padikkal, 2.6 ov), 3-58 (Virat Kohli, 4.5 ov), 4-62 (Krunal Pandya, 6.2 ov), 5-76 (Jitesh Sharma, 8.4 ov), 6-94 (Tim David, 10.6 ov), 7-125 (Romario Shepherd, 13.6 ov), 8-166 (Rajat Patidar, 17.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+3	0	33	
+2
+11.00	6	0	0
+Nandre Burger
+3	0	32	0	10.66	7	1	0
+Sandeep Sharma
+4	0	47	
+1
+11.75	7	2	0
+Ravi Bishnoi
+4	0	32	
+2
+8.00	8	0	0
+Ravindra Jadeja
+2	0	14	
+1
+7.00	2	0	0
+Brijesh Sharma
+4	0	37	
+2
+9.25	4	0	0
+Rajasthan Royals  (T: 202 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c †Sharma b Hazlewood
+13	8	9	0	2	162.50
+Vaibhav Sooryavanshi 
+c Kohli b Pandya
+78	26	41	8	7	300.00
+Dhruv Jurel †
+not out	81	43	83	8	3	188.37
+Shimron Hetmyer 
+c Hazlewood b Pandya
+0	1	1	0	0	0.00
+Riyan Parag (c)
+c Pandya b Hazlewood
+3	5	6	0	0	60.00
+Ravindra Jadeja 
+not out	24	25	42	1	0	96.00
+Extras	(lb 1, w 2)	3	
+Total	
+18 Ov (RR: 11.22)
+202/4	
+Did not bat
+Donovan Ferreira, 
+Ravi Bishnoi, 
+Jofra Archer, 
+Nandre Burger, 
+Brijesh Sharma 
+Fall of wickets
+DRS
+1-21 (Yashasvi Jaiswal, 1.6 ov), 2-129 (Vaibhav Sooryavanshi, 8.1 ov), 3-129 (Shimron Hetmyer, 8.2 ov), 4-134 (Riyan Parag, 9.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	37	0	9.25	9	0	0
+Josh Hazlewood
+4	0	44	
+2
+11.00	8	0	0
+Abhinandan Singh
+3	0	54	0	18.00	2	2	0
+Krunal Pandya
+4	0	30	
+2
+7.50	7	0	0
+Tim David
+1	0	18	0	18.00	1	0	0
+Romario Shepherd
+2	0	18	0	9.00	0	0	0
