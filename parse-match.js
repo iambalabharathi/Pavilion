@@ -233,10 +233,14 @@ function parseInnings() {
 
     const nextLine = lines[i].trim();
 
-    // Check if dismissal + stats on same line (not out case)
+    // Check if dismissal + stats on same line (not out / retired cases)
     if (/^not out\t/.test(nextLine)) {
       dismissalLine = 'not out';
       statsLine = nextLine.replace(/^not out\s*/, '');
+      i++;
+    } else if (/^retired (hurt|not out)\t/.test(nextLine)) {
+      dismissalLine = nextLine.match(/^retired (hurt|not out)/)[0];
+      statsLine = nextLine.replace(/^retired (hurt|not out)\s*/, '');
       i++;
     } else if (/^(c |b |lbw |run out|st |hit wicket|retired|obstructing)/.test(nextLine)) {
       dismissalLine = nextLine;
