@@ -1,5 +1,5 @@
 Sunrisers Hyderabad  (20 ovs maximum)
-BATTING	 	R	B	M	4s	6s	SR
+Batting	 	R	B	M	4s	6s	SR
 Abhishek Sharma 
 c Arshdeep Singh b Shashank Singh
 74	28	49	5	8	264.28
@@ -26,14 +26,14 @@ Extras	(b 1, nb 1, w 11)	13
 Total	
 20 Ov (RR: 10.95)
 219/6	
-DID NOT BAT
+Did not bat
 Shivang Kumar, 
 Harshal Patel, 
 Eshan Malinga 
-FALL OF WICKETS
+Fall of wickets
 DRS
 1-120 (Travis Head, 8.1 ov), 2-122 (Abhishek Sharma, 8.3 ov), 3-169 (Ishan Kishan, 13.6 ov), 4-195 (Aniket Verma, 16.4 ov), 5-214 (Salil Arora, 18.5 ov), 6-218 (Heinrich Klaasen, 19.4 ov)
-BOWLING	O	M	R	W	ECON	0S	WD	NB
+Bowling	O	M	R	W	ECON	0s	WD	NB
 Arshdeep Singh
 4	0	50	
 2
@@ -53,7 +53,7 @@ Shashank Singh
 Yuzvendra Chahal
 3	0	33	0	11.00	3	3	0
 Punjab Kings  (T: 220 runs from 20 ovs)
-BATTING	 	R	B	M	4s	6s	SR
+Batting	 	R	B	M	4s	6s	SR
 Priyansh Arya 
 c Nitish Kumar Reddy b Shivang Kumar
 57	20	38	5	5	285.00
@@ -74,16 +74,16 @@ Extras	(w 5)	5
 Total	
 18.5 Ov (RR: 11.84)
 223/4	
-DID NOT BAT
+Did not bat
 Marcus Stoinis, 
 Marco Jansen, 
 Xavier Bartlett, 
 Vijaykumar Vyshak, 
 Arshdeep Singh 
-FALL OF WICKETS
+Fall of wickets
 DRS
 1-99 (Priyansh Arya, 6.2 ov), 2-117 (Prabhsimran Singh, 8.5 ov), 3-128 (Cooper Connolly, 10.2 ov), 4-197 (Nehal Wadhera, 16.1 ov)
-BOWLING	O	M	R	W	ECON	0S	WD	NB
+Bowling	O	M	R	W	ECON	0s	WD	NB
 Harsh Dubey
 4	0	38	
 1
