@@ -1,0 +1,31 @@
+# LSG vs GT - Match 19
+# 2026-04-12
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 18, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 1, 0, 18, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 30, 5, 1, 0, 2, 0, 0, 1, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 1, 0, 4, 1, 0, 0, 3, 0, 0, 1, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 11, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 12, 1, 1, 1, 12, 0, 0, 0, 0, 0, 0
+90, Wanindu Hasaranga, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 19, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 1, 0, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 0, 0, 0
+
+# --- GT ---
+13, Shubman Gill, GT, Ragu, 1, 0, 56, 6, 1, 0, 0, 0, 0, 2, 0, 0, 0
+17, Mohammed Siraj, GT, RK, 1, 0, 0, 0, 0, 1, 13, 0, 0, 0, 0, 0, 0
+15, Rashid Khan, GT, Darshan, 1, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0
+79, Kagiso Rabada, GT, JD, 1, 0, 0, 0, 0, 1, 7, 0, 0, 0, 0, 0, 0
+14, Sai Sudharsan, GT, Rijo, 1, 0, 15, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0
+18, Prasidh Krishna, GT, Rijo, 1, 1, 0, 0, 0, 4, 13, 0, 0, 0, 0, 0, 0
+77, Ravisrinivasan Sai Kishore, GT, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+16, Jos Buttler, GT, Prakash, 1, 0, 60, 11, 0, 0, 0, 0, 0, 1, 0, 0, 0
+74, Glenn Phillips, GT, Prakash, 1, 0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0
+76, Washington Sundar, GT, Prakash, 1, 0, 21, 2, 1, 0, 0, 0, 0, 1, 0, 0, 0
+
