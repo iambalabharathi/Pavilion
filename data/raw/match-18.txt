@@ -1,0 +1,106 @@
+Chennai Super Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+not out	115	56	103	15	4	205.35
+Ruturaj Gaikwad (c)
+c Nissanka b Patel
+15	18	32	1	0	83.33
+Ayush Mhatre 
+retired out
+59	36	55	3	4	163.88
+Shivam Dube 
+not out	20	10	15	2	1	200.00
+Extras	(w 3)	3	
+Total	
+20 Ov (RR: 10.60)
+212/2	
+Did not bat
+Sarfaraz Khan, 
+Dewald Brevis, 
+Jamie Overton, 
+Noor Ahmad, 
+Anshul Kamboj, 
+Gurjapneet Singh, 
+Khaleel Ahmed 
+Fall of wickets
+DRS
+1-62 (Ruturaj Gaikwad, 6.2 ov), 2-175 (Ayush Mhatre, 17.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Auqib Nabi
+2	0	17	0	8.50	4	1	0
+Mukesh Kumar
+4	0	37	0	9.25	7	1	0
+Axar Patel
+4	0	39	
+1
+9.75	5	0	0
+T Natarajan
+4	0	54	0	13.50	3	1	0
+Lungi Ngidi
+4	0	41	0	10.25	6	0	0
+Kuldeep Yadav
+2	0	24	0	12.00	1	0	0
+Delhi Capitals  (T: 213 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+c Brevis b Kamboj
+41	24	29	5	2	170.83
+KL Rahul †
+c Overton b Ahmed
+18	10	26	2	1	180.00
+Sameer Rizvi 
+c Brevis b Overton
+6	9	18	1	0	66.66
+Axar Patel (c)
+c Khan b Gurjapneet Singh
+1	2	4	0	0	50.00
+David Miller 
+b Overton
+17	14	37	1	1	121.42
+Tristan Stubbs 
+c Noor Ahmad b Overton
+60	38	64	4	3	157.89
+Ashutosh Sharma 
+c Kamboj b Noor Ahmad
+19	10	13	1	2	190.00
+Auqib Nabi 
+c Hosein b Overton
+4	2	4	1	0	200.00
+Kuldeep Yadav 
+c Brevis b Kamboj
+4	7	22	0	0	57.14
+Lungi Ngidi 
+c Gurjapneet Singh b Kamboj
+3	5	10	0	0	60.00
+T Natarajan 
+not out	1	2	5	0	0	50.00
+Extras	(lb 1, nb 3, w 11)	15	
+Total	
+20 Ov (RR: 9.45)
+189	
+Fall of wickets
+DRS
+1-61 (KL Rahul, 4.6 ov), 2-61 (Pathum Nissanka, 5.2 ov), 3-66 (Axar Patel, 6.1 ov), 4-76 (Sameer Rizvi, 7.6 ov), 5-121 (David Miller, 12.2 ov), 6-149 (Ashutosh Sharma, 14.5 ov), 7-154 (Auqib Nabi, 15.4 ov), 8-183 (Tristan Stubbs, 18.3 ov), 9-185 (Kuldeep Yadav, 19.1 ov), 10-189 (Lungi Ngidi, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Akeal Hosein
+2	0	20	0	10.00	6	0	2
+Khaleel Ahmed
+3	0	40	
+1
+13.33	3	1	0
+Anshul Kamboj
+4	0	35	
+3
+8.75	11	0	1
+Gurjapneet Singh
+4	0	39	
+1
+9.75	8	1	0
+Jamie Overton
+4	0	18	
+4
+4.50	13	2	0
+Noor Ahmad
+3	0	36	
+1
+12.00	4	2	0
