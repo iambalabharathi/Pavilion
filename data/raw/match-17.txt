@@ -1,0 +1,104 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+BATTING	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c Arshdeep Singh b Shashank Singh
+74	28	49	5	8	264.28
+Travis Head 
+c Bartlett b Shashank Singh
+38	23	47	5	1	165.21
+Ishan Kishan (c)†
+c Jansen b Arshdeep Singh
+27	17	26	3	1	158.82
+Heinrich Klaasen 
+c Connolly b Bartlett
+39	33	55	1	1	118.18
+Aniket Verma 
+run out (Stoinis/†Prabhsimran Singh)
+18	9	14	1	1	200.00
+Salil Arora 
+c Bartlett b Arshdeep Singh
+9	8	10	0	1	112.50
+Nitish Kumar Reddy 
+not out	0	1	9	0	0	0.00
+Harsh Dubey 
+not out	1	2	2	0	0	50.00
+Extras	(b 1, nb 1, w 11)	13	
+Total	
+20 Ov (RR: 10.95)
+219/6	
+DID NOT BAT
+Shivang Kumar, 
+Harshal Patel, 
+Eshan Malinga 
+FALL OF WICKETS
+DRS
+1-120 (Travis Head, 8.1 ov), 2-122 (Abhishek Sharma, 8.3 ov), 3-169 (Ishan Kishan, 13.6 ov), 4-195 (Aniket Verma, 16.4 ov), 5-214 (Salil Arora, 18.5 ov), 6-218 (Heinrich Klaasen, 19.4 ov)
+BOWLING	O	M	R	W	ECON	0S	WD	NB
+Arshdeep Singh
+4	0	50	
+2
+12.50	10	6	0
+Xavier Bartlett
+4	0	42	
+1
+10.50	5	0	1
+Marco Jansen
+4	0	40	0	10.00	5	1	0
+Vijaykumar Vyshak
+2	0	33	0	16.50	3	0	0
+Shashank Singh
+3	0	20	
+2
+6.66	7	1	0
+Yuzvendra Chahal
+3	0	33	0	11.00	3	3	0
+Punjab Kings  (T: 220 runs from 20 ovs)
+BATTING	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Nitish Kumar Reddy b Shivang Kumar
+57	20	38	5	5	285.00
+Prabhsimran Singh †
+c Klaasen b Shivang Kumar
+51	25	49	4	4	204.00
+Cooper Connolly 
+c Verma b Shivang Kumar
+11	12	19	1	0	91.66
+Shreyas Iyer (c)
+not out	69	33	49	5	5	209.09
+Nehal Wadhera 
+b Dubey
+14	14	30	0	1	100.00
+Shashank Singh 
+not out	16	9	10	1	1	177.77
+Extras	(w 5)	5	
+Total	
+18.5 Ov (RR: 11.84)
+223/4	
+DID NOT BAT
+Marcus Stoinis, 
+Marco Jansen, 
+Xavier Bartlett, 
+Vijaykumar Vyshak, 
+Arshdeep Singh 
+FALL OF WICKETS
+DRS
+1-99 (Priyansh Arya, 6.2 ov), 2-117 (Prabhsimran Singh, 8.5 ov), 3-128 (Cooper Connolly, 10.2 ov), 4-197 (Nehal Wadhera, 16.1 ov)
+BOWLING	O	M	R	W	ECON	0S	WD	NB
+Harsh Dubey
+4	0	38	
+1
+9.50	5	2	0
+Jaydev Unadkat
+3	0	40	0	13.33	4	0	0
+Eshan Malinga
+3	0	46	0	15.33	6	2	0
+Harshal Patel
+2	0	39	0	19.50	2	0	0
+Shivang Kumar
+4	0	33	
+3
+8.25	8	1	0
+Nitish Kumar Reddy
+2	0	20	0	10.00	1	0	0
+Abhishek Sharma
+0.5	0	7	0	8.40	1	0	0
