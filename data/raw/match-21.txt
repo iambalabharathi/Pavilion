@@ -1,0 +1,116 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c Ravi Bishnoi b Archer
+0	1	1	0	0	0.00
+Travis Head 
+c Ferreira b Parag
+18	18	32	3	0	100.00
+Ishan Kishan (c)
+c & b Sandeep Sharma
+91	44	67	8	6	206.81
+Heinrich Klaasen 
+c Parag b Deshpande
+40	26	51	1	3	153.84
+Nitish Kumar Reddy 
+c †Jurel b Archer
+28	13	29	0	4	215.38
+Salil Arora †
+not out	24	13	25	2	2	184.61
+Aniket Verma 
+run out (†Jurel/Deshpande)
+6	5	8	1	0	120.00
+Harsh Dubey 
+not out	0	0	3	0	0	-
+Extras	(lb 1, w 8)	9	
+Total	
+20 Ov (RR: 10.80)
+216/6	
+Did not bat
+Shivang Kumar, 
+Praful Hinge, 
+Eshan Malinga 
+Fall of wickets
+DRS
+1-0 (Abhishek Sharma, 0.1 ov), 2-55 (Travis Head, 6.5 ov), 3-143 (Ishan Kishan, 13.2 ov), 4-162 (Heinrich Klaasen, 15.5 ov), 5-195 (Nitish Kumar Reddy, 18.3 ov), 6-209 (Aniket Verma, 19.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	0	37	
+2
+9.25	13	0	0
+Nandre Burger
+4	0	31	0	7.75	12	0	0
+Sandeep Sharma
+4	0	52	
+1
+13.00	6	4	0
+Tushar Deshpande
+4	0	55	
+1
+13.75	7	4	0
+Riyan Parag
+1	0	5	
+1
+5.00	1	0	0
+Ravi Bishnoi
+3	0	35	0	11.66	1	0	0
+Rajasthan Royals  (T: 217 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c Nitish Kumar Reddy b Sakib Hussain
+1	5	10	0	0	20.00
+Vaibhav Sooryavanshi 
+c †Arora b Hinge
+0	1	2	0	0	0.00
+Dhruv Jurel †
+b Hinge
+0	2	2	0	0	0.00
+Lhuan-dre Pretorius 
+c Nitish Kumar Reddy b Hinge
+0	2	2	0	0	0.00
+Riyan Parag (c)
+c Abhishek Sharma b Hinge
+4	6	10	1	0	66.66
+Ravindra Jadeja 
+c †Arora b Malinga
+45	32	74	5	0	140.62
+Donovan Ferreira 
+b Sakib Hussain
+69	44	61	7	3	156.81
+Jofra Archer 
+c Hinge b Sakib Hussain
+2	5	10	0	0	40.00
+Tushar Deshpande 
+c Ishan Kishan b Malinga
+25	11	17	0	3	227.27
+Ravi Bishnoi 
+c Ishan Kishan b Sakib Hussain
+0	1	1	0	0	0.00
+Nandre Burger 
+not out	3	5	9	0	0	60.00
+Extras	(lb 1, w 9)	10	
+Total	
+19 Ov (RR: 8.36)
+159	
+Fall of wickets
+DRS
+1-1 (Vaibhav Sooryavanshi, 0.2 ov), 2-1 (Dhruv Jurel, 0.4 ov), 3-1 (Lhuan-dre Pretorius, 0.6 ov), 4-2 (Yashasvi Jaiswal, 1.4 ov), 5-9 (Riyan Parag, 2.6 ov), 6-127 (Donovan Ferreira, 14.6 ov), 7-129 (Ravindra Jadeja, 15.3 ov), 8-140 (Jofra Archer, 16.5 ov), 9-140 (Ravi Bishnoi, 16.6 ov), 10-159 (Tushar Deshpande, 18.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Praful Hinge
+4	0	34	
+4
+8.50	14	2	0
+Sakib Hussain
+4	0	24	
+4
+6.00	14	3	0
+Eshan Malinga
+4	0	31	
+2
+7.75	7	1	0
+Shivang Kumar
+3	0	28	0	9.33	5	0	0
+Nitish Kumar Reddy
+2	0	19	0	9.50	3	1	0
+Harsh Dubey
+2	0	22	0	11.00	4	2	0
