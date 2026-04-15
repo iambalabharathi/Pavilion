@@ -1,0 +1,110 @@
+Lucknow Super Giants  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+b Pandya
+40	32	55	3	2	125.00
+Aiden Markram 
+c Padikkal b Rasikh Salam
+12	8	18	0	1	150.00
+Rishabh Pant (c)†
+c Salt b Kumar
+1	6	9	0	0	16.66
+Nicholas Pooran 
+b Hazlewood
+1	7	7	0	0	14.28
+Ayush Badoni 
+c †Sharma b Rasikh Salam
+38	24	46	4	1	158.33
+Abdul Samad 
+c Patidar b Pandya
+0	2	6	0	0	0.00
+Mukul Choudhary 
+b Rasikh Salam
+39	28	42	3	2	139.28
+George Linde 
+c David b Kumar
+7	7	9	1	0	100.00
+Mohammed Shami 
+b Kumar
+0	1	1	0	0	0.00
+Avesh Khan 
+b Rasikh Salam
+1	2	6	0	0	50.00
+Digvesh Rathi 
+not out	0	3	3	0	0	0.00
+Extras	(b 1, lb 2, w 4)	7	
+Total	
+20 Ov (RR: 7.30)
+146	
+Did not bat
+Prince Yadav 
+Fall of wickets
+DRS
+1-32 (Aiden Markram, 3.6 ov), 1-33* (Rishabh Pant, retired not out), 2-35 (Nicholas Pooran, 6.1 ov), 3-71 (Mitchell Marsh, 9.5 ov), 4-83 (Abdul Samad, 11.2 ov), 5-118 (Ayush Badoni, 15.5 ov), 6-124 (Rishabh Pant, 16.5 ov), 7-137 (George Linde, 18.3 ov), 8-137 (Mohammed Shami, 18.4 ov), 9-145 (Mukul Choudhary, 19.2 ov), 10-146 (Avesh Khan, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	27	
+3
+6.75	8	1	0
+Josh Hazlewood
+4	0	20	
+1
+5.00	13	1	0
+Rasikh Salam
+4	0	24	
+4
+6.00	13	0	0
+Krunal Pandya
+4	0	38	
+2
+9.50	10	2	0
+Suyash Sharma
+4	0	34	0	8.50	7	0	0
+Royal Challengers Bengaluru  (T: 147 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Phil Salt 
+b Prince Yadav
+7	8	7	1	0	87.50
+Virat Kohli 
+c Pooran b Avesh Khan
+49	34	49	6	1	144.11
+Devdutt Padikkal 
+c sub (Himmat Singh) b Avesh Khan
+10	11	28	1	0	90.90
+Rajat Patidar (c)
+c Rathi b Prince Yadav
+27	13	23	1	3	207.69
+Jitesh Sharma †
+c Choudhary b Prince Yadav
+23	9	13	2	2	255.55
+Tim David 
+not out	14	8	14	1	1	175.00
+Romario Shepherd 
+not out	14	8	12	1	1	175.00
+Extras	(lb 4, w 1)	5	
+Total	
+15.1 Ov (RR: 9.82)
+149/5	
+Did not bat
+Krunal Pandya, 
+Bhuvneshwar Kumar, 
+Rasikh Salam, 
+Josh Hazlewood 
+Fall of wickets
+DRS
+1-9 (Phil Salt, 1.4 ov), 2-66 (Devdutt Padikkal, 7.2 ov), 3-86 (Virat Kohli, 10.1 ov), 4-121 (Rajat Patidar, 12.2 ov), 5-122 (Jitesh Sharma, 12.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+3	0	30	0	10.00	7	0	0
+Prince Yadav
+3	0	32	
+3
+10.66	8	1	0
+Digvesh Rathi
+4	0	51	0	12.75	4	0	0
+Avesh Khan
+4	0	23	
+2
+5.75	10	0	0
+George Linde
+1.1	0	9	0	7.71	1	0	0
