@@ -1482,11 +1482,12 @@
           if (d.bowl) cats.push(`<span class="pr-cat pr-cat-bowling">☄️ ${d.bowl}</span>`);
           if (d.field) cats.push(`<span class="pr-cat pr-cat-fielding">🧤 ${d.field}</span>`);
           if (d.mom) cats.push(`<span class="pr-cat pr-cat-mom">🎖️ ${d.mom}</span>`);
+          const avg = p.matchCount > 0 ? (p.points / p.matchCount).toFixed(1) : '0';
           return `<div class="mf-player" data-pname="${p.name.toLowerCase()}">
             <div class="mf-p-top">
               <div class="mf-p-info">
                 <div class="mf-p-name">${p.name}${p.foreign==='Overseas'?' ✈️':''}</div>
-                <div class="mf-p-team">${p.iplTeam} · ${p.matchCount}m</div>
+                <div class="mf-p-team">${p.iplTeam} · ${p.matchCount}m · ${avg}/m</div>
               </div>
               <div class="mf-p-total">${p.points}</div>
             </div>
@@ -1588,7 +1589,7 @@
               <div class="lb-rank ${i<3?'lr-'+(i+1):'lr-other'}">${i===0?'🏆':i===1?'🥈':i===2?'🥉':i+1}</div>
               <div style="flex:1">
                 <div class="st-team-name" style="color:${tc}">${p.name} ${catPill(p.category)}${p.foreign==='Overseas'?' ✈️':''}</div>
-                <div class="pr-meta">${p.iplTeam} · ${p.matchCount} matches</div>
+                <div class="pr-meta">${p.iplTeam} · ${p.matchCount} matches · ${p.matchCount > 0 ? (p.total / p.matchCount).toFixed(1) : '0'}/m avg</div>
               </div>
               <div style="text-align:right;margin-right:12px;display:flex;align-items:center;gap:8px">
                 <div style="font-size:13px;font-weight:700;color:${tc}">${p.fantasyTeam}</div>
@@ -1668,6 +1669,9 @@
       const matchData = [];
       const sortedMatches = [...exploreMatches].sort((a, b) => parseInt(b.id) - parseInt(a.id));
 
+      const playerStatMap = {};
+      for (const pd of playersData) playerStatMap[pd.id] = { matchCount: pd.matchCount, total: pd.total };
+
       for (const m of sortedMatches) {
         const teamPts = {};
         const playerList = [];
@@ -1709,9 +1713,12 @@
             // MOM
             if (stats.mom) cats.push(`<span class="pr-cat pr-cat-mom">MOM +30</span>`);
 
+            const ps = playerStatMap[p.id] || { matchCount: 0, total: 0 };
             playerList.push({
               id: p.id, name: p.name, fantasyTeam: p.fantasyTeam, iplTeam: p.iplTeam,
               category: p.category, foreign: p.foreign,
+              matchCount: ps.matchCount,
+              avg: ps.matchCount > 0 ? (ps.total / ps.matchCount).toFixed(1) : '0',
               pts, cats: cats.join('')
             });
           }
@@ -1743,7 +1750,7 @@
             <div class="mf-p-top">
               <div class="mf-p-info">
                 <div class="mf-p-name">${p.name}${p.foreign==='Overseas'?' ✈️':''}</div>
-                <div class="mf-p-team">${p.fantasyTeam} · ${p.iplTeam}</div>
+                <div class="mf-p-team">${p.fantasyTeam} · ${p.iplTeam} · ${p.matchCount}m · ${p.avg}/m avg</div>
               </div>
               <div class="mf-p-total">${p.pts}</div>
             </div>
