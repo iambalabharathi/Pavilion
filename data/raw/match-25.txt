@@ -1,0 +1,116 @@
+Kolkata Knight Riders  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Tim Seifert †
+c Phillips b Rabada
+19	14	21	2	1	135.71
+Ajinkya Rahane (c)
+c Rabada b Mohammed Siraj
+0	1	3	0	0	0.00
+Angkrish Raghuvanshi 
+c †Buttler b Rabada
+8	4	7	2	0	200.00
+Cameron Green 
+c †Buttler b Rashid Khan
+79	55	97	7	4	143.63
+Rovman Powell 
+c Mohammed Siraj b Ashok Sharma
+27	20	36	2	2	135.00
+Anukul Roy 
+c †Buttler b Prasidh Krishna
+9	7	22	1	0	128.57
+Rinku Singh 
+c †Buttler b Rabada
+1	2	2	0	0	50.00
+Ramandeep Singh 
+c Mohammed Siraj b Ashok Sharma
+17	8	6	2	1	212.50
+Sunil Narine 
+c Phillips b Mohammed Siraj
+0	5	5	0	0	0.00
+Kartik Tyagi 
+run out (†Buttler/Prasidh Krishna)
+6	4	4	0	1	150.00
+Vaibhav Arora 
+not out	0	1	7	0	0	0.00
+Extras	(b 4, lb 3, nb 1, w 6)	14	
+Total	
+20 Ov (RR: 9.00)
+180	
+Fall of wickets
+DRS
+1-5 (Ajinkya Rahane, 0.4 ov), 2-21 (Angkrish Raghuvanshi, 1.6 ov), 3-32 (Tim Seifert, 3.6 ov), 4-87 (Rovman Powell, 10.6 ov), 5-147 (Anukul Roy, 14.5 ov), 6-148 (Rinku Singh, 15.1 ov), 7-165 (Ramandeep Singh, 16.3 ov), 8-166 (Sunil Narine, 17.3 ov), 9-173 (Kartik Tyagi, 18.2 ov), 10-180 (Cameron Green, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	23	
+2
+5.75	14	0	0
+Kagiso Rabada
+4	0	29	
+3
+7.25	13	1	0
+Prasidh Krishna
+4	0	32	
+1
+8.00	8	2	0
+Ashok Sharma
+4	0	45	
+2
+11.25	11	2	1
+Rashid Khan
+4	0	44	
+1
+11.00	10	1	0
+Gujarat Titans  (T: 181 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c Kartik Tyagi b Narine
+22	16	22	1	2	137.50
+Shubman Gill (c)
+c Green b Arora
+86	50	83	8	4	172.00
+Jos Buttler †
+c Green b Varun
+25	15	19	2	2	166.66
+Washington Sundar 
+c Kartik Tyagi b Varun
+13	13	25	1	0	100.00
+Glenn Phillips 
+c Singh b Ramandeep Singh
+19	16	32	2	0	118.75
+Rahul Tewatia 
+not out	7	6	20	0	0	116.66
+M Shahrukh Khan 
+not out	3	2	3	0	0	150.00
+Extras	(lb 2, w 4)	6	
+Total	
+19.4 Ov (RR: 9.20)
+181/5	
+Did not bat
+Rashid Khan, 
+Ashok Sharma, 
+Kagiso Rabada, 
+Mohammed Siraj 
+Fall of wickets
+DRS
+1-57 (Sai Sudharsan, 5.1 ov), 2-95 (Jos Buttler, 9.1 ov), 3-141 (Washington Sundar, 14.3 ov), 4-158 (Shubman Gill, 16.6 ov), 5-177 (Glenn Phillips, 19.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Vaibhav Arora
+4	0	35	
+1
+8.75	7	1	0
+Kartik Tyagi
+4	0	40	0	10.00	8	1	0
+Anukul Roy
+3	0	37	0	12.33	3	1	0
+Sunil Narine
+4	0	28	
+1
+7.00	11	0	0
+Varun Chakravarthy
+4	0	34	
+2
+8.50	5	0	0
+Ramandeep Singh
+0.4	0	5	
+1
+7.50	1	1	0
