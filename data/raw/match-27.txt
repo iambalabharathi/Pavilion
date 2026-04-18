@@ -1,0 +1,124 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c †Samson b Overton
+59	22	37	6	4	268.18
+Travis Head 
+c Gaikwad b Mukesh Choudhary
+23	20	24	3	1	115.00
+Ishan Kishan (c)
+c Gaikwad b Mukesh Choudhary
+0	1	1	0	0	0.00
+Heinrich Klaasen 
+b Kamboj
+59	39	56	6	2	151.28
+Aniket Verma 
+c Noor Ahmad b Overton
+2	4	9	0	0	50.00
+Nitish Kumar Reddy 
+c Short b Overton
+12	8	15	0	1	150.00
+Salil Arora †
+c Brevis b Gurjapneet Singh
+13	12	23	2	0	108.33
+Liam Livingstone 
+c Brevis b Kamboj
+1	5	15	0	0	20.00
+Shivang Kumar 
+c Gurjapneet Singh b Kamboj
+12	8	7	1	1	150.00
+Praful Hinge 
+not out	0	1	3	0	0	0.00
+Extras	(b 5, lb 4, w 4)	13	
+Total	
+20 Ov (RR: 9.70)
+194/9	
+Did not bat
+Sakib Hussain, 
+Eshan Malinga 
+Fall of wickets
+DRS
+1-75 (Travis Head, 5.5 ov), 2-75 (Ishan Kishan, 5.6 ov), 3-93 (Abhishek Sharma, 7.6 ov), 4-112 (Aniket Verma, 10.1 ov), 5-147 (Nitish Kumar Reddy, 13.5 ov), 6-177 (Heinrich Klaasen, 17.2 ov), 7-179 (Salil Arora, 18.1 ov), 8-193 (Shivang Kumar, 19.4 ov), 9-194 (Liam Livingstone, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Matthew Short
+3	0	38	0	12.66	5	1	0
+Mukesh Choudhary
+2	0	21	
+2
+10.50	6	0	0
+Anshul Kamboj
+3	0	22	
+3
+7.33	10	0	0
+Noor Ahmad
+4	0	33	0	8.25	7	1	0
+Jamie Overton
+4	0	37	
+3
+9.25	5	1	0
+Gurjapneet Singh
+4	0	34	
+1
+8.50	12	1	0
+Chennai Super Kings  (T: 195 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+c Klaasen b Nitish Kumar Reddy
+7	3	5	0	1	233.33
+Ruturaj Gaikwad (c)
+c †Arora b Malinga
+19	13	40	3	0	146.15
+Ayush Mhatre 
+c Klaasen b Nitish Kumar Reddy
+30	13	29	5	1	230.76
+Matthew Short 
+c Verma b Malinga
+34	30	62	3	0	113.33
+Sarfaraz Khan 
+c Nitish Kumar Reddy b Malinga
+25	19	26	3	0	131.57
+Dewald Brevis 
+c Livingstone b Shivang Kumar
+0	4	5	0	0	0.00
+Shivam Dube 
+b Sakib Hussain
+21	16	34	1	1	131.25
+Jamie Overton 
+c Livingstone b Hinge
+16	15	24	1	0	106.66
+Anshul Kamboj 
+not out	13	8	17	0	1	162.50
+Noor Ahmad 
+not out	1	1	2	0	0	100.00
+Extras	(lb 1, nb 2, w 15)	18	
+Total	
+20 Ov (RR: 9.20)
+184/8	
+Did not bat
+Mukesh Choudhary 
+Fall of wickets
+DRS
+1-15 (Sanju Samson, 1.1 ov), 2-66 (Ayush Mhatre, 4.4 ov), 3-66 (Ruturaj Gaikwad, 5.1 ov), 4-112 (Sarfaraz Khan, 10.4 ov), 5-113 (Dewald Brevis, 11.4 ov), 6-148 (Matthew Short, 15.4 ov), 7-154 (Shivam Dube, 16.5 ov), 8-182 (Jamie Overton, 19.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Praful Hinge
+4	0	60	
+1
+15.00	7	2	2
+Nitish Kumar Reddy
+4	0	31	
+2
+7.75	9	3	0
+Sakib Hussain
+4	0	32	
+1
+8.00	5	5	0
+Eshan Malinga
+4	0	29	
+3
+7.25	9	1	0
+Shivang Kumar
+3	0	18	
+1
+6.00	7	0	0
+Abhishek Sharma
+1	0	13	0	13.00	0	0	0
