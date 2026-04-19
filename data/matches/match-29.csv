@@ -1,0 +1,32 @@
+# PBKS vs LSG - Match 29
+# 2026-04-19
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 1, 0, 29, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 1, 0, 13, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 1, 8, 0, 0, 0, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 1, 93, 4, 9, 0, 0, 0, 0, 0, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 0, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 1, 0, 0, 0, 0, 0, 6, 0, 0, 2, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 17, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 1, 0, 1, 0, 0, 2, 6, 0, 0, 0, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+203, Harpreet Brar, PBKS, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 1, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 43, 1, 4, 0, 0, 0, 0, 0, 0, 1, 0
+172, Abdul Samad, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 42, 3, 3, 0, 0, 0, 0, 1, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 40, 3, 2, 0, 0, 0, 0, 2, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 0, 0, 0, 1, 8, 0, 0, 1, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 9, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0
+89, Ayush Badoni, LSG, Rijo, 1, 0, 35, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
