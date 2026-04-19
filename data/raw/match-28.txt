@@ -1,0 +1,119 @@
+Rajasthan Royals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c Rahane b Narine
+39	29	60	4	2	134.48
+Vaibhav Sooryavanshi 
+c Ramandeep Singh b Varun
+46	28	44	6	2	164.28
+Dhruv Jurel †
+st †Seifert b Varun
+5	7	11	0	0	71.42
+Riyan Parag (c)
+b Varun
+12	14	22	1	0	85.71
+Shimron Hetmyer 
+c Raghuvanshi b Kartik Tyagi
+15	18	40	0	0	83.33
+Donovan Ferreira 
+c & b Narine
+7	7	5	0	1	100.00
+Ravindra Jadeja 
+c Green b Kartik Tyagi
+9	7	13	1	0	128.57
+Jofra Archer 
+run out (Arora/†Seifert)
+8	5	10	1	0	160.00
+Ravi Bishnoi 
+c †Seifert b Kartik Tyagi
+0	2	2	0	0	0.00
+Brijesh Sharma 
+not out	1	3	5	0	0	33.33
+Extras	(b 1, lb 2, w 10)	13	
+Total	
+20 Ov (RR: 7.75)
+155/9	
+Did not bat
+Nandre Burger 
+Fall of wickets
+DRS
+1-81 (Vaibhav Sooryavanshi, 8.4 ov), 2-97 (Dhruv Jurel, 10.3 ov), 3-99 (Yashasvi Jaiswal, 11.2 ov), 4-117 (Riyan Parag, 14.4 ov), 5-124 (Donovan Ferreira, 15.6 ov), 6-144 (Ravindra Jadeja, 18.1 ov), 7-146 (Shimron Hetmyer, 18.3 ov), 8-146 (Ravi Bishnoi, 18.5 ov), 9-155 (Jofra Archer, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Vaibhav Arora
+4	0	37	0	9.25	6	1	0
+Kartik Tyagi
+4	0	22	
+3
+5.50	13	1	0
+Cameron Green
+2	0	27	0	13.50	5	4	0
+Sunil Narine
+4	0	26	
+2
+6.50	13	0	0
+Varun Chakravarthy
+4	0	14	
+3
+3.50	13	0	0
+Ramandeep Singh
+2	0	26	0	13.00	0	4	0
+Kolkata Knight Riders  (T: 156 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Tim Seifert †
+b Archer
+0	1	1	0	0	0.00
+Ajinkya Rahane (c)
+c †Jurel b Burger
+0	2	8	0	0	0.00
+Angkrish Raghuvanshi 
+lbw b Jadeja
+10	19	35	1	0	52.63
+Cameron Green 
+st †Jurel b Ravi Bishnoi
+27	13	15	4	1	207.69
+Rovman Powell 
+c Ferreira b Jadeja
+23	20	26	2	1	115.00
+Rinku Singh 
+not out	53	34	64	5	2	155.88
+Ramandeep Singh 
+b Yash Raj Punja
+10	13	11	1	0	76.92
+Anukul Roy 
+not out	29	16	36	1	2	181.25
+Extras	(lb 1, w 8)	9	
+Total	
+19.4 Ov (RR: 8.18)
+161/6	
+Did not bat
+Sunil Narine, 
+Vaibhav Arora, 
+Kartik Tyagi 
+Fall of wickets
+DRS
+1-0 (Tim Seifert, 0.1 ov), 2-5 (Ajinkya Rahane, 1.2 ov), 3-37 (Cameron Green, 4.3 ov), 4-52 (Angkrish Raghuvanshi, 6.6 ov), 5-70 (Rovman Powell, 10.1 ov), 6-85 (Ramandeep Singh, 13.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	0	35	
+1
+8.75	9	2	0
+Nandre Burger
+2	0	20	
+1
+10.00	4	0	0
+Ravi Bishnoi
+4	0	41	
+1
+10.25	5	4	0
+Yash Raj Punja
+4	0	25	
+1
+6.25	10	0	0
+Ravindra Jadeja
+3	0	8	
+2
+2.66	10	0	0
+Riyan Parag
+1	0	10	0	10.00	1	1	0
+Brijesh Sharma
+1.4	0	21	0	12.60	4	1	0
