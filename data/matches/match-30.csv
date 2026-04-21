@@ -1,0 +1,32 @@
+# MI vs GT - Match 30
+# 2026-04-21
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 1, 0, 13, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1
+37, Deepak Chahar, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+30, Rohit Sharma, MI, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 1, 0, 0, 0, 0, 2, 10, 0, 1, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 1, 0, 45, 6, 1, 0, 0, 0, 0, 3, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 1, 0, 15, 1, 0, 1, 2, 0, 1, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 1, 0, 0, 0, 0, 1, 11, 0, 0, 0, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 1, 1, 101, 8, 7, 0, 0, 0, 0, 0, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 1, 0, 15, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 1, 0, 0, 0, 0, 2, 7, 0, 0, 1, 0, 0, 0
+
+# --- GT ---
+13, Shubman Gill, GT, Ragu, 1, 0, 14, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17, Mohammed Siraj, GT, RK, 1, 0, 0, 0, 0, 1, 11, 0, 0, 0, 0, 0, 0
+15, Rashid Khan, GT, Darshan, 1, 0, 4, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+79, Kagiso Rabada, GT, JD, 1, 0, 12, 2, 0, 3, 10, 0, 2, 2, 0, 0, 0
+14, Sai Sudharsan, GT, Rijo, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+18, Prasidh Krishna, GT, Rijo, 1, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0
+77, Ravisrinivasan Sai Kishore, GT, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+16, Jos Buttler, GT, Prakash, 1, 0, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+74, Glenn Phillips, GT, Prakash, 1, 0, 6, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+76, Washington Sundar, GT, Prakash, 1, 0, 26, 5, 0, 0, 1, 0, 0, 0, 0, 0, 0
+
