@@ -945,6 +945,15 @@
     "soldPrice": 2
   },
   {
+    "id": 240,
+    "name": "Akash Madhwal",
+    "category": "Bowler",
+    "iplTeam": "CSK",
+    "foreign": "Indian",
+    "fantasyTeam": "Rijo",
+    "soldPrice": 17
+  },
+  {
     "id": 1,
     "name": "Ruturaj Gaikwad",
     "category": "Batter",
