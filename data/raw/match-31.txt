@@ -1,0 +1,103 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+not out	135	68	107	10	10	198.52
+Travis Head 
+c Sameer Rizvi b Patel
+37	26	39	2	2	142.30
+Ishan Kishan (c)
+run out (Rana)
+25	13	31	2	1	192.30
+Heinrich Klaasen 
+not out	37	13	32	3	3	284.61
+Extras	(w 8)	8	
+Total	
+20 Ov (RR: 12.10)
+242/2	
+Did not bat
+Salil Arora †, 
+Aniket Verma, 
+Nitish Kumar Reddy, 
+Shivang Kumar, 
+Harsh Dubey, 
+Sakib Hussain, 
+Eshan Malinga 
+Fall of wickets
+DRS
+1-97 (Travis Head, 8.5 ov), 2-176 (Ishan Kishan, 14.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mukesh Kumar
+4	0	53	0	13.25	6	1	0
+Nitish Rana
+4	0	55	0	13.75	7	2	0
+Lungi Ngidi
+4	0	41	0	10.25	7	2	0
+Axar Patel
+2	0	23	
+1
+11.50	1	0	0
+Kuldeep Yadav
+2	0	30	0	15.00	2	0	0
+T Natarajan
+4	0	40	0	10.00	3	3	0
+Delhi Capitals  (T: 243 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+c sub (LS Livingstone) b Madushanka
+8	6	12	0	1	133.33
+KL Rahul †
+c Abhishek Sharma b Sakib Hussain
+37	23	56	1	3	160.86
+Nitish Rana 
+c Abhishek Sharma b Malinga
+57	30	47	7	3	190.00
+Sameer Rizvi 
+c Madushanka b Dubey
+41	28	54	2	2	146.42
+David Miller 
+b Malinga
+0	1	1	0	0	0.00
+Tristan Stubbs 
+c Sakib Hussain b Malinga
+27	16	25	3	1	168.75
+Ashutosh Sharma 
+c Verma b Malinga
+14	10	11	2	0	140.00
+Axar Patel (c)
+c Nitish Kumar Reddy b Dubey
+2	3	5	0	0	66.66
+Kuldeep Yadav 
+not out	1	2	4	0	0	50.00
+Lungi Ngidi 
+c Madushanka b Dubey
+0	1	1	0	0	0.00
+Extras	(lb 1, w 7)	8	
+Total	
+20 Ov (RR: 9.75)
+195/9	
+Did not bat
+T Natarajan 
+Fall of wickets
+DRS
+1-21 (Pathum Nissanka, 2.1 ov), 2-107 (KL Rahul, 9.4 ov), 3-107 (Nitish Rana, 10.1 ov), 4-107 (David Miller, 10.2 ov), 5-166 (Tristan Stubbs, 15.5 ov), 6-186 (Ashutosh Sharma, 17.6 ov), 7-192 (Axar Patel, 19.1 ov), 8-195 (Sameer Rizvi, 19.5 ov), 9-195 (Lungi Ngidi, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Dilshan Madushanka
+4	0	36	
+1
+9.00	8	4	0
+Nitish Kumar Reddy
+4	0	57	0	14.25	5	1	0
+Eshan Malinga
+4	0	32	
+4
+8.00	10	2	0
+Sakib Hussain
+4	0	29	
+1
+7.25	8	0	0
+Shivang Kumar
+2	0	28	0	14.00	2	0	0
+Harsh Dubey
+2	0	12	
+3
+6.00	5	0	0
