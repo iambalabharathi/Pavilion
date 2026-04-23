@@ -1,0 +1,115 @@
+Rajasthan Royals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c †Pant b Mohammed Shami
+22	12	15	4	0	183.33
+Vaibhav Sooryavanshi 
+c Rathi b Mohsin Khan
+8	11	23	2	0	72.72
+Dhruv Jurel †
+c †Pant b Mohammed Shami
+0	1	1	0	0	0.00
+Riyan Parag (c)
+c Pooran b Prince Yadav
+20	19	32	2	1	105.26
+Shimron Hetmyer 
+c Prince Yadav b Mohsin Khan
+22	18	34	2	1	122.22
+Ravindra Jadeja 
+not out	43	29	60	2	1	148.27
+Donovan Ferreira 
+c Mohsin Khan b Prince Yadav
+20	19	30	2	0	105.26
+Shubham Dubey 
+not out	19	11	21	3	0	172.72
+Extras	(lb 1, w 4)	5	
+Total	
+20 Ov (RR: 7.95)
+159/6	
+Did not bat
+Jofra Archer, 
+Nandre Burger, 
+Brijesh Sharma, 
+Ravi Bishnoi 
+Fall of wickets
+DRS
+1-32 (Yashasvi Jaiswal, 2.5 ov), 2-32 (Dhruv Jurel, 2.6 ov), 3-32 (Vaibhav Sooryavanshi, 3.6 ov), 4-62 (Riyan Parag, 8.6 ov), 5-77 (Shimron Hetmyer, 10.2 ov), 6-110 (Donovan Ferreira, 15.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	30	
+2
+7.50	15	3	0
+Prince Yadav
+4	0	29	
+2
+7.25	13	0	0
+Mohsin Khan
+4	1	17	
+2
+4.25	11	0	0
+Mayank Yadav
+4	0	56	0	14.00	6	1	0
+Digvesh Rathi
+4	0	26	0	6.50	5	0	0
+Lucknow Super Giants  (T: 160 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+c Parag b Burger
+55	41	77	6	2	134.14
+Ayush Badoni 
+run out (sub [Ravi Singh])
+0	1	4	0	0	0.00
+Rishabh Pant (c)†
+c †Jurel b Burger
+0	3	3	0	0	0.00
+Aiden Markram 
+c †Jurel b Archer
+0	6	5	0	0	0.00
+Nicholas Pooran 
+c Ferreira b Jadeja
+22	25	34	3	0	88.00
+Himmat Singh 
+b Ravi Bishnoi
+15	15	20	0	1	100.00
+Mukul Choudhary 
+c Parag b Brijesh Sharma
+7	3	12	0	1	233.33
+Mohammed Shami 
+b Brijesh Sharma
+6	4	7	0	1	150.00
+Mayank Yadav 
+c †Jurel b Archer
+5	5	8	1	0	100.00
+Digvesh Rathi 
+not out	2	2	8	0	0	100.00
+Mohsin Khan 
+b Archer
+0	3	2	0	0	0.00
+Extras	(lb 2, w 5)	7	
+Total	
+18 Ov (RR: 6.61)
+119	
+Fall of wickets
+DRS
+1-9 (Ayush Badoni, 0.6 ov), 2-10 (Rishabh Pant, 1.4 ov), 3-11 (Aiden Markram, 2.5 ov), 4-54 (Nicholas Pooran, 9.4 ov), 5-91 (Himmat Singh, 14.3 ov), 6-105 (Mitchell Marsh, 15.3 ov), 7-111 (Mukul Choudhary, 16.1 ov), 8-113 (Mohammed Shami, 16.3 ov), 9-119 (Mayank Yadav, 17.3 ov), 10-119 (Mohsin Khan, 17.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	1	20	
+3
+5.00	17	1	0
+Nandre Burger
+4	0	27	
+2
+6.75	15	0	0
+Brijesh Sharma
+3	0	18	
+2
+6.00	7	1	0
+Ravindra Jadeja
+4	0	29	
+1
+7.25	9	1	0
+Ravi Bishnoi
+3	0	23	
+1
+7.66	6	2	0
