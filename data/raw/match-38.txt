@@ -1,0 +1,118 @@
+Kolkata Knight Riders  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+c Markram b Mohsin Khan
+10	15	20	0	1	66.66
+Tim Seifert †
+c Choudhary b Mohsin Khan
+0	3	11	0	0	0.00
+Angkrish Raghuvanshi 
+obstructing the field
+9	8	15	1	0	112.50
+Cameron Green 
+c †Pant b Mohsin Khan
+34	21	38	0	3	161.90
+Rovman Powell 
+c †Pant b Mohsin Khan
+1	4	6	0	0	25.00
+Rinku Singh 
+not out	83	51	70	7	5	162.74
+Anukul Roy 
+c Badoni b Mohsin Khan
+0	1	1	0	0	0.00
+Ramandeep Singh 
+c Marsh b Linde
+6	11	19	0	0	54.54
+Sunil Narine 
+not out	4	6	25	0	0	66.66
+Extras	(lb 1, w 7)	8	
+Total	
+20 Ov (RR: 7.75)
+155/7	
+Did not bat
+Vaibhav Arora, 
+Kartik Tyagi 
+Fall of wickets
+DRS
+1-3 (Tim Seifert, 1.6 ov), 2-16 (Ajinkya Rahane, 3.4 ov), 3-27 (Angkrish Raghuvanshi, 4.6 ov), 4-31 (Rovman Powell, 6.1 ov), 5-73 (Cameron Green, 10.5 ov), 6-73 (Anukul Roy, 10.6 ov), 7-93 (Ramandeep Singh, 14.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	34	0	8.50	8	1	0
+Mohsin Khan
+4	1	23	
+5
+5.75	14	1	0
+Prince Yadav
+4	0	24	0	6.00	10	3	0
+Digvesh Rathi
+4	0	46	0	11.50	8	2	0
+George Linde
+2	0	18	
+1
+9.00	4	0	0
+Aiden Markram
+2	0	9	0	4.50	4	0	0
+Lucknow Super Giants  (T: 156 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Aiden Markram 
+c Singh b Green
+31	27	48	2	1	114.81
+Mitchell Marsh 
+c Powell b Arora
+2	3	4	0	0	66.66
+Rishabh Pant (c)†
+c †Seifert b Narine
+42	38	54	4	1	110.52
+Nicholas Pooran 
+c Narine b Varun
+9	12	20	0	1	75.00
+Ayush Badoni 
+c Roy b Varun
+24	19	28	0	2	126.31
+Mukul Choudhary 
+c Singh b Roy
+1	2	6	0	0	50.00
+Himmat Singh 
+c Singh b Kartik Tyagi
+19	10	28	2	1	190.00
+George Linde 
+c Singh b Arora
+8	4	4	2	0	200.00
+Mohammed Shami 
+not out	11	6	16	1	1	183.33
+Prince Yadav 
+not out	0	1	3	0	0	0.00
+Extras	(b 2, lb 1, nb 2, w 3)	8	
+Total	
+20 Ov (RR: 7.75)
+155/8	
+Did not bat
+Digvesh Rathi 
+Fall of wickets
+DRS
+1-8 (Mitchell Marsh, 1.1 ov), 2-65 (Aiden Markram, 10.2 ov), 3-78 (Rishabh Pant, 12.2 ov), 4-89 (Nicholas Pooran, 13.6 ov), 5-93 (Mukul Choudhary, 15.2 ov), 6-120 (Ayush Badoni, 17.3 ov), 7-129 (George Linde, 18.2 ov), 8-148 (Himmat Singh, 19.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Anukul Roy
+2	0	19	
+1
+9.50	3	0	0
+Vaibhav Arora
+4	0	24	
+2
+6.00	11	1	0
+Cameron Green
+2	0	12	
+1
+6.00	6	0	0
+Sunil Narine
+4	0	23	
+1
+5.75	7	0	0
+Varun Chakravarthy
+4	0	33	
+2
+8.25	10	2	0
+Kartik Tyagi
+4	0	41	
+1
+10.25	11	0	2

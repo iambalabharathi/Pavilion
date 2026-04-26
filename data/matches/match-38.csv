@@ -1,0 +1,33 @@
+# KKR vs LSG - Match 38
+# 2026-04-26
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- KKR ---
+20, Rinku Singh, KKR, Ragu, 1, 1, 87, 8, 5, 0, 0, 0, 0, 5, 0, 0, 0
+21, Cameron Green, KKR, Ragu, 1, 0, 34, 0, 3, 1, 6, 0, 0, 0, 0, 0, 0
+22, Sunil Narine, KKR, RK, 1, 0, 4, 0, 0, 3, 7, 0, 1, 1, 0, 0, 0
+83, Finn Allen, KKR, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+23, Varun Chakravarthy, KKR, Prabhu, 1, 0, 0, 0, 0, 2, 10, 0, 0, 0, 0, 0, 0
+85, Tim Seifert, KKR, Prabhu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+162, Ramandeep Singh, KKR, Prabhu, 1, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+82, Angkrish Raghuvanshi, KKR, Dots, 1, 0, 9, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+81, Rovman Powell, KKR, JD, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+19, Ajinkya Rahane, KKR, Rijo, 1, 0, 10, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+86, Vaibhav Arora, KKR, Rijo, 1, 0, 0, 0, 0, 2, 11, 0, 0, 0, 0, 0, 0
+169, Blessing Muzarabani, KKR, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 1, 0, 0, 0, 0, 5, 14, 1, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 42, 4, 1, 0, 0, 0, 0, 2, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 31, 2, 1, 0, 4, 0, 0, 1, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 2, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 11, 1, 1, 0, 8, 0, 0, 0, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 1, 0, 8, 2, 0, 1, 4, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 9, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 1, 0, 24, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0
+
