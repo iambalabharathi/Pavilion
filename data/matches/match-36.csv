@@ -1,0 +1,29 @@
+# RR vs SRH - Match 36
+# 2026-04-26
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- RR ---
+118, Shimron Hetmyer, RR, Ragu, 1, 0, 11, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+121, Sandeep Sharma, RR, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+49, Vaibhav Sooryavanshi, RR, RK, 1, 0, 103, 5, 12, 0, 0, 0, 0, 0, 0, 0, 0
+53, Ravi Bishnoi, RR, RK, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0
+119, Dhruv Jurel, RR, RK, 1, 0, 51, 8, 1, 0, 0, 0, 0, 1, 0, 0, 0
+120, Tushar Deshpande, RR, RK, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+48, Yashasvi Jaiswal, RR, Darshan, 1, 0, 10, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+50, Riyan Parag, RR, Darshan, 1, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+52, Jofra Archer, RR, Dots, 1, 0, 2, 0, 0, 2, 13, 0, 0, 1, 0, 0, 0
+51, Ravindra Jadeja, RR, JD, 1, 0, 4, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0
+
+# --- SRH ---
+54, Travis Head, SRH, Ragu, 1, 0, 6, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+233, Kamindu Mendis, SRH, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+60, Harshal Patel, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+123, Liam Livingstone, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+59, Pat Cummins, SRH, Dots, 1, 0, 0, 0, 0, 1, 12, 0, 1, 0, 0, 0, 0
+232, Aniket Verma, SRH, Dots, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+57, Ishan Kishan, SRH, JD, 1, 1, 74, 11, 3, 0, 0, 0, 0, 0, 0, 0, 0
+58, Heinrich Klaasen, SRH, JD, 1, 0, 29, 3, 1, 0, 0, 0, 0, 2, 0, 0, 0
+239, Zeeshan Ansari, SRH, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+55, Abhishek Sharma, SRH, Prakash, 1, 0, 57, 11, 1, 0, 0, 0, 0, 0, 0, 0, 0
+

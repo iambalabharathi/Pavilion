@@ -1,0 +1,114 @@
+Rajasthan Royals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c Klaasen b Malinga
+10	8	11	2	0	125.00
+Vaibhav Sooryavanshi 
+lbw b Sakib Hussain
+103	37	81	5	12	278.37
+Dhruv Jurel †
+c Verma b Nitish Kumar Reddy
+51	35	60	8	1	145.71
+Riyan Parag (c)
+b Cummins
+7	9	23	0	0	77.77
+Donovan Ferreira 
+c Klaasen b Malinga
+33	16	27	3	3	206.25
+Shimron Hetmyer 
+c Nitish Kumar Reddy b Hinge
+11	10	19	1	0	110.00
+Ravindra Jadeja 
+not out	4	3	7	1	0	133.33
+Jofra Archer 
+not out	2	2	3	0	0	100.00
+Extras	(lb 1, w 6)	7	
+Total	
+20 Ov (RR: 11.40)
+228/6	
+Did not bat
+Tushar Deshpande, 
+Nandre Burger, 
+Brijesh Sharma 
+Fall of wickets
+DRS
+1-40 (Yashasvi Jaiswal, 2.2 ov), 2-152 (Dhruv Jurel, 12.4 ov), 3-170 (Vaibhav Sooryavanshi, 13.5 ov), 4-191 (Riyan Parag, 16.1 ov), 5-214 (Donovan Ferreira, 18.4 ov), 6-225 (Shimron Hetmyer, 19.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Praful Hinge
+4	0	49	
+1
+12.25	9	1	0
+Pat Cummins
+4	0	27	
+1
+6.75	12	0	0
+Eshan Malinga
+4	0	38	
+2
+9.50	11	1	0
+Sakib Hussain
+4	0	62	
+1
+15.50	6	2	0
+Shivang Kumar
+2	0	31	0	15.50	3	0	0
+Nitish Kumar Reddy
+2	0	20	
+1
+10.00	4	2	0
+Sunrisers Hyderabad  (T: 229 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Travis Head 
+c †Jurel b Archer
+6	5	5	0	1	120.00
+Abhishek Sharma 
+c Archer b Ferreira
+57	29	55	11	1	196.55
+Ishan Kishan †
+c Ferreira b Archer
+74	31	59	11	3	238.70
+Heinrich Klaasen 
+c Ravi Bishnoi b Brijesh Sharma
+29	24	41	3	1	120.83
+Nitish Kumar Reddy 
+lbw b Brijesh Sharma
+36	18	25	2	3	200.00
+Salil Arora 
+not out	8	3	9	0	1	266.66
+Aniket Verma 
+not out	1	1	3	0	0	100.00
+Extras	(lb 5, w 13)	18	
+Total	
+18.3 Ov (RR: 12.37)
+229/5	
+Did not bat
+Pat Cummins (c), 
+Shivang Kumar, 
+Eshan Malinga, 
+Praful Hinge 
+Fall of wickets
+DRS
+1-7 (Travis Head, 0.5 ov), 2-139 (Abhishek Sharma, 9.6 ov), 3-166 (Ishan Kishan, 12.1 ov), 4-219 (Nitish Kumar Reddy, 17.2 ov), 5-220 (Heinrich Klaasen, 17.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	0	34	
+2
+8.50	13	1	0
+Nandre Burger
+3.3	0	50	0	14.28	9	3	0
+Tushar Deshpande
+3	0	43	0	14.33	5	1	0
+Brijesh Sharma
+4	0	44	
+2
+11.00	8	3	0
+Riyan Parag
+1	0	12	0	12.00	0	0	0
+Donovan Ferreira
+1	0	14	
+1
+14.00	1	0	0
+Ravi Bishnoi
+1	0	16	0	16.00	1	0	0
+Ravindra Jadeja
+1	0	11	0	11.00	2	1	0
