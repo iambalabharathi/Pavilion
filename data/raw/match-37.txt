@@ -1,0 +1,103 @@
+Chennai Super Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+c †Buttler b Rabada
+11	15	16	2	0	73.33
+Ruturaj Gaikwad (c)
+not out	74	60	111	6	4	123.33
+Urvil Patel 
+c Holder b Rabada
+4	3	2	1	0	133.33
+Sarfaraz Khan 
+c †Buttler b Mohammed Siraj
+0	1	3	0	0	0.00
+Dewald Brevis 
+c Shubman Gill b Suthar
+2	9	17	0	0	22.22
+Shivam Dube 
+b Arshad Khan
+22	17	37	3	1	129.41
+Kartik Sharma 
+c Holder b Rabada
+15	9	12	3	0	166.66
+Jamie Overton 
+c Shahrukh Khan b Arshad Khan
+18	6	10	3	1	300.00
+Akeal Hosein 
+not out	0	0	4	0	0	-
+Extras	(lb 2, w 10)	12	
+Total	
+20 Ov (RR: 7.90)
+158/7	
+Did not bat
+Noor Ahmad, 
+Anshul Kamboj, 
+Gurjapneet Singh 
+Fall of wickets
+DRS
+1-21 (Sanju Samson, 3.3 ov), 2-25 (Urvil Patel, 3.6 ov), 3-26 (Sarfaraz Khan, 4.4 ov), 4-37 (Dewald Brevis, 8.2 ov), 5-96 (Shivam Dube, 15.3 ov), 6-122 (Kartik Sharma, 17.5 ov), 7-143 (Jamie Overton, 18.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	23	
+1
+5.75	14	0	0
+Kagiso Rabada
+4	0	25	
+3
+6.25	15	0	0
+Manav Suthar
+3	0	22	
+1
+7.33	9	2	0
+Jason Holder
+4	0	22	0	5.50	14	1	0
+Arshad Khan
+4	0	43	
+2
+10.75	13	2	0
+Rashid Khan
+1	0	21	0	21.00	1	1	0
+Gujarat Titans  (T: 159 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c Brevis b Hosein
+87	46	88	4	7	189.13
+Shubman Gill (c)
+st †Samson b Noor Ahmad
+33	23	33	1	3	143.47
+Jos Buttler †
+not out	39	30	55	4	1	130.00
+Washington Sundar 
+not out	1	1	2	0	0	100.00
+Extras	(w 2)	2	
+Total	
+16.4 Ov (RR: 9.72)
+162/2	
+Did not bat
+M Shahrukh Khan, 
+Jason Holder, 
+Rashid Khan, 
+Arshad Khan, 
+Kagiso Rabada, 
+Mohammed Siraj, 
+Manav Suthar 
+Fall of wickets
+DRS
+1-58 (Shubman Gill, 6.2 ov), 2-155 (Sai Sudharsan, 16.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Akeal Hosein
+3.4	0	46	
+1
+12.54	6	0	0
+Anshul Kamboj
+3	0	16	0	5.33	10	0	0
+Jamie Overton
+2	0	28	0	14.00	2	1	0
+Gurjapneet Singh
+3	0	36	0	12.00	1	0	0
+Noor Ahmad
+4	0	29	
+1
+7.25	6	1	0
+Shivam Dube
+1	0	7	0	7.00	2	0	0
