@@ -1,0 +1,123 @@
+Chennai Super Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+not out	101	54	109	10	6	187.03
+Ruturaj Gaikwad (c)
+c Tilak Varma b Ghazanfar
+22	14	17	3	1	157.14
+Sarfaraz Khan 
+b Santner
+14	8	13	3	0	175.00
+Shivam Dube 
+b Ghazanfar
+5	8	13	0	0	62.50
+Dewald Brevis 
+c Bumrah b Ashwani Kumar
+21	11	13	1	2	190.90
+Kartik Sharma 
+c Santner b Bumrah
+18	19	27	0	2	94.73
+Jamie Overton 
+c Naman Dhir b Ashwani Kumar
+15	7	7	2	1	214.28
+Akeal Hosein 
+not out	2	2	11	0	0	100.00
+Extras	(lb 1, nb 3, w 5)	9	
+Total	
+20 Ov (RR: 10.35)
+207/6	
+Did not bat
+Noor Ahmad, 
+Anshul Kamboj, 
+Mukesh Choudhary, 
+Gurjapneet Singh 
+Fall of wickets
+DRS
+1-32 (Ruturaj Gaikwad, 2.6 ov), 2-72 (Sarfaraz Khan, 5.4 ov), 3-91 (Shivam Dube, 8.1 ov), 4-122 (Dewald Brevis, 10.6 ov), 5-165 (Kartik Sharma, 16.5 ov), 6-181 (Jamie Overton, 17.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jasprit Bumrah
+4	0	31	
+1
+7.75	10	0	2
+Hardik Pandya
+2	0	38	0	19.00	4	2	1
+AM Ghazanfar
+4	0	25	
+2
+6.25	7	0	0
+Mitchell Santner
+4	0	44	
+1
+11.00	8	2	0
+Ashwani Kumar
+4	0	37	
+2
+9.25	8	1	0
+Krish Bhagat
+2	0	31	0	15.50	5	0	0
+Mumbai Indians  (T: 208 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Quinton de Kock †
+b Mukesh Choudhary
+7	10	8	0	1	70.00
+Danish Malewar 
+c †Samson b Hosein
+0	1	4	0	0	0.00
+Naman Dhir 
+b Hosein
+0	3	7	0	0	0.00
+Suryakumar Yadav 
+c Khan b Hosein
+36	30	69	5	0	120.00
+Tilak Varma 
+b Hosein
+37	29	53	5	0	127.58
+Hardik Pandya (c)
+c Mukesh Choudhary b Noor Ahmad
+1	2	2	0	0	50.00
+Sherfane Rutherford 
+c Kamboj b Noor Ahmad
+0	1	1	0	0	0.00
+Shardul Thakur 
+c Brevis b Kamboj
+6	12	26	0	0	50.00
+Krish Bhagat 
+c Gurjapneet Singh b Overton
+7	15	16	0	0	46.66
+Ashwani Kumar 
+not out	1	6	10	0	0	16.66
+Jasprit Bumrah 
+c †Samson b Gurjapneet Singh
+2	5	9	0	0	40.00
+Extras	(lb 1, w 6)	7	
+Total	
+19 Ov (RR: 5.47)
+104	
+Fall of wickets
+DRS
+1-7 (Danish Malewar, 0.6 ov), 2-7 (Quinton de Kock, 1.5 ov), 3-11 (Naman Dhir, 2.3 ov), 4-84 (Tilak Varma, 11.5 ov), 5-85 (Hardik Pandya, 12.1 ov), 6-85 (Sherfane Rutherford, 12.2 ov), 7-87 (Suryakumar Yadav, 13.1 ov), 8-100 (Krish Bhagat, 16.6 ov), 9-100 (Shardul Thakur, 17.1 ov), 10-104 (Jasprit Bumrah, 18.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Akeal Hosein
+4	1	17	
+4
+4.25	14	0	0
+Mukesh Choudhary
+4	0	31	
+1
+7.75	11	3	0
+Anshul Kamboj
+3	0	10	
+1
+3.33	12	1	0
+Noor Ahmad
+4	0	24	
+2
+6.00	9	1	0
+Jamie Overton
+2	0	14	
+1
+7.00	5	0	0
+Gurjapneet Singh
+2	0	7	
+1
+3.50	6	0	0

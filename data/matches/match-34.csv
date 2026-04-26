@@ -1,0 +1,36 @@
+# CSK vs MI - Match 34
+# 2026-04-26
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- CSK ---
+5, Sanju Samson, CSK, RK, 1, 1, 101, 10, 6, 0, 0, 0, 0, 2, 0, 0, 0
+3, Shivam Dube, CSK, Prabhu, 1, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+2, Dewald Brevis, CSK, Dots, 1, 0, 21, 1, 2, 0, 0, 0, 0, 1, 0, 0, 0
+6, Noor Ahmad, CSK, Dots, 1, 0, 0, 0, 0, 2, 9, 0, 0, 0, 0, 0, 0
+64, Matt Henry, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+130, Urvil Patel, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+62, Jamie Overton, CSK, JD, 1, 0, 15, 2, 1, 1, 5, 0, 0, 0, 0, 0, 0
+136, Akeal Hosein, CSK, JD, 1, 0, 2, 0, 0, 4, 14, 1, 2, 0, 0, 0, 0
+61, Ayush Mhatre, CSK, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+240, Akash Madhwal, CSK, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+1, Ruturaj Gaikwad, CSK, Prakash, 1, 0, 22, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+63, Khaleel Ahmed, CSK, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+126, Sarfaraz Khan, CSK, Prakash, 1, 0, 14, 3, 0, 0, 0, 0, 0, 1, 0, 0, 0
+135, Prashant Veer, CSK, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 1, 0, 7, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+37, Deepak Chahar, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+30, Rohit Sharma, MI, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 1, 0, 0, 0, 0, 2, 7, 0, 1, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 1, 0, 1, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 1, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 1, 0, 2, 0, 0, 1, 10, 0, 0, 1, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 1, 0, 37, 5, 0, 0, 0, 0, 0, 1, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 1, 0, 36, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 1, 0, 0, 0, 0, 1, 8, 0, 1, 1, 0, 0, 0
+
