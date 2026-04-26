@@ -1,0 +1,94 @@
+Delhi Capitals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+c †Prabhsimran Singh b Arshdeep Singh
+11	7	13	2	0	157.14
+KL Rahul †
+not out	152	67	112	16	9	226.86
+Nitish Rana 
+c Iyer b Bartlett
+91	44	90	11	4	206.81
+David Miller 
+not out	3	3	7	0	0	100.00
+Extras	(nb 1, w 6)	7	
+Total	
+20 Ov (RR: 13.20)
+264/2	
+Did not bat
+Sameer Rizvi, 
+Axar Patel (c), 
+Tristan Stubbs, 
+Lungi Ngidi, 
+Kuldeep Yadav, 
+T Natarajan, 
+Mukesh Kumar 
+Fall of wickets
+DRS
+1-28 (Pathum Nissanka, 2.4 ov), 2-248 (Nitish Rana, 18.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	49	
+1
+12.25	3	0	0
+Xavier Bartlett
+4	0	69	
+1
+17.25	1	1	0
+Marco Jansen
+4	0	45	0	11.25	7	0	0
+Vijaykumar Vyshak
+3	0	48	0	16.00	4	1	0
+Yuzvendra Chahal
+4	0	42	0	10.50	3	2	1
+Marcus Stoinis
+1	0	11	0	11.00	2	2	0
+Punjab Kings  (T: 265 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Sameer Rizvi b Patel
+43	17	58	2	5	252.94
+Prabhsimran Singh †
+lbw b Kuldeep Yadav
+76	26	63	9	5	292.30
+Cooper Connolly 
+b Kuldeep Yadav
+17	10	12	1	1	170.00
+Shreyas Iyer (c)
+not out	71	36	63	3	7	197.22
+Nehal Wadhera 
+c sub (KK Nair) b Nigam
+25	15	29	3	1	166.66
+Shashank Singh 
+not out	19	10	24	2	1	190.00
+Extras	(lb 1, nb 1, w 12)	14	
+Total	
+18.5 Ov (RR: 14.07)
+265/4	
+Did not bat
+Marcus Stoinis, 
+Marco Jansen, 
+Xavier Bartlett, 
+Vijaykumar Vyshak, 
+Arshdeep Singh 
+Fall of wickets
+DRS
+1-126 (Priyansh Arya, 6.5 ov), 2-132 (Prabhsimran Singh, 7.3 ov), 3-145 (Cooper Connolly, 9.2 ov), 4-201 (Nehal Wadhera, 14.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Auqib Nabi
+2	0	41	0	20.50	4	1	1
+Mukesh Kumar
+3	0	55	0	18.33	1	1	0
+Axar Patel
+4	0	44	
+1
+11.00	5	1	0
+T Natarajan
+3.5	0	54	0	14.08	5	6	0
+Kuldeep Yadav
+4	0	46	
+2
+11.50	8	2	0
+Vipraj Nigam
+2	0	24	
+1
+12.00	3	1	0
