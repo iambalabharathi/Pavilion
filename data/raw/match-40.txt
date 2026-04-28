@@ -1,0 +1,94 @@
+Punjab Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Prabhsimran Singh †
+c Parag b Yash Raj Punja
+59	44	66	6	1	134.09
+Priyansh Arya 
+c Burger b Archer
+29	11	15	5	1	263.63
+Cooper Connolly 
+c Ferreira b Yash Raj Punja
+30	14	27	2	3	214.28
+Shreyas Iyer (c)
+c †Jurel b Burger
+30	27	42	1	1	111.11
+Marcus Stoinis 
+not out	62	22	31	4	6	281.81
+Suryansh Shedge 
+not out	3	2	11	0	0	150.00
+Extras	(b 4, lb 4, w 1)	9	
+Total	
+20 Ov (RR: 11.10)
+222/4	
+Did not bat
+Nehal Wadhera, 
+Marco Jansen, 
+Lockie Ferguson, 
+Arshdeep Singh, 
+Yuzvendra Chahal 
+Fall of wickets
+DRS
+1-37 (Priyansh Arya, 2.5 ov), 2-96 (Cooper Connolly, 8.2 ov), 3-144 (Prabhsimran Singh, 13.6 ov), 4-181 (Shreyas Iyer, 17.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	0	40	
+1
+10.00	10	0	0
+Nandre Burger
+4	0	59	
+1
+14.75	4	0	0
+Brijesh Sharma
+4	0	42	0	10.50	7	1	0
+Yash Raj Punja
+4	0	41	
+2
+10.25	6	0	0
+Ravindra Jadeja
+4	0	32	0	8.00	3	0	0
+Rajasthan Royals  (T: 223 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c Suryansh Shedge b Chahal
+51	27	49	7	1	188.88
+Vaibhav Sooryavanshi 
+c Iyer b Arshdeep Singh
+43	16	17	3	5	268.75
+Dhruv Jurel †
+c Jansen b Chahal
+16	20	23	0	1	80.00
+Riyan Parag (c)
+c Suryansh Shedge b Chahal
+29	16	18	2	2	181.25
+Donovan Ferreira 
+not out	52	26	43	6	3	200.00
+Shubham Dubey 
+not out	31	12	28	3	2	258.33
+Extras	(b 1, nb 1, w 4)	6	
+Total	
+19.2 Ov (RR: 11.79)
+228/4	
+Did not bat
+Ravindra Jadeja, 
+Dasun Shanaka, 
+Jofra Archer, 
+Nandre Burger, 
+Brijesh Sharma 
+Fall of wickets
+DRS
+1-51 (Vaibhav Sooryavanshi, 3.2 ov), 2-105 (Dhruv Jurel, 9.4 ov), 3-123 (Yashasvi Jaiswal, 11.2 ov), 4-151 (Riyan Parag, 13.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	68	
+1
+17.00	6	1	0
+Lockie Ferguson
+4	0	57	0	14.25	7	1	0
+Marco Jansen
+3.2	0	41	0	12.30	4	1	0
+Harpreet Brar
+4	0	25	0	6.25	8	0	0
+Yuzvendra Chahal
+4	0	36	
+3
+9.00	7	1	1
