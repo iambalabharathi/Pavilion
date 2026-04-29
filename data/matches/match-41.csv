@@ -1,0 +1,32 @@
+# MI vs SRH - Match 41
+# 2026-04-29
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+37, Deepak Chahar, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 1, 0, 46, 5, 3, 0, 1, 0, 0, 1, 0, 0, 0
+30, Rohit Sharma, MI, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 1, 0, 0, 0, 0, 2, 5, 0, 1, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 1, 0, 22, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 1, 0, 0, 0, 0, 1, 8, 0, 0, 1, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 1, 0, 31, 2, 2, 1, 7, 0, 0, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 1, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 1, 0, 7, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 1, 0, 5, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- SRH ---
+54, Travis Head, SRH, Ragu, 1, 0, 76, 4, 8, 0, 0, 0, 0, 0, 0, 0, 0
+233, Kamindu Mendis, SRH, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+60, Harshal Patel, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+123, Liam Livingstone, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+59, Pat Cummins, SRH, Dots, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+232, Aniket Verma, SRH, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+57, Ishan Kishan, SRH, JD, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+58, Heinrich Klaasen, SRH, JD, 1, 1, 65, 7, 4, 0, 0, 0, 0, 2, 0, 0, 0
+239, Zeeshan Ansari, SRH, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+55, Abhishek Sharma, SRH, Prakash, 1, 0, 45, 4, 3, 0, 0, 0, 0, 1, 0, 0, 0
+
