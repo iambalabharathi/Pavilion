@@ -1,0 +1,114 @@
+Royal Challengers Bengaluru  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Jacob Bethell 
+c Rashid Khan b Mohammed Siraj
+5	5	13	1	0	100.00
+Virat Kohli 
+c Rashid Khan b Rabada
+28	13	17	5	1	215.38
+Devdutt Padikkal 
+b Rashid Khan
+40	24	58	5	2	166.66
+Rajat Patidar (c)
+c Holder b Arshad Khan
+19	15	22	2	1	126.66
+Jitesh Sharma †
+c †Buttler b Holder
+1	3	3	0	0	33.33
+Tim David 
+c Holder b Rashid Khan
+9	6	6	0	1	150.00
+Krunal Pandya 
+c Holder b Arshad Khan
+4	4	4	1	0	100.00
+Romario Shepherd 
+c Sai Sudharsan b Holder
+17	15	18	0	2	113.33
+Venkatesh Iyer 
+c Sai Sudharsan b Arshad Khan
+12	15	28	1	0	80.00
+Bhuvneshwar Kumar 
+not out	15	15	28	2	0	100.00
+Josh Hazlewood 
+run out (†Buttler/Shubman Gill)
+0	1	1	0	0	0.00
+Extras	(lb 3, w 2)	5	
+Total	
+19.2 Ov (RR: 8.01)
+155	
+Did not bat
+Suyash Sharma 
+Fall of wickets
+DRS
+1-34 (Jacob Bethell, 2.4 ov), 2-35 (Virat Kohli, 3.2 ov), 3-79 (Rajat Patidar, 7.4 ov), 4-80 (Jitesh Sharma, 8.1 ov), 5-91 (Tim David, 9.4 ov), 6-96 (Krunal Pandya, 10.3 ov), 7-126 (Devdutt Padikkal, 13.6 ov), 8-126 (Romario Shepherd, 14.1 ov), 9-155 (Venkatesh Iyer, 19.1 ov), 10-155 (Josh Hazlewood, 19.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	38	
+1
+9.50	12	0	0
+Kagiso Rabada
+4	0	44	
+1
+11.00	10	1	0
+Jason Holder
+4	0	29	
+2
+7.25	8	0	0
+Arshad Khan
+3.2	0	22	
+3
+6.60	11	1	0
+Rashid Khan
+4	0	19	
+2
+4.75	15	0	0
+Gujarat Titans  (T: 156 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c †Sharma b Kumar
+6	5	14	1	0	120.00
+Shubman Gill (c)
+c Kohli b Kumar
+43	18	24	4	3	238.88
+Jos Buttler †
+b Kumar
+39	19	25	2	4	205.26
+Washington Sundar 
+lbw b Shepherd
+12	12	32	0	1	100.00
+M Shahrukh Khan 
+c Hazlewood b Shepherd
+8	8	12	1	0	100.00
+Rahul Tewatia 
+not out	27	17	25	4	0	158.82
+Jason Holder 
+c Padikkal b Suyash Sharma
+12	10	19	0	1	120.00
+Rashid Khan 
+not out	7	6	11	1	0	116.66
+Extras	(w 4)	4	
+Total	
+15.5 Ov (RR: 9.97)
+158/6	
+Did not bat
+Arshad Khan, 
+Kagiso Rabada, 
+Manav Suthar 
+Fall of wickets
+DRS
+1-42 (Sai Sudharsan, 2.6 ov), 2-57 (Shubman Gill, 4.6 ov), 3-92 (Jos Buttler, 7.3 ov), 4-109 (M Shahrukh Khan, 10.1 ov), 5-111 (Washington Sundar, 10.3 ov), 6-141 (Jason Holder, 13.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	28	
+3
+7.00	11	0	0
+Josh Hazlewood
+4	0	56	0	14.00	7	0	0
+Suyash Sharma
+3.5	0	44	
+1
+11.47	5	2	0
+Romario Shepherd
+4	0	30	
+2
+7.50	10	2	0
