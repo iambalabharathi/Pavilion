@@ -1,0 +1,102 @@
+Rajasthan Royals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c & b Starc
+6	3	2	0	1	200.00
+Vaibhav Sooryavanshi 
+b Jamieson
+4	2	11	1	0	200.00
+Dhruv Jurel †
+c Stubbs b Patel
+42	30	52	4	1	140.00
+Riyan Parag (c)
+c Patel b Starc
+90	50	75	8	5	180.00
+Ravindra Jadeja 
+c Sharma b Starc
+20	14	27	1	1	142.85
+Donovan Ferreira 
+not out	47	14	21	2	6	335.71
+Shubham Dubey 
+c Sharma b Natarajan
+6	6	14	1	0	100.00
+Jofra Archer 
+not out	1	1	4	0	0	100.00
+Extras	(lb 3, w 6)	9	
+Total	
+20 Ov (RR: 11.25)
+225/6	
+Did not bat
+Ravi Bishnoi, 
+Nandre Burger, 
+Brijesh Sharma 
+Fall of wickets
+DRS
+1-6 (Yashasvi Jaiswal, 0.3 ov), 2-12 (Vaibhav Sooryavanshi, 1.5 ov), 3-114 (Dhruv Jurel, 11.4 ov), 4-167 (Ravindra Jadeja, 16.2 ov), 5-168 (Riyan Parag, 16.4 ov), 6-208 (Shubham Dubey, 19.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mitchell Starc
+4	0	40	
+3
+10.00	12	3	0
+Kyle Jamieson
+4	0	48	
+1
+12.00	5	0	0
+Axar Patel
+4	0	39	
+1
+9.75	6	0	0
+Kuldeep Yadav
+4	0	41	0	10.25	4	0	0
+T Natarajan
+4	0	54	
+1
+13.50	6	3	0
+Delhi Capitals  (T: 226 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+lbw b Jadeja
+62	33	48	6	3	187.87
+KL Rahul †
+c Ferreira b Archer
+75	40	87	6	5	187.50
+Nitish Rana 
+c †Jurel b Deshpande
+33	17	26	3	2	194.11
+Tristan Stubbs 
+not out	18	11	35	1	1	163.63
+Ashutosh Sharma 
+not out	25	15	26	4	0	166.66
+Extras	(b 4, lb 1, nb 1, w 7)	13	
+Total	
+19.1 Ov (RR: 11.79)
+226/3	
+Did not bat
+Sameer Rizvi, 
+Axar Patel (c), 
+Kyle Jamieson, 
+Mitchell Starc, 
+Kuldeep Yadav, 
+T Natarajan 
+Fall of wickets
+DRS
+1-110 (Pathum Nissanka, 9.3 ov), 2-171 (Nitish Rana, 14.3 ov), 3-177 (KL Rahul, 15.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	0	46	
+1
+11.50	9	2	0
+Nandre Burger
+3	0	41	0	13.66	7	0	0
+Tushar Deshpande
+4	0	38	
+1
+9.50	7	3	0
+Brijesh Sharma
+3.1	0	35	0	11.05	3	2	1
+Ravi Bishnoi
+2	0	28	0	14.00	2	0	0
+Ravindra Jadeja
+3	0	33	
+1
+11.00	3	0	0
