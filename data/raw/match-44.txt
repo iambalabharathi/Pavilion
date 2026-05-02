@@ -1,0 +1,102 @@
+Mumbai Indians  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Will Jacks 
+c Ghosh b Kamboj
+1	5	6	0	0	20.00
+Ryan Rickelton †
+c Patel b Noor Ahmad
+37	24	32	0	5	154.16
+Naman Dhir 
+c sub (SN Khan) b Overton
+57	37	86	4	3	154.05
+Suryakumar Yadav 
+c Brevis b Ghosh
+21	12	22	3	1	175.00
+Tilak Varma 
+c Gaikwad b Noor Ahmad
+5	8	14	0	0	62.50
+Hardik Pandya (c)
+c Brevis b Kamboj
+18	23	39	2	0	78.26
+Robin Minz 
+b Kamboj
+5	3	5	1	0	166.66
+Krish Bhagat 
+not out	3	6	14	0	0	50.00
+Trent Boult 
+not out	7	2	3	0	1	350.00
+Extras	(b 2, lb 2, w 1)	5	
+Total	
+20 Ov (RR: 7.95)
+159/7	
+Did not bat
+Jasprit Bumrah, 
+AM Ghazanfar 
+Fall of wickets
+DRS
+1-1 (Will Jacks, 1.2 ov), 2-59 (Ryan Rickelton, 6.4 ov), 3-99 (Suryakumar Yadav, 10.4 ov), 4-109 (Tilak Varma, 12.5 ov), 5-134 (Naman Dhir, 16.5 ov), 6-139 (Robin Minz, 17.2 ov), 7-151 (Hardik Pandya, 19.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mukesh Choudhary
+3	0	25	0	8.33	10	0	0
+Anshul Kamboj
+4	0	32	
+3
+8.00	12	1	0
+Prashant Veer
+2	0	25	0	12.50	5	0	0
+Noor Ahmad
+4	0	26	
+2
+6.50	9	0	0
+Ramakrishna Ghosh
+3	0	24	
+1
+8.00	6	0	0
+Jamie Overton
+4	0	23	
+1
+5.75	11	0	0
+Chennai Super Kings  (T: 160 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+c †Rickelton b Bumrah
+11	9	8	2	0	122.22
+Ruturaj Gaikwad (c)
+not out	67	48	93	5	2	139.58
+Urvil Patel 
+b Ghazanfar
+24	12	19	2	2	200.00
+Kartik Sharma 
+not out	54	40	63	4	3	135.00
+Extras	(w 4)	4	
+Total	
+18.1 Ov (RR: 8.80)
+160/2	
+Did not bat
+Dewald Brevis, 
+Shivam Dube, 
+Jamie Overton, 
+Ramakrishna Ghosh, 
+Prashant Veer, 
+Noor Ahmad, 
+Anshul Kamboj 
+Fall of wickets
+DRS
+1-13 (Sanju Samson, 1.6 ov), 2-62 (Urvil Patel, 5.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Trent Boult
+3.1	0	37	0	11.68	5	2	0
+Jasprit Bumrah
+3	0	20	
+1
+6.66	9	1	0
+Krish Bhagat
+2	0	22	0	11.00	4	0	0
+AM Ghazanfar
+4	0	40	
+1
+10.00	9	0	0
+Raghu Sharma
+4	0	24	0	6.00	6	0	0
+Hardik Pandya
+2	0	17	0	8.50	1	1	0
