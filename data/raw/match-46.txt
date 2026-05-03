@@ -1,0 +1,119 @@
+Punjab Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Sindhu b Mohammed Siraj
+2	2	2	0	0	100.00
+Prabhsimran Singh †
+c Suthar b Rabada
+15	14	29	2	0	107.14
+Cooper Connolly 
+c †Buttler b Mohammed Siraj
+0	1	1	0	0	0.00
+Shreyas Iyer (c)
+b Holder
+19	21	40	3	0	90.47
+Nehal Wadhera 
+c †Buttler b Holder
+0	6	5	0	0	0.00
+Suryansh Shedge 
+c †Buttler b Rabada
+57	29	44	3	5	196.55
+Marcus Stoinis 
+c Washington Sundar b Holder
+40	31	46	5	1	129.03
+Marco Jansen 
+c Shubman Gill b Rashid Khan
+20	11	25	1	1	181.81
+Xavier Bartlett 
+b Holder
+0	1	1	0	0	0.00
+Vijaykumar Vyshak 
+not out	1	3	12	0	0	33.33
+Arshdeep Singh 
+not out	1	1	1	0	0	100.00
+Extras	(lb 1, w 7)	8	
+Total	
+20 Ov (RR: 8.15)
+163/9	
+Did not bat
+Yuzvendra Chahal 
+Fall of wickets
+DRS
+1-2 (Priyansh Arya, 0.2 ov), 2-2 (Cooper Connolly, 0.3 ov), 3-35 (Prabhsimran Singh, 5.2 ov), 4-36 (Nehal Wadhera, 6.3 ov), 5-47 (Shreyas Iyer, 8.4 ov), 6-126 (Suryansh Shedge, 15.6 ov), 7-141 (Marcus Stoinis, 17.4 ov), 8-141 (Xavier Bartlett, 17.5 ov), 9-162 (Marco Jansen, 19.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	28	
+2
+7.00	11	1	0
+Kagiso Rabada
+4	1	22	
+2
+5.50	16	1	0
+Jason Holder
+4	0	24	
+4
+6.00	10	1	0
+Arshad Khan
+3	0	29	0	9.66	5	2	0
+Rashid Khan
+4	0	32	
+1
+8.00	7	1	0
+Manav Suthar
+1	0	27	0	27.00	0	0	0
+Gujarat Titans  (T: 164 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c Bartlett b Vyshak
+57	41	77	5	1	139.02
+Shubman Gill (c)
+c Connolly b Arshdeep Singh
+5	4	7	1	0	125.00
+Jos Buttler †
+c Iyer b Vyshak
+26	22	36	1	2	118.18
+Nishant Sindhu 
+c Vyshak b Stoinis
+15	11	15	0	1	136.36
+Washington Sundar 
+not out	40	23	48	5	1	173.91
+Rahul Tewatia 
+c Bartlett b Jansen
+2	6	11	0	0	33.33
+Jason Holder 
+c Connolly b Arshdeep Singh
+5	7	9	0	0	71.42
+Arshad Khan 
+not out	8	5	8	1	0	160.00
+Extras	(lb 2, w 7)	9	
+Total	
+19.5 Ov (RR: 8.42)
+167/6	
+Did not bat
+Rashid Khan, 
+Kagiso Rabada, 
+Manav Suthar 
+Fall of wickets
+DRS
+1-16 (Shubman Gill, 1.3 ov), 2-69 (Jos Buttler, 8.1 ov), 3-94 (Nishant Sindhu, 11.3 ov), 4-124 (Sai Sudharsan, 14.5 ov), 5-140 (Rahul Tewatia, 16.6 ov), 6-152 (Jason Holder, 18.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Xavier Bartlett
+4	0	38	0	9.50	9	1	0
+Arshdeep Singh
+4	0	24	
+2
+6.00	10	0	0
+Marco Jansen
+4	0	33	
+1
+8.25	10	1	0
+Vijaykumar Vyshak
+4	0	31	
+2
+7.75	6	0	0
+Marcus Stoinis
+2.5	0	26	
+1
+9.17	4	1	0
+Yuzvendra Chahal
+1	0	13	0	13.00	0	0	0
