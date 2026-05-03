@@ -1,0 +1,114 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c Green b Kartik Tyagi
+15	10	16	1	1	150.00
+Travis Head 
+c Green b Varun
+61	28	42	9	3	217.85
+Ishan Kishan †
+c Roy b Narine
+42	29	65	4	2	144.82
+Heinrich Klaasen 
+c Powell b Green
+11	8	7	1	1	137.50
+Ravichandran Smaran 
+c Rahane b Varun
+4	4	4	1	0	100.00
+Aniket Verma 
+c Rahane b Varun
+6	8	13	1	0	75.00
+Salil Arora 
+b Narine
+2	6	7	0	0	33.33
+Pat Cummins (c)
+c & b Roy
+10	8	8	0	1	125.00
+Shivang Kumar 
+c †Raghuvanshi b Arora
+1	2	7	0	0	50.00
+Harshal Patel 
+c Arora b Kartik Tyagi
+6	5	12	1	0	120.00
+Eshan Malinga 
+not out	2	6	9	0	0	33.33
+Extras	(b 1, w 4)	5	
+Total	
+19 Ov (RR: 8.68)
+165	
+Fall of wickets
+DRS
+1-44 (Abhishek Sharma, 3.4 ov), 2-105 (Travis Head, 8.6 ov), 3-117 (Heinrich Klaasen, 10.4 ov), 4-122 (Ravichandran Smaran, 11.3 ov), 5-135 (Aniket Verma, 13.4 ov), 6-139 (Salil Arora, 15.1 ov), 7-148 (Ishan Kishan, 15.6 ov), 8-156 (Pat Cummins, 16.6 ov), 9-156 (Shivang Kumar, 17.1 ov), 10-165 (Harshal Patel, 18.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Sunil Narine
+4	0	31	
+2
+7.75	12	0	0
+Vaibhav Arora
+3	0	25	
+1
+8.33	6	1	0
+Kartik Tyagi
+4	0	30	
+2
+7.50	9	1	0
+Cameron Green
+3	0	34	
+1
+11.33	8	1	0
+Varun Chakravarthy
+4	0	36	
+3
+9.00	11	1	0
+Anukul Roy
+1	0	8	
+1
+8.00	3	0	0
+Kolkata Knight Riders  (T: 166 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+c Smaran b Sakib Hussain
+43	36	76	4	1	119.44
+Finn Allen 
+c Klaasen b Cummins
+29	13	19	3	2	223.07
+Angkrish Raghuvanshi †
+c Malinga b Shivang Kumar
+59	47	67	5	2	125.53
+Rinku Singh 
+not out	22	11	20	2	1	200.00
+Cameron Green 
+not out	3	3	10	0	0	100.00
+Extras	(lb 1, w 12)	13	
+Total	
+18.2 Ov (RR: 9.21)
+169/3	
+Did not bat
+Rovman Powell, 
+Manish Pandey, 
+Sunil Narine, 
+Anukul Roy, 
+Kartik Tyagi, 
+Varun Chakravarthy 
+Fall of wickets
+DRS
+1-49 (Finn Allen, 3.6 ov), 2-133 (Ajinkya Rahane, 14.6 ov), 3-151 (Angkrish Raghuvanshi, 16.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Abhishek Sharma
+2	0	14	0	7.00	4	0	0
+Pat Cummins
+4	0	47	
+1
+11.75	7	2	0
+Eshan Malinga
+3.2	0	42	0	12.60	8	2	0
+Shivang Kumar
+4	0	31	
+1
+7.75	6	0	0
+Harshal Patel
+2	0	17	0	8.50	2	1	0
+Sakib Hussain
+3	0	17	
+1
+5.66	7	2	0
