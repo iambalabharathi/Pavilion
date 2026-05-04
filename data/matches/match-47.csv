@@ -1,0 +1,34 @@
+# LSG vs MI - Match 47
+# 2026-05-04
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 1, 0, 0, 0, 0, 1, 8, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 15, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 31, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 44, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 0, 0, 0, 1, 6, 0, 0, 1, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 63, 1, 8, 0, 0, 0, 0, 1, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+37, Deepak Chahar, MI, Ragu, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 1, 0, 10, 0, 1, 1, 2, 0, 0, 0, 0, 0, 0
+30, Rohit Sharma, MI, RK, 1, 0, 84, 6, 7, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 1, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 1, 0, 23, 3, 1, 0, 0, 0, 0, 1, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 1, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 1, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 1, 0, 12, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+

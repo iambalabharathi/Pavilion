@@ -1,0 +1,102 @@
+Lucknow Super Giants  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+c Naman Dhir b Bosch
+44	25	50	4	3	176.00
+Josh Inglis 
+c Yadav b Ghazanfar
+13	5	12	3	0	260.00
+Nicholas Pooran 
+c †Rickelton b Bosch
+63	21	31	1	8	300.00
+Rishabh Pant (c)†
+c †Rickelton b Jacks
+15	10	17	1	1	150.00
+Aiden Markram 
+not out	31	25	58	1	1	124.00
+Akshat Raghuwanshi 
+c & b RS Sharma
+11	7	6	0	1	157.14
+Himmat Singh 
+not out	40	31	40	2	2	129.03
+Extras	(nb 4, w 7)	11	
+Total	
+20 Ov (RR: 11.40)
+228/5	
+Did not bat
+Mohammed Shami, 
+Mohsin Khan, 
+Avesh Khan, 
+Prince Yadav 
+Fall of wickets
+DRS
+1-29 (Josh Inglis, 2.3 ov), 2-123 (Nicholas Pooran, 8.1 ov), 3-125 (Mitchell Marsh, 8.5 ov), 4-148 (Rishabh Pant, 10.4 ov), 5-160 (Akshat Raghuwanshi, 12.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Deepak Chahar
+4	0	43	0	10.75	5	2	0
+Jasprit Bumrah
+4	0	45	0	11.25	7	2	3
+AM Ghazanfar
+4	0	50	
+1
+12.50	5	0	0
+Will Jacks
+2	0	34	
+1
+17.00	2	1	0
+Corbin Bosch
+2	0	20	
+2
+10.00	5	1	1
+Raghu Sharma
+4	0	36	
+1
+9.00	6	0	0
+Mumbai Indians  (T: 229 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Ryan Rickelton †
+c Inglis b Mohsin Khan
+83	32	57	6	8	259.37
+Rohit Sharma 
+c Mohammed Shami b Siddharth
+84	44	76	6	7	190.90
+Tilak Varma 
+c Markram b Siddharth
+11	13	27	0	0	84.61
+Suryakumar Yadav (c)
+c Pooran b Mohammed Shami
+12	7	22	2	0	171.42
+Naman Dhir 
+not out	23	12	19	3	1	191.66
+Will Jacks 
+not out	10	4	5	0	1	250.00
+Extras	(lb 2, w 4)	6	
+Total	
+18.4 Ov (RR: 12.26)
+229/4	
+Did not bat
+Raj Bawa, 
+Corbin Bosch, 
+Deepak Chahar, 
+Jasprit Bumrah, 
+AM Ghazanfar 
+Fall of wickets
+DRS
+1-143 (Ryan Rickelton, 10.5 ov), 2-177 (Rohit Sharma, 13.6 ov), 3-189 (Tilak Varma, 15.3 ov), 4-213 (Suryakumar Yadav, 17.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	53	
+1
+13.25	6	0	0
+Mohsin Khan
+4	0	47	
+1
+11.75	8	1	0
+Prince Yadav
+3	0	24	0	8.00	6	1	0
+Avesh Khan
+3.4	0	56	0	15.27	3	2	0
+Manimaran Siddharth
+4	0	47	
+2
+11.75	5	0	0
