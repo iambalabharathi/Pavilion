@@ -1,0 +1,30 @@
+# SRH vs PBKS - Match 49
+# 2026-05-08
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- SRH ---
+54, Travis Head, SRH, Ragu, 1, 0, 38, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0
+233, Kamindu Mendis, SRH, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+60, Harshal Patel, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+123, Liam Livingstone, SRH, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+59, Pat Cummins, SRH, Dots, 1, 1, 0, 0, 0, 2, 10, 0, 0, 2, 0, 0, 0
+232, Aniket Verma, SRH, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+57, Ishan Kishan, SRH, JD, 1, 0, 55, 2, 4, 0, 0, 0, 0, 1, 0, 0, 0
+58, Heinrich Klaasen, SRH, JD, 1, 0, 69, 3, 4, 0, 0, 0, 0, 0, 0, 0, 0
+239, Zeeshan Ansari, SRH, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+55, Abhishek Sharma, SRH, Prakash, 1, 0, 35, 2, 4, 0, 0, 0, 0, 1, 0, 0, 0
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 1, 0, 28, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 1, 6, 0, 0, 0, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 0, 5, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 1, 0, 19, 0, 1, 0, 4, 0, 0, 2, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+203, Harpreet Brar, PBKS, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+

@@ -1,0 +1,107 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c Iyer b Ferguson
+35	13	17	2	4	269.23
+Travis Head 
+c Jansen b Chahal
+38	19	32	3	3	200.00
+Ishan Kishan †
+c Suryansh Shedge b Arshdeep Singh
+55	32	51	2	4	171.87
+Heinrich Klaasen 
+c Jansen b Vyshak
+69	43	64	3	4	160.46
+Nitish Kumar Reddy 
+not out	29	13	28	2	2	223.07
+Extras	(b 2, lb 2, w 5)	9	
+Total	
+20 Ov (RR: 11.75)
+235/4	
+Did not bat
+Salil Arora, 
+Ravichandran Smaran, 
+Pat Cummins (c), 
+Shivang Kumar, 
+Eshan Malinga, 
+Sakib Hussain 
+Fall of wickets
+1-54 (Abhishek Sharma, 3.3 ov), 2-84 (Travis Head, 6.4 ov), 3-172 (Ishan Kishan, 14.4 ov), 4-235 (Heinrich Klaasen, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	43	
+1
+10.75	6	1	0
+Marco Jansen
+4	0	61	0	15.25	4	2	0
+Lockie Ferguson
+4	0	41	
+1
+10.25	9	1	0
+Yuzvendra Chahal
+4	0	32	
+1
+8.00	5	1	0
+Vijaykumar Vyshak
+4	0	54	
+1
+13.50	3	0	0
+Punjab Kings  (T: 236 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Malinga b Cummins
+1	3	5	0	0	33.33
+Prabhsimran Singh †
+c Cummins b Nitish Kumar Reddy
+3	4	7	0	0	75.00
+Cooper Connolly 
+not out	107	59	100	7	8	181.35
+Shreyas Iyer (c)
+c Cummins b Malinga
+5	5	11	1	0	100.00
+Marcus Stoinis 
+c †Ishan Kishan b Shivang Kumar
+28	14	18	3	2	200.00
+Suryansh Shedge 
+c Abhishek Sharma b Cummins
+25	17	24	1	2	147.05
+Shashank Singh 
+c Nitish Kumar Reddy b Sakib Hussain
+4	3	5	1	0	133.33
+Marco Jansen 
+c Dubey b Shivang Kumar
+19	16	33	0	1	118.75
+Vijaykumar Vyshak 
+not out	1	1	4	0	0	100.00
+Extras	(nb 2, w 7)	9	
+Total	
+20 Ov (RR: 10.10)
+202/7	
+Did not bat
+Lockie Ferguson, 
+Arshdeep Singh 
+Fall of wickets
+1-4 (Priyansh Arya, 0.6 ov), 2-4 (Prabhsimran Singh, 1.1 ov), 3-23 (Shreyas Iyer, 3.2 ov), 4-63 (Marcus Stoinis, 6.4 ov), 5-110 (Suryansh Shedge, 11.4 ov), 6-119 (Shashank Singh, 12.3 ov), 7-187 (Marco Jansen, 19.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Pat Cummins
+4	0	34	
+2
+8.50	10	0	1
+Nitish Kumar Reddy
+2	0	11	
+1
+5.50	4	0	0
+Eshan Malinga
+4	0	36	
+1
+9.00	11	1	0
+Sakib Hussain
+4	0	40	
+1
+10.00	8	2	1
+Shivang Kumar
+4	0	45	
+2
+11.25	8	2	0
+Harsh Dubey
+2	0	36	0	18.00	1	2	0
