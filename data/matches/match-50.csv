@@ -1,0 +1,34 @@
+# LSG vs RCB - Match 50
+# 2026-05-08
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 32, 4, 2, 0, 0, 0, 0, 1, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 1, 0, 0, 0, 0, 2, 8, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 1, 111, 9, 9, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 0, 0, 0, 1, 13, 0, 0, 0, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 38, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 0, 4, 0, 0, 1, 0, 0, 0
+
+# --- RCB ---
+45, Philip Salt, RCB, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+112, Krunal Pandya, RCB, Ragu, 1, 0, 28, 2, 2, 1, 12, 0, 0, 1, 0, 0, 0
+116, Suyash Sharma, RCB, Ragu, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0
+42, Rajat Patidar, RCB, RK, 1, 0, 61, 3, 6, 0, 0, 0, 0, 1, 0, 0, 0
+113, Venkatesh Iyer, RCB, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+46, Josh Hazlewood, RCB, Darshan, 1, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0
+111, Jacob Bethell, RCB, Darshan, 1, 0, 4, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+43, Tim David, RCB, JD, 1, 0, 40, 4, 3, 0, 0, 0, 0, 0, 0, 0, 0
+47, Bhuvneshwar Kumar, RCB, JD, 1, 0, 0, 0, 0, 0, 8, 0, 0, 0, 0, 0, 0
+110, Devdutt Padikkal, RCB, JD, 1, 0, 34, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+44, Virat Kohli, RCB, Prakash, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+115, Jitesh Sharma, RCB, Prakash, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+214, Rasikh Salam Dar, RCB, Prakash, 1, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0
+

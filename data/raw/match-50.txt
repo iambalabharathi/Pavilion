@@ -1,0 +1,98 @@
+Lucknow Super Giants  (19 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+c Bethell b Hazlewood
+111	56	82	9	9	198.21
+Arshin Kulkarni 
+c Patidar b Pandya
+17	24	45	1	0	70.83
+Nicholas Pooran 
+c Pandya b Rasikh Salam
+38	23	47	4	1	165.21
+Rishabh Pant (c)†
+not out	32	10	15	4	2	320.00
+Aiden Markram 
+not out	1	1	3	0	0	100.00
+Extras	(lb 5, w 5)	10	
+Total	
+19 Ov (RR: 11.00)
+209/3	
+Did not bat
+Akshat Raghuwanshi, 
+Himmat Singh, 
+Shahbaz Ahmed, 
+Digvesh Rathi, 
+Mohammed Shami, 
+Prince Yadav 
+Fall of wickets
+1-95 (Arshin Kulkarni, 9.2 ov), 2-165 (Mitchell Marsh, 16.1 ov), 3-194 (Nicholas Pooran, 18.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	34	0	8.50	8	0	0
+Josh Hazlewood
+4	0	49	
+1
+12.25	9	3	0
+Krunal Pandya
+4	0	31	
+1
+7.75	12	1	0
+Rasikh Salam
+4	0	53	
+1
+13.25	5	1	0
+Suyash Sharma
+2	0	21	0	10.50	2	0	0
+Romario Shepherd
+1	0	16	0	16.00	2	0	0
+Royal Challengers Bengaluru  (T: 213 runs from 19 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Jacob Bethell 
+c Prince Yadav b Mohammed Shami
+4	5	5	1	0	80.00
+Virat Kohli 
+b Prince Yadav
+0	2	9	0	0	0.00
+Devdutt Padikkal 
+c & b Prince Yadav
+34	25	49	3	1	136.00
+Rajat Patidar (c)
+c Markram b Shahbaz Ahmed
+61	31	54	3	6	196.77
+Jitesh Sharma †
+c †Pant b Prince Yadav
+1	3	3	0	0	33.33
+Tim David 
+c Rathi b Shahbaz Ahmed
+40	17	26	4	3	235.29
+Krunal Pandya 
+not out	28	16	40	2	2	175.00
+Romario Shepherd 
+not out	23	15	18	3	1	153.33
+Extras	(lb 4, w 8)	12	
+Total	
+19 Ov (RR: 10.68)
+203/6	
+Did not bat
+Bhuvneshwar Kumar, 
+Josh Hazlewood, 
+Rasikh Salam 
+Fall of wickets
+1-9 (Jacob Bethell, 0.5 ov), 2-9 (Virat Kohli, 1.2 ov), 3-104 (Devdutt Padikkal, 10.1 ov), 4-106 (Jitesh Sharma, 10.5 ov), 5-112 (Rajat Patidar, 11.3 ov), 6-158 (Tim David, 15.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	33	
+1
+8.25	13	3	0
+Prince Yadav
+4	0	33	
+3
+8.25	8	0	0
+Mayank Yadav
+4	0	50	0	12.50	8	1	0
+Digvesh Rathi
+4	0	50	0	12.50	4	1	0
+Shahbaz Ahmed
+3	0	33	
+2
+11.00	8	3	0
