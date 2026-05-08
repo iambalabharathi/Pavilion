@@ -1,0 +1,103 @@
+Delhi Capitals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+c Brevis b Mukesh Choudhary
+19	15	18	3	1	126.66
+KL Rahul †
+c Gaikwad b Hosein
+12	13	25	2	0	92.30
+Nitish Rana 
+c Kartik Sharma b Noor Ahmad
+15	13	29	2	0	115.38
+Karun Nair 
+c Gurjapneet Singh b Noor Ahmad
+13	13	12	2	0	100.00
+Axar Patel (c)
+c Hosein b Gurjapneet Singh
+2	6	14	0	0	33.33
+Tristan Stubbs 
+c Mukesh Choudhary b Overton
+38	31	47	1	2	122.58
+Sameer Rizvi 
+not out	40	24	47	0	4	166.66
+Ashutosh Sharma 
+run out (Gaikwad)
+14	5	6	0	2	280.00
+Mitchell Starc 
+not out	0	0	1	0	0	-
+Extras	(w 2)	2	
+Total	
+20 Ov (RR: 7.75)
+155/7	
+Did not bat
+Lungi Ngidi, 
+Kuldeep Yadav, 
+T Natarajan 
+Fall of wickets
+DRS
+1-29 (Pathum Nissanka, 3.6 ov), 2-36 (KL Rahul, 5.1 ov), 3-52 (Karun Nair, 7.6 ov), 4-61 (Nitish Rana, 9.3 ov), 5-69 (Axar Patel, 10.6 ov), 6-134 (Tristan Stubbs, 18.5 ov), 7-149 (Ashutosh Sharma, 19.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Akeal Hosein
+4	0	19	
+1
+4.75	14	0	0
+Mukesh Choudhary
+4	0	31	
+1
+7.75	10	1	0
+Anshul Kamboj
+4	0	49	0	12.25	7	0	0
+Noor Ahmad
+3	0	22	
+2
+7.33	6	0	0
+Gurjapneet Singh
+4	0	29	
+1
+7.25	7	1	0
+Jamie Overton
+1	0	5	
+1
+5.00	1	0	0
+Chennai Super Kings  (T: 156 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+not out	87	52	91	7	6	167.30
+Ruturaj Gaikwad (c)
+c Sameer Rizvi b Ngidi
+6	13	19	1	0	46.15
+Urvil Patel 
+st †Rahul b Patel
+17	9	11	0	2	188.88
+Kartik Sharma 
+not out	41	31	58	4	2	132.25
+Extras	(lb 1, w 7)	8	
+Total	
+17.3 Ov (RR: 9.08)
+159/2	
+Did not bat
+Dewald Brevis, 
+Jamie Overton, 
+Akeal Hosein, 
+Noor Ahmad, 
+Anshul Kamboj, 
+Mukesh Choudhary, 
+Gurjapneet Singh 
+Fall of wickets
+DRS
+1-24 (Ruturaj Gaikwad, 3.5 ov), 2-45 (Urvil Patel, 6.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mitchell Starc
+4	0	30	0	7.50	9	1	0
+Axar Patel
+4	0	25	
+1
+6.25	12	1	0
+Lungi Ngidi
+4	0	30	
+1
+7.50	12	1	0
+Kuldeep Yadav
+3	0	34	0	11.33	7	0	0
+T Natarajan
+2.3	0	39	0	15.60	4	0	0
