@@ -1,0 +1,104 @@
+Delhi Capitals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Pathum Nissanka 
+st †Raghuvanshi b Roy
+50	29	48	5	3	172.41
+KL Rahul †
+c Green b Kartik Tyagi
+23	14	21	4	0	164.28
+Nitish Rana 
+c Narine b Green
+8	10	13	1	0	80.00
+Sameer Rizvi 
+c Powell b Narine
+3	7	9	0	0	42.85
+Tristan Stubbs 
+b Roy
+2	4	7	0	0	50.00
+Axar Patel (c)
+c Roy b Arora
+11	22	42	0	0	50.00
+Ashutosh Sharma 
+c Rahane b Kartik Tyagi
+39	28	43	3	3	139.28
+Vipraj Nigam 
+not out	3	3	9	0	0	100.00
+Mitchell Starc 
+run out (†Raghuvanshi/Kartik Tyagi)
+0	2	2	0	0	0.00
+Lungi Ngidi 
+not out	1	1	2	0	0	100.00
+Extras	(w 2)	2	
+Total	
+20 Ov (RR: 7.10)
+142/8	
+Did not bat
+Mukesh Kumar 
+Fall of wickets
+DRS
+1-49 (KL Rahul, 4.6 ov), 2-74 (Nitish Rana, 7.6 ov), 3-80 (Sameer Rizvi, 9.5 ov), 4-85 (Pathum Nissanka, 10.1 ov), 5-89 (Tristan Stubbs, 10.5 ov), 6-128 (Axar Patel, 18.3 ov), 7-140 (Ashutosh Sharma, 19.2 ov), 8-140 (Mitchell Starc, 19.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Anukul Roy
+4	0	31	
+2
+7.75	10	2	0
+Vaibhav Arora
+3	0	29	
+1
+9.66	5	0	0
+Sunil Narine
+4	0	17	
+1
+4.25	14	0	0
+Kartik Tyagi
+4	0	25	
+2
+6.25	10	0	0
+Varun Chakravarthy
+4	0	28	0	7.00	10	0	0
+Cameron Green
+1	0	12	
+1
+12.00	2	0	0
+Kolkata Knight Riders  (T: 143 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+run out (Starc)
+13	9	13	1	1	144.44
+Finn Allen 
+not out	100	47	65	5	10	212.76
+Angkrish Raghuvanshi †
+b Patel
+1	3	2	0	0	33.33
+Cameron Green 
+not out	33	27	49	0	2	122.22
+Extras		0	
+Total	
+14.2 Ov (RR: 10.25)
+147/2	
+Did not bat
+Rovman Powell, 
+Manish Pandey, 
+Rinku Singh, 
+Sunil Narine, 
+Anukul Roy, 
+Kartik Tyagi, 
+Vaibhav Arora 
+Fall of wickets
+DRS
+1-29 (Ajinkya Rahane, 2.6 ov), 2-31 (Angkrish Raghuvanshi, 3.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mitchell Starc
+3	0	31	0	10.33	5	0	0
+Axar Patel
+4	0	27	
+1
+6.75	9	0	0
+Lungi Ngidi
+2	0	7	0	3.50	5	0	0
+Vipraj Nigam
+2	0	34	0	17.00	1	0	0
+Kuldeep Yadav
+3	0	41	0	13.66	6	0	0
+Mukesh Kumar
+0.2	0	7	0	21.00	0	0	0
