@@ -1,0 +1,35 @@
+# MI vs RCB - Match 53
+# 2026-05-10
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+37, Deepak Chahar, MI, Ragu, 1, 0, 1, 0, 0, 2, 10, 0, 0, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 1, 0, 10, 1, 0, 0, 3, 0, 0, 0, 0, 0, 0
+30, Rohit Sharma, MI, RK, 1, 0, 22, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 1, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 1, 0, 47, 5, 2, 0, 0, 0, 0, 1, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 1, 0, 0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 1, 0, 57, 3, 2, 0, 0, 0, 0, 3, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- RCB ---
+45, Philip Salt, RCB, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+112, Krunal Pandya, RCB, Ragu, 1, 0, 73, 4, 5, 0, 1, 0, 0, 0, 0, 0, 0
+116, Suyash Sharma, RCB, Ragu, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0
+42, Rajat Patidar, RCB, RK, 1, 0, 8, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0
+113, Venkatesh Iyer, RCB, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+46, Josh Hazlewood, RCB, Darshan, 1, 0, 0, 0, 0, 1, 12, 0, 0, 0, 0, 0, 0
+111, Jacob Bethell, RCB, Darshan, 1, 0, 27, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+43, Tim David, RCB, JD, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+47, Bhuvneshwar Kumar, RCB, JD, 1, 1, 7, 0, 1, 4, 12, 0, 1, 0, 0, 0, 0
+110, Devdutt Padikkal, RCB, JD, 1, 0, 12, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0
+44, Virat Kohli, RCB, Prakash, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+115, Jitesh Sharma, RCB, Prakash, 1, 0, 18, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0
+214, Rasikh Salam Dar, RCB, Prakash, 1, 0, 3, 0, 0, 1, 6, 0, 1, 0, 0, 0, 0
+
