@@ -1,0 +1,104 @@
+Punjab Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Parakh b Tiwari
+56	33	54	2	6	169.69
+Prabhsimran Singh †
+c Auqib Nabi b Mukesh Kumar
+18	15	42	3	0	120.00
+Shreyas Iyer (c)
+not out	59	36	72	5	3	163.88
+Cooper Connolly 
+c Miller b Tiwari
+38	27	46	3	2	140.74
+Marcus Stoinis 
+c Tiwari b Starc
+1	2	3	0	0	50.00
+Shashank Singh 
+c Patel b Starc
+0	1	1	0	0	0.00
+Suryansh Shedge 
+not out	21	8	8	2	2	262.50
+Extras	(b 4, nb 2, w 11)	17	
+Total	
+20 Ov (RR: 10.50)
+210/5	
+Did not bat
+Marco Jansen, 
+Ben Dwarshuis, 
+Arshdeep Singh, 
+Yuzvendra Chahal 
+Fall of wickets
+1-78 (Prabhsimran Singh, 6.5 ov), 2-97 (Priyansh Arya, 8.6 ov), 3-180 (Cooper Connolly, 17.4 ov), 4-187 (Marcus Stoinis, 18.1 ov), 5-187 (Shashank Singh, 18.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mitchell Starc
+4	0	57	
+2
+14.25	9	3	0
+Auqib Nabi
+4	0	32	0	8.00	10	0	2
+Lungi Ngidi
+4	0	46	0	11.50	7	0	0
+Mukesh Kumar
+4	0	31	
+1
+7.75	7	2	0
+Madhav Tiwari
+4	0	40	
+2
+10.00	9	2	0
+Delhi Capitals  (T: 211 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+KL Rahul †
+c Jansen b Arshdeep Singh
+9	8	14	2	0	112.50
+Abishek Porel 
+b Yash Thakur
+5	6	9	1	0	83.33
+Sahil Parakh 
+c Chahal b Arshdeep Singh
+13	6	14	1	1	216.66
+Tristan Stubbs 
+run out (Connolly)
+12	17	30	1	0	70.58
+Axar Patel (c)
+c Dwarshuis b Stoinis
+56	30	49	8	2	186.66
+David Miller 
+c †Prabhsimran Singh b Dwarshuis
+51	28	42	3	4	182.14
+Ashutosh Sharma 
+c sub (P Dubey) b Yash Thakur
+24	10	27	2	2	240.00
+Madhav Tiwari 
+not out	18	8	14	2	1	225.00
+Auqib Nabi 
+not out	10	2	2	1	1	500.00
+Extras	(nb 1, w 17)	18	
+Total	
+19 Ov (RR: 11.36)
+216/7	
+Did not bat
+Mitchell Starc, 
+Lungi Ngidi 
+Fall of wickets
+1-10 (Abishek Porel, 1.5 ov), 2-14 (KL Rahul, 2.3 ov), 3-33 (Sahil Parakh, 4.3 ov), 4-74 (Tristan Stubbs, 8.2 ov), 5-138 (Axar Patel, 13.6 ov), 6-170 (David Miller, 16.3 ov), 7-205 (Ashutosh Sharma, 18.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	21	
+2
+5.25	14	2	0
+Yash Thakur
+4	0	55	
+2
+13.75	8	1	1
+Marco Jansen
+4	0	45	0	11.25	8	1	0
+Ben Dwarshuis
+4	0	51	
+1
+12.75	6	2	0
+Marcus Stoinis
+3	0	44	
+1
+14.66	3	2	0
