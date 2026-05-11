@@ -1,0 +1,109 @@
+Lucknow Super Giants  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Josh Inglis 
+c †Samson b Overton
+85	33	55	10	6	257.57
+Mitchell Marsh 
+c Brevis b Kamboj
+10	10	28	0	1	100.00
+Nicholas Pooran 
+c sub (SN Khan) b Noor Ahmad
+1	3	11	0	0	33.33
+Rishabh Pant (c)†
+b Overton
+15	12	16	2	0	125.00
+Aiden Markram 
+run out (Brevis)
+6	7	15	0	0	85.71
+Akshat Raghuwanshi 
+c Patel b Overton
+18	18	26	1	0	100.00
+Shahbaz Ahmed 
+not out	43	25	48	3	3	172.00
+Himmat Singh 
+b Kamboj
+17	12	30	1	1	141.66
+Mohammed Shami 
+run out (†Samson/Kamboj)
+0	1	1	0	0	0.00
+Avesh Khan 
+not out	0	0	1	0	0	-
+Extras	(lb 2, nb 1, w 5)	8	
+Total	
+20 Ov (RR: 10.15)
+203/8	
+Did not bat
+Prince Yadav, 
+Digvesh Rathi 
+Fall of wickets
+DRS
+1-77 (Mitchell Marsh, 5.1 ov), 2-92 (Nicholas Pooran, 6.2 ov), 3-112 (Josh Inglis, 9.1 ov), 4-115 (Rishabh Pant, 9.4 ov), 5-130 (Aiden Markram, 12.1 ov), 6-147 (Akshat Raghuwanshi, 14.2 ov), 7-197 (Himmat Singh, 19.4 ov), 8-197 (Mohammed Shami, 19.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Akeal Hosein
+4	0	49	0	12.25	4	0	0
+Mukesh Choudhary
+4	0	45	0	11.25	9	2	0
+Anshul Kamboj
+4	0	47	
+2
+11.75	8	1	1
+Noor Ahmad
+4	0	24	
+1
+6.00	10	0	0
+Jamie Overton
+4	0	36	
+3
+9.00	11	2	0
+Chennai Super Kings  (T: 204 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+b Rathi
+28	14	18	3	2	200.00
+Ruturaj Gaikwad (c)
+b Shahbaz Ahmed
+42	28	69	3	2	150.00
+Urvil Patel 
+c Avesh Khan b Shahbaz Ahmed
+65	23	33	2	8	282.60
+Kartik Sharma 
+c Akshat Raghuwanshi b Avesh Khan
+20	20	39	1	0	100.00
+Dewald Brevis 
+b Rathi
+10	12	17	1	0	83.33
+Shivam Dube 
+not out	15	7	24	0	2	214.28
+Prashant Veer 
+not out	17	12	22	0	2	141.66
+Extras	(lb 2, w 9)	11	
+Total	
+19.2 Ov (RR: 10.75)
+208/5	
+Did not bat
+Jamie Overton, 
+Akeal Hosein, 
+Noor Ahmad, 
+Anshul Kamboj 
+Fall of wickets
+DRS
+1-45 (Sanju Samson, 3.4 ov), 2-126 (Urvil Patel, 9.2 ov), 3-149 (Ruturaj Gaikwad, 12.5 ov), 4-169 (Dewald Brevis, 15.6 ov), 5-169 (Kartik Sharma, 16.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	37	0	9.25	6	0	0
+Prince Yadav
+4	0	36	0	9.00	10	1	0
+Digvesh Rathi
+4	0	45	
+2
+11.25	7	1	0
+Avesh Khan
+4	0	44	
+1
+11.00	9	4	0
+Shahbaz Ahmed
+3	0	30	
+2
+10.00	3	0	0
+Aiden Markram
+0.2	0	14	0	42.00	0	2	0

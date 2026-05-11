@@ -1,0 +1,35 @@
+# LSG vs CSK - Match 54
+# 2026-05-11
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 15, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 1, 0, 43, 3, 3, 2, 3, 0, 1, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 1, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 1, 0, 0, 0, 0, 1, 9, 0, 0, 1, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 10, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 0, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 2, 7, 0, 2, 0, 0, 0, 0
+
+# --- CSK ---
+5, Sanju Samson, CSK, RK, 1, 0, 28, 3, 2, 0, 0, 0, 0, 1, 0, 1, 0
+3, Shivam Dube, CSK, Prabhu, 1, 0, 15, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+2, Dewald Brevis, CSK, Dots, 1, 0, 10, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0
+6, Noor Ahmad, CSK, Dots, 1, 0, 0, 0, 0, 1, 10, 0, 0, 0, 0, 0, 0
+64, Matt Henry, CSK, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+130, Urvil Patel, CSK, Dots, 1, 0, 65, 2, 8, 0, 0, 0, 0, 1, 0, 0, 0
+62, Jamie Overton, CSK, JD, 1, 1, 0, 0, 0, 3, 11, 0, 1, 0, 0, 0, 0
+136, Akeal Hosein, CSK, JD, 1, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0
+61, Ayush Mhatre, CSK, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+240, Akash Madhwal, CSK, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+1, Ruturaj Gaikwad, CSK, Prakash, 1, 0, 42, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0
+63, Khaleel Ahmed, CSK, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+126, Sarfaraz Khan, CSK, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+135, Prashant Veer, CSK, Prakash, 1, 0, 17, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+
