@@ -1,0 +1,114 @@
+Gujarat Titans  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c Hinge b Sakib Hussain
+61	44	86	5	2	138.63
+Shubman Gill (c)
+c Klaasen b Hinge
+5	7	11	1	0	71.42
+Jos Buttler †
+c †Ishan Kishan b Hinge
+7	11	14	1	0	63.63
+Nishant Sindhu 
+c Klaasen b Cummins
+22	14	24	3	1	157.14
+Washington Sundar 
+c †Ishan Kishan b Sakib Hussain
+50	33	56	7	1	151.51
+Jason Holder 
+not out	11	10	21	0	0	110.00
+Rahul Tewatia 
+not out	4	1	1	1	0	400.00
+Extras	(lb 2, w 6)	8	
+Total	
+20 Ov (RR: 8.40)
+168/5	
+Did not bat
+Rashid Khan, 
+Arshad Khan, 
+Kagiso Rabada, 
+Mohammed Siraj 
+Fall of wickets
+DRS
+1-15 (Shubman Gill, 2.2 ov), 2-26 (Jos Buttler, 5.1 ov), 3-64 (Nishant Sindhu, 9.3 ov), 4-124 (Sai Sudharsan, 16.2 ov), 5-164 (Washington Sundar, 19.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Pat Cummins
+4	0	20	
+1
+5.00	13	0	0
+Nitish Kumar Reddy
+3	0	27	0	9.00	9	0	0
+Praful Hinge
+3	0	17	
+2
+5.66	10	0	0
+Eshan Malinga
+4	0	46	0	11.50	4	1	0
+Sakib Hussain
+4	0	37	
+2
+9.25	7	3	0
+Shivang Kumar
+2	0	19	0	9.50	2	2	0
+Sunrisers Hyderabad  (T: 169 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Travis Head 
+c Sindhu b Mohammed Siraj
+0	4	3	0	0	0.00
+Abhishek Sharma 
+b Rabada
+6	4	8	0	1	150.00
+Ishan Kishan †
+c †Buttler b Rabada
+11	7	12	1	1	157.14
+Ravichandran Smaran 
+c Shubman Gill b Rabada
+9	15	20	1	0	60.00
+Heinrich Klaasen 
+c †Buttler b Holder
+14	16	35	2	0	87.50
+Salil Arora 
+c †Buttler b Prasidh Krishna
+16	13	19	3	0	123.07
+Nitish Kumar Reddy 
+c Washington Sundar b Holder
+2	4	8	0	0	50.00
+Pat Cummins (c)
+c Mohammed Siraj b Prasidh Krishna
+19	9	23	1	2	211.11
+Shivang Kumar 
+c †Buttler b Holder
+4	6	8	0	0	66.66
+Praful Hinge 
+st †Buttler b Rashid Khan
+3	8	14	0	0	37.50
+Eshan Malinga 
+not out	0	3	4	0	0	0.00
+Extras	(lb 1, w 1)	2	
+Total	
+14.5 Ov (RR: 5.79)
+86	
+Fall of wickets
+DRS
+1-0 (Travis Head, 0.4 ov), 2-6 (Abhishek Sharma, 1.4 ov), 3-23 (Ishan Kishan, 3.1 ov), 4-32 (Ravichandran Smaran, 5.5 ov), 5-56 (Salil Arora, 9.4 ov), 6-56 (Heinrich Klaasen, 10.1 ov), 7-60 (Nitish Kumar Reddy, 10.4 ov), 8-72 (Shivang Kumar, 12.2 ov), 9-82 (Pat Cummins, 13.4 ov), 10-86 (Praful Hinge, 14.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+3	1	11	
+1
+3.66	13	0	0
+Kagiso Rabada
+4	0	28	
+3
+7.00	13	0	0
+Jason Holder
+4	0	20	
+3
+5.00	15	1	0
+Prasidh Krishna
+3	0	23	
+2
+7.66	10	0	0
+Rashid Khan
+0.5	0	3	
+1
+3.60	3	0	0
