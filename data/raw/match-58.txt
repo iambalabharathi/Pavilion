@@ -1,0 +1,111 @@
+Punjab Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+b Chahar
+22	17	25	4	0	129.41
+Prabhsimran Singh †
+c Bosch b Thakur
+57	32	53	6	4	178.12
+Cooper Connolly 
+b Bawa
+21	22	35	2	1	95.45
+Shreyas Iyer (c)
+b Thakur
+4	2	2	1	0	200.00
+Suryansh Shedge 
+c Bawa b Thakur
+8	5	12	0	1	160.00
+Shashank Singh 
+lbw b Bosch
+2	3	13	0	0	66.66
+Azmatullah Omarzai 
+c Jacks b Chahar
+38	17	26	2	4	223.52
+Marco Jansen 
+b Thakur
+2	7	10	0	0	28.57
+Vishnu Vinod 
+not out	15	8	18	1	1	187.50
+Xavier Bartlett 
+not out	18	7	11	2	1	257.14
+Extras	(b 5, lb 1, w 7)	13	
+Total	
+20 Ov (RR: 10.00)
+200/8	
+Did not bat
+Arshdeep Singh, 
+Yuzvendra Chahal 
+Fall of wickets
+DRS
+1-50 (Priyansh Arya, 5.3 ov), 2-107 (Prabhsimran Singh, 11.2 ov), 3-111 (Shreyas Iyer, 11.4 ov), 4-111 (Cooper Connolly, 12.3 ov), 5-123 (Suryansh Shedge, 13.2 ov), 6-135 (Shashank Singh, 14.4 ov), 7-140 (Marco Jansen, 16.2 ov), 8-166 (Azmatullah Omarzai, 17.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Deepak Chahar
+4	0	36	
+2
+9.00	11	0	0
+Jasprit Bumrah
+4	0	35	0	8.75	9	2	0
+Shardul Thakur
+4	0	39	
+4
+9.75	12	2	0
+Corbin Bosch
+4	0	42	
+1
+10.50	8	0	0
+Raghu Sharma
+2	0	22	0	11.00	5	0	0
+Will Jacks
+1	0	9	0	9.00	4	1	0
+Raj Bawa
+1	0	11	
+1
+11.00	3	2	0
+Mumbai Indians  (T: 201 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Rohit Sharma 
+b Chahal
+25	26	48	0	2	96.15
+Ryan Rickelton †
+c Arya b Azmatullah Omarzai
+48	23	29	4	4	208.69
+Naman Dhir 
+c Arshdeep Singh b Jansen
+9	6	9	0	1	150.00
+Tilak Varma 
+not out	75	33	66	6	6	227.27
+Sherfane Rutherford 
+c Bartlett b Azmatullah Omarzai
+20	21	38	1	1	95.23
+Will Jacks 
+not out	25	10	21	2	2	250.00
+Extras	(w 3)	3	
+Total	
+19.5 Ov (RR: 10.33)
+205/4	
+Did not bat
+Raj Bawa, 
+Corbin Bosch, 
+Deepak Chahar, 
+Shardul Thakur, 
+Jasprit Bumrah (c) 
+Fall of wickets
+DRS
+1-61 (Ryan Rickelton, 6.3 ov), 2-81 (Naman Dhir, 8.5 ov), 3-88 (Rohit Sharma, 9.3 ov), 4-149 (Sherfane Rutherford, 16.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	29	0	7.25	10	1	0
+Azmatullah Omarzai
+4	0	36	
+2
+9.00	8	1	0
+Marco Jansen
+4	0	55	
+1
+13.75	4	0	0
+Xavier Bartlett
+3.5	0	53	0	13.82	9	0	0
+Yuzvendra Chahal
+4	0	32	
+1
+8.00	7	1	0

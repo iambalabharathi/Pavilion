@@ -1,0 +1,33 @@
+# PBKS vs MI - Match 58
+# 2026-05-15
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 0, 10, 0, 0, 1, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 0, 22, 4, 0, 0, 0, 0, 0, 1, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 0, 4, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 1, 7, 0, 1, 0, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 1, 0, 18, 2, 1, 0, 9, 0, 0, 1, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 1, 0, 2, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 57, 6, 4, 0, 0, 0, 0, 0, 0, 0, 0
+203, Harpreet Brar, PBKS, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- MI ---
+34, Quinton de Kock, MI, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+37, Deepak Chahar, MI, Ragu, 1, 0, 0, 0, 0, 2, 11, 0, 1, 0, 0, 0, 0
+98, Will Jacks, MI, Ragu, 1, 0, 25, 2, 2, 0, 4, 0, 0, 1, 0, 0, 0
+30, Rohit Sharma, MI, RK, 1, 0, 25, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+190, AM Ghazanfar, MI, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+182, Naman Dhir, MI, Darshan, 1, 0, 9, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+35, Trent Boult, MI, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+33, Hardik Pandya, MI, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+101, Shardul Thakur, MI, Dots, 1, 0, 0, 0, 0, 4, 12, 0, 2, 0, 0, 0, 0
+36, Jasprit Bumrah, MI, JD, 1, 0, 0, 0, 0, 0, 9, 0, 0, 0, 0, 0, 0
+32, Tilak Varma, MI, Rijo, 1, 1, 75, 6, 6, 0, 0, 0, 0, 0, 0, 0, 0
+31, Suryakumar Yadav, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+100, Mitchell Santner, MI, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
