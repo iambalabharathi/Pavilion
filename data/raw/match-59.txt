@@ -1,0 +1,94 @@
+Chennai Super Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+c Choudhary b Akash Singh
+20	20	29	3	0	100.00
+Ruturaj Gaikwad (c)
+c Pooran b Akash Singh
+13	9	20	2	0	144.44
+Urvil Patel 
+c Marsh b Akash Singh
+6	7	23	1	0	85.71
+Kartik Sharma 
+c Markram b Shahbaz Ahmed
+71	42	61	6	5	169.04
+Dewald Brevis 
+c Akash Singh b Mohammed Shami
+25	16	37	0	2	156.25
+Shivam Dube 
+not out	32	16	30	3	2	200.00
+Prashant Veer 
+not out	13	10	22	1	0	130.00
+Extras	(w 7)	7	
+Total	
+20 Ov (RR: 9.35)
+187/5	
+Did not bat
+Anshul Kamboj, 
+Noor Ahmad, 
+Spencer Johnson, 
+Mukesh Choudhary 
+Fall of wickets
+DRS
+1-31 (Ruturaj Gaikwad, 3.5 ov), 2-36 (Sanju Samson, 5.3 ov), 3-52 (Urvil Patel, 7.2 ov), 4-122 (Dewald Brevis, 14.4 ov), 5-142 (Kartik Sharma, 15.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Shami
+4	0	41	
+1
+10.25	8	1	0
+Akash Singh
+4	0	26	
+3
+6.50	11	1	0
+Prince Yadav
+4	0	49	0	12.25	6	2	0
+Mayank Yadav
+4	0	26	0	6.50	12	3	0
+Shahbaz Ahmed
+4	0	45	
+1
+11.25	5	0	0
+Lucknow Super Giants  (T: 188 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Mitchell Marsh 
+run out (Mukesh Choudhary)
+90	38	65	9	7	236.84
+Josh Inglis 
+c Patel b Mukesh Choudhary
+36	32	63	3	1	112.50
+Nicholas Pooran 
+not out	32	17	29	1	4	188.23
+Abdul Samad 
+b Johnson
+7	3	7	0	1	233.33
+Mukul Choudhary 
+not out	13	10	19	2	0	130.00
+Extras	(b 1, lb 6, w 3)	10	
+Total	
+16.4 Ov (RR: 11.28)
+188/3	
+Did not bat
+Aiden Markram, 
+Rishabh Pant (c)†, 
+Shahbaz Ahmed, 
+Mohammed Shami, 
+Mayank Yadav, 
+Akash Singh 
+Fall of wickets
+DRS
+1-135 (Josh Inglis, 11.4 ov), 2-135 (Mitchell Marsh, 11.5 ov), 3-144 (Abdul Samad, 13.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mukesh Choudhary
+3	0	24	
+1
+8.00	8	1	0
+Spencer Johnson
+4	0	39	
+1
+9.75	12	2	0
+Anshul Kamboj
+2.4	0	63	0	23.62	4	0	0
+Noor Ahmad
+4	0	21	0	5.25	8	0	0
+Gurjapneet Singh
+3	0	34	0	11.33	4	0	0
