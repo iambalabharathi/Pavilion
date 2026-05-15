@@ -1,0 +1,95 @@
+Kolkata Knight Riders  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+c & b Hazlewood
+19	13	23	3	1	146.15
+Finn Allen 
+c †Sharma b Kumar
+18	8	11	3	1	225.00
+Angkrish Raghuvanshi †
+run out (Padikkal/Kumar)
+71	46	83	7	3	154.34
+Cameron Green 
+b Rasikh Salam
+32	24	34	3	1	133.33
+Rinku Singh 
+not out	49	29	37	3	2	168.96
+Extras	(lb 1, w 2)	3	
+Total	
+20 Ov (RR: 9.60)
+192/4	
+Did not bat
+Rovman Powell, 
+Manish Pandey, 
+Sunil Narine, 
+Anukul Roy, 
+Kartik Tyagi, 
+Vaibhav Arora 
+Fall of wickets
+DRS
+1-23 (Finn Allen, 2.3 ov), 2-48 (Ajinkya Rahane, 4.4 ov), 3-116 (Cameron Green, 12.2 ov), 4-192 (Angkrish Raghuvanshi, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	34	
+1
+8.50	9	0	0
+Jacob Duffy
+4	0	48	0	12.00	9	0	0
+Josh Hazlewood
+4	0	35	
+1
+8.75	8	0	0
+Rasikh Salam
+4	0	35	
+1
+8.75	6	1	0
+Krunal Pandya
+4	0	39	0	9.75	5	1	0
+Royal Challengers Bengaluru  (T: 193 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Jacob Bethell 
+c & b Kartik Tyagi
+15	12	16	2	1	125.00
+Virat Kohli 
+not out	105	60	108	11	3	175.00
+Devdutt Padikkal 
+c Rahane b Kartik Tyagi
+39	27	52	7	0	144.44
+Rajat Patidar (c)
+c Rahane b Narine
+11	8	17	0	1	137.50
+Tim David 
+c Pandey b Kartik Tyagi
+2	3	9	0	0	66.66
+Jitesh Sharma †
+not out	8	5	8	1	0	160.00
+Extras	(lb 4, w 10)	14	
+Total	
+19.1 Ov (RR: 10.12)
+194/4	
+Did not bat
+Venkatesh Iyer, 
+Krunal Pandya, 
+Bhuvneshwar Kumar, 
+Rasikh Salam, 
+Josh Hazlewood 
+Fall of wickets
+DRS
+1-37 (Jacob Bethell, 3.2 ov), 2-129 (Devdutt Padikkal, 13.1 ov), 3-157 (Rajat Patidar, 15.6 ov), 4-180 (Tim David, 17.5 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Saurabh Dubey
+2.1	0	21	0	9.69	6	0	0
+Vaibhav Arora
+4	0	48	0	12.00	4	2	0
+Kartik Tyagi
+4	0	32	
+3
+8.00	11	1	0
+Sunil Narine
+4	0	31	
+1
+7.75	8	0	0
+Cameron Green
+2	0	22	0	11.00	0	1	0
+Anukul Roy
+3	0	36	0	12.00	3	5	0

@@ -1,0 +1,34 @@
+# KKR vs RCB - Match 57
+# 2026-05-15
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- KKR ---
+20, Rinku Singh, KKR, Ragu, 1, 0, 49, 3, 2, 0, 0, 0, 0, 0, 0, 0, 0
+21, Cameron Green, KKR, Ragu, 1, 0, 32, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+22, Sunil Narine, KKR, RK, 1, 0, 0, 0, 0, 1, 8, 0, 0, 0, 0, 0, 0
+83, Finn Allen, KKR, Darshan, 1, 0, 18, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+23, Varun Chakravarthy, KKR, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+85, Tim Seifert, KKR, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+162, Ramandeep Singh, KKR, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+82, Angkrish Raghuvanshi, KKR, Dots, 1, 0, 71, 7, 3, 0, 0, 0, 0, 0, 0, 0, 0
+81, Rovman Powell, KKR, JD, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+19, Ajinkya Rahane, KKR, Rijo, 1, 0, 19, 3, 1, 0, 0, 0, 0, 2, 0, 0, 0
+86, Vaibhav Arora, KKR, Rijo, 1, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0
+169, Blessing Muzarabani, KKR, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- RCB ---
+45, Philip Salt, RCB, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+112, Krunal Pandya, RCB, Ragu, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+116, Suyash Sharma, RCB, Ragu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+42, Rajat Patidar, RCB, RK, 1, 0, 11, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0
+113, Venkatesh Iyer, RCB, RK, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+46, Josh Hazlewood, RCB, Darshan, 1, 0, 0, 0, 0, 1, 8, 0, 0, 1, 0, 0, 0
+111, Jacob Bethell, RCB, Darshan, 1, 0, 15, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0
+43, Tim David, RCB, JD, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+47, Bhuvneshwar Kumar, RCB, JD, 1, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 1, 0
+110, Devdutt Padikkal, RCB, JD, 1, 0, 39, 7, 0, 0, 0, 0, 0, 0, 0, 1, 0
+44, Virat Kohli, RCB, Prakash, 1, 1, 105, 11, 3, 0, 0, 0, 0, 0, 0, 0, 0
+115, Jitesh Sharma, RCB, Prakash, 1, 0, 8, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+214, Rasikh Salam Dar, RCB, Prakash, 1, 0, 0, 0, 0, 1, 6, 0, 1, 0, 0, 0, 0
+
