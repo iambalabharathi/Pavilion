@@ -1,0 +1,96 @@
+Kolkata Knight Riders  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+b Mohammed Siraj
+14	14	21	1	1	100.00
+Finn Allen 
+c Rashid Khan b Sai Kishore
+93	35	60	4	10	265.71
+Angkrish Raghuvanshi †
+not out	82	44	83	4	7	186.36
+Cameron Green 
+not out	52	28	44	3	4	185.71
+Extras	(lb 1, nb 1, w 4)	6	
+Total	
+20 Ov (RR: 12.35)
+247/2	
+Did not bat
+Manish Pandey, 
+Rinku Singh, 
+Sunil Narine, 
+Anukul Roy, 
+Varun Chakravarthy, 
+Saurabh Dubey, 
+Kartik Tyagi, 
+Matheesha Pathirana 
+Fall of wickets
+DRS
+1-44 (Ajinkya Rahane, 4.3 ov), 2-139 (Finn Allen, 11.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	50	
+1
+12.50	8	3	0
+Kagiso Rabada
+4	0	40	0	10.00	10	1	0
+Jason Holder
+4	0	39	0	9.75	5	0	1
+Rashid Khan
+4	0	57	0	14.25	4	0	0
+Sai Kishore
+3	0	38	
+1
+12.66	5	0	0
+Arshad Khan
+1	0	22	0	22.00	2	0	0
+Gujarat Titans  (T: 248 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+not out	53	28	38	6	3	189.28
+Shubman Gill (c)
+c Roy b Narine
+85	49	96	5	7	173.46
+Nishant Sindhu 
+c Pandey b Narine
+1	4	7	0	0	25.00
+Jos Buttler †
+c sub (Ramandeep Singh) b Dubey
+57	35	86	5	2	162.85
+Rahul Tewatia 
+c †Raghuvanshi b Green
+2	4	6	0	0	50.00
+Extras	(b 1, lb 8, w 11)	20	
+Total	
+20 Ov (RR: 10.90)
+218/4	
+Did not bat
+Jason Holder, 
+Washington Sundar, 
+Rashid Khan, 
+Kagiso Rabada, 
+Arshad Khan, 
+Sai Kishore 
+Fall of wickets
+DRS
+0-42* (Sai Sudharsan, retired not out), 1-49 (Nishant Sindhu, 4.1 ov), 2-177 (Shubman Gill, 16.2 ov), 3-207 (Jos Buttler, 18.5 ov), 4-218 (Rahul Tewatia, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Saurabh Dubey
+2.4	0	23	
+1
+8.62	8	4	0
+Cameron Green
+3	0	25	
+1
+8.33	7	0	0
+Kartik Tyagi
+4	0	59	0	14.75	6	0	0
+Matheesha Pathirana
+1.2	0	9	0	6.75	4	2	0
+Sunil Narine
+4	0	29	
+2
+7.25	11	0	0
+Varun Chakravarthy
+4	0	47	0	11.75	3	1	0
+Anukul Roy
+1	0	17	0	17.00	2	0	0
