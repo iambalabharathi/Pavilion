@@ -1,0 +1,110 @@
+Royal Challengers Bengaluru  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Jacob Bethell 
+b Harpreet Brar
+11	7	12	2	0	157.14
+Virat Kohli 
+c Arya b Chahal
+58	37	68	4	3	156.75
+Devdutt Padikkal 
+c Iyer b Harpreet Brar
+45	25	33	4	3	180.00
+Venkatesh Iyer 
+not out	73	40	55	8	4	182.50
+Tim David 
+c Harpreet Brar b Arshdeep Singh
+28	12	30	2	2	233.33
+Extras	(b 1, nb 1, w 5)	7	
+Total	
+20 Ov (RR: 11.10)
+222/4	
+Did not bat
+Jitesh Sharma (c)†, 
+Romario Shepherd, 
+Krunal Pandya, 
+Bhuvneshwar Kumar, 
+Suyash Sharma, 
+Josh Hazlewood 
+Fall of wickets
+DRS
+1-21 (Jacob Bethell, 2.2 ov), 2-97 (Devdutt Padikkal, 9.1 ov), 3-157 (Virat Kohli, 14.6 ov), 4-222 (Tim David, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Arshdeep Singh
+4	0	43	
+1
+10.75	4	1	0
+Azmatullah Omarzai
+4	0	38	0	9.50	8	1	0
+Harpreet Brar
+4	0	35	
+2
+8.75	8	1	0
+Lockie Ferguson
+3	0	43	0	14.33	4	2	0
+Yuzvendra Chahal
+3	0	42	
+1
+14.00	4	0	1
+Shashank Singh
+2	0	20	0	10.00	2	0	0
+Punjab Kings  (T: 223 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Priyansh Arya 
+c Shepherd b Kumar
+0	3	3	0	0	0.00
+Prabhsimran Singh †
+c Padikkal b Kumar
+2	5	15	0	0	40.00
+Cooper Connolly 
+c Bethell b Shepherd
+37	22	38	3	3	168.18
+Shreyas Iyer (c)
+c †Sharma b Rasikh Salam
+1	3	3	0	0	33.33
+Suryansh Shedge 
+c Kohli b Suyash Sharma
+35	22	40	2	2	159.09
+Marcus Stoinis 
+lbw b Hazlewood
+37	25	46	5	0	148.00
+Shashank Singh 
+c Kohli b Rasikh Salam
+56	27	49	4	4	207.40
+Azmatullah Omarzai 
+c David b Rasikh Salam
+14	10	22	1	1	140.00
+Harpreet Brar 
+not out	5	3	3	1	0	166.66
+Extras	(lb 4, w 8)	12	
+Total	
+20 Ov (RR: 9.95)
+199/8	
+Did not bat
+Lockie Ferguson, 
+Arshdeep Singh 
+Fall of wickets
+DRS
+1-1 (Priyansh Arya, 0.3 ov), 2-18 (Prabhsimran Singh, 2.5 ov), 3-19 (Shreyas Iyer, 3.2 ov), 4-62 (Cooper Connolly, 7.3 ov), 5-93 (Suryansh Shedge, 10.5 ov), 6-160 (Marcus Stoinis, 16.1 ov), 7-194 (Shashank Singh, 19.2 ov), 8-199 (Azmatullah Omarzai, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	38	
+2
+9.50	10	1	0
+Josh Hazlewood
+4	0	36	
+1
+9.00	10	2	0
+Rasikh Salam
+4	0	36	
+3
+9.00	12	3	0
+Suyash Sharma
+4	0	50	
+1
+12.50	3	1	0
+Romario Shepherd
+1	0	8	
+1
+8.00	2	0	0
+Krunal Pandya
+3	0	27	0	9.00	1	1	0

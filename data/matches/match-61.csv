@@ -1,0 +1,33 @@
+# RCB vs PBKS - Match 61
+# 2026-05-18
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- RCB ---
+45, Philip Salt, RCB, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+112, Krunal Pandya, RCB, Ragu, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+116, Suyash Sharma, RCB, Ragu, 1, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0, 0, 0
+42, Rajat Patidar, RCB, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+113, Venkatesh Iyer, RCB, RK, 1, 1, 73, 8, 4, 0, 0, 0, 0, 1, 0, 0, 0
+46, Josh Hazlewood, RCB, Darshan, 1, 0, 0, 0, 0, 1, 10, 0, 1, 0, 0, 0, 0
+111, Jacob Bethell, RCB, Darshan, 1, 0, 11, 2, 0, 0, 0, 0, 0, 1, 0, 0, 0
+43, Tim David, RCB, JD, 1, 0, 28, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0
+47, Bhuvneshwar Kumar, RCB, JD, 1, 0, 0, 0, 0, 2, 10, 0, 0, 0, 0, 0, 0
+110, Devdutt Padikkal, RCB, JD, 1, 0, 45, 4, 3, 0, 0, 0, 0, 1, 0, 0, 0
+44, Virat Kohli, RCB, Prakash, 1, 0, 58, 4, 3, 0, 0, 0, 0, 2, 0, 0, 0
+115, Jitesh Sharma, RCB, Prakash, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+214, Rasikh Salam Dar, RCB, Prakash, 1, 0, 0, 0, 0, 3, 12, 0, 0, 0, 0, 0, 0
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 1, 0, 37, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 1, 4, 0, 0, 0, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 56, 4, 4, 0, 2, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+203, Harpreet Brar, PBKS, Prakash, 1, 0, 5, 1, 0, 2, 8, 0, 1, 1, 0, 0, 0
+
