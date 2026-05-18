@@ -1,0 +1,111 @@
+Chennai Super Kings  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sanju Samson †
+c †Ishan Kishan b Cummins
+27	13	14	5	1	207.69
+Ruturaj Gaikwad (c)
+c Malinga b Cummins
+15	21	65	0	0	71.42
+Urvil Patel 
+b Sakib Hussain
+13	8	12	0	2	162.50
+Kartik Sharma 
+c Nitish Kumar Reddy b Cummins
+32	19	25	3	2	168.42
+Dewald Brevis 
+b Malinga
+44	27	45	2	4	162.96
+Shivam Dube 
+b Sakib Hussain
+26	23	40	3	1	113.04
+Prashant Veer 
+c & b Hinge
+11	9	13	2	0	122.22
+Akeal Hosein 
+not out	3	1	8	0	0	300.00
+Extras	(nb 1, w 8)	9	
+Total	
+20 Ov (RR: 9.00)
+180/7	
+Did not bat
+Noor Ahmad, 
+Anshul Kamboj, 
+Spencer Johnson 
+Fall of wickets
+DRS
+1-31 (Sanju Samson, 2.3 ov), 2-48 (Urvil Patel, 4.3 ov), 3-90 (Kartik Sharma, 9.4 ov), 4-100 (Ruturaj Gaikwad, 11.3 ov), 5-159 (Dewald Brevis, 17.5 ov), 6-164 (Shivam Dube, 18.3 ov), 7-180 (Prashant Veer, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Nitish Kumar Reddy
+2	0	35	0	17.50	1	1	1
+Praful Hinge
+3	0	37	
+1
+12.33	8	3	0
+Pat Cummins
+4	0	28	
+3
+7.00	15	1	0
+Eshan Malinga
+4	0	26	
+1
+6.50	8	0	0
+Sakib Hussain
+4	0	34	
+2
+8.50	12	3	0
+Shivang Kumar
+3	0	20	0	6.66	3	0	0
+Sunrisers Hyderabad  (T: 181 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c Johnson b Hosein
+26	21	40	3	1	123.80
+Travis Head 
+c & b Mukesh Choudhary
+6	6	13	1	0	100.00
+Ishan Kishan †
+c Patel b Kamboj
+70	47	96	7	3	148.93
+Heinrich Klaasen 
+st †Samson b Noor Ahmad
+47	26	39	6	2	180.76
+Nitish Kumar Reddy 
+c Patel b Mukesh Choudhary
+11	7	17	1	0	157.14
+Salil Arora 
+not out	10	5	13	0	1	200.00
+Ravichandran Smaran 
+not out	5	2	3	1	0	250.00
+Extras	(w 6)	6	
+Total	
+19 Ov (RR: 9.52)
+181/5	
+Did not bat
+Pat Cummins (c), 
+Shivang Kumar, 
+Eshan Malinga, 
+Praful Hinge 
+Fall of wickets
+DRS
+1-18 (Travis Head, 2.3 ov), 2-56 (Abhishek Sharma, 7.4 ov), 3-131 (Heinrich Klaasen, 14.3 ov), 4-153 (Nitish Kumar Reddy, 17.1 ov), 5-175 (Ishan Kishan, 18.3 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mukesh Choudhary
+4	0	36	
+2
+9.00	9	3	0
+Spencer Johnson
+3	0	26	0	8.66	8	0	0
+Anshul Kamboj
+4	0	46	
+1
+11.50	6	1	0
+Noor Ahmad
+4	0	40	
+1
+10.00	7	0	0
+Akeal Hosein
+3	0	21	
+1
+7.00	7	1	0
+Shivam Dube
+1	0	12	0	12.00	1	1	0
