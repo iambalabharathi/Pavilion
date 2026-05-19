@@ -1,0 +1,31 @@
+# LSG vs RR - Match 64
+# 2026-05-19
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 1, 0, 0, 0, 0, 1, 9, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 35, 2, 2, 0, 0, 0, 0, 1, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 1, 0, 96, 11, 5, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 16, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 0, 7, 0, 0, 0, 0, 0, 0
+
+# --- RR ---
+118, Shimron Hetmyer, RR, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+121, Sandeep Sharma, RR, Ragu, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0
+49, Vaibhav Sooryavanshi, RR, RK, 1, 1, 93, 7, 10, 0, 0, 0, 0, 0, 0, 0, 0
+53, Ravi Bishnoi, RR, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+119, Dhruv Jurel, RR, RK, 1, 0, 53, 3, 3, 0, 0, 0, 0, 0, 0, 1, 0
+120, Tushar Deshpande, RR, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+48, Yashasvi Jaiswal, RR, Darshan, 1, 0, 43, 8, 1, 0, 0, 0, 0, 0, 1, 0, 0
+50, Riyan Parag, RR, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+52, Jofra Archer, RR, Dots, 1, 0, 0, 0, 0, 1, 10, 0, 1, 0, 0, 1, 0
+51, Ravindra Jadeja, RR, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
