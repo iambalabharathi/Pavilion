@@ -1,0 +1,32 @@
+# LSG vs PBKS - Match 68
+# 2026-05-23
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- LSG ---
+93, Mohsin Khan, LSG, Ragu, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0
+27, Rishabh Pant, LSG, Darshan, 1, 0, 26, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0
+172, Abdul Samad, LSG, Prabhu, 1, 0, 37, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0
+174, Shahbaz Ahmed, LSG, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+25, Aiden Markram, LSG, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+92, Avesh Khan, LSG, Dots, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+26, Mitchell Marsh, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+29, Mohammed Shami, LSG, JD, 1, 0, 0, 0, 0, 2, 10, 0, 1, 0, 0, 0, 0
+90, George Fredrik Linde, LSG, JD, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+28, Nicholas Pooran, LSG, Rijo, 1, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+89, Ayush Badoni, LSG, Rijo, 1, 0, 43, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0
+94, Digvesh Singh Rathi, LSG, Rijo, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0
+
+# --- PBKS ---
+39, Marcus Stoinis, PBKS, Ragu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+104, Nehal Wadhera, PBKS, RK, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+40, Arshdeep Singh, PBKS, Darshan, 1, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0
+103, Priyansh Arya, PBKS, Darshan, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+38, Shreyas Iyer, PBKS, Prabhu, 1, 1, 101, 11, 5, 0, 0, 0, 0, 1, 0, 0, 0
+41, Yuzvendra Chahal, PBKS, Prabhu, 1, 0, 0, 0, 0, 2, 7, 0, 0, 0, 0, 0, 0
+202, Xavier Bartlett, PBKS, Prabhu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+105, Shashank Singh, PBKS, Rijo, 1, 0, 0, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0
+107, Marco Jansen, PBKS, Rijo, 1, 0, 0, 0, 0, 2, 11, 0, 1, 1, 0, 0, 0
+108, Prabhsimran Singh, PBKS, Rijo, 1, 0, 69, 7, 2, 0, 0, 0, 0, 1, 0, 0, 1
+203, Harpreet Brar, PBKS, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
