@@ -1,0 +1,101 @@
+Sunrisers Hyderabad  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abhishek Sharma 
+c sub (JM Cox) b Suyash Sharma
+56	22	43	4	5	254.54
+Travis Head 
+b Rasikh Salam
+26	16	18	5	0	162.50
+Ishan Kishan †
+c Padikkal b Rasikh Salam
+79	46	92	8	3	171.73
+Heinrich Klaasen 
+c Iyer b Pandya
+51	24	49	2	5	212.50
+Nitish Kumar Reddy 
+not out	29	12	17	1	3	241.66
+Extras	(w 14)	14	
+Total	
+20 Ov (RR: 12.75)
+255/4	
+Did not bat
+Salil Arora, 
+Ravichandran Smaran, 
+Pat Cummins (c), 
+Shivang Kumar, 
+Eshan Malinga, 
+Sakib Hussain 
+Fall of wickets
+DRS
+1-45 (Travis Head, 3.6 ov), 2-97 (Abhishek Sharma, 8.2 ov), 3-210 (Heinrich Klaasen, 16.2 ov), 4-255 (Ishan Kishan, 19.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Bhuvneshwar Kumar
+4	0	51	0	12.75	5	2	0
+Josh Hazlewood
+4	0	55	0	13.75	5	4	0
+Rasikh Salam
+4	0	52	
+2
+13.00	6	3	0
+Suyash Sharma
+3	0	36	
+1
+12.00	6	1	0
+Romario Shepherd
+3	0	37	0	12.33	2	2	0
+Krunal Pandya
+2	0	24	
+1
+12.00	5	1	0
+Royal Challengers Bengaluru  (T: 256 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Venkatesh Iyer 
+c Abhishek Sharma b Malinga
+44	19	28	4	4	231.57
+Virat Kohli 
+c Smaran b Sakib Hussain
+15	11	36	2	0	136.36
+Devdutt Padikkal 
+c Abhishek Sharma b Malinga
+21	14	24	2	1	150.00
+Rajat Patidar (c)
+c Smaran b Head
+56	39	70	6	1	143.58
+Krunal Pandya 
+not out	41	31	60	5	0	132.25
+Tim David 
+not out	15	7	7	1	1	214.28
+Extras	(lb 2, nb 1, w 5)	8	
+Total	
+20 Ov (RR: 10.00)
+200/4	
+Did not bat
+Jitesh Sharma †, 
+Romario Shepherd, 
+Bhuvneshwar Kumar, 
+Josh Hazlewood, 
+Rasikh Salam 
+Fall of wickets
+DRS
+1-60 (Venkatesh Iyer, 4.3 ov), 2-74 (Virat Kohli, 5.5 ov), 3-94 (Devdutt Padikkal, 8.5 ov), 4-178 (Rajat Patidar, 18.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Pat Cummins
+4	0	48	0	12.00	5	2	1
+Eshan Malinga
+4	0	33	
+2
+8.25	10	0	0
+Shivang Kumar
+2	0	32	0	16.00	3	1	0
+Sakib Hussain
+4	0	31	
+1
+7.75	9	0	0
+Harshal Patel
+4	0	37	0	9.25	3	0	0
+Nitish Kumar Reddy
+1	0	10	0	10.00	1	1	0
+Travis Head
+1	0	7	
+1
+7.00	2	0	0
