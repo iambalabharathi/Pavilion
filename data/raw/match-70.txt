@@ -1,0 +1,116 @@
+Delhi Capitals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Abishek Porel †
+c †Dahiya b Dubey
+22	18	24	4	0	122.22
+KL Rahul 
+c Powell b Roy
+60	30	67	5	4	200.00
+Sahil Parakh 
+c Rahane b Narine
+24	17	24	3	1	141.17
+Axar Patel (c)
+c Singh b Varun
+39	25	43	3	2	156.00
+David Miller 
+c Allen b Dubey
+28	19	47	0	3	147.36
+Ashutosh Sharma 
+not out	18	11	22	2	1	163.63
+Tristan Stubbs 
+not out	0	1	2	0	0	0.00
+Extras	(b 1, lb 2, nb 1, w 8)	12	
+Total	
+20 Ov (RR: 10.15)
+203/5	
+Did not bat
+Madhav Tiwari, 
+Auqib Nabi, 
+Lungi Ngidi, 
+Mitchell Starc 
+Fall of wickets
+DRS
+1-40 (Abishek Porel, 4.3 ov), 2-87 (Sahil Parakh, 9.3 ov), 3-125 (KL Rahul, 12.4 ov), 4-166 (Axar Patel, 16.5 ov), 5-201 (David Miller, 19.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Anukul Roy
+2	0	23	
+1
+11.50	3	2	0
+Saurabh Dubey
+4	0	28	
+2
+7.00	13	4	0
+Cameron Green
+2	0	21	0	10.50	3	0	0
+Kartik Tyagi
+4	0	55	0	13.75	5	0	1
+Sunil Narine
+4	0	38	
+1
+9.50	8	0	0
+Varun Chakravarthy
+4	0	35	
+1
+8.75	8	2	0
+Kolkata Knight Riders  (T: 204 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Ajinkya Rahane (c)
+c Miller b Kuldeep Yadav
+63	39	71	4	4	161.53
+Finn Allen 
+b Ngidi
+20	13	23	3	1	153.84
+Manish Pandey 
+c Starc b Ngidi
+25	16	19	2	2	156.25
+Cameron Green 
+c Miller b Kuldeep Yadav
+2	3	5	0	0	66.66
+Rovman Powell 
+run out (sub [Sameer Rizvi])
+29	21	41	3	1	138.09
+Rinku Singh 
+c Stubbs b Kuldeep Yadav
+0	1	1	0	0	0.00
+Tejasvi Dahiya †
+b Patel
+1	3	3	0	0	33.33
+Anukul Roy 
+c & b Starc
+9	8	17	1	0	112.50
+Kartik Tyagi 
+c Patel b Starc
+0	1	3	0	0	0.00
+Varun Chakravarthy 
+c Patel b Ngidi
+5	5	7	1	0	100.00
+Saurabh Dubey 
+not out	4	2	5	1	0	200.00
+Extras	(w 5)	5	
+Total	
+18.4 Ov (RR: 8.73)
+163	
+Fall of wickets
+DRS
+1-43 (Finn Allen, 4.2 ov), 2-87 (Manish Pandey, 8.3 ov), 3-96 (Cameron Green, 9.4 ov), 4-128 (Ajinkya Rahane, 13.2 ov), 5-128 (Rinku Singh, 13.3 ov), 6-129 (Tejasvi Dahiya, 14.1 ov), 7-154 (Rovman Powell, 17.1 ov), 8-154 (Anukul Roy, 17.2 ov), 9-155 (Kartik Tyagi, 17.4 ov), 10-163 (Varun Chakravarthy, 18.4 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mitchell Starc
+3	0	26	
+2
+8.66	9	0	0
+Auqib Nabi
+2	0	23	0	11.50	6	0	0
+Lungi Ngidi
+3.4	0	27	
+3
+7.36	10	0	0
+Axar Patel
+4	0	38	
+1
+9.50	8	0	0
+Madhav Tiwari
+2	0	20	0	10.00	3	3	0
+Kuldeep Yadav
+4	0	29	
+3
+7.25	9	1	0
