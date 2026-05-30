@@ -1,0 +1,104 @@
+Rajasthan Royals  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Yashasvi Jaiswal 
+c Prasidh Krishna b Mohammed Siraj
+1	2	3	0	0	50.00
+Vaibhav Sooryavanshi 
+c Prasidh Krishna b Rabada
+96	47	104	8	7	204.25
+Dhruv Jurel †
+c Shubman Gill b Rabada
+7	6	5	1	0	116.66
+Ravindra Jadeja 
+not out	45	35	82	5	1	128.57
+Riyan Parag (c)
+c Rabada b Holder
+11	6	7	1	1	183.33
+Dasun Shanaka 
+c †Buttler b Holder
+3	9	10	0	0	33.33
+Jofra Archer 
+c †Buttler b Prasidh Krishna
+7	4	5	0	1	175.00
+Donovan Ferreira 
+not out	38	11	13	2	4	345.45
+Extras	(w 6)	6	
+Total	
+20 Ov (RR: 10.70)
+214/6	
+Did not bat
+Nandre Burger, 
+Brijesh Sharma, 
+Yash Raj Punja 
+Fall of wickets
+DRS
+1-2 (Yashasvi Jaiswal, 0.4 ov), 2-9 (Dhruv Jurel, 1.5 ov), 2-82* (Ravindra Jadeja, retired not out), 3-101 (Riyan Parag, 9.3 ov), 4-109 (Dasun Shanaka, 11.3 ov), 5-118 (Jofra Archer, 12.4 ov), 6-172 (Vaibhav Sooryavanshi, 17.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	42	
+1
+10.50	10	1	0
+Kagiso Rabada
+4	0	35	
+2
+8.75	10	0	0
+Prasidh Krishna
+4	0	42	
+1
+10.50	8	0	0
+Washington Sundar
+2	0	23	0	11.50	0	0	0
+Jason Holder
+4	0	27	
+2
+6.75	14	1	0
+Rashid Khan
+2	0	45	0	22.50	1	0	0
+Gujarat Titans  (T: 215 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+hit wicket b Brijesh Sharma
+58	32	67	8	1	181.25
+Shubman Gill (c)
+lbw b Archer
+104	53	77	15	3	196.22
+Jos Buttler †
+not out	9	9	32	0	0	100.00
+Washington Sundar 
+c Ferreira b Burger
+16	9	10	2	1	177.77
+Rahul Tewatia 
+not out	17	9	9	2	1	188.88
+Extras	(b 4, w 11)	15	
+Total	
+18.4 Ov (RR: 11.73)
+219/3	
+Did not bat
+Jason Holder, 
+Nishant Sindhu, 
+Rashid Khan, 
+Sai Kishore, 
+Kagiso Rabada, 
+Prasidh Krishna 
+Fall of wickets
+DRS
+1-167 (Sai Sudharsan, 12.5 ov), 2-182 (Shubman Gill, 14.6 ov), 3-201 (Washington Sundar, 17.1 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jofra Archer
+4	0	45	
+1
+11.25	6	1	0
+Nandre Burger
+4	0	35	
+1
+8.75	7	3	0
+Brijesh Sharma
+3.4	0	44	
+1
+12.00	6	3	0
+Tushar Deshpande
+3	0	34	0	11.33	4	0	0
+Yash Raj Punja
+2	0	29	0	14.50	2	0	0
+Ravindra Jadeja
+2	0	28	0	14.00	0	0	0
