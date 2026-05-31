@@ -1,0 +1,32 @@
+# GT vs RCB - Match 74
+# 2026-05-31
+#
+# id, name, ipl_team, fantasy_team, playing, mom, runs, 4s, 6s, wkts, dots, maidens, lbw_b_hw, catches, ro_direct, ro_indirect, stumpings
+
+# --- GT ---
+13, Shubman Gill, GT, Ragu, 1, 0, 10, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17, Mohammed Siraj, GT, RK, 1, 0, 0, 0, 0, 1, 10, 0, 0, 0, 0, 0, 0
+15, Rashid Khan, GT, Darshan, 1, 0, 7, 0, 1, 2, 9, 0, 1, 0, 0, 0, 0
+79, Kagiso Rabada, GT, JD, 1, 0, 3, 0, 0, 1, 7, 0, 0, 2, 0, 0, 0
+14, Sai Sudharsan, GT, Rijo, 1, 0, 12, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0
+18, Prasidh Krishna, GT, Rijo, 1, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0
+77, Ravisrinivasan Sai Kishore, GT, Rijo, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+16, Jos Buttler, GT, Prakash, 1, 0, 19, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0
+74, Glenn Phillips, GT, Prakash, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+76, Washington Sundar, GT, Prakash, 1, 0, 50, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0
+
+# --- RCB ---
+45, Philip Salt, RCB, Ragu, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+112, Krunal Pandya, RCB, Ragu, 1, 0, 1, 0, 0, 1, 7, 0, 0, 0, 0, 0, 0
+116, Suyash Sharma, RCB, Ragu, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1
+42, Rajat Patidar, RCB, RK, 1, 0, 15, 1, 1, 0, 0, 0, 0, 2, 0, 0, 0
+113, Venkatesh Iyer, RCB, RK, 1, 0, 32, 4, 2, 0, 0, 0, 0, 0, 0, 0, 0
+46, Josh Hazlewood, RCB, Darshan, 1, 0, 0, 0, 0, 2, 7, 0, 0, 1, 0, 0, 0
+111, Jacob Bethell, RCB, Darshan, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+43, Tim David, RCB, JD, 1, 0, 24, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0
+47, Bhuvneshwar Kumar, RCB, JD, 1, 0, 0, 0, 0, 2, 11, 0, 0, 0, 0, 0, 0
+110, Devdutt Padikkal, RCB, JD, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0
+44, Virat Kohli, RCB, Prakash, 1, 1, 75, 9, 3, 0, 0, 0, 0, 0, 0, 0, 0
+115, Jitesh Sharma, RCB, Prakash, 1, 0, 11, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
+214, Rasikh Salam Dar, RCB, Prakash, 1, 0, 0, 0, 0, 3, 8, 0, 0, 1, 0, 0, 0
+

@@ -1,0 +1,113 @@
+Gujarat Titans  (20 ovs maximum)
+Batting	 	R	B	M	4s	6s	SR
+Sai Sudharsan 
+c †Sharma b Kumar
+12	12	20	2	0	100.00
+Shubman Gill (c)
+c Patidar b Hazlewood
+10	8	13	2	0	125.00
+Nishant Sindhu 
+c Padikkal b Rasikh Salam
+20	18	26	3	0	111.11
+Jos Buttler †
+st †Sharma b Pandya
+19	23	40	1	0	82.60
+Washington Sundar 
+not out	50	37	66	5	0	135.13
+Arshad Khan 
+c Rasikh Salam b Hazlewood
+15	6	10	0	2	250.00
+Rahul Tewatia 
+c Patidar b Rasikh Salam
+7	5	12	1	0	140.00
+Jason Holder 
+c Hazlewood b Kumar
+7	5	13	1	0	140.00
+Rashid Khan 
+c Shepherd b Rasikh Salam
+7	3	4	0	1	233.33
+Kagiso Rabada 
+not out	3	3	3	0	0	100.00
+Extras	(lb 1, w 4)	5	
+Total	
+20 Ov (RR: 7.75)
+155/8	
+Did not bat
+Mohammed Siraj, 
+Prasidh Krishna 
+Fall of wickets
+DRS
+1-22 (Shubman Gill, 2.2 ov), 2-26 (Sai Sudharsan, 3.4 ov), 3-55 (Nishant Sindhu, 7.6 ov), 4-73 (Jos Buttler, 12.1 ov), 5-99 (Arshad Khan, 14.1 ov), 6-115 (Rahul Tewatia, 16.1 ov), 7-142 (Jason Holder, 18.3 ov), 8-151 (Rashid Khan, 19.2 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Jacob Duffy
+4	0	38	0	9.50	6	3	0
+Bhuvneshwar Kumar
+4	0	29	
+2
+7.25	11	0	0
+Josh Hazlewood
+4	0	37	
+2
+9.25	7	1	0
+Rasikh Salam
+4	0	27	
+3
+6.75	8	0	0
+Krunal Pandya
+4	0	23	
+1
+5.75	7	0	0
+Royal Challengers Bengaluru  (T: 156 runs from 20 ovs)
+Batting	 	R	B	M	4s	6s	SR
+Venkatesh Iyer 
+c Rabada b Mohammed Siraj
+32	16	25	4	2	200.00
+Virat Kohli 
+not out	75	42	102	9	3	178.57
+Devdutt Padikkal 
+c Arshad Khan b Rabada
+1	4	4	0	0	25.00
+Rajat Patidar (c)
+c Rabada b Rashid Khan
+15	13	18	1	1	115.38
+Krunal Pandya 
+lbw b Rashid Khan
+1	2	2	0	0	50.00
+Tim David 
+c †Buttler b Arshad Khan
+24	17	28	3	1	141.17
+Jitesh Sharma †
+not out	11	14	22	1	0	78.57
+Extras	(lb 1, w 1)	2	
+Total	
+18 Ov (RR: 8.94)
+161/5	
+Did not bat
+Romario Shepherd, 
+Bhuvneshwar Kumar, 
+Josh Hazlewood, 
+Rasikh Salam 
+Fall of wickets
+DRS
+1-62 (Venkatesh Iyer, 4.3 ov), 2-63 (Devdutt Padikkal, 5.1 ov), 3-89 (Rajat Patidar, 8.2 ov), 4-91 (Krunal Pandya, 8.5 ov), 5-132 (Tim David, 13.6 ov)
+Bowling	O	M	R	W	ECON	0s	WD	NB
+Mohammed Siraj
+4	0	36	
+1
+9.00	10	1	0
+Kagiso Rabada
+3	0	44	
+1
+14.66	7	0	0
+Jason Holder
+2	0	16	0	8.00	5	0	0
+Rashid Khan
+4	0	25	
+2
+6.25	9	0	0
+Arshad Khan
+4	0	32	
+1
+8.00	9	0	0
+Prasidh Krishna
+1	0	7	0	7.00	3	0	0
