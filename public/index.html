@@ -375,6 +375,27 @@
     .empty-state { text-align: center; padding: 60px 20px; color: var(--muted); }
     .empty-state h3 { font-size: 18px; color: var(--fg); margin-bottom: 8px; }
 
+    /* Champions banner (league completed) */
+    .champions-banner { position: relative; background: var(--surface); border: 1px solid var(--surface-border); border-radius: 20px; padding: 22px 20px 26px; margin-bottom: 28px; overflow: hidden; }
+    .champions-banner::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(245,158,11,0.18), transparent 60%), radial-gradient(ellipse at 15% 100%, rgba(148,163,184,0.10), transparent 55%), radial-gradient(ellipse at 85% 100%, rgba(249,115,22,0.12), transparent 55%); pointer-events: none; }
+    .champions-title { position: relative; text-align: center; font-size: 14px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; color: var(--muted); margin-bottom: 18px; }
+    .champions-title strong { background: linear-gradient(90deg, #f59e0b, #fb923c, #f59e0b); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    .champions-podium { position: relative; display: grid; grid-template-columns: 1fr 1.15fr 1fr; gap: 12px; align-items: end; }
+    .podium-spot { display: flex; flex-direction: column; align-items: center; padding: 16px 10px 14px; border-radius: 14px; border: 1px solid var(--surface-border); background: var(--surface); position: relative; }
+    .podium-medal { font-size: 28px; line-height: 1; margin-bottom: 6px; }
+    .podium-name { font-size: 14px; font-weight: 800; color: var(--fg); text-align: center; line-height: 1.2; }
+    .podium-pts { font-size: 22px; font-weight: 800; margin-top: 6px; letter-spacing: 0.5px; }
+    .podium-pts-label { font-size: 10px; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; margin-top: 1px; }
+    .podium-1 { background: linear-gradient(180deg, rgba(245,158,11,0.18), rgba(245,158,11,0.04)); border-color: rgba(245,158,11,0.45); box-shadow: 0 0 24px rgba(245,158,11,0.18), inset 0 0 0 1px rgba(245,158,11,0.12); padding-top: 22px; padding-bottom: 22px; }
+    .podium-1 .podium-medal { font-size: 36px; }
+    .podium-1 .podium-name { font-size: 16px; }
+    .podium-1 .podium-pts { font-size: 26px; color: #f59e0b; }
+    .podium-2 { background: linear-gradient(180deg, rgba(148,163,184,0.18), rgba(148,163,184,0.04)); border-color: rgba(148,163,184,0.45); }
+    .podium-2 .podium-pts { color: #94a3b8; }
+    .podium-3 { background: linear-gradient(180deg, rgba(249,115,22,0.18), rgba(249,115,22,0.04)); border-color: rgba(249,115,22,0.45); }
+    .podium-3 .podium-pts { color: #f97316; }
+    .podium-rank-tag { position: absolute; top: 8px; right: 10px; font-size: 10px; font-weight: 700; color: var(--muted); letter-spacing: 1px; }
+
     /* Hero banner */
     .dash-hero { background: var(--surface); border: 1px solid var(--surface-border); border-radius: 16px; padding: 14px 20px; margin-bottom: 28px; position: relative; overflow: hidden; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
     .dash-hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 80% 30%, rgba(99,102,241,0.08), transparent 60%), radial-gradient(ellipse at 20% 80%, rgba(236,72,153,0.06), transparent 50%); pointer-events: none; }
@@ -441,6 +462,20 @@
 
       .dash-hero { padding: 12px 16px; }
       .dash-hero-illu { font-size: 28px; }
+
+      .champions-banner { padding: 18px 12px 20px; }
+      .champions-title { font-size: 12px; letter-spacing: 1.5px; margin-bottom: 14px; }
+      .champions-podium { gap: 6px; }
+      .podium-spot { padding: 12px 6px 10px; }
+      .podium-medal { font-size: 22px; }
+      .podium-name { font-size: 12px; }
+      .podium-pts { font-size: 17px; }
+      .podium-pts-label { font-size: 9px; }
+      .podium-1 { padding-top: 16px; padding-bottom: 16px; }
+      .podium-1 .podium-medal { font-size: 28px; }
+      .podium-1 .podium-name { font-size: 13px; }
+      .podium-1 .podium-pts { font-size: 20px; }
+      .podium-rank-tag { font-size: 9px; top: 6px; right: 8px; }
 
       .tp-layout { grid-template-columns: 1fr; }
       .tp-hero { padding: 24px 20px; }
@@ -1115,7 +1150,31 @@
       const counterEl = document.getElementById('match-counter');
       if (counterEl) counterEl.textContent = dash.totalMatches;
 
+      // Champions podium (league completed — top 3)
+      let championsHtml = '';
+      if (dash.teamRankings.length >= 3) {
+        const [first, second, third] = dash.teamRankings;
+        const spot = (rank, t, medal, cls) => `
+          <div class="podium-spot ${cls}">
+            <span class="podium-rank-tag">#${rank}</span>
+            <div class="podium-medal">${medal}</div>
+            <div class="podium-name">${t.team}</div>
+            <div class="podium-pts">${t.total}</div>
+            <div class="podium-pts-label">points</div>
+          </div>`;
+        championsHtml = `
+          <div class="champions-banner fade-up">
+            <div class="champions-title">🎉 <strong>League Champions</strong> 🎉</div>
+            <div class="champions-podium">
+              ${spot(2, second, '🥈', 'podium-2')}
+              ${spot(1, first, '🏆', 'podium-1')}
+              ${spot(3, third, '🥉', 'podium-3')}
+            </div>
+          </div>`;
+      }
+
       view.innerHTML = `
+        ${championsHtml}
         ${bannerHtml}
         <div class="section-title fade-up">🏆 Team Rankings <span class="section-deco"><span class="d1"></span><span class="d2"></span><span class="d3"></span></span></div>
         <div class="leaderboard fade-up" style="margin-bottom:36px">
